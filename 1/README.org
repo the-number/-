@@ -1,5 +1,4 @@
 * The Pi zero W on the net
-  The net is a wire to the rest of the world.
-** The USB Ethernet interface and its cable
-  Added into the box.  A smaller box, even.
+  The net is just a wire to the rest of the world.
+** Into the box go the USB ethernet interface and its cable
 [[./i/0.jpg]]
