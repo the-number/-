@@ -1,0 +1,6 @@
+* The Raspberry π in a box
+  Taking stock of the Pi0W and putting it in a box.
+** Starting with the box
+[[./i/0.jpg]]
+** Put the thing in it
+[[./i/1.jpg]]
