@@ -1,0 +1,11 @@
+* Media on a network share
+# from the KODI wiki, about sources
+** The path to the media
+: smb://USER:PASSWORD@10.128.192.50
+** The media source
+: <source>
+:  <path>smb://USER:PASSWORD@MACHINE</path>
+: </source>
+** Let's see
+[[./i/0.jpg]]
+# Do we get this?
