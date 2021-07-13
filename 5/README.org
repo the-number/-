@@ -11,7 +11,7 @@
 # Do we see this?
 # Our wired network: (π0 .129 static address) (This-03 .51) (airnine .50)
 # if not seen, then add: (S14 .49) (S10)
-#
+# 
 # Yes, no.  We managed to corrupt the SD drive; the Pi did no longer start.
 # Yes, we downloaded another image from the LibreELEC site, designated for The Pi0W.
 # Yes, resinstalled, and it works, the last image is without display, keyboard or mouse.
