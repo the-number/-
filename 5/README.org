@@ -3,8 +3,11 @@
 ** The blank sheet (any ideas?)
 [[./i/0.jpg]]
 # this photo is taken with HDR on
-** Inside the shell of the π0 (Pi0)
+** The π, the net, and power
 [[./i/1.jpg]]
+# ssh connection fails, connect a monitor, to see, maybe fix; or mark as failed
+** Inside the shell of the π0 (Pi0)
+[[./i/2.jpg]]
 # Do we see this?
 # Our wired network: (π0 .129 static address) (This-03 .51) (airnine .50)
 # if not seen, then add: (S14 .49) (S10)
