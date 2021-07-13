@@ -1,0 +1,10 @@
+* The headless LibreELEC π0W
+### this iPad is now set to the compatible format on its camera
+** The blank sheet (any ideas?)
+[[./i/0.JPEG]]
+### this photo is take with HDR on
+** Inside the shell of the π0 (Pi0)
+[[./i/1.JPEG]]
+### Do we see this?
+### Our wired network: (π0 .129 static address) (This-03 .51) (airnine .50)
+### if not seen, then add: (S14 .49) (S10)
