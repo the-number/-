@@ -9,3 +9,7 @@
 ** Let's see
 [[./i/0.jpg]]
 # Do we get this?
+# smbclient --option="client ntlmv2 auth = no" 
+#  -I 10.128.192.50 -p 445
+#  -U gunter
+#  //airnine/gunter
