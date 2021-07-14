@@ -1,0 +1,12 @@
+* The Raspberry Pi Zero W with TV HAT
+[[https://thepihut.com/blogs/raspberry-pi-tutorials/how-to-stream-digital-tv-with-the-raspberry-pi-tv-hat][Tutorial on thepihut.com]]
+** The Ingredients
+[[./i/0.jpg]]
+** TVheadend add-on for KODI on LibreELEC
+: Add-ons > Install from repository > LibreELEC Add-ons > Services > TVHeadend 4.2.
+# add-on 1
+*** Find the TV on our net
+[[http://10.128.192.129:9981]] on the wire, or
+[[http://192.168.43.129:9981]] in the air.
+** PVR client for the TV
+: Add-ons > Install from repository > Kodi Add-on repository > PVR clients > Tvheadend HTSP Client
