@@ -14,7 +14,7 @@
 #  -U gunter
 #  //airnine/gunter
 ** About our address and ways and nets
-[[./i1.png]]
+[[./i/1.png]]
 # a screen shot while within ssh (<power>-<home>)
 ** CIFS, SMB, NT net use, to the Apple Airport
 [[./i/2.png]]
