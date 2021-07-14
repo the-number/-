@@ -13,3 +13,15 @@
 #  -I 10.128.192.50 -p 445
 #  -U gunter
 #  //airnine/gunter
+** About our address and ways and nets
+[[./i1.png]]
+# a screen shot while within ssh (<power>-<home>)
+** CIFS, SMB, NT net use, to the Apple Airport
+[[./i/2.png]]
+** On the shared machine
+# the Apple Airport fuctions as network switch and wireless access and file share
+[[./i/3.png]]
+** Kodi web interface now on
+[[./i/4.png]]
+** This is the thing, now
+[[./i/5.jpg]]
