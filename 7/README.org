@@ -12,3 +12,4 @@
 : Add-ons > Install from repository > Kodi Add-on repository > PVR clients > Tvheadend HTSP Client
 ** The picture of pi.7
 [[./i/1.jpg]]
+[[https://www.icloud.com/iclouddrive/0J5YSoa-YVkk284fI02Ozo_Iw#a][a different way to get the picture, dmesg of the Pi0]]
