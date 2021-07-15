@@ -27,6 +27,8 @@
 #  http://192.168.43.129:8080/#browser/music/%2Fstorage%2Fmusic%2F
 #  http://192.168.43.129:8080/#addons/all
 #  and many more.  The time was Wednesday afternoon, the 14th of July
+# Refer to the raw view of this file at
+#  https://raw.githubusercontent.com/the-number/pi/development/6/README.org
 [[./i/4.png]]
 ** This is the thing, now
 [[./i/5.jpg]]
