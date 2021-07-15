@@ -19,9 +19,14 @@
 ** CIFS, SMB, NT net use, to the Apple Airport
 [[./i/2.png]]
 ** On the shared machine
-# the Apple Airport fuctions as network switch and wireless access and file share
+# the Apple Airport fuctions as network switch and wireless access point and file share
 [[./i/3.png]]
 ** Kodi web interface now on
+# http://192.168.43.129:8080
+# This browser's history records the following resources,
+#  http://192.168.43.129:8080/#browser/music/%2Fstorage%2Fmusic%2F
+#  http://192.168.43.129:8080/#addons/all
+#  and many more.  The time was Wednesday afternoon, the 14th of July
 [[./i/4.png]]
 ** This is the thing, now
 [[./i/5.jpg]]
