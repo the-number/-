@@ -2,6 +2,8 @@
 Does this work?
 ** This iPad
 [[./i/0/png]]
+** Things for this
+[[.5/jpg]]
 *** config.txt
 : dtoverlay=dwc2
 *** cmdline.txt
