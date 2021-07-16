@@ -1,0 +1,8 @@
+* Another OS
+# Methods of work
+#  tools: Pi0W, iPad, GNU Guix PC, AirPort
+#  first, copy snippets, notes, URLs to Notes' 46-Another
+#  second, condense into this here
+#  ventually, place things into github.com/the-number/pi/8
+#   or elsewhere.
+** The candidate OS
