@@ -1,0 +1,421 @@
+################################################################################
+# ... output of dmesg
+# LibreELEC release: RPi.arm-9.2.6
+# 
+################################################################################
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Linux version 4.19.127 (jenkins@leda) (gcc version 8.3.0 (GCC)) #1 Sat Oct 24 14:01:23 EDT 2020
+[    0.000000] CPU: ARMv6-compatible processor [410fb767] revision 7 (ARMv7), cr=00c5387d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+[    0.000000] OF: fdt: Machine model: Raspberry Pi Zero W Rev 1.1
+[    0.000000] Memory policy: Data cache writeback
+[    0.000000] cma: Reserved 8 MiB at 0x15400000
+[    0.000000] On node 0 totalpages: 90112
+[    0.000000]   Normal zone: 792 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 90112 pages, LIFO batch:15
+[    0.000000] random: get_random_bytes called from start_kernel+0x90/0x494 with crng_init=0
+[    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+[    0.000000] pcpu-alloc: [0] 0 
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 89320
+[    0.000000] Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=1824 bcm2708_fb.fbheight=984 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:60:72:27 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  boot=UUID=2410-1812 disk=UUID=7f1e268e-74d3-4de4-91ee-c65be6be2ae7 root=/dev/ram0 rdinit=/init usbcore.autosuspend=-1
+[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Memory: 332596K/360448K available (8302K kernel code, 702K rwdata, 1960K rodata, 4452K init, 503K bss, 19660K reserved, 8192K cma-reserved)
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+[    0.000000]     vmalloc : 0x96800000 - 0xff800000   (1680 MB)
+[    0.000000]     lowmem  : 0x80000000 - 0x96000000   ( 352 MB)
+[    0.000000]     modules : 0x7f000000 - 0x80000000   (  16 MB)
+[    0.000000]       .text : 0x(ptrval) - 0x(ptrval)   (8304 kB)
+[    0.000000]       .init : 0x(ptrval) - 0x(ptrval)   (4452 kB)
+[    0.000000]       .data : 0x(ptrval) - 0x(ptrval)   ( 703 kB)
+[    0.000000]        .bss : 0x(ptrval) - 0x(ptrval)   ( 504 kB)
+[    0.000000] SLUB: HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] ftrace: allocating 29101 entries in 86 pages
+[    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+[    0.000030] sched_clock: 32 bits at 1000kHz, resolution 1000ns, wraps every 2147483647500ns
+[    0.000093] clocksource: timer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275 ns
+[    0.000221] bcm2835: system timer (irq = 27)
+[    0.000648] Console: colour dummy device 80x30
+[    0.001309] console [tty0] enabled
+[    0.001403] Calibrating delay loop... 697.76 BogoMIPS (lpj=1161216)
+[    0.027088] pid_max: default: 32768 minimum: 301
+[    0.027505] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.027568] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.028968] CPU: Testing write buffer coherency: ok
+[    0.030500] Setting up static identity map for 0x8200 - 0x8238
+[    0.034510] devtmpfs: initialized
+[    0.046104] VFP support v0.3: implementor 41 architecture 1 part 20 variant b rev 5
+[    0.046581] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 6370867519511994 ns
+[    0.046669] futex hash table entries: 256 (order: -1, 3072 bytes)
+[    0.048209] pinctrl core: initialized pinctrl subsystem
+[    0.050038] NET: Registered protocol family 16
+[    0.054522] DMA: preallocated 1024 KiB pool for atomic coherent allocations
+[    0.061478] cpuidle: using governor ladder
+[    0.061555] cpuidle: using governor menu
+[    0.062150] hw-breakpoint: found 6 breakpoint and 1 watchpoint registers.
+[    0.062205] hw-breakpoint: maximum watchpoint size is 4 bytes.
+[    0.062409] Serial: AMBA PL011 UART driver
+[    0.067685] bcm2835-mbox 2000b880.mailbox: mailbox enabled
+[    0.077965] raspberrypi-firmware soc:firmware: Attached to firmware from 2020-04-15 11:44, variant start_x
+[    0.081321] raspberrypi-firmware soc:firmware: Firmware hash is 82f9bb929ce2186eb1824178c1ae82902ad6275c
+[    0.131324] bcm2835-dma 20007000.dma: DMA legacy API manager at (ptrval), dmachans=0x1
+[    0.134364] SCSI subsystem initialized
+[    0.134900] usbcore: registered new interface driver usbfs
+[    0.135082] usbcore: registered new interface driver hub
+[    0.135444] usbcore: registered new device driver usb
+[    0.137955] clocksource: Switched to clocksource timer
+[    0.260965] FS-Cache: Loaded
+[    0.280466] NET: Registered protocol family 2
+[    0.281982] tcp_listen_portaddr_hash hash table entries: 512 (order: 0, 4096 bytes)
+[    0.282119] TCP established hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.282236] TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.282362] TCP: Hash tables configured (established 4096 bind 4096)
+[    0.282571] UDP hash table entries: 256 (order: 0, 4096 bytes)
+[    0.282645] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[    0.283123] NET: Registered protocol family 1
+[    0.284276] RPC: Registered named UNIX socket transport module.
+[    0.284344] RPC: Registered udp transport module.
+[    0.284381] RPC: Registered tcp transport module.
+[    0.284414] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.323794] hw perfevents: no irqs for PMU, sampling events not supported
+[    0.323936] hw perfevents: enabled with armv6_1176 PMU driver, 3 counters available
+[    0.326669] Initialise system trusted keyrings
+[    0.327152] workingset: timestamp_bits=14 max_order=17 bucket_order=3
+[    0.342632] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    0.344048] FS-Cache: Netfs 'nfs' registered for caching
+[    0.345530] NFS: Registering the id_resolver key type
+[    0.345660] Key type id_resolver registered
+[    0.345700] Key type id_legacy registered
+[    0.345760] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+[    0.346532] FS-Cache: Netfs 'cifs' registered for caching
+[    0.362207] jitterentropy: Initialization failed with host not compliant with requirements: 2
+[    0.362297] Key type asymmetric registered
+[    0.362334] Asymmetric key parser 'x509' registered
+[    0.362500] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+[    0.362559] io scheduler noop registered (default)
+[    0.362598] io scheduler deadline registered
+[    0.362735] io scheduler cfq registered
+[    0.362780] io scheduler mq-deadline registered
+[    0.362817] io scheduler kyber registered
+[    0.363155] io scheduler bfq registered
+[    0.367613] bcm2708_fb soc:fb: FB found 1 display(s)
+[    0.413523] Console: switching to colour frame buffer device 228x61
+[    0.450168] bcm2708_fb soc:fb: Registered framebuffer for display 0, size 1824x984
+[    0.454973] bcm2835-rng 20104000.rng: hwrng registered
+[    0.455883] vc-mem: phys_addr:0x00000000 mem_base=0x1ec00000 mem_size:0x20000000(512 MiB)
+[    0.457520] vc-sm: Videocore shared memory driver
+[    0.482517] brd: module loaded
+[    0.483100] loop: module loaded
+[    0.515695] usbcore: registered new interface driver rtsx_usb
+[    0.517224] Loading iSCSI transport class v2.0-870.
+[    0.518539] iscsi: registered transport (tcp)
+[    0.519628] libphy: Fixed MDIO Bus: probed
+[    0.519924] tun: Universal TUN/TAP device driver, 1.6
+[    0.520769] usbcore: registered new interface driver lan78xx
+[    0.521192] usbcore: registered new interface driver smsc95xx
+[    0.521628] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+[    0.550122] dwc_otg 20980000.usb: base=(ptrval)
+[    0.752068] Core Release: 2.80a
+[    0.752256] Setting default values for core params
+[    0.752492] Finished setting default values for core params
+[    0.787966] random: fast init done
+[    0.954739] Using Buffer DMA mode
+[    0.954918] Periodic Transfer Interrupt Enhancement - disabled
+[    0.955152] Multiprocessor Interrupt Enhancement - disabled
+[    0.955377] OTG VER PARAM: 0, OTG VER FLAG: 0
+[    0.955686] Dedicated Tx FIFOs mode
+[    0.956860] WARN::dwc_otg_hcd_init:1074: FIQ DMA bounce buffers: virt = 95514000 dma = 0x55514000 len=9024
+[    0.957217] FIQ FSM acceleration enabled for :
+[    0.957217] Non-periodic Split Transactions
+[    0.957217] Periodic Split Transactions
+[    0.957217] High-Speed Isochronous Endpoints
+[    0.957217] Interrupt/Control Split Transaction hack enabled
+[    0.957888] dwc_otg: Microframe scheduler enabled
+[    0.958220] WARN::hcd_init_fiq:457: FIQ on core 0
+[    0.967664] WARN::hcd_init_fiq:458: FIQ ASM at 805ef918 length 36
+[    0.976710] WARN::hcd_init_fiq:497: MPHI regs_base at 96810000
+[    0.986336] dwc_otg 20980000.usb: DWC OTG Controller
+[    0.995781] dwc_otg 20980000.usb: new USB bus registered, assigned bus number 1
+[    1.005559] dwc_otg 20980000.usb: irq 56, io mem 0x00000000
+[    1.014889] Init: Port Power? op_state=1
+[    1.024147] Init: Power Port (0)
+[    1.033923] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 4.19
+[    1.043237] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.052763] usb usb1: Product: DWC OTG Controller
+[    1.061919] usb usb1: Manufacturer: Linux 4.19.127 dwc_otg_hcd
+[    1.071415] usb usb1: SerialNumber: 20980000.usb
+[    1.082011] hub 1-0:1.0: USB hub found
+[    1.091531] hub 1-0:1.0: 1 port detected
+[    1.102493] dwc_otg: FIQ enabled
+[    1.102512] dwc_otg: NAK holdoff enabled
+[    1.102526] dwc_otg: FIQ split-transaction FSM enabled
+[    1.102554] Module dwc_common_port init
+[    1.103201] usbcore: registered new interface driver usb-storage
+[    1.113123] mousedev: PS/2 mouse device common for all mice
+[    1.123542] i2c /dev entries driver
+[    1.136012] bcm2835-wdt bcm2835-wdt: Broadcom BCM2835 watchdog timer
+[    1.145815] bcm2835-cpufreq: min=700000 max=1000000
+[    1.156534] sdhci: Secure Digital Host Controller Interface driver
+[    1.165724] sdhci: Copyright(c) Pierre Ossman
+[    1.175758] mmc-bcm2835 20300000.mmcnr: could not get clk, deferring probe
+[    1.183420] sdhost-bcm2835 20202000.mmc: could not get clk, deferring probe
+[    1.190529] sdhci-pltfm: SDHCI platform and OF driver helper
+[    1.197821] ledtrig-cpu: registered to indicate activity on CPUs
+[    1.205097] hidraw: raw HID events driver (C) Jiri Kosina
+[    1.215118] usbcore: registered new interface driver usbhid
+[    1.222094] usbhid: USB HID core driver
+[    1.229806] vchiq: vchiq_init_state: slot_zero = (ptrval), is_master = 0
+[    1.238736] [vc_sm_connected_init]: start
+[    1.250257] [vc_sm_connected_init]: end - returning 0
+[    1.259935] NET: Registered protocol family 10
+[    1.268573] Segment Routing with IPv6
+[    1.275253] NET: Registered protocol family 17
+[    1.282048] Key type dns_resolver registered
+[    1.290119] Loading compiled-in X.509 certificates
+[    1.306171] uart-pl011 20201000.serial: cts_event_workaround enabled
+[    1.312868] 20201000.serial: ttyAMA0 at MMIO 0x20201000 (irq = 81, base_baud = 0) is a PL011 rev2
+[    1.323000] mmc-bcm2835 20300000.mmcnr: mmc_debug:0 mmc_debug2:0
+[    1.329725] mmc-bcm2835 20300000.mmcnr: DMA channel allocated
+[    1.337610] Indeed it is in host mode hprt0 = 00021501
+[    1.421729] sdhost: log_buf @ (ptrval) (55513000)
+[    1.482159] mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+[    1.495619] console [netcon0] enabled
+[    1.505712] netconsole: network logging started
+[    1.515300] of_cfs_init
+[    1.545537] usb 1-1: new high-speed USB device number 2 using dwc_otg
+[    1.556876] Indeed it is in host mode hprt0 = 00001101
+[    1.627771] of_cfs_init: OK
+[    1.669346] Freeing unused kernel memory: 4452K
+[    1.679237] This architecture does not have kernel memory protection.
+[    1.689282] Run /init as init process
+[    1.722397] mmc0: host does not support reading read-only switch, assuming write-enable
+[    1.738988] mmc0: new high speed SDHC card at address 59b4
+[    1.759385] mmcblk0: mmc0:59b4 SMI   29.1 GiB
+[    1.776198]  mmcblk0: p1 p2
+[    1.845169] usb 1-1: New USB device found, idVendor=2109, idProduct=2813, bcdDevice=90.11
+[    1.852487] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    1.859344] usb 1-1: Product: USB2.0 Hub
+[    1.866423] usb 1-1: Manufacturer: VIA Labs, Inc.
+[    1.905053] hub 1-1:1.0: USB hub found
+[    1.924783] hub 1-1:1.0: 4 ports detected
+[    2.044101] Checking disk(s):  UUID=2410-1812 UUID=7f1e268e-74d3-4de4-91ee-c65be6be2ae7
+[    2.261414] usb 1-1.1: new full-speed USB device number 3 using dwc_otg
+[    2.383361] usb 1-1.1: New USB device found, idVendor=24ae, idProduct=2013, bcdDevice= 1.10
+[    2.383385] usb 1-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    2.383399] usb 1-1.1: Product: Rapoo 2.4G Wireless Device
+[    2.383410] usb 1-1.1: Manufacturer: RAPOO
+[    2.391121] input: RAPOO Rapoo 2.4G Wireless Device as /devices/platform/soc/20980000.usb/usb1/1-1/1-1.1/1-1.1:1.0/0003:24AE:2013.0001/input/input0
+[    2.393064] hid-generic 0003:24AE:2013.0001: input,hidraw0: USB HID v1.10 Mouse [RAPOO Rapoo 2.4G Wireless Device] on usb-20980000.usb-1.1/input0
+[    2.402220] input: RAPOO Rapoo 2.4G Wireless Device System Control as /devices/platform/soc/20980000.usb/usb1/1-1/1-1.1/1-1.1:1.1/0003:24AE:2013.0002/input/input2
+[    2.458663] input: RAPOO Rapoo 2.4G Wireless Device Consumer Control as /devices/platform/soc/20980000.usb/usb1/1-1/1-1.1/1-1.1:1.1/0003:24AE:2013.0002/input/input3
+[    2.459578] hid-generic 0003:24AE:2013.0002: input,hiddev96,hidraw1: USB HID v1.10 Device [RAPOO Rapoo 2.4G Wireless Device] on usb-20980000.usb-1.1/input1
+[    2.465578] input: RAPOO Rapoo 2.4G Wireless Device as /devices/platform/soc/20980000.usb/usb1/1-1/1-1.1/1-1.1:1.2/0003:24AE:2013.0003/input/input4
+[    2.522756] hid-generic 0003:24AE:2013.0003: input,hidraw2: USB HID v1.10 Keyboard [RAPOO Rapoo 2.4G Wireless Device] on usb-20980000.usb-1.1/input2
+[    2.618093] usb 1-1.2: new high-speed USB device number 4 using dwc_otg
+[    2.735336] usb 1-1.2: config 1 interface 0 altsetting 0 has 7 endpoint descriptors, different from the interface descriptor's value: 5
+[    2.742669] usb 1-1.2: New USB device found, idVendor=148f, idProduct=5370, bcdDevice= 1.01
+[    2.742690] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[    2.742704] usb 1-1.2: Product: 802.11 n WLAN
+[    2.742715] usb 1-1.2: Manufacturer: Ralink
+[    2.742726] usb 1-1.2: SerialNumber: 1.0
+[    2.930504] mmc1: error -110 whilst initialising SDIO card
+[    2.973380] usb 1-1.3: new high-speed USB device number 5 using dwc_otg
+[    3.079552] usb 1-1.3: New USB device found, idVendor=0bda, idProduct=8153, bcdDevice=30.00
+[    3.079580] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=6
+[    3.079617] usb 1-1.3: Product: USB 10/100/1000 LAN
+[    3.079630] usb 1-1.3: Manufacturer: Realtek
+[    3.079643] usb 1-1.3: SerialNumber: 000001
+[    4.271094] mmc1: error -110 whilst initialising SDIO card
+[    5.641347] mmc1: error -110 whilst initialising SDIO card
+[    7.067993] mmc1: error -110 whilst initialising SDIO card
+[    8.472484] fsck: CP437: Invalid argument
+[    8.472936] fsck: STORAGE: recovering journal
+[    8.473346] fsck: fsck.fat 4.1 (2017-01-24)
+[    8.473802] fsck: /dev/mmcblk0p1: 220 files, 17884/65501 clusters
+[    8.474304] fsck: STORAGE: clean, 701/7501824 files, 1459045/30006272 blocks
+[    9.584938] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+[   10.800408] systemd[1]: System time before build time, advancing clock.
+[   10.836550] systemd[1]: systemd 242 running in system mode. (-PAM -AUDIT -SELINUX -IMA -APPARMOR -SMACK +SYSVINIT -UTMP -LIBCRYPTSETUP -GCRYPT -GNUTLS -ACL -XZ -LZ4 -SECCOMP +BLKID -ELFUTILS +KMOD +IDN2 -IDN -PCRE2 default-hierarchy=hybrid)
+[   10.837584] systemd[1]: Detected architecture arm.
+[   10.845239] systemd[1]: Set hostname to <LibreELEC>.
+[   10.850236] systemd[1]: Failed to bump fs.file-max, ignoring: Invalid argument
+[   11.316396] random: systemd: uninitialized urandom read (16 bytes read)
+[   11.366751] systemd[1]: Listening on RPCbind Server Activation Socket.
+[   11.368634] random: systemd: uninitialized urandom read (16 bytes read)
+[   11.370347] systemd[1]: Listening on udev Kernel Socket.
+[   11.371813] random: systemd: uninitialized urandom read (16 bytes read)
+[   11.372015] systemd[1]: Reached target RPC Port Mapper.
+[   11.374344] systemd[1]: Listening on Journal Socket (/dev/log).
+[   11.377260] systemd[1]: Listening on Journal Socket.
+[   11.379741] systemd[1]: Condition check resulted in Huge Pages File System being skipped.
+[   12.026358] kernel-overlays-setup: setup base modules
+[   12.250262] kernel-overlays-setup: added modules from /usr/lib/kernel-overlays/base/lib/modules/4.19.127
+[   12.353812] kernel-overlays-setup: added firmware from /usr/lib/kernel-overlays/base/lib/firmware
+[   12.354393] kernel-overlays-setup: adding overlays from /storage/.cache/kernel-overlays
+[   12.356844] kernel-overlays-setup: done
+[   12.975637] random: crng init done
+[   12.975655] random: 7 urandom warning(s) missed due to ratelimiting
+[   13.543883] wireguard: WireGuard 1.0.20200908 loaded. See www.wireguard.com for information.
+[   13.543902] wireguard: Copyright (C) 2015-2019 Jason A. Donenfeld <Jason@zx2c4.com>. All Rights Reserved.
+[   14.267809] systemd-journald[167]: Received request to flush runtime journal from PID 1
+[   22.996130] Console: switching to colour dummy device 80x30
+[   24.502960] gpiomem-bcm2835 20200000.gpiomem: Initialised: Registers at 0x20200000
+[   25.540071] usbcore: registered new interface driver cdc_ether
+[   25.653108] usbcore: registered new interface driver r8152
+[   25.741439] usb 1-1.3: reset high-speed USB device number 5 using dwc_otg
+[   26.078348] r8152 1-1.3:1.0 eth0: v1.09.9
+[   27.064474] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[   27.448148] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[   29.424749] usb 1-1.2: reset high-speed USB device number 4 using dwc_otg
+[   29.542624] ieee80211 phy0: rt2x00_set_rt: Info - RT chipset 5390, rev 0502 detected
+[   29.793050] ieee80211 phy0: rt2x00_set_rf: Info - RF chipset 5370 detected
+[   29.802773] ieee80211 phy0: Selected rate control algorithm 'minstrel_ht'
+[   29.831976] usbcore: registered new interface driver rt2800usb
+[   32.426352] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   32.445620] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+[   32.452174] r8152 1-1.3:1.0 eth0: carrier on
+[   32.529128] uart-pl011 20201000.serial: no DMA platform data
+[   32.705774] 8021q: 802.1Q VLAN Support v1.8
+[   33.778261] ieee80211 phy0: rt2x00lib_request_firmware: Info - Loading firmware file 'rt2870.bin'
+[   33.831207] ieee80211 phy0: rt2x00lib_request_firmware: Info - Firmware detected - version: 0.36
+[   34.453253] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+
+################################################################################
+# ... output of lsmod
+# LibreELEC release: RPi.arm-9.2.6
+# 
+################################################################################
+Module                  Size  Used by
+8021q                  28672  0
+rt2800usb              28672  0
+rt2x00usb              20480  1 rt2800usb
+rt2800lib             106496  1 rt2800usb
+rt2x00lib              49152  3 rt2800lib,rt2800usb,rt2x00usb
+mac80211              552960  3 rt2800lib,rt2x00lib,rt2x00usb
+crc_ccitt              16384  1 rt2800lib
+cfg80211              516096  2 rt2x00lib,mac80211
+r8152                  57344  0
+cdc_ether              16384  0
+rfkill                 28672  3 cfg80211
+bcm2835_gpiomem        16384  0
+fixed                  16384  0
+wireguard             126976  0
+ip6_udp_tunnel         16384  1 wireguard
+udp_tunnel             16384  1 wireguard
+
+################################################################################
+# ... output of ps xa
+# LibreELEC release: RPi.arm-9.2.6
+# 
+################################################################################
+PID   USER     TIME  COMMAND
+    1 root      0:09 /usr/lib/systemd/systemd
+    2 root      0:00 [kthreadd]
+    5 root      0:01 [kworker/u2:0-ph]
+    6 root      0:00 [mm_percpu_wq]
+    7 root      0:01 [ksoftirqd/0]
+    8 root      0:00 [kdevtmpfs]
+    9 root      0:00 [netns]
+   11 root      0:00 [oom_reaper]
+   12 root      0:00 [writeback]
+   13 root      0:00 [kcompactd0]
+   14 root      0:00 [crypto]
+   15 root      0:00 [kblockd]
+   16 root      0:00 [watchdogd]
+   17 root      0:00 [rpciod]
+   18 root      0:00 [kworker/u3:0]
+   19 root      0:00 [xprtiod]
+   20 root      0:00 [kswapd0]
+   21 root      0:00 [nfsiod]
+   22 root      0:00 [cifsiod]
+   23 root      0:00 [cifsoplockd]
+   50 root      0:00 [iscsi_eh]
+   51 root      0:00 [dwc_otg]
+   52 root      0:00 [DWC Notificatio]
+   53 root      0:32 [vchiq-slot/0]
+   54 root      0:05 [vchiq-recy/0]
+   55 root      0:00 [vchiq-sync/0]
+   56 root      0:00 [vchiq-keep/0]
+   57 root      0:00 [SMIO]
+   58 root      0:00 [ipv6_addrconf]
+   59 root      0:00 [irq/86-mmc1]
+   61 root      0:00 [kworker/0:3-eve]
+   67 root      0:00 [mmc_complete]
+   69 root      0:00 [kworker/0:1H-kb]
+   92 root      0:02 [kworker/u2:1-ph]
+  101 root      0:01 [loop0]
+  103 root      0:00 [jbd2/mmcblk0p2-]
+  104 root      0:00 [ext4-rsv-conver]
+  147 root      0:00 /usr/bin/wait-time-sync
+  167 root      0:00 /usr/lib/systemd/systemd-journald
+  179 root      0:02 [kworker/u2:2-ph]
+  181 root      0:00 /usr/bin/rpcbind -f
+  214 root      0:00 /usr/lib/systemd/systemd-udevd
+  224 root      0:00 /usr/lib/systemd/systemd-logind
+  225 root      0:00 /usr/sbin/connman-vpnd -n
+  227 root      0:00 /usr/bin/pulseaudio --system --disallow-exit --exit-idle-time=-1 --disable-shm
+  228 dbus      0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+  236 root      0:00 /usr/sbin/eventlircd -f --evmap=/etc/eventlircd.d --socket=/run/lirc/lircd
+  238 root      0:00 /sbin/crond -f -S
+  244 root      0:00 /usr/sbin/sshd -D
+  286 root      0:00 [cfg80211]
+  430 root      0:01 /usr/sbin/connmand -nr --config=/etc/connman/main.conf
+  436 avahi     0:00 avahi-daemon: running [pi0.local]
+  450 root      0:00 /usr/bin/wpa_supplicant -u
+  451 root      0:00 /usr/sbin/nmbd
+  453 root      0:00 /usr/sbin/smbd
+  456 root      0:00 {smbd-notifyd} /usr/sbin/smbd
+  457 root      0:00 {cleanupd} /usr/sbin/smbd
+  462 root      0:00 {kodi.sh} /bin/sh /usr/lib/kodi/kodi.sh --standalone -fs
+  466 root     12:32 /usr/lib/kodi/kodi.bin --standalone -fs
+  467 root      0:00 {lpqd} /usr/sbin/smbd
+  623 root      0:00 [kworker/0:0-eve]
+  630 root      0:00 [kworker/0:0H-kb]
+  731 root      0:00 [kworker/0:1]
+  732 root      0:00 /usr/sbin/smbd
+  733 root      0:00 /usr/sbin/smbd
+  734 root      0:00 /usr/sbin/smbd
+  736 root      0:00 /usr/sbin/smbd
+  737 root      0:00 {createlog} /bin/sh /usr/bin/createlog
+  755 root      0:00 ps xa
+
+################################################################################
+# ... output of cat /storage/.config/modprobe.d/disable-spdif-for-hd-audio.conf
+# LibreELEC release: RPi.arm-9.2.6
+# 
+################################################################################
+# INTEL HBR WORKAROUND FOR DTS-MA & Dolby TrueHD PLAYBACK
+
+# Uncomment the following lines to disable any S/PDIF out to deliver
+# bitstreamed audio on Intel builds. This is a rough workaround for 
+# users that have both S/PDIF and HDMI audio outputs on their motherboard
+# or motherboard+discrete graphics combo.
+
+# EVEN IF YOU ARE NOT USING THE S/PDIF OUTPUT
+# but still have one, you will need to uncomment the lines below !
+
+# after uncommenting these lines, you must reboot for these settings to take effect
+
+# blacklist snd_hda_codec_realtek
+# blacklist snd_hda_codec_sigmatel
+# blacklist snd_hda_codec_cirrus
+
+
+################################################################################
+# ... output of ls -laR /storage/.config/system.d
+# LibreELEC release: RPi.arm-9.2.6
+# 
+################################################################################
+/storage/.config/system.d:
+total 38
+drwxr-xr-x    2 root     root          1024 Oct 24  2020 .
+drwxr-xr-x   19 root     root          1024 Apr 11 16:38 ..
+-rw-r--r--    1 root     root         28816 Oct 24  2020 README
+-rw-r--r--    1 root     root          1772 Oct 24  2020 cifs.mount.sample
+-rw-r--r--    1 root     root          1729 Oct 24  2020 nfs.mount.sample
+-rw-r--r--    1 root     root          1145 Oct 24  2020 openvpn.service.sample
+-rw-r--r--    1 root     root           421 Oct 24  2020 wireguard.service.sample
+

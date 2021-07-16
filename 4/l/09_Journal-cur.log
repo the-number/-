@@ -1,0 +1,518 @@
+################################################################################
+# ... output of journalctl --no-pager -b -0
+# LibreELEC release: RPi.arm-9.2.6
+# 
+################################################################################
+-- Logs begin at Thu 2019-04-11 16:28:38 UTC, end at Thu 2019-04-11 16:43:25 UTC. --
+Apr 11 16:28:38 LibreELEC kernel: Booting Linux on physical CPU 0x0
+Apr 11 16:28:38 LibreELEC kernel: Linux version 4.19.127 (jenkins@leda) (gcc version 8.3.0 (GCC)) #1 Sat Oct 24 14:01:23 EDT 2020
+Apr 11 16:28:38 LibreELEC kernel: CPU: ARMv6-compatible processor [410fb767] revision 7 (ARMv7), cr=00c5387d
+Apr 11 16:28:38 LibreELEC kernel: CPU: PIPT / VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+Apr 11 16:28:38 LibreELEC kernel: OF: fdt: Machine model: Raspberry Pi Zero W Rev 1.1
+Apr 11 16:28:38 LibreELEC kernel: Memory policy: Data cache writeback
+Apr 11 16:28:38 LibreELEC kernel: cma: Reserved 8 MiB at 0x15400000
+Apr 11 16:28:38 LibreELEC kernel: On node 0 totalpages: 90112
+Apr 11 16:28:38 LibreELEC kernel:   Normal zone: 792 pages used for memmap
+Apr 11 16:28:38 LibreELEC kernel:   Normal zone: 0 pages reserved
+Apr 11 16:28:38 LibreELEC kernel:   Normal zone: 90112 pages, LIFO batch:15
+Apr 11 16:28:38 LibreELEC kernel: random: get_random_bytes called from start_kernel+0x90/0x494 with crng_init=0
+Apr 11 16:28:38 LibreELEC kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Apr 11 16:28:38 LibreELEC kernel: pcpu-alloc: [0] 0 
+Apr 11 16:28:38 LibreELEC kernel: Built 1 zonelists, mobility grouping on.  Total pages: 89320
+Apr 11 16:28:38 LibreELEC kernel: Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=1824 bcm2708_fb.fbheight=984 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:60:72:27 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  boot=UUID=2410-1812 disk=UUID=7f1e268e-74d3-4de4-91ee-c65be6be2ae7 root=/dev/ram0 rdinit=/init usbcore.autosuspend=-1
+Apr 11 16:28:38 LibreELEC kernel: Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+Apr 11 16:28:38 LibreELEC kernel: Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+Apr 11 16:28:38 LibreELEC kernel: Memory: 332596K/360448K available (8302K kernel code, 702K rwdata, 1960K rodata, 4452K init, 503K bss, 19660K reserved, 8192K cma-reserved)
+Apr 11 16:28:38 LibreELEC kernel: Virtual kernel memory layout:
+                                      vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+                                      fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+                                      vmalloc : 0x96800000 - 0xff800000   (1680 MB)
+                                      lowmem  : 0x80000000 - 0x96000000   ( 352 MB)
+                                      modules : 0x7f000000 - 0x80000000   (  16 MB)
+                                        .text : 0x(ptrval) - 0x(ptrval)   (8304 kB)
+                                        .init : 0x(ptrval) - 0x(ptrval)   (4452 kB)
+                                        .data : 0x(ptrval) - 0x(ptrval)   ( 703 kB)
+                                         .bss : 0x(ptrval) - 0x(ptrval)   ( 504 kB)
+Apr 11 16:28:38 LibreELEC kernel: SLUB: HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Apr 11 16:28:38 LibreELEC kernel: ftrace: allocating 29101 entries in 86 pages
+Apr 11 16:28:38 LibreELEC kernel: NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+Apr 11 16:28:38 LibreELEC kernel: sched_clock: 32 bits at 1000kHz, resolution 1000ns, wraps every 2147483647500ns
+Apr 11 16:28:38 LibreELEC kernel: clocksource: timer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275 ns
+Apr 11 16:28:38 LibreELEC kernel: bcm2835: system timer (irq = 27)
+Apr 11 16:28:38 LibreELEC kernel: Console: colour dummy device 80x30
+Apr 11 16:28:38 LibreELEC kernel: console [tty0] enabled
+Apr 11 16:28:38 LibreELEC kernel: Calibrating delay loop... 697.76 BogoMIPS (lpj=1161216)
+Apr 11 16:28:38 LibreELEC kernel: pid_max: default: 32768 minimum: 301
+Apr 11 16:28:38 LibreELEC kernel: Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Apr 11 16:28:38 LibreELEC kernel: Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Apr 11 16:28:38 LibreELEC kernel: CPU: Testing write buffer coherency: ok
+Apr 11 16:28:38 LibreELEC kernel: Setting up static identity map for 0x8200 - 0x8238
+Apr 11 16:28:38 LibreELEC kernel: devtmpfs: initialized
+Apr 11 16:28:38 LibreELEC kernel: VFP support v0.3: implementor 41 architecture 1 part 20 variant b rev 5
+Apr 11 16:28:38 LibreELEC kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 6370867519511994 ns
+Apr 11 16:28:38 LibreELEC kernel: futex hash table entries: 256 (order: -1, 3072 bytes)
+Apr 11 16:28:38 LibreELEC kernel: pinctrl core: initialized pinctrl subsystem
+Apr 11 16:28:38 LibreELEC kernel: NET: Registered protocol family 16
+Apr 11 16:28:38 LibreELEC kernel: DMA: preallocated 1024 KiB pool for atomic coherent allocations
+Apr 11 16:28:38 LibreELEC kernel: cpuidle: using governor ladder
+Apr 11 16:28:38 LibreELEC kernel: cpuidle: using governor menu
+Apr 11 16:28:38 LibreELEC kernel: hw-breakpoint: found 6 breakpoint and 1 watchpoint registers.
+Apr 11 16:28:38 LibreELEC kernel: hw-breakpoint: maximum watchpoint size is 4 bytes.
+Apr 11 16:28:38 LibreELEC kernel: Serial: AMBA PL011 UART driver
+Apr 11 16:28:38 LibreELEC kernel: bcm2835-mbox 2000b880.mailbox: mailbox enabled
+Apr 11 16:28:38 LibreELEC kernel: raspberrypi-firmware soc:firmware: Attached to firmware from 2020-04-15 11:44, variant start_x
+Apr 11 16:28:38 LibreELEC kernel: raspberrypi-firmware soc:firmware: Firmware hash is 82f9bb929ce2186eb1824178c1ae82902ad6275c
+Apr 11 16:28:38 LibreELEC kernel: bcm2835-dma 20007000.dma: DMA legacy API manager at (ptrval), dmachans=0x1
+Apr 11 16:28:38 LibreELEC kernel: SCSI subsystem initialized
+Apr 11 16:28:38 LibreELEC kernel: usbcore: registered new interface driver usbfs
+Apr 11 16:28:38 LibreELEC kernel: usbcore: registered new interface driver hub
+Apr 11 16:28:38 LibreELEC kernel: usbcore: registered new device driver usb
+Apr 11 16:28:38 LibreELEC kernel: clocksource: Switched to clocksource timer
+Apr 11 16:28:38 LibreELEC kernel: FS-Cache: Loaded
+Apr 11 16:28:38 LibreELEC kernel: NET: Registered protocol family 2
+Apr 11 16:28:38 LibreELEC kernel: tcp_listen_portaddr_hash hash table entries: 512 (order: 0, 4096 bytes)
+Apr 11 16:28:38 LibreELEC kernel: TCP established hash table entries: 4096 (order: 2, 16384 bytes)
+Apr 11 16:28:38 LibreELEC kernel: TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+Apr 11 16:28:38 LibreELEC kernel: TCP: Hash tables configured (established 4096 bind 4096)
+Apr 11 16:28:38 LibreELEC kernel: UDP hash table entries: 256 (order: 0, 4096 bytes)
+Apr 11 16:28:38 LibreELEC kernel: UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Apr 11 16:28:38 LibreELEC kernel: NET: Registered protocol family 1
+Apr 11 16:28:38 LibreELEC kernel: RPC: Registered named UNIX socket transport module.
+Apr 11 16:28:38 LibreELEC kernel: RPC: Registered udp transport module.
+Apr 11 16:28:38 LibreELEC kernel: RPC: Registered tcp transport module.
+Apr 11 16:28:38 LibreELEC kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Apr 11 16:28:38 LibreELEC kernel: hw perfevents: no irqs for PMU, sampling events not supported
+Apr 11 16:28:38 LibreELEC kernel: hw perfevents: enabled with armv6_1176 PMU driver, 3 counters available
+Apr 11 16:28:38 LibreELEC kernel: Initialise system trusted keyrings
+Apr 11 16:28:38 LibreELEC kernel: workingset: timestamp_bits=14 max_order=17 bucket_order=3
+Apr 11 16:28:38 LibreELEC kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Apr 11 16:28:38 LibreELEC kernel: FS-Cache: Netfs 'nfs' registered for caching
+Apr 11 16:28:38 LibreELEC kernel: NFS: Registering the id_resolver key type
+Apr 11 16:28:38 LibreELEC kernel: Key type id_resolver registered
+Apr 11 16:28:38 LibreELEC kernel: Key type id_legacy registered
+Apr 11 16:28:38 LibreELEC kernel: nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+Apr 11 16:28:38 LibreELEC kernel: FS-Cache: Netfs 'cifs' registered for caching
+Apr 11 16:28:38 LibreELEC kernel: jitterentropy: Initialization failed with host not compliant with requirements: 2
+Apr 11 16:28:38 LibreELEC kernel: Key type asymmetric registered
+Apr 11 16:28:38 LibreELEC kernel: Asymmetric key parser 'x509' registered
+Apr 11 16:28:38 LibreELEC kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+Apr 11 16:28:38 LibreELEC kernel: io scheduler noop registered (default)
+Apr 11 16:28:38 LibreELEC kernel: io scheduler deadline registered
+Apr 11 16:28:38 LibreELEC kernel: io scheduler cfq registered
+Apr 11 16:28:38 LibreELEC kernel: io scheduler mq-deadline registered
+Apr 11 16:28:38 LibreELEC kernel: io scheduler kyber registered
+Apr 11 16:28:38 LibreELEC kernel: io scheduler bfq registered
+Apr 11 16:28:38 LibreELEC kernel: bcm2708_fb soc:fb: FB found 1 display(s)
+Apr 11 16:28:38 LibreELEC kernel: Console: switching to colour frame buffer device 228x61
+Apr 11 16:28:38 LibreELEC kernel: bcm2708_fb soc:fb: Registered framebuffer for display 0, size 1824x984
+Apr 11 16:28:38 LibreELEC kernel: bcm2835-rng 20104000.rng: hwrng registered
+Apr 11 16:28:38 LibreELEC kernel: vc-mem: phys_addr:0x00000000 mem_base=0x1ec00000 mem_size:0x20000000(512 MiB)
+Apr 11 16:28:38 LibreELEC kernel: vc-sm: Videocore shared memory driver
+Apr 11 16:28:38 LibreELEC kernel: brd: module loaded
+Apr 11 16:28:38 LibreELEC kernel: loop: module loaded
+Apr 11 16:28:38 LibreELEC kernel: usbcore: registered new interface driver rtsx_usb
+Apr 11 16:28:38 LibreELEC kernel: Loading iSCSI transport class v2.0-870.
+Apr 11 16:28:38 LibreELEC kernel: iscsi: registered transport (tcp)
+Apr 11 16:28:38 LibreELEC kernel: libphy: Fixed MDIO Bus: probed
+Apr 11 16:28:38 LibreELEC kernel: tun: Universal TUN/TAP device driver, 1.6
+Apr 11 16:28:38 LibreELEC kernel: usbcore: registered new interface driver lan78xx
+Apr 11 16:28:38 LibreELEC kernel: usbcore: registered new interface driver smsc95xx
+Apr 11 16:28:38 LibreELEC kernel: dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+Apr 11 16:28:38 LibreELEC kernel: dwc_otg 20980000.usb: base=(ptrval)
+Apr 11 16:28:38 LibreELEC kernel: Core Release: 2.80a
+Apr 11 16:28:38 LibreELEC kernel: Setting default values for core params
+Apr 11 16:28:38 LibreELEC kernel: Finished setting default values for core params
+Apr 11 16:28:38 LibreELEC kernel: random: fast init done
+Apr 11 16:28:38 LibreELEC kernel: Using Buffer DMA mode
+Apr 11 16:28:38 LibreELEC kernel: Periodic Transfer Interrupt Enhancement - disabled
+Apr 11 16:28:38 LibreELEC kernel: Multiprocessor Interrupt Enhancement - disabled
+Apr 11 16:28:38 LibreELEC kernel: OTG VER PARAM: 0, OTG VER FLAG: 0
+Apr 11 16:28:38 LibreELEC kernel: Dedicated Tx FIFOs mode
+Apr 11 16:28:38 LibreELEC kernel: WARN::dwc_otg_hcd_init:1074: FIQ DMA bounce buffers: virt = 95514000 dma = 0x55514000 len=9024
+Apr 11 16:28:38 LibreELEC kernel: FIQ FSM acceleration enabled for :
+                                  Non-periodic Split Transactions
+                                  Periodic Split Transactions
+                                  High-Speed Isochronous Endpoints
+                                  Interrupt/Control Split Transaction hack enabled
+Apr 11 16:28:38 LibreELEC kernel: dwc_otg: Microframe scheduler enabled
+Apr 11 16:28:38 LibreELEC kernel: WARN::hcd_init_fiq:457: FIQ on core 0
+Apr 11 16:28:38 LibreELEC kernel: WARN::hcd_init_fiq:458: FIQ ASM at 805ef918 length 36
+Apr 11 16:28:38 LibreELEC kernel: WARN::hcd_init_fiq:497: MPHI regs_base at 96810000
+Apr 11 16:28:38 LibreELEC kernel: dwc_otg 20980000.usb: DWC OTG Controller
+Apr 11 16:28:38 LibreELEC kernel: dwc_otg 20980000.usb: new USB bus registered, assigned bus number 1
+Apr 11 16:28:38 LibreELEC kernel: dwc_otg 20980000.usb: irq 56, io mem 0x00000000
+Apr 11 16:28:38 LibreELEC kernel: Init: Port Power? op_state=1
+Apr 11 16:28:38 LibreELEC kernel: Init: Power Port (0)
+Apr 11 16:28:38 LibreELEC kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 4.19
+Apr 11 16:28:38 LibreELEC kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Apr 11 16:28:38 LibreELEC kernel: usb usb1: Product: DWC OTG Controller
+Apr 11 16:28:38 LibreELEC kernel: usb usb1: Manufacturer: Linux 4.19.127 dwc_otg_hcd
+Apr 11 16:28:38 LibreELEC kernel: usb usb1: SerialNumber: 20980000.usb
+Apr 11 16:28:38 LibreELEC kernel: hub 1-0:1.0: USB hub found
+Apr 11 16:28:38 LibreELEC kernel: hub 1-0:1.0: 1 port detected
+Apr 11 16:28:38 LibreELEC kernel: dwc_otg: FIQ enabled
+Apr 11 16:28:38 LibreELEC kernel: dwc_otg: NAK holdoff enabled
+Apr 11 16:28:38 LibreELEC kernel: dwc_otg: FIQ split-transaction FSM enabled
+Apr 11 16:28:38 LibreELEC kernel: Module dwc_common_port init
+Apr 11 16:28:38 LibreELEC kernel: usbcore: registered new interface driver usb-storage
+Apr 11 16:28:38 LibreELEC kernel: mousedev: PS/2 mouse device common for all mice
+Apr 11 16:28:38 LibreELEC kernel: i2c /dev entries driver
+Apr 11 16:28:38 LibreELEC kernel: bcm2835-wdt bcm2835-wdt: Broadcom BCM2835 watchdog timer
+Apr 11 16:28:38 LibreELEC kernel: bcm2835-cpufreq: min=700000 max=1000000
+Apr 11 16:28:38 LibreELEC kernel: sdhci: Secure Digital Host Controller Interface driver
+Apr 11 16:28:38 LibreELEC kernel: sdhci: Copyright(c) Pierre Ossman
+Apr 11 16:28:38 LibreELEC kernel: mmc-bcm2835 20300000.mmcnr: could not get clk, deferring probe
+Apr 11 16:28:38 LibreELEC kernel: sdhost-bcm2835 20202000.mmc: could not get clk, deferring probe
+Apr 11 16:28:38 LibreELEC kernel: sdhci-pltfm: SDHCI platform and OF driver helper
+Apr 11 16:28:38 LibreELEC kernel: ledtrig-cpu: registered to indicate activity on CPUs
+Apr 11 16:28:38 LibreELEC kernel: hidraw: raw HID events driver (C) Jiri Kosina
+Apr 11 16:28:38 LibreELEC kernel: usbcore: registered new interface driver usbhid
+Apr 11 16:28:38 LibreELEC kernel: usbhid: USB HID core driver
+Apr 11 16:28:38 LibreELEC kernel: vchiq: vchiq_init_state: slot_zero = (ptrval), is_master = 0
+Apr 11 16:28:38 LibreELEC kernel: [vc_sm_connected_init]: start
+Apr 11 16:28:38 LibreELEC kernel: [vc_sm_connected_init]: end - returning 0
+Apr 11 16:28:38 LibreELEC kernel: NET: Registered protocol family 10
+Apr 11 16:28:38 LibreELEC kernel: Segment Routing with IPv6
+Apr 11 16:28:38 LibreELEC kernel: NET: Registered protocol family 17
+Apr 11 16:28:38 LibreELEC kernel: Key type dns_resolver registered
+Apr 11 16:28:38 LibreELEC kernel: Loading compiled-in X.509 certificates
+Apr 11 16:28:38 LibreELEC kernel: uart-pl011 20201000.serial: cts_event_workaround enabled
+Apr 11 16:28:38 LibreELEC kernel: 20201000.serial: ttyAMA0 at MMIO 0x20201000 (irq = 81, base_baud = 0) is a PL011 rev2
+Apr 11 16:28:38 LibreELEC kernel: mmc-bcm2835 20300000.mmcnr: mmc_debug:0 mmc_debug2:0
+Apr 11 16:28:38 LibreELEC kernel: mmc-bcm2835 20300000.mmcnr: DMA channel allocated
+Apr 11 16:28:38 LibreELEC kernel: Indeed it is in host mode hprt0 = 00021501
+Apr 11 16:28:38 LibreELEC kernel: sdhost: log_buf @ (ptrval) (55513000)
+Apr 11 16:28:38 LibreELEC kernel: mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+Apr 11 16:28:38 LibreELEC kernel: console [netcon0] enabled
+Apr 11 16:28:38 LibreELEC kernel: netconsole: network logging started
+Apr 11 16:28:38 LibreELEC kernel: of_cfs_init
+Apr 11 16:28:38 LibreELEC kernel: usb 1-1: new high-speed USB device number 2 using dwc_otg
+Apr 11 16:28:38 LibreELEC kernel: Indeed it is in host mode hprt0 = 00001101
+Apr 11 16:28:38 LibreELEC kernel: of_cfs_init: OK
+Apr 11 16:28:38 LibreELEC kernel: Freeing unused kernel memory: 4452K
+Apr 11 16:28:38 LibreELEC kernel: This architecture does not have kernel memory protection.
+Apr 11 16:28:38 LibreELEC kernel: Run /init as init process
+Apr 11 16:28:38 LibreELEC kernel: mmc0: host does not support reading read-only switch, assuming write-enable
+Apr 11 16:28:38 LibreELEC kernel: mmc0: new high speed SDHC card at address 59b4
+Apr 11 16:28:38 LibreELEC kernel: mmcblk0: mmc0:59b4 SMI   29.1 GiB
+Apr 11 16:28:38 LibreELEC kernel:  mmcblk0: p1 p2
+Apr 11 16:28:38 LibreELEC kernel: usb 1-1: New USB device found, idVendor=2109, idProduct=2813, bcdDevice=90.11
+Apr 11 16:28:38 LibreELEC kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Apr 11 16:28:38 LibreELEC kernel: usb 1-1: Product: USB2.0 Hub
+Apr 11 16:28:38 LibreELEC kernel: usb 1-1: Manufacturer: VIA Labs, Inc.
+Apr 11 16:28:38 LibreELEC kernel: hub 1-1:1.0: USB hub found
+Apr 11 16:28:38 LibreELEC kernel: hub 1-1:1.0: 4 ports detected
+Apr 11 16:28:38 LibreELEC unknown: Checking disk(s):  UUID=2410-1812 UUID=7f1e268e-74d3-4de4-91ee-c65be6be2ae7
+Apr 11 16:28:38 LibreELEC kernel: usb 1-1.1: new full-speed USB device number 3 using dwc_otg
+Apr 11 16:28:39 LibreELEC kernel: usb 1-1.1: New USB device found, idVendor=24ae, idProduct=2013, bcdDevice= 1.10
+Apr 11 16:28:39 LibreELEC kernel: usb 1-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Apr 11 16:28:39 LibreELEC kernel: usb 1-1.1: Product: Rapoo 2.4G Wireless Device
+Apr 11 16:28:39 LibreELEC kernel: usb 1-1.1: Manufacturer: RAPOO
+Apr 11 16:28:39 LibreELEC kernel: input: RAPOO Rapoo 2.4G Wireless Device as /devices/platform/soc/20980000.usb/usb1/1-1/1-1.1/1-1.1:1.0/0003:24AE:2013.0001/input/input0
+Apr 11 16:28:39 LibreELEC kernel: hid-generic 0003:24AE:2013.0001: input,hidraw0: USB HID v1.10 Mouse [RAPOO Rapoo 2.4G Wireless Device] on usb-20980000.usb-1.1/input0
+Apr 11 16:28:39 LibreELEC kernel: input: RAPOO Rapoo 2.4G Wireless Device System Control as /devices/platform/soc/20980000.usb/usb1/1-1/1-1.1/1-1.1:1.1/0003:24AE:2013.0002/input/input2
+Apr 11 16:28:39 LibreELEC kernel: input: RAPOO Rapoo 2.4G Wireless Device Consumer Control as /devices/platform/soc/20980000.usb/usb1/1-1/1-1.1/1-1.1:1.1/0003:24AE:2013.0002/input/input3
+Apr 11 16:28:39 LibreELEC kernel: hid-generic 0003:24AE:2013.0002: input,hiddev96,hidraw1: USB HID v1.10 Device [RAPOO Rapoo 2.4G Wireless Device] on usb-20980000.usb-1.1/input1
+Apr 11 16:28:39 LibreELEC kernel: input: RAPOO Rapoo 2.4G Wireless Device as /devices/platform/soc/20980000.usb/usb1/1-1/1-1.1/1-1.1:1.2/0003:24AE:2013.0003/input/input4
+Apr 11 16:28:39 LibreELEC kernel: hid-generic 0003:24AE:2013.0003: input,hidraw2: USB HID v1.10 Keyboard [RAPOO Rapoo 2.4G Wireless Device] on usb-20980000.usb-1.1/input2
+Apr 11 16:28:39 LibreELEC kernel: usb 1-1.2: new high-speed USB device number 4 using dwc_otg
+Apr 11 16:28:39 LibreELEC kernel: usb 1-1.2: config 1 interface 0 altsetting 0 has 7 endpoint descriptors, different from the interface descriptor's value: 5
+Apr 11 16:28:39 LibreELEC kernel: usb 1-1.2: New USB device found, idVendor=148f, idProduct=5370, bcdDevice= 1.01
+Apr 11 16:28:39 LibreELEC kernel: usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Apr 11 16:28:39 LibreELEC kernel: usb 1-1.2: Product: 802.11 n WLAN
+Apr 11 16:28:39 LibreELEC kernel: usb 1-1.2: Manufacturer: Ralink
+Apr 11 16:28:39 LibreELEC kernel: usb 1-1.2: SerialNumber: 1.0
+Apr 11 16:28:39 LibreELEC kernel: mmc1: error -110 whilst initialising SDIO card
+Apr 11 16:28:39 LibreELEC kernel: usb 1-1.3: new high-speed USB device number 5 using dwc_otg
+Apr 11 16:28:39 LibreELEC kernel: usb 1-1.3: New USB device found, idVendor=0bda, idProduct=8153, bcdDevice=30.00
+Apr 11 16:28:39 LibreELEC kernel: usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=6
+Apr 11 16:28:39 LibreELEC kernel: usb 1-1.3: Product: USB 10/100/1000 LAN
+Apr 11 16:28:39 LibreELEC kernel: usb 1-1.3: Manufacturer: Realtek
+Apr 11 16:28:39 LibreELEC kernel: usb 1-1.3: SerialNumber: 000001
+Apr 11 16:28:39 LibreELEC kernel: mmc1: error -110 whilst initialising SDIO card
+Apr 11 16:28:39 LibreELEC kernel: mmc1: error -110 whilst initialising SDIO card
+Apr 11 16:28:39 LibreELEC kernel: mmc1: error -110 whilst initialising SDIO card
+Apr 11 16:28:39 LibreELEC fsck: CP437: Invalid argument
+Apr 11 16:28:39 LibreELEC fsck: STORAGE: recovering journal
+Apr 11 16:28:39 LibreELEC fsck: fsck.fat 4.1 (2017-01-24)
+Apr 11 16:28:39 LibreELEC fsck: /dev/mmcblk0p1: 220 files, 17884/65501 clusters
+Apr 11 16:28:39 LibreELEC fsck: STORAGE: clean, 701/7501824 files, 1459045/30006272 blocks
+Apr 11 16:28:39 LibreELEC kernel: EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+Apr 11 16:28:39 LibreELEC systemd[1]: System time before build time, advancing clock.
+Apr 11 16:28:39 LibreELEC systemd[1]: systemd 242 running in system mode. (-PAM -AUDIT -SELINUX -IMA -APPARMOR -SMACK +SYSVINIT -UTMP -LIBCRYPTSETUP -GCRYPT -GNUTLS -ACL -XZ -LZ4 -SECCOMP +BLKID -ELFUTILS +KMOD +IDN2 -IDN -PCRE2 default-hierarchy=hybrid)
+Apr 11 16:28:39 LibreELEC systemd[1]: Detected architecture arm.
+Apr 11 16:28:39 LibreELEC systemd[1]: Set hostname to <LibreELEC>.
+Apr 11 16:28:39 LibreELEC systemd[1]: Failed to bump fs.file-max, ignoring: Invalid argument
+Apr 11 16:28:39 LibreELEC kernel: random: systemd: uninitialized urandom read (16 bytes read)
+Apr 11 16:28:39 LibreELEC systemd[1]: Listening on RPCbind Server Activation Socket.
+Apr 11 16:28:39 LibreELEC kernel: random: systemd: uninitialized urandom read (16 bytes read)
+Apr 11 16:28:39 LibreELEC systemd[1]: Listening on udev Kernel Socket.
+Apr 11 16:28:39 LibreELEC kernel: random: systemd: uninitialized urandom read (16 bytes read)
+Apr 11 16:28:39 LibreELEC systemd[1]: Reached target RPC Port Mapper.
+Apr 11 16:28:39 LibreELEC systemd[1]: Listening on Journal Socket (/dev/log).
+Apr 11 16:28:39 LibreELEC systemd[1]: Listening on Journal Socket.
+Apr 11 16:28:39 LibreELEC systemd[1]: Condition check resulted in Huge Pages File System being skipped.
+Apr 11 16:28:39 LibreELEC kernel-overlays-setup: setup base modules
+Apr 11 16:28:39 LibreELEC kernel-overlays-setup: added modules from /usr/lib/kernel-overlays/base/lib/modules/4.19.127
+Apr 11 16:28:39 LibreELEC kernel-overlays-setup: added firmware from /usr/lib/kernel-overlays/base/lib/firmware
+Apr 11 16:28:39 LibreELEC kernel-overlays-setup: adding overlays from /storage/.cache/kernel-overlays
+Apr 11 16:28:39 LibreELEC kernel-overlays-setup: done
+Apr 11 16:28:39 LibreELEC kernel: random: crng init done
+Apr 11 16:28:39 LibreELEC kernel: random: 7 urandom warning(s) missed due to ratelimiting
+Apr 11 16:28:39 LibreELEC kernel: wireguard: WireGuard 1.0.20200908 loaded. See www.wireguard.com for information.
+Apr 11 16:28:39 LibreELEC kernel: wireguard: Copyright (C) 2015-2019 Jason A. Donenfeld <Jason@zx2c4.com>. All Rights Reserved.
+Apr 11 16:28:39 LibreELEC systemd-journald[167]: Journal started
+Apr 11 16:28:39 LibreELEC systemd-journald[167]: Runtime journal (/run/log/journal/39616b68ed050bbd0ee3a7745caf6b37) is 512.0K, max 2.0M, 1.5M free.
+Apr 11 16:28:38 LibreELEC systemd-modules-load[162]: Inserted module 'wireguard'
+Apr 11 16:28:38 LibreELEC Boot[169]: ### swap disabled via configfile ###
+Apr 11 16:28:38 LibreELEC Boot[176]: ### swap disabled via configfile ###
+Apr 11 16:28:39 LibreELEC systemd[1]: Starting Flush Journal to Persistent Storage...
+Apr 11 16:28:39 LibreELEC systemd-journald[167]: Runtime journal (/run/log/journal/39616b68ed050bbd0ee3a7745caf6b37) is 512.0K, max 2.0M, 1.5M free.
+Apr 11 16:28:39 LibreELEC systemd[1]: Started Flush Journal to Persistent Storage.
+Apr 11 16:28:39 LibreELEC systemd[1]: Starting Create Volatile Files and Directories...
+Apr 11 16:28:39 LibreELEC systemd-tmpfiles[180]: [/usr/lib/tmpfiles.d/z_02_dbus.conf:4] Duplicate line for path "/var/lib/dbus", ignoring.
+Apr 11 16:28:39 LibreELEC systemd[1]: Started Create Volatile Files and Directories.
+Apr 11 16:28:39 LibreELEC systemd[1]: Starting RPC Bind...
+Apr 11 16:28:39 LibreELEC systemd[1]: Starting Setup User cache dir...
+Apr 11 16:28:39 LibreELEC systemd[1]: Starting Setup Timezone data...
+Apr 11 16:28:39 LibreELEC systemd[1]: Starting Update hwdb.bin...
+Apr 11 16:28:39 LibreELEC systemd[1]: Condition check resulted in Setup debug config being skipped.
+Apr 11 16:28:40 LibreELEC systemd[1]: Starting Setup User config dir...
+Apr 11 16:28:40 LibreELEC systemd[1]: Starting Add random entropy from file...
+Apr 11 16:28:40 LibreELEC systemd[1]: Starting OpenSSL configuration service...
+Apr 11 16:28:40 LibreELEC systemd[1]: Starting Rebuild Journal Catalog...
+Apr 11 16:28:40 LibreELEC systemd[1]: Started Setup Timezone data.
+Apr 11 16:28:40 LibreELEC journalctl[194]: No items in catalog.
+Apr 11 16:28:40 LibreELEC systemd[1]: Started Setup User cache dir.
+Apr 11 16:28:40 LibreELEC systemd[1]: openssl-config.service: Succeeded.
+Apr 11 16:28:40 LibreELEC systemd[1]: Started OpenSSL configuration service.
+Apr 11 16:28:40 LibreELEC systemd[1]: Started RPC Bind.
+Apr 11 16:28:41 LibreELEC systemd[1]: Started Rebuild Journal Catalog.
+Apr 11 16:28:41 LibreELEC systemd[1]: Started udev Coldplug all Devices.
+Apr 11 16:28:41 LibreELEC systemd[1]: Started Setup User config dir.
+Apr 11 16:28:41 LibreELEC systemd[1]: Starting Base Network Configuration...
+Apr 11 16:28:42 pi0 systemd[1]: Started Base Network Configuration.
+Apr 11 16:28:42 pi0 systemd[1]: Condition check resulted in Network Time Synchronization being skipped.
+Apr 11 16:28:42 pi0 systemd[1]: Reached target System Time Set.
+Apr 11 16:28:43 pi0 systemd[1]: Started Add random entropy from file.
+Apr 11 16:28:46 pi0 systemd[1]: hwdb.service: Succeeded.
+Apr 11 16:28:46 pi0 systemd[1]: Started Update hwdb.bin.
+Apr 11 16:28:46 pi0 systemd[1]: Starting udev Kernel Device Manager...
+Apr 11 16:28:46 pi0 systemd-udevd[214]: Specified group 'render' unknown
+Apr 11 16:28:46 pi0 systemd-udevd[214]: Specified group 'kvm' unknown
+Apr 11 16:28:46 pi0 systemd[1]: Started udev Kernel Device Manager.
+Apr 11 16:28:46 pi0 systemd[1]: Reached target System Initialization.
+Apr 11 16:28:46 pi0 systemd[1]: Listening on D-Bus System Message Bus Socket.
+Apr 11 16:28:46 pi0 systemd[1]: Started Daily Cleanup of Temporary Directories.
+Apr 11 16:28:46 pi0 systemd[1]: Reached target Timers.
+Apr 11 16:28:46 pi0 systemd[1]: Listening on lircd.socket.
+Apr 11 16:28:46 pi0 systemd[1]: Reached target Sockets.
+Apr 11 16:28:47 pi0 systemd[1]: Reached target Basic System.
+Apr 11 16:28:47 pi0 systemd[1]: Condition check resulted in Cron defaults being skipped.
+Apr 11 16:28:47 pi0 systemd[1]: Starting OpenSSH server daemon...
+Apr 11 16:28:47 pi0 systemd[1]: Condition check resulted in Avahi defaults being skipped.
+Apr 11 16:28:47 pi0 systemd[1]: Starting Login Service...
+Apr 11 16:28:47 pi0 systemd[1]: Starting ConnMan VPN service...
+Apr 11 16:28:47 pi0 systemd[1]: Starting Samba Configuration...
+Apr 11 16:28:47 pi0 systemd[1]: Starting PulseAudio Sound Service...
+Apr 11 16:28:47 pi0 systemd[1]: Starting D-Bus System Message Bus...
+Apr 11 16:28:47 pi0 systemd[1]: Starting unbind Framebuffer console...
+Apr 11 16:28:48 pi0 kernel: Console: switching to colour dummy device 80x30
+Apr 11 16:28:48 pi0 systemd[1]: Starting Cron daemon...
+Apr 11 16:28:48 pi0 systemd[1]: Starting Kodi clean debug logs...
+Apr 11 16:28:48 pi0 systemd[1]: Condition check resulted in IPTABLES Packet Filtering being skipped.
+Apr 11 16:28:48 pi0 systemd[1]: Started Eventlirc server daemon.
+Apr 11 16:28:48 pi0 systemd[1]: unbind-console.service: Succeeded.
+Apr 11 16:28:48 pi0 systemd[1]: Started unbind Framebuffer console.
+Apr 11 16:28:48 pi0 systemd[1]: Started Cron daemon.
+Apr 11 16:28:49 pi0 systemd[1]: Started Kodi clean debug logs.
+Apr 11 16:28:49 pi0 systemd-logind[224]: New seat seat0.
+Apr 11 16:28:49 pi0 systemd[1]: Started OpenSSH server daemon.
+Apr 11 16:28:49 pi0 kernel: gpiomem-bcm2835 20200000.gpiomem: Initialised: Registers at 0x20200000
+Apr 11 16:28:50 pi0 kernel: usbcore: registered new interface driver cdc_ether
+Apr 11 16:28:50 pi0 kernel: usbcore: registered new interface driver r8152
+Apr 11 16:28:50 pi0 pulseaudio[227]: W: [pulseaudio] main.c: Running in system mode, but --disallow-module-loading not set.
+Apr 11 16:28:50 pi0 kernel: usb 1-1.3: reset high-speed USB device number 5 using dwc_otg
+Apr 11 16:28:51 pi0 pulseaudio[227]: W: [pulseaudio] main.c: Home directory of user 'root' is not '/var/run/pulse', ignoring.
+Apr 11 16:28:51 pi0 pulseaudio[227]: W: [pulseaudio] caps.c: Normally all extra capabilities would be dropped now, but that's impossible because PulseAudio was built without capabilities support.
+Apr 11 16:28:51 pi0 pulseaudio[227]: W: [pulseaudio] main.c: OK, so you are running PA in system mode. Please make sure that you actually do want to do that.
+Apr 11 16:28:51 pi0 pulseaudio[227]: W: [pulseaudio] main.c: Please read http://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/WhatIsWrongWithSystemWide/ for an explanation why system mode is usually a bad idea.
+Apr 11 16:28:51 pi0 pulseaudio[227]: W: [pulseaudio] authkey.c: Failed to open cookie file '/var/run/pulse/.config/pulse/cookie': No such file or directory
+Apr 11 16:28:51 pi0 pulseaudio[227]: W: [pulseaudio] authkey.c: Failed to load authentication key '/var/run/pulse/.config/pulse/cookie': No such file or directory
+Apr 11 16:28:51 pi0 pulseaudio[227]: W: [pulseaudio] authkey.c: Failed to open cookie file '/var/run/pulse/.pulse-cookie': No such file or directory
+Apr 11 16:28:51 pi0 pulseaudio[227]: W: [pulseaudio] authkey.c: Failed to load authentication key '/var/run/pulse/.pulse-cookie': No such file or directory
+Apr 11 16:28:51 pi0 kernel: r8152 1-1.3:1.0 eth0: v1.09.9
+Apr 11 16:28:52 pi0 connman-vpnd[225]: Connection Manager VPN daemon version 1.38
+Apr 11 16:28:52 pi0 kernel: cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Apr 11 16:28:52 pi0 pulseaudio[227]: E: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.ServiceUnknown: The name org.bluez was not provided by any .service files
+Apr 11 16:28:52 pi0 systemd[1]: Started D-Bus System Message Bus.
+Apr 11 16:28:52 pi0 connman-vpnd[225]: lo {newlink} index 1 operstate 0 <UNKNOWN>
+Apr 11 16:28:52 pi0 connman-vpnd[225]: eth0 {create} index 2 type 1 <ETHER>
+Apr 11 16:28:52 pi0 connman-vpnd[225]: eth0 {update} flags 4098 <DOWN>
+Apr 11 16:28:52 pi0 connman-vpnd[225]: eth0 {newlink} index 2 address A0:CE:C8:37:72:85 mtu 1500
+Apr 11 16:28:52 pi0 connman-vpnd[225]: eth0 {newlink} index 2 operstate 2 <DOWN>
+Apr 11 16:28:52 pi0 kernel: cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Apr 11 16:28:52 pi0 systemd[1]: samba-config.service: Succeeded.
+Apr 11 16:28:52 pi0 sshd[244]: Server listening on 0.0.0.0 port 22.
+Apr 11 16:28:52 pi0 sshd[244]: Server listening on :: port 22.
+Apr 11 16:28:52 pi0 systemd[1]: Started Samba Configuration.
+Apr 11 16:28:53 pi0 systemd[1]: Found device /dev/serial1.
+Apr 11 16:28:54 pi0 kernel: usb 1-1.2: reset high-speed USB device number 4 using dwc_otg
+Apr 11 16:28:54 pi0 systemd-udevd[217]: Using default interface naming scheme 'v240'.
+Apr 11 16:28:54 pi0 kernel: ieee80211 phy0: rt2x00_set_rt: Info - RT chipset 5390, rev 0502 detected
+Apr 11 16:28:54 pi0 kernel: ieee80211 phy0: rt2x00_set_rf: Info - RF chipset 5370 detected
+Apr 11 16:28:55 pi0 kernel: ieee80211 phy0: Selected rate control algorithm 'minstrel_ht'
+Apr 11 16:28:55 pi0 connman-vpnd[225]: wlan0 {create} index 3 type 1 <ETHER>
+Apr 11 16:28:55 pi0 kernel: usbcore: registered new interface driver rt2800usb
+Apr 11 16:28:55 pi0 systemd-udevd[241]: Using default interface naming scheme 'v240'.
+Apr 11 16:28:55 pi0 connman-vpnd[225]: wlan0 {update} flags 4098 <DOWN>
+Apr 11 16:28:55 pi0 connman-vpnd[225]: wlan0 {newlink} index 3 address 00:87:24:40:55:A7 mtu 1500
+Apr 11 16:28:55 pi0 connman-vpnd[225]: wlan0 {newlink} index 3 operstate 2 <DOWN>
+Apr 11 16:28:55 pi0 systemd-logind[224]: Watching system buttons on /dev/input/event1 (RAPOO Rapoo 2.4G Wireless Device System Control)
+Apr 11 16:28:55 pi0 systemd-logind[224]: Watching system buttons on /dev/input/event3 (RAPOO Rapoo 2.4G Wireless Device)
+Apr 11 16:28:55 pi0 dbus-daemon[228]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Apr 11 16:28:55 pi0 systemd-logind[224]: Watching system buttons on /dev/input/event2 (RAPOO Rapoo 2.4G Wireless Device Consumer Control)
+Apr 11 16:28:56 pi0 systemd[1]: Starting Connection service...
+Apr 11 16:28:56 pi0 systemd[1]: Started Login Service.
+Apr 11 16:28:56 pi0 systemd[1]: Started PulseAudio Sound Service.
+Apr 11 16:28:56 pi0 systemd[1]: Started ConnMan VPN service.
+Apr 11 16:28:56 pi0 systemd[1]: Started Connection service.
+Apr 11 16:28:56 pi0 systemd[1]: Condition check resulted in Wait on network being skipped.
+Apr 11 16:28:56 pi0 connmand[430]: Connection Manager version 1.38
+Apr 11 16:28:56 pi0 systemd[1]: Reached target Network.
+Apr 11 16:28:56 pi0 systemd[1]: Started Broadcom sdio firmware update for BCM43430A1.
+Apr 11 16:28:56 pi0 systemd[1]: Reached target Network is Online.
+Apr 11 16:28:56 pi0 systemd[1]: Starting Samba NMB Daemon...
+Apr 11 16:28:57 pi0 systemd[1]: Started Avahi Daemon.
+Apr 11 16:28:57 pi0 systemd[1]: Condition check resulted in Flexible IR remote input/output application support being skipped.
+Apr 11 16:28:57 pi0 systemd[1]: Condition check resulted in Forward LIRC button presses as uinput events being skipped.
+Apr 11 16:28:57 pi0 connmand[430]: Checking loopback interface settings
+Apr 11 16:28:57 pi0 connmand[430]: System hostname is pi0
+Apr 11 16:28:57 pi0 dbus-daemon[228]: [system] Activating via systemd: service name='fi.w1.wpa_supplicant1' unit='wpa_supplicant.service' requested by ':1.5' (uid=0 pid=430 comm="/usr/sbin/connmand -nr --config=/etc/connman/main.")
+Apr 11 16:28:57 pi0 connmand[430]: lo {newlink} index 1 address 00:00:00:00:00:00 mtu 65536
+Apr 11 16:28:57 pi0 connmand[430]: lo {newlink} index 1 operstate 0 <UNKNOWN>
+Apr 11 16:28:57 pi0 connmand[430]: eth0 {create} index 2 type 1 <ETHER>
+Apr 11 16:28:57 pi0 connmand[430]: eth0 {update} flags 4098 <DOWN>
+Apr 11 16:28:57 pi0 connmand[430]: eth0 {newlink} index 2 address A0:CE:C8:37:72:85 mtu 1500
+Apr 11 16:28:57 pi0 dbus-daemon[228]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.5' (uid=0 pid=430 comm="/usr/sbin/connmand -nr --config=/etc/connman/main.")
+Apr 11 16:28:57 pi0 connmand[430]: eth0 {newlink} index 2 operstate 2 <DOWN>
+Apr 11 16:28:57 pi0 avahi-daemon[436]: Found user 'avahi' (UID 495) and group 'avahi' (GID 495).
+Apr 11 16:28:57 pi0 avahi-daemon[436]: Successfully dropped root privileges.
+Apr 11 16:28:57 pi0 avahi-daemon[436]: avahi-daemon 0.7 starting up.
+Apr 11 16:28:57 pi0 kernel: IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Apr 11 16:28:57 pi0 connman-vpnd[225]: eth0 {update} flags 36931 <UP,RUNNING>
+Apr 11 16:28:57 pi0 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Apr 11 16:28:57 pi0 kernel: r8152 1-1.3:1.0 eth0: carrier on
+Apr 11 16:28:57 pi0 connman-vpnd[225]: eth0 {newlink} index 2 address A0:CE:C8:37:72:85 mtu 1500
+Apr 11 16:28:57 pi0 connman-vpnd[225]: eth0 {newlink} index 2 operstate 0 <UNKNOWN>
+Apr 11 16:28:57 pi0 connman-vpnd[225]: eth0 {update} flags 36867 <UP>
+Apr 11 16:28:57 pi0 kernel: uart-pl011 20201000.serial: no DMA platform data
+Apr 11 16:28:57 pi0 connman-vpnd[225]: eth0 {newlink} index 2 address A0:CE:C8:37:72:85 mtu 1500
+Apr 11 16:28:57 pi0 connman-vpnd[225]: eth0 {newlink} index 2 operstate 2 <DOWN>
+Apr 11 16:28:57 pi0 connmand[430]: Adding interface eth0 [ ethernet ]
+Apr 11 16:28:57 pi0 connmand[430]: wlan0 {create} index 3 type 1 <ETHER>
+Apr 11 16:28:57 pi0 connmand[430]: wlan0 {update} flags 4098 <DOWN>
+Apr 11 16:28:57 pi0 connmand[430]: wlan0 {newlink} index 3 address 00:87:24:40:55:A7 mtu 1500
+Apr 11 16:28:57 pi0 connmand[430]: wlan0 {newlink} index 3 operstate 2 <DOWN>
+Apr 11 16:28:57 pi0 connman-vpnd[225]: eth0 {update} flags 102467 <UP,RUNNING,LOWER_UP>
+Apr 11 16:28:57 pi0 connman-vpnd[225]: eth0 {newlink} index 2 address A0:CE:C8:37:72:85 mtu 1500
+Apr 11 16:28:57 pi0 connman-vpnd[225]: eth0 {newlink} index 2 operstate 6 <UP>
+Apr 11 16:28:57 pi0 connmand[430]: Adding interface wlan0 [ wifi ]
+Apr 11 16:28:57 pi0 connmand[430]: eth0 {update} flags 36931 <UP,RUNNING>
+Apr 11 16:28:57 pi0 connmand[430]: eth0 {newlink} index 2 address A0:CE:C8:37:72:85 mtu 1500
+Apr 11 16:28:57 pi0 connmand[430]: eth0 {newlink} index 2 operstate 0 <UNKNOWN>
+Apr 11 16:28:57 pi0 connmand[430]: eth0 {update} flags 36867 <UP>
+Apr 11 16:28:57 pi0 connmand[430]: eth0 {newlink} index 2 address A0:CE:C8:37:72:85 mtu 1500
+Apr 11 16:28:57 pi0 connmand[430]: eth0 {newlink} index 2 operstate 2 <DOWN>
+Apr 11 16:28:57 pi0 connmand[430]: eth0 {add} route ff00:: gw :: scope 0 <UNIVERSE>
+Apr 11 16:28:57 pi0 connmand[430]: eth0 {add} route fe80:: gw :: scope 0 <UNIVERSE>
+Apr 11 16:28:57 pi0 connmand[430]: eth0 {update} flags 102467 <UP,RUNNING,LOWER_UP>
+Apr 11 16:28:57 pi0 connmand[430]: eth0 {newlink} index 2 address A0:CE:C8:37:72:85 mtu 1500
+Apr 11 16:28:57 pi0 connmand[430]: eth0 {newlink} index 2 operstate 6 <UP>
+Apr 11 16:28:57 pi0 avahi-daemon[436]: Loading service file /etc/avahi/services/sftp-ssh.service.
+Apr 11 16:28:57 pi0 avahi-daemon[436]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::a2ce:c8ff:fe37:7285.
+Apr 11 16:28:57 pi0 avahi-daemon[436]: New relevant interface eth0.IPv6 for mDNS.
+Apr 11 16:28:57 pi0 avahi-daemon[436]: Network interface enumeration completed.
+Apr 11 16:28:57 pi0 avahi-daemon[436]: Registering new address record for fe80::a2ce:c8ff:fe37:7285 on eth0.*.
+Apr 11 16:28:57 pi0 kernel: 8021q: 802.1Q VLAN Support v1.8
+Apr 11 16:28:57 pi0 avahi-daemon[436]: Joining mDNS multicast group on interface eth0.IPv4 with address 10.128.192.129.
+Apr 11 16:28:57 pi0 avahi-daemon[436]: New relevant interface eth0.IPv4 for mDNS.
+Apr 11 16:28:57 pi0 avahi-daemon[436]: Registering new address record for 10.128.192.129 on eth0.IPv4.
+Apr 11 16:28:57 pi0 systemd[1]: Starting Hostname Service...
+Apr 11 16:28:58 pi0 systemd[1]: Starting WPA supplicant...
+Apr 11 16:28:58 pi0 dbus-daemon[228]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Apr 11 16:28:58 pi0 systemd[1]: Started Hostname Service.
+Apr 11 16:28:58 pi0 connmand[430]: ipconfig state 3 ipconfig method 1
+Apr 11 16:28:58 pi0 avahi-daemon[436]: Withdrawing address record for fe80::a2ce:c8ff:fe37:7285 on eth0.
+Apr 11 16:28:58 pi0 avahi-daemon[436]: Leaving mDNS multicast group on interface eth0.IPv6 with address fe80::a2ce:c8ff:fe37:7285.
+Apr 11 16:28:58 pi0 avahi-daemon[436]: Interface eth0.IPv6 no longer relevant for mDNS.
+Apr 11 16:28:58 pi0 connmand[430]: eth0 {add} address 10.128.192.129/24 label eth0 family 2
+Apr 11 16:28:58 pi0 connmand[430]: eth0 {add} route 10.128.192.0 gw 0.0.0.0 scope 253 <LINK>
+Apr 11 16:28:58 pi0 connmand[430]: eth0 {add} route 10.128.192.49 gw 0.0.0.0 scope 253 <LINK>
+Apr 11 16:28:58 pi0 connmand[430]: eth0 {add} route 8.8.8.8 gw 10.128.192.49 scope 0 <UNIVERSE>
+Apr 11 16:28:58 pi0 connmand[430]: eth0 {add} route 8.8.4.4 gw 10.128.192.49 scope 0 <UNIVERSE>
+Apr 11 16:28:58 pi0 connmand[430]: eth0 {add} route 0.0.0.0 gw 10.128.192.49 scope 0 <UNIVERSE>
+Apr 11 16:28:58 pi0 connmand[430]: eth0 {del} route fe80:: gw :: scope 0 <UNIVERSE>
+Apr 11 16:28:58 pi0 connmand[430]: eth0 {del} route ff00:: gw :: scope 0 <UNIVERSE>
+Apr 11 16:28:58 pi0 connmand[430]: eth0 {add} route 0.0.0.0 gw 10.128.192.49 scope 0 <UNIVERSE>
+Apr 11 16:28:58 pi0 connmand[430]: eth0 {add} route 8.8.4.4 gw 10.128.192.49 scope 0 <UNIVERSE>
+Apr 11 16:28:58 pi0 connmand[430]: eth0 {add} route 8.8.8.8 gw 10.128.192.49 scope 0 <UNIVERSE>
+Apr 11 16:28:58 pi0 connmand[430]: eth0 {add} route 10.128.192.0 gw 0.0.0.0 scope 253 <LINK>
+Apr 11 16:28:58 pi0 connmand[430]: eth0 {add} route 10.128.192.49 gw 0.0.0.0 scope 253 <LINK>
+Apr 11 16:28:58 pi0 avahi-daemon[436]: Server startup complete. Host name is pi0.local. Local service cookie is 1252705285.
+Apr 11 16:28:58 pi0 dbus-daemon[228]: [system] Successfully activated service 'fi.w1.wpa_supplicant1'
+Apr 11 16:28:58 pi0 wpa_supplicant[450]: Successfully initialized wpa_supplicant
+Apr 11 16:28:58 pi0 systemd[1]: Started WPA supplicant.
+Apr 11 16:28:58 pi0 kernel: ieee80211 phy0: rt2x00lib_request_firmware: Info - Loading firmware file 'rt2870.bin'
+Apr 11 16:28:59 pi0 kernel: ieee80211 phy0: rt2x00lib_request_firmware: Info - Firmware detected - version: 0.36
+Apr 11 16:28:59 pi0 kernel: IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Apr 11 16:28:59 pi0 connman-vpnd[225]: wlan0 {update} flags 36931 <UP,RUNNING>
+Apr 11 16:28:59 pi0 connman-vpnd[225]: wlan0 {newlink} index 3 address 00:87:24:40:55:A7 mtu 1500
+Apr 11 16:28:59 pi0 connman-vpnd[225]: wlan0 {newlink} index 3 operstate 0 <UNKNOWN>
+Apr 11 16:28:59 pi0 connman-vpnd[225]: wlan0 {update} flags 36867 <UP>
+Apr 11 16:28:59 pi0 connman-vpnd[225]: wlan0 {newlink} index 3 address 00:87:24:40:55:A7 mtu 1500
+Apr 11 16:28:59 pi0 connman-vpnd[225]: wlan0 {newlink} index 3 operstate 2 <DOWN>
+Apr 11 16:28:59 pi0 connmand[430]: wlan0 {update} flags 36931 <UP,RUNNING>
+Apr 11 16:28:59 pi0 connmand[430]: wlan0 {newlink} index 3 address 00:87:24:40:55:A7 mtu 1500
+Apr 11 16:28:59 pi0 connmand[430]: wlan0 {newlink} index 3 operstate 0 <UNKNOWN>
+Apr 11 16:28:59 pi0 connmand[430]: wlan0 {update} flags 36867 <UP>
+Apr 11 16:28:59 pi0 connmand[430]: wlan0 {newlink} index 3 address 00:87:24:40:55:A7 mtu 1500
+Apr 11 16:28:59 pi0 connmand[430]: wlan0 {newlink} index 3 operstate 2 <DOWN>
+Apr 11 16:28:59 pi0 connmand[430]: wlan0 {newlink} index 3 address 00:87:24:40:55:A7 mtu 1500
+Apr 11 16:28:59 pi0 connmand[430]: wlan0 {newlink} index 3 operstate 2 <DOWN>
+Apr 11 16:28:59 pi0 connman-vpnd[225]: wlan0 {newlink} index 3 address 00:87:24:40:55:A7 mtu 1500
+Apr 11 16:28:59 pi0 connman-vpnd[225]: wlan0 {newlink} index 3 operstate 2 <DOWN>
+Apr 11 16:28:59 pi0 wpa_supplicant[450]: WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance
+Apr 11 16:28:59 pi0 avahi-daemon[436]: Service "pi0" (/etc/avahi/services/sftp-ssh.service) successfully established.
+Apr 11 16:29:01 pi0 systemd[1]: Started Samba NMB Daemon.
+Apr 11 16:29:01 pi0 nmbd[451]: [2019/04/11 16:29:01.287568,  0] ../lib/util/become_daemon.c:136(daemon_ready)
+Apr 11 16:29:01 pi0 nmbd[451]:   daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+Apr 11 16:29:01 pi0 systemd[1]: Starting Samba SMB Daemon...
+Apr 11 16:29:02 pi0 systemd[1]: Started Samba SMB Daemon.
+Apr 11 16:29:02 pi0 systemd[1]: Reached target Multi-User System.
+Apr 11 16:29:02 pi0 systemd[1]: Reached target Graphical Interface.
+Apr 11 16:29:02 pi0 systemd[1]: Condition check resulted in Kodi user autostart script being skipped.
+Apr 11 16:29:02 pi0 systemd[1]: Starting Kodi Media Center...
+Apr 11 16:29:03 pi0 systemd[1]: Started Kodi Media Center.
+Apr 11 16:29:03 pi0 systemd[1]: Reached target Kodi Mediacenter Interface.
+Apr 11 16:29:03 pi0 smbd[453]: [2019/04/11 16:29:03.180992,  0] ../source3/passdb/pdb_smbpasswd.c:249(startsmbfilepwent)
+Apr 11 16:29:03 pi0 smbd[453]:   startsmbfilepwent_internal: file /run/samba/smbpasswd did not exist. File successfully created.
+Apr 11 16:29:03 pi0 smbd[453]: [2019/04/11 16:29:03.587150,  0] ../lib/util/become_daemon.c:136(daemon_ready)
+Apr 11 16:29:03 pi0 smbd[453]:   daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+Apr 11 16:29:24 pi0 nmbd[451]: [2019/04/11 16:29:24.468031,  0] ../source3/nmbd/nmbd_become_lmb.c:397(become_local_master_stage2)
+Apr 11 16:29:24 pi0 nmbd[451]:   *****
+Apr 11 16:29:24 pi0 nmbd[451]: 
+Apr 11 16:29:24 pi0 nmbd[451]:   Samba name server PI0 is now a local master browser for workgroup WORKGROUP on subnet 10.128.192.129
+Apr 11 16:29:24 pi0 nmbd[451]: 
+Apr 11 16:29:24 pi0 nmbd[451]:   *****
+Apr 11 16:29:27 pi0 rpi-btuart[434]: Initialization timed out.
+Apr 11 16:29:27 pi0 rpi-btuart[434]: bcm43xx_init
+Apr 11 16:29:27 pi0 systemd[1]: brcmfmac_sdio-firmware.service: Main process exited, code=exited, status=1/FAILURE
+Apr 11 16:29:27 pi0 systemd[1]: brcmfmac_sdio-firmware.service: Failed with result 'exit-code'.
+Apr 11 16:29:28 pi0 systemd[1]: systemd-hostnamed.service: Succeeded.
+Apr 11 16:34:49 pi0 sshd[603]: Accepted password for root from 10.128.192.51 port 49291 ssh2
+Apr 11 16:43:25 pi0 systemd[1]: Starting Cleanup of Temporary Directories...
+Apr 11 16:43:25 pi0 systemd-tmpfiles[624]: [/usr/lib/tmpfiles.d/z_02_dbus.conf:4] Duplicate line for path "/var/lib/dbus", ignoring.
+Apr 11 16:43:25 pi0 systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Apr 11 16:43:25 pi0 systemd[1]: Started Cleanup of Temporary Directories.
+

@@ -1,0 +1,30 @@
+################################################################################
+# ... output of cat /var/log/log.smbd
+# LibreELEC release: RPi.arm-9.2.6
+# 
+################################################################################
+[2019/04/11 16:29:02.602796,  0] ../source3/smbd/server.c:1754(main)
+  smbd version 4.9.18 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2018
+[2019/04/11 16:29:03.180992,  0] ../source3/passdb/pdb_smbpasswd.c:249(startsmbfilepwent)
+  startsmbfilepwent_internal: file /run/samba/smbpasswd did not exist. File successfully created.
+[2019/04/11 16:29:03.587150,  0] ../lib/util/become_daemon.c:136(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+
+################################################################################
+# ... output of cat /var/log/log.nmbd
+# LibreELEC release: RPi.arm-9.2.6
+# 
+################################################################################
+[2019/04/11 16:29:01.217001,  0] ../source3/nmbd/nmbd.c:907(main)
+  nmbd version 4.9.18 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2018
+[2019/04/11 16:29:01.287568,  0] ../lib/util/become_daemon.c:136(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2019/04/11 16:29:24.468031,  0] ../source3/nmbd/nmbd_become_lmb.c:397(become_local_master_stage2)
+  *****
+  
+  Samba name server PI0 is now a local master browser for workgroup WORKGROUP on subnet 10.128.192.129
+  
+  *****
+

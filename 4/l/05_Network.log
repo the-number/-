@@ -1,0 +1,200 @@
+################################################################################
+# ... output of ifconfig -a
+# LibreELEC release: RPi.arm-9.2.6
+# 
+################################################################################
+eth0      Link encap:Ethernet  HWaddr A0:CE:C8:37:72:85  
+          inet addr:10.128.192.129  Bcast:10.128.192.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:2503 errors:0 dropped:2 overruns:0 frame:0
+          TX packets:2102 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:210009 (205.0 KiB)  TX bytes:301211 (294.1 KiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1315 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1315 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:123560 (120.6 KiB)  TX bytes:123560 (120.6 KiB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:87:24:40:55:A7  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+
+################################################################################
+# ... output of netstat -rn
+# LibreELEC release: RPi.arm-9.2.6
+# 
+################################################################################
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+0.0.0.0         10.128.192.49   0.0.0.0         UG        0 0          0 eth0
+8.8.4.4         10.128.192.49   255.255.255.255 UGH       0 0          0 eth0
+8.8.8.8         10.128.192.49   255.255.255.255 UGH       0 0          0 eth0
+10.128.192.0    0.0.0.0         255.255.255.0   U         0 0          0 eth0
+10.128.192.49   0.0.0.0         255.255.255.255 UH        0 0          0 eth0
+
+################################################################################
+# ... output of netstat -nalp
+# LibreELEC release: RPi.arm-9.2.6
+# 
+################################################################################
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:4713            0.0.0.0:*               LISTEN      227/pulseaudio
+tcp        0      0 0.0.0.0:139             0.0.0.0:*               LISTEN      453/smbd
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      1/systemd
+tcp        0      0 0.0.0.0:8080            0.0.0.0:*               LISTEN      466/kodi.bin
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      244/sshd
+tcp        0      0 0.0.0.0:36666           0.0.0.0:*               LISTEN      466/kodi.bin
+tcp        0      0 0.0.0.0:445             0.0.0.0:*               LISTEN      453/smbd
+tcp        0      0 10.128.192.129:445      10.128.192.51:58325     ESTABLISHED 732/smbd
+tcp        0      0 10.128.192.129:445      10.128.192.51:58326     ESTABLISHED 733/smbd
+tcp        0      0 10.128.192.129:445      10.128.192.51:58329     ESTABLISHED 736/smbd
+tcp        0      0 10.128.192.129:445      10.128.192.51:58327     ESTABLISHED 734/smbd
+tcp        0      0 :::4713                 :::*                    LISTEN      227/pulseaudio
+tcp        0      0 :::139                  :::*                    LISTEN      453/smbd
+tcp        0      0 :::111                  :::*                    LISTEN      1/systemd
+tcp        0      0 :::8080                 :::*                    LISTEN      466/kodi.bin
+tcp        0      0 :::22                   :::*                    LISTEN      244/sshd
+tcp        0      0 :::36666                :::*                    LISTEN      466/kodi.bin
+tcp        0      0 :::445                  :::*                    LISTEN      453/smbd
+udp        0      0 10.128.192.255:137      0.0.0.0:*                           451/nmbd
+udp        0      0 10.128.192.129:137      0.0.0.0:*                           451/nmbd
+udp        0      0 0.0.0.0:137             0.0.0.0:*                           451/nmbd
+udp        0      0 10.128.192.255:138      0.0.0.0:*                           451/nmbd
+udp        0      0 10.128.192.129:138      0.0.0.0:*                           451/nmbd
+udp        0      0 0.0.0.0:138             0.0.0.0:*                           451/nmbd
+udp        0      0 0.0.0.0:63378           0.0.0.0:*                           181/rpcbind
+udp        0      0 10.128.192.129:55003    8.8.4.4:53              ESTABLISHED 430/connmand
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           436/avahi-daemon: r
+udp        0      0 10.128.192.129:58894    8.8.8.8:53              ESTABLISHED 430/connmand
+udp        0      0 127.0.0.1:9777          0.0.0.0:*                           466/kodi.bin
+udp        0      0 10.128.192.129:45891    8.8.4.4:53              ESTABLISHED 430/connmand
+udp        0      0 0.0.0.0:111             0.0.0.0:*                           1/systemd
+udp        0      0 10.128.192.129:41080    8.8.8.8:53              ESTABLISHED 430/connmand
+udp        0      0 :::5353                 :::*                                436/avahi-daemon: r
+udp        0      0 :::63498                :::*                                181/rpcbind
+udp        0      0 :::111                  :::*                                1/systemd
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node PID/Program name    Path
+unix  2      [ ACC ]     STREAM     LISTENING       6917 1/systemd           /run/rpcbind.sock
+unix  2      [ ]         DGRAM                     14608 453/smbd            /run/samba/msg.sock/453
+unix  8      [ ]         DGRAM                      6938 1/systemd           /run/systemd/journal/dev-log
+unix  2      [ ACC ]     STREAM     LISTENING       6943 1/systemd           /run/systemd/journal/stdout
+unix  5      [ ]         DGRAM                      6946 1/systemd           /run/systemd/journal/socket
+unix  2      [ ACC ]     STREAM     LISTENING      11306 227/pulseaudio      /run/pulse/native
+unix  2      [ ACC ]     STREAM     LISTENING      11310 227/pulseaudio      /var/run/pulse/dbus-socket
+unix  2      [ ACC ]     STREAM     LISTENING      10035 1/systemd           /run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING      10049 1/systemd           /run/lirc/lircd.socket
+unix  2      [ ACC ]     STREAM     LISTENING      14160 436/avahi-daemon: r /run/avahi-daemon/socket
+unix  2      [ ACC ]     SEQPACKET  LISTENING       7249 1/systemd           /run/udev/control
+unix  2      [ ]         DGRAM                     14709 456/smbd            /run/samba/msg.sock/456
+unix  2      [ ]         DGRAM                     14712 457/smbd            /run/samba/msg.sock/457
+unix  2      [ ]         DGRAM                     14477 451/nmbd            /run/samba/msg.sock/451
+unix  2      [ ACC ]     STREAM     LISTENING      14992 466/kodi.bin        /var/run/service.libreelec.settings.sock
+unix  2      [ ACC ]     STREAM     LISTENING      14496 451/nmbd            /run/samba/nmbd/unexpected
+unix  2      [ ACC ]     STREAM     LISTENING      10940 236/eventlircd      /run/lirc/lircd
+unix  2      [ ]         DGRAM                     16088 732/smbd            /run/samba/msg.sock/732
+unix  2      [ ]         DGRAM                     16102 733/smbd            /run/samba/msg.sock/733
+unix  2      [ ]         DGRAM                     16108 734/smbd            /run/samba/msg.sock/734
+unix  2      [ ]         DGRAM                     14828 467/smbd            /run/samba/msg.sock/467
+unix  3      [ ]         DGRAM                      6905 1/systemd           /run/systemd/notify
+unix  2      [ ]         DGRAM                     16124 736/smbd            /run/samba/msg.sock/736
+unix  2      [ ACC ]     STREAM     LISTENING       6909 1/systemd           /run/systemd/private
+unix  2      [ ]         DGRAM                     10809 224/systemd-logind  
+unix  3      [ ]         STREAM     CONNECTED      10794 236/eventlircd      
+unix  3      [ ]         STREAM     CONNECTED       9288 1/systemd           /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED      14870 466/kodi.bin        
+unix  3      [ ]         STREAM     CONNECTED      10425 227/pulseaudio      
+unix  3      [ ]         STREAM     CONNECTED      12565 1/systemd           
+unix  3      [ ]         DGRAM                      6907 1/systemd           
+unix  3      [ ]         STREAM     CONNECTED       9473 1/systemd           /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED      14876 228/dbus-daemon     /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED      10882 238/crond           
+unix  3      [ ]         STREAM     CONNECTED      11762 228/dbus-daemon     /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED       7242 147/wait-time-sync  
+unix  3      [ ]         STREAM     CONNECTED      14163 228/dbus-daemon     /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED      14802 1/systemd           /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED      14431 228/dbus-daemon     /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED      11273 228/dbus-daemon     /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED      10505 228/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTED      11314 227/pulseaudio      
+unix  2      [ ]         DGRAM                      8921 167/systemd-journal 
+unix  3      [ ]         STREAM     CONNECTED      14875 466/kodi.bin        
+unix  2      [ ]         DGRAM                     14812 453/smbd            
+unix  2      [ ]         DGRAM                     14499 451/nmbd            
+unix  2      [ ]         DGRAM                      9227 1/systemd           
+unix  3      [ ]         STREAM     CONNECTED      11014 244/sshd            
+unix  3      [ ]         STREAM     CONNECTED      14801 462/sh              
+unix  3      [ ]         STREAM     CONNECTED      10426 1/systemd           /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED      14915 466/kodi.bin        
+unix  3      [ ]         STREAM     CONNECTED      10208 1/systemd           /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED      11271 228/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTED      14831 228/dbus-daemon     /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED      13882 430/connmand        
+unix  3      [ ]         DGRAM                     10015 214/systemd-udevd   
+unix  3      [ ]         STREAM     CONNECTED      10207 224/systemd-logind  
+unix  3      [ ]         STREAM     CONNECTED      12566 228/dbus-daemon     /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED      14394 1/systemd           /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM                      6908 1/systemd           
+unix  3      [ ]         STREAM     CONNECTED      10795 1/systemd           /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED      11761 227/pulseaudio      
+unix  3      [ ]         STREAM     CONNECTED      14830 453/smbd            
+unix  2      [ ]         DGRAM                     13797 228/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTED      10883 1/systemd           /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED      14916 228/dbus-daemon     /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED      14393 450/wpa_supplicant  
+unix  3      [ ]         STREAM     CONNECTED      14953 228/dbus-daemon     /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED      14162 436/avahi-daemon: r 
+unix  3      [ ]         DGRAM                     10016 214/systemd-udevd   
+unix  2      [ ]         STREAM     CONNECTED      14867 236/eventlircd      /run/lirc/lircd
+unix  2      [ ]         DGRAM                     13886 430/connmand        
+unix  3      [ ]         STREAM     CONNECTED      10908 224/systemd-logind  
+unix  2      [ ]         DGRAM                     11313 225/connman-vpnd    
+unix  3      [ ]         STREAM     CONNECTED      10506 1/systemd           /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED      14869 236/eventlircd      /run/lirc/lircd
+unix  3      [ ]         STREAM     CONNECTED      10001 214/systemd-udevd   
+unix  3      [ ]         STREAM     CONNECTED      10002 1/systemd           /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED      14104 1/systemd           /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED      14952 466/kodi.bin        
+unix  3      [ ]         STREAM     CONNECTED      11270 228/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTED      11274 228/dbus-daemon     /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED      14868 466/kodi.bin        
+unix  2      [ ]         DGRAM                     10013 214/systemd-udevd   
+unix  2      [ ]         DGRAM                     14127 436/avahi-daemon: r 
+unix  3      [ ]         STREAM     CONNECTED      10909 225/connman-vpnd    
+unix  3      [ ]         STREAM     CONNECTED      14430 450/wpa_supplicant  
+unix  3      [ ]         STREAM     CONNECTED      11327 228/dbus-daemon     /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED      14871 228/dbus-daemon     /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED       9472 181/rpcbind         
+unix  3      [ ]         STREAM     CONNECTED      14103 436/avahi-daemon: r 
+unix  3      [ ]         STREAM     CONNECTED      13883 228/dbus-daemon     /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED      11015 1/systemd           /run/systemd/journal/stdout
+
+################################################################################
+# ... output of connmanctl services
+# LibreELEC release: RPi.arm-9.2.6
+# 
+################################################################################
+*AR Wired                ethernet_a0cec8377285_cable
+    a10                  wifi_0087244055a7_613130_managed_psk
+    NotN0w               wifi_0087244055a7_4e6f744e3077_managed_psk
+    EE-frk76c            wifi_0087244055a7_45452d66726b373663_managed_psk
+
+################################################################################
+# ... output of cat /etc/resolv.conf
+# LibreELEC release: RPi.arm-9.2.6
+# 
+################################################################################
+# Generated by Connection Manager
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+

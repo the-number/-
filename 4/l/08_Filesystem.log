@@ -1,0 +1,55 @@
+################################################################################
+# ... output of cat /proc/mounts
+# LibreELEC release: RPi.arm-9.2.6
+# 
+################################################################################
+devtmpfs /dev devtmpfs rw,relatime,size=166296k,nr_inodes=41574,mode=755 0 0
+proc /proc proc rw,relatime 0 0
+sysfs /sys sysfs rw,relatime 0 0
+/dev/mmcblk0p1 /flash vfat ro,noatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,errors=remount-ro 0 0
+/dev/loop0 / squashfs ro,relatime 0 0
+/dev/mmcblk0p2 /storage ext4 rw,noatime 0 0
+tmpfs /dev/shm tmpfs rw,nosuid,nodev 0 0
+devpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0
+tmpfs /run tmpfs rw,nosuid,nodev,mode=755 0 0
+tmpfs /sys/fs/cgroup tmpfs ro,nosuid,nodev,noexec,mode=755 0 0
+cgroup2 /sys/fs/cgroup/unified cgroup2 rw,nosuid,nodev,noexec,relatime,nsdelegate 0 0
+cgroup /sys/fs/cgroup/systemd cgroup rw,nosuid,nodev,noexec,relatime,xattr,name=systemd 0 0
+bpf /sys/fs/bpf bpf rw,nosuid,nodev,noexec,relatime,mode=700 0 0
+cgroup /sys/fs/cgroup/cpu,cpuacct cgroup rw,nosuid,nodev,noexec,relatime,cpu,cpuacct 0 0
+cgroup /sys/fs/cgroup/freezer cgroup rw,nosuid,nodev,noexec,relatime,freezer 0 0
+cgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0
+cgroup /sys/fs/cgroup/devices cgroup rw,nosuid,nodev,noexec,relatime,devices 0 0
+cgroup /sys/fs/cgroup/memory cgroup rw,nosuid,nodev,noexec,relatime,memory 0 0
+tmpfs /var tmpfs rw,relatime 0 0
+debugfs /sys/kernel/debug debugfs rw,nosuid,nodev,noexec,relatime 0 0
+mqueue /dev/mqueue mqueue rw,nosuid,nodev,noexec,relatime 0 0
+configfs /sys/kernel/config configfs rw,nosuid,nodev,noexec,relatime 0 0
+tmpfs /tmp tmpfs rw,nosuid,nodev 0 0
+
+################################################################################
+# ... output of df -h
+# LibreELEC release: RPi.arm-9.2.6
+# 
+################################################################################
+Filesystem                Size      Used Available Use% Mounted on
+devtmpfs                162.4M      4.0K    162.4M   0% /dev
+/dev/mmcblk0p1          511.7M    139.7M    372.0M  27% /flash
+/dev/loop0              127.0M    127.0M         0 100% /
+/dev/mmcblk0p2           27.7G    493.9M     27.2G   2% /storage
+tmpfs                   168.6M         0    168.6M   0% /dev/shm
+tmpfs                   168.6M      7.6M    160.9M   5% /run
+tmpfs                   168.6M         0    168.6M   0% /sys/fs/cgroup
+tmpfs                   168.6M      2.2M    166.4M   1% /var
+tmpfs                   168.6M    160.0K    168.4M   0% /tmp
+
+################################################################################
+# ... output of blkid
+# LibreELEC release: RPi.arm-9.2.6
+# 
+################################################################################
+/dev/mmcblk0p1: SEC_TYPE="msdos" LABEL_FATBOOT="LIBREELEC" LABEL="LIBREELEC" UUID="2410-1812" TYPE="vfat" PARTUUID="e339d541-01"
+/dev/mmcblk0p2: LABEL="STORAGE" UUID="7f1e268e-74d3-4de4-91ee-c65be6be2ae7" TYPE="ext4" PARTUUID="e339d541-02"
+/dev/loop0: TYPE="squashfs"
+/dev/mmcblk0: PTUUID="e339d541" PTTYPE="dos"
+
