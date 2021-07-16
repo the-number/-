@@ -1,9 +1,9 @@
 * The USB Gadget and the Pi
 Does this work?
 ** This iPad
-[[./i/0/png]]
+[[./i/0.png]]
 ** Things for this
-[[.5/jpg]]
+[[./i/5.jpg]]
 *** config.txt
 : dtoverlay=dwc2
 *** cmdline.txt
