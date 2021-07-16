@@ -1,0 +1,16 @@
+* The USB Gadget and the Pi
+Does this work?
+** This iPad
+[[./i/0/png]]
+*** config.txt
+: dtoverlay=dwc2
+*** cmdline.txt
+(after rootwait, exactly one space)
+: modules-load=dwc2,g_ether
+** The Pi to boot
+[[./i/1.jpg]]
+** The Pi Terminus
+*** The address
+[[./i/2.png]]
+*** The Pi on Air over USB
+[[./i/3.png]]
