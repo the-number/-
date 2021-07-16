@@ -4,10 +4,14 @@ Does this work?
 [[./i/0.png]]
 ** Things for this
 [[./i/5.jpg]]
+** SD memory for this iPad to change
+[[./i/6.png]]
 *** config.txt
 : dtoverlay=dwc2
+[[./i/8.png]]
 *** cmdline.txt
 (after rootwait, exactly one space)
+[[./i/7.png]]
 : modules-load=dwc2,g_ether
 ** The Pi to boot
 [[./i/1.jpg]]
