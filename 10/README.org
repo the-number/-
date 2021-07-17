@@ -4,7 +4,7 @@
 ** B, ready to halt after eight minutes
 [[https://share.icloud.com/photos/0axkMvDi4VddwTv9DQnipvqXg]]
 ** On the Pi in a secure shell
-[[https:https://share.icloud.com/photos/0Pj3AuRDZvrAQf3NfMlnes0vg//share.icloud.com/photos/0AFFhdpoDy2C9R1hwQPKH_3Tg]]
+[[https://share.icloud.com/photos/0AFFhdpoDy2C9R1hwQPKH_3Tg]]
 ** And finally
 [[https://share.icloud.com/photos/0Pj3AuRDZvrAQf3NfMlnes0vg]]
 # Howto
