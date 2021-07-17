@@ -1,9 +1,15 @@
  Eight Minutes
 ** A, to get the idea
-[[url1]]
+[[https://share.icloud.com/photos/0CvEtiqU3848f4cl1GiTeOhuQ]]
 ** B, ready to halt after eight minutes
-[[url2]]
+[[https://share.icloud.com/photos/0axkMvDi4VddwTv9DQnipvqXg]]
 ** On the Pi in a secure shell
-[[url3]]
+[[https:https://share.icloud.com/photos/0Pj3AuRDZvrAQf3NfMlnes0vg//share.icloud.com/photos/0AFFhdpoDy2C9R1hwQPKH_3Tg]]
 ** And finally
-[[url4]]
+[[https://share.icloud.com/photos/0Pj3AuRDZvrAQf3NfMlnes0vg]]
+# Howto
+# Go to the shared album in the iCloud photos on the web
+# bring up the photo
+# share->copy link
+# back here, paste
+# How does it look?
