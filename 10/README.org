@@ -1,0 +1,9 @@
+ Eight Minutes
+** A, to get the idea
+[[url1]]
+** B, ready to halt after eight minutes
+[[url2]]
+** On the Pi in a secure shell
+[[url3]]
+** And finally
+[[url4]]
