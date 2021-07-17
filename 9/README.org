@@ -6,6 +6,12 @@ Does this work?
 [[./i/5.jpg]]
 ** SD memory for this iPad to change
 [[./i/6.png]]
+** Here, we pause, as more needs to be
+   here is the picture, so far
+[[./i/e0.jpg]]
+# there is a file that tells about the device tree, the overlays,
+# and the device tree parameters
+# the-number/pi/11 tells just enough of this story to advance here
 *** config.txt
 : dtoverlay=dwc2
 [[./i/8.png]]
