@@ -1,4 +1,4 @@
- Eight Minutes
+* Eight Minutes
 ** A, to get the idea
 [[https://share.icloud.com/photos/0CvEtiqU3848f4cl1GiTeOhuQ]]
 ** B, ready to halt after eight minutes
@@ -12,4 +12,4 @@
 # bring up the photo
 # share->copy link
 # back here, paste
-# How does it look?
+# How does it look?  Not so pretty, let's see the pdf.
