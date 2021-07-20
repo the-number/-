@@ -8,7 +8,7 @@
   [[./i/0.jpg]]
 ** Before anything else, switch on to check
   The Raspberry Pi still works;  it hasn't fallen ill since it last saw life.
-  [[./i/1.pnp]]
+  [[./i/1.png]]
 ** Check again from a terminal over the net
   [[./i/2.png]]
 ** Plug the converter's USB into the desktop's USB socket
