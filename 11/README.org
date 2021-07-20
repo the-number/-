@@ -1,0 +1,17 @@
+* Serial connection over the universal serial bus
+ - pin 6: GND
+ - pin 8: TX
+ - pin 10: RX
+** The extra bits
+  apart from the Pi-0-W, we add a USB to TTL converter, together with three strands of wire
+  to wire the TTL end of the converter to the Pi's GPIO pins 6, 8, and 10.
+  [[./i/0.jpg]]
+** Before anything else, switch on to check
+  The Raspberry Pi still works;  it hasn't fallen ill since it last saw life.
+  [[./i/1.jpg]]
+** Check again from a terminal over the net
+  [[./i/2.png]]
+** Plug the converter's USB into the desktop's USB socket
+  [[./i/3.jpg]]
+  So far, so good (Now, the fun may start).
+# A tough decision was made of placing the dot that concludes this narrative.
