@@ -5,16 +5,16 @@
 ** The π0w has a part in this
 [[./i/e.jpg]]
 # also the power, and suitable cables, and adapters
-** Ready to connect
+** Ready to connect, set to start
 [[./i/f.jpg]]
-** Set to start
-[[./i/0.jpg]]
-Efficient numbers re-cycling
+# Efficient numbers re-cycling
 ** Take control from the browser
-[[./i/1.png]]
+[[./i/0.png]]
 # a screenshot from the iPad
 # http::192.168.43.129:8080
 # an address configured, earlier, using the KODI LebreELEC setup add-on
-*Î* The time, the place, on record
-[[./i/2.jog]]
+** The time, the place, on record
+[[./i/1.jog]]
 # Pathe, Times, 1960 to 1969
+[[main.conf][(the interesting thing on the pi)
+# in the context of netting
