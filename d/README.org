@@ -9,12 +9,12 @@
 [[./i/f.jpg]]
 # Efficient numbers re-cycling
 ** Take control from the browser
-[[./i/0.png]]
-# a screenshot from the iPad
+[[./i/0.jpg]]
+# a screenshot from the iPad, and it is becoming interesting just to see this iPad choosin jpg or png
 # http::192.168.43.129:8080
 # an address configured, earlier, using the KODI LebreELEC setup add-on
 ** The time, the place, on record
-[[./i/1.jog]]
+[[./i/1.jpg]]
 # Pathe, Times, 1960 to 1969
 [[main.conf][(the interesting thing on the pi)]]
 # in the context of netting
