@@ -7,17 +7,25 @@ http://ipv4.connman.net/online/status.html
 % So, how much work is it to pasted a bit?
 ConnMan sends this very minimal information in http header when doing
 the online check request (example):
-	Host: ipv4.connman.net
+
+{\tt	Host: ipv4.connman.net
+
 	User-Agent: ConnMan/1.23 wispr
-	Connection: close
+
+	Connection: close}
 
 Currently following information is returned from connman.net if
 the connection is successful (200 OK http response code is returned):
-	Server: nginx
+
+{\tt	Server: nginx
+
 	Date: Mon, 09 Jun 2014 09:25:42 GMT
+
 	Content-Type: text/html
+
 	Connection: close
-	X-ConnMan-Status: online
+
+	X-ConnMan-Status: online}
 
 The X-ConnMan-Status field is used in portal detection, if it is missing
 ConnMan will call RequestBrowser method in net.connman.Agent dbus
