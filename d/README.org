@@ -16,5 +16,5 @@
 ** The time, the place, on record
 [[./i/1.jog]]
 # Pathe, Times, 1960 to 1969
-[[main.conf][(the interesting thing on the pi)
+[[main.conf][(the interesting thing on the pi)]]
 # in the context of netting
