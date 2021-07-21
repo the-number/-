@@ -15,6 +15,6 @@ Efficient numbers re-cycling
 # a screenshot from the iPad
 # http::192.168.43.129:8080
 # an address configured, earlier, using the KODI LebreELEC setup add-on
-*Î* The time, the place, on record
+*ÃŽ* The time, the place, on record
 [[./i/2.jog]]
 # Pathe, Times, 1960 to 1969
