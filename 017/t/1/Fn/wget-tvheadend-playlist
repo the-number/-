@@ -1,0 +1,4 @@
+wget-tvheadend-playlist () 
+{ 
+    wget --http-user=admin --http-password=$TVID http://localhost:9981/playlist
+}

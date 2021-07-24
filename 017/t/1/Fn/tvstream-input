@@ -1,0 +1,5 @@
+tvstream-input () 
+{ 
+    local D="place the TV stream into the pipe";
+    wget --http-user=admin --http-password=$TVID $( this-channel "$*" ) -O $TVPIPE &
+}

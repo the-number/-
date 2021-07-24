@@ -1,0 +1,4 @@
+play-this-channel () 
+{ 
+    omxplayer -o hdmi $TVPIPE "$@"
+}

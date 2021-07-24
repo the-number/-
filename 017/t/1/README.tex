@@ -1,0 +1,27 @@
+% 20210724 Saturday, cast: a FIFO, tvheadend, a player
+
+\eject
+\hrule
+\vskip0.4in
+\tt
+First, make a FIFO
+
+Second, acquire a playlist that gives a URL for each channel
+
+Third, feed the stream, as identified by its URL on the playist, into the FIFO
+
+Fourth, the player plays, being fed by the FIFO
+
+\vskip0.4in
+First must be before the third, and the fourth.
+
+Second must be before the third
+
+
+All other combinations could possibly vary; in particular, the player
+may wait for the FIFO to be fed its input.
+
+\vskip 0.4in
+\hrule
+\vfill\eject
+\end

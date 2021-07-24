@@ -1,0 +1,5 @@
+this-channel () 
+{ 
+    local D="extract the URL from the playlist for the given channel name";
+    sed playlist -e '/'"$*"'/,+1p' -n | tail -1
+}

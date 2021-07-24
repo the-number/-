@@ -1,0 +1,5 @@
+mkfifo-tvstream () 
+{ 
+    local D="make a FIFO to stream TV from tvheadend to a player";
+    mkfifo $TVPIPE
+}
