@@ -8,3 +8,6 @@
 * Connecting
 # free with non-free, an issue, still
 [[./i/1.jpg]]
+* Building on the Pi02
+# make
+[[./i/2.jpg]]
