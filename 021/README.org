@@ -1,0 +1,7 @@
+# 20210731, Saturday -- on a (probable) path
+* The Pi for Guix
+# first, GNU Guile (v3.0.7)
+# sh -x ./autogen.sh
+# ./configure --disable-jit --enable-gmb-mini
+# make | tee @/3/make-$( date +%Y%m%d-%H%M%S )-log
+[[./i/0.jpg]]
