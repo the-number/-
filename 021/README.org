@@ -5,3 +5,6 @@
 # ./configure --disable-jit --enable-gmb-mini
 # make | tee @/3/make-$( date +%Y%m%d-%H%M%S )-log
 [[./i/0.jpg]]
+* Connecting
+# free with non-free, an issue, still
+[[./i/1.jpg]]
