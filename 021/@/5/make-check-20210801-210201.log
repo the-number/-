@@ -1,0 +1,1068 @@
+  GEN      public-submodule-commit
+make  check-recursive
+make[1]: Entering directory '/home/gunter/Data/pi02/GNU/guile'
+Making check in lib
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/lib'
+make  check-recursive
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/lib'
+make[4]: Entering directory '/home/gunter/Data/pi02/GNU/guile/lib'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/lib'
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/lib'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/lib'
+Making check in meta
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/meta'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/meta'
+Making check in libguile
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+make  check-am
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+Making check in bootstrap
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/bootstrap'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/bootstrap'
+Making check in module
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/module'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/module'
+Making check in guile-readline
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/guile-readline'
+make  check-am
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/guile-readline'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/guile-readline'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/guile-readline'
+Making check in examples
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/examples'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/examples'
+Making check in emacs
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/emacs'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/emacs'
+Making check in test-suite
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/test-suite'
+Making check in standalone
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/test-suite/standalone'
+make  check-am
+make[4]: Entering directory '/home/gunter/Data/pi02/GNU/guile/test-suite/standalone'
+make  test-num2integral test-round test-foreign-object-c test-list test-unwind test-conversion test-loose-ends test-scm-c-read test-scm-take-locale-symbol test-scm-take-u8vector test-scm-to-latin1-string test-scm-values test-scm-c-bind-keyword-arguments test-srfi-4 test-with-guile-module test-scm-with-guile test-scm-spawn-thread test-pthread-create test-pthread-create-secondary test-smob-mark test-smob-mark-race test-system-cmds test-bad-identifiers test-require-extension test-guile-snarf test-import-order test-command-line-encoding test-command-line-encoding2 test-language test-guild-compile test-signal-fork test-asmobs test-ffi test-foreign-object-scm test-fast-slot-ref test-mb-regexp test-use-srfi test-extensions test-stack-overflow test-out-of-memory
+make[5]: Entering directory '/home/gunter/Data/pi02/GNU/guile/test-suite/standalone'
+  CC       test_num2integral-test-num2integral.o
+  CCLD     test-num2integral
+  CC       test_round-test-round.o
+  CCLD     test-round
+  CC       test_foreign_object_c-test-foreign-object-c.o
+  CCLD     test-foreign-object-c
+  CC       test_list-test-list.o
+  CCLD     test-list
+  CC       test_unwind-test-unwind.o
+  CCLD     test-unwind
+  CC       test_conversion-test-conversion.o
+  CCLD     test-conversion
+  CC       test_loose_ends-test-loose-ends.o
+  CCLD     test-loose-ends
+  CC       test_scm_c_read-test-scm-c-read.o
+  CCLD     test-scm-c-read
+  CC       test_scm_take_locale_symbol-test-scm-take-locale-symbol.o
+  CCLD     test-scm-take-locale-symbol
+  CC       test_scm_take_u8vector-test-scm-take-u8vector.o
+  CCLD     test-scm-take-u8vector
+  CC       test_scm_to_latin1_string-test-scm-to-latin1-string.o
+  CCLD     test-scm-to-latin1-string
+  CC       test_scm_values-test-scm-values.o
+  CCLD     test-scm-values
+  CC       test_scm_c_bind_keyword_arguments-test-scm-c-bind-keyword-arguments.o
+  CCLD     test-scm-c-bind-keyword-arguments
+  CC       test_srfi_4-test-srfi-4.o
+  CCLD     test-srfi-4
+  CC       test_with_guile_module-test-with-guile-module.o
+  CCLD     test-with-guile-module
+  CC       test_scm_with_guile-test-scm-with-guile.o
+  CCLD     test-scm-with-guile
+  CC       test_scm_spawn_thread-test-scm-spawn-thread.o
+  CCLD     test-scm-spawn-thread
+  CC       test_pthread_create-test-pthread-create.o
+  CCLD     test-pthread-create
+  CC       test_pthread_create_secondary-test-pthread-create-secondary.o
+  CCLD     test-pthread-create-secondary
+  CC       test_smob_mark-test-smob-mark.o
+  CCLD     test-smob-mark
+  CC       test_smob_mark_race-test-smob-mark-race.o
+  CCLD     test-smob-mark-race
+make[5]: Nothing to be done for 'test-system-cmds'.
+make[5]: Nothing to be done for 'test-bad-identifiers'.
+make[5]: Nothing to be done for 'test-require-extension'.
+make[5]: Nothing to be done for 'test-guile-snarf'.
+make[5]: Nothing to be done for 'test-import-order'.
+make[5]: Nothing to be done for 'test-command-line-encoding'.
+make[5]: Nothing to be done for 'test-command-line-encoding2'.
+make[5]: Nothing to be done for 'test-language'.
+make[5]: Nothing to be done for 'test-guild-compile'.
+make[5]: Nothing to be done for 'test-signal-fork'.
+make[5]: Nothing to be done for 'test-asmobs'.
+make[5]: Nothing to be done for 'test-ffi'.
+make[5]: Nothing to be done for 'test-foreign-object-scm'.
+make[5]: 'test-fast-slot-ref' is up to date.
+make[5]: Nothing to be done for 'test-mb-regexp'.
+make[5]: 'test-use-srfi' is up to date.
+make[5]: Nothing to be done for 'test-extensions'.
+make[5]: Nothing to be done for 'test-stack-overflow'.
+make[5]: Nothing to be done for 'test-out-of-memory'.
+make[5]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/test-suite/standalone'
+make  check-TESTS
+make[5]: Entering directory '/home/gunter/Data/pi02/GNU/guile/test-suite/standalone'
+PASS: test-system-cmds
+PASS: test-bad-identifiers
+PASS: test-require-extension
+PASS: test-guile-snarf
+PASS: test-import-order
+PASS: test-command-line-encoding
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US)
+guile: warning: failed to install locale
+PASS: test-command-line-encoding2
+PASS: test-language
+error: interrupted by the user
+PASS: test-guild-compile
+wrote `/home/gunter/Data/pi02/GNU/guile/cache/guile/ccache/3.0-LE-4-4.6/home/gunter/Data/pi02/GNU/guile/test-suite/standalone/test-signal-fork.go'
+parent: 14284
+.child: 14334
+..................................................
+;;; (17)
+
+completed
+PASS: test-signal-fork
+PASS: test-num2integral
+PASS: test-round
+PASS: test-asmobs
+PASS: test-ffi
+PASS: test-foreign-object-scm
+PASS: test-foreign-object-c
+PASS: test-list
+PASS: test-unwind
+PASS: test-conversion
+PASS: test-loose-ends
+PASS: test-fast-slot-ref
+PASS: test-mb-regexp
+PASS: test-use-srfi
+PASS: test-scm-c-read
+PASS: test-scm-take-locale-symbol
+PASS: test-scm-take-u8vector
+PASS: test-scm-to-latin1-string
+PASS: test-scm-values
+PASS: test-scm-c-bind-keyword-arguments
+PASS: test-srfi-4
+PASS: test-extensions
+PASS: test-with-guile-module
+PASS: test-scm-with-guile
+PASS: test-scm-spawn-thread
+PASS: test-pthread-create
+PASS: test-pthread-create-secondary
+PASS: test-smob-mark
+PASS: test-smob-mark-race
+wrote `/home/gunter/Data/pi02/GNU/guile/cache/guile/ccache/3.0-LE-4-4.6/home/gunter/Data/pi02/GNU/guile/test-suite/standalone/test-stack-overflow.go'
+allocate_stack failed: Cannot allocate memory
+allocate_stack failed: Cannot allocate memory
+allocate_stack failed: Cannot allocate memory
+allocate_stack failed: Cannot allocate memory
+allocate_stack failed: Cannot allocate memory
+PASS: test-stack-overflow
+wrote `/home/gunter/Data/pi02/GNU/guile/cache/guile/ccache/3.0-LE-4-4.6/home/gunter/Data/pi02/GNU/guile/test-suite/standalone/test-out-of-memory.go'
+GC Warning: Failed to expand heap by 67239936 bytes
+GC Warning: Failed to expand heap by 67108864 bytes
+GC Warning: Out of Memory! Heap size: 1 MiB. Returning NULL!
+GC Warning: Failed to expand heap by 1000132608 bytes
+GC Warning: Failed to expand heap by 1000001536 bytes
+GC Warning: Out of Memory! Heap size: 1 MiB. Returning NULL!
+GC Warning: Failed to expand heap by 8388608 bytes
+GC Warning: Failed to expand heap by 8388608 bytes
+GC Warning: Failed to expand heap by 8388608 bytes
+GC Warning: Failed to expand heap by 8388608 bytes
+GC Warning: Failed to expand heap by 8388608 bytes
+GC Warning: Failed to expand heap by 8388608 bytes
+GC Warning: Failed to expand heap by 8388608 bytes
+GC Warning: Failed to expand heap by 8388608 bytes
+GC Warning: Failed to expand heap by 8388608 bytes
+GC Warning: Failed to expand heap by 8388608 bytes
+GC Warning: Failed to expand heap by 8388608 bytes
+GC Warning: Failed to expand heap by 8388608 bytes
+GC Warning: Failed to expand heap by 65536 bytes
+GC Warning: Out of Memory! Heap size: 27 MiB. Returning NULL!
+GC Warning: Failed to expand heap by 65536 bytes
+GC Warning: Out of Memory! Heap size: 27 MiB. Returning NULL!
+GC Warning: Failed to expand heap by 65536 bytes
+GC Warning: Out of Memory! Heap size: 27 MiB. Returning NULL!
+PASS: test-out-of-memory
+===================
+All 40 tests passed
+===================
+make[5]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/test-suite/standalone'
+make[4]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/test-suite/standalone'
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/test-suite/standalone'
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/test-suite'
+make  check-TESTS
+make[4]: Entering directory '/home/gunter/Data/pi02/GNU/guile/test-suite'
+PASS: lalr/test-glr-associativity.scm
+PASS: lalr/test-glr-basics-01.scm
+%% Shift/Reduce conflict (shift 1, reduce 3) on 'A' in state 0
+PASS: lalr/test-glr-basics-02.scm
+%% Shift/Reduce conflict (shift 1, reduce 5) on 'A' in state 0
+PASS: lalr/test-glr-basics-03.scm
+%% Shift/Reduce conflict (shift 1, reduce 4) on 'A' in state 0
+PASS: lalr/test-glr-basics-04.scm
+%% Shift/Reduce conflict (shift 1, reduce 4) on 'A' in state 0
+PASS: lalr/test-glr-basics-05.scm
+%% Shift/Reduce conflict (shift 5, reduce 2) on 'error' in state 8
+%% Shift/Reduce conflict (shift 4, reduce 2) on 'N' in state 8
+%% Shift/Reduce conflict (shift 3, reduce 2) on 'O' in state 8
+%% Shift/Reduce conflict (shift 2, reduce 2) on 'T' in state 8
+PASS: lalr/test-glr-script-expression.scm
+PASS: lalr/test-glr-single-expressions.scm
+%% Reduce/Reduce conflict (reduce 5, reduce 4) on 'M' in state 11
+%% Reduce/Reduce conflict (reduce 5, reduce 4) on 'A' in state 11
+%% Reduce/Reduce conflict (reduce 5, reduce 4) on '*eoi*' in state 11
+PASS: lalr/test-lr-associativity-01.scm
+PASS: lalr/test-lr-basics-01.scm
+PASS: lalr/test-lr-basics-02.scm
+PASS: lalr/test-lr-basics-03.scm
+PASS: lalr/test-lr-basics-04.scm
+PASS: lalr/test-lr-basics-05.scm
+PASS: lalr/test-lr-error-recovery-01.scm
+PASS: lalr/test-lr-error-recovery-02.scm
+PASS: lalr/test-lr-no-clause.scm
+PASS: lalr/test-lr-script-expression.scm
+PASS: lalr/test-lr-single-expressions.scm
+===================
+All 19 tests passed
+===================
+make[4]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/test-suite'
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/test-suite'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/test-suite'
+Making check in benchmark-suite
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/benchmark-suite'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/benchmark-suite'
+Making check in gc-benchmarks
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/gc-benchmarks'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/gc-benchmarks'
+Making check in am
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/am'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/am'
+Making check in doc
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/doc'
+Making check in ref
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/doc/ref'
+  MAKEINFO guile.info
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/doc/ref'
+Making check in r5rs
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/doc/r5rs'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/doc/r5rs'
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/doc'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/doc'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/doc'
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile'
+make  check-TESTS
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile'
+Testing /home/gunter/Data/pi02/GNU/guile/meta/guile ...
+with GUILE_LOAD_PATH=/home/gunter/Data/pi02/GNU/guile/test-suite
+Running 00-initial-env.test
+Running 00-repl-server.test
+Running 00-socket.test
+WARNING: Use of `load' in declarative module (test-suite guile-test).  Add #:declarative? #f to your define-module invocation.
+Running alist.test
+Running and-let-star.test
+Running array-map.test
+Running arrays.test
+Running asyncs.test
+Running atomic.test
+Running bit-operations.test
+Running bitvectors.test
+Running brainfuck.test
+Running bytevectors.test
+Running c-api.test
+Running chars.test
+Running coding.test
+Running common-list.test
+Running compiler.test
+Running continuations.test
+Running control.test
+Running copy-tree.test
+Running coverage.test
+Running cross-compilation.test
+Running curried-definitions.test
+Running dwarf.test
+Running ecmascript.test
+Running elisp-compiler.test
+Running elisp-reader.test
+Running elisp.test
+Running encoding-escapes.test
+Running encoding-iso88591.test
+Running encoding-iso88597.test
+Running encoding-utf8.test
+Running eval-string.test
+Running eval.test
+Running exceptions.test
+Running fdes-finalizers.test
+Running filesys.test
+Running fluids.test
+Running foreign.test
+UNRESOLVED: foreign.test: pointer<->string: bijection [latin1]
+Running format.test
+Running fractions.test
+Running ftw.test
+Running future.test
+Running gc.test
+Running getopt-long.test
+Running goops.test
+Running guardians.test
+UNRESOLVED: guardians.test: g2-garbage saved
+Running hash.test
+Running hooks.test
+Running i18n.test
+UNRESOLVED: i18n.test: text collation (French): string-locale<?
+UNRESOLVED: i18n.test: text collation (French): char-locale<?
+UNRESOLVED: i18n.test: text collation (French): string-locale-ci=?
+UNRESOLVED: i18n.test: text collation (French): string-locale-ci=? (2 args, wide strings)
+UNRESOLVED: i18n.test: text collation (French): string-locale<?, bis
+UNRESOLVED: i18n.test: text collation (French): string-locale-ci=?, bis
+UNRESOLVED: i18n.test: text collation (French): string-locale-ci=? (3 args, wide strings)
+UNRESOLVED: i18n.test: text collation (French): string-locale-ci<>?
+UNRESOLVED: i18n.test: text collation (French): string-locale-ci<>? (wide strings)
+UNRESOLVED: i18n.test: text collation (French): string-locale-ci<>? (wide and narrow strings)
+UNRESOLVED: i18n.test: text collation (French): char-locale-ci<>?
+UNRESOLVED: i18n.test: text collation (French): char-locale-ci<>? (wide)
+UNRESOLVED: i18n.test: text collation (German): string-locale-ci=?
+UNRESOLVED: i18n.test: text collation (Greek): string-locale-ci=?
+UNRESOLVED: i18n.test: text collation (Czech): string-locale<? for 'ch'
+UNRESOLVED: i18n.test: character mapping: char-locale-upcase Turkish
+UNRESOLVED: i18n.test: character mapping: char-locale-downcase Turkish
+UNRESOLVED: i18n.test: string mapping: string-locale-upcase German
+UNRESOLVED: i18n.test: string mapping: string-locale-upcase Greek
+UNRESOLVED: i18n.test: string mapping: string-locale-upcase Greek (two sigmas)
+UNRESOLVED: i18n.test: string mapping: string-locale-downcase Greek
+UNRESOLVED: i18n.test: string mapping: string-locale-downcase Greek (two sigmas)
+UNRESOLVED: i18n.test: string mapping: string-locale-upcase Turkish
+UNRESOLVED: i18n.test: string mapping: string-locale-downcase Turkish
+UNRESOLVED: i18n.test: number parsing: locale-string->inexact (French)
+UNRESOLVED: i18n.test: nl-langinfo et al.: locale-day (French)
+UNRESOLVED: i18n.test: nl-langinfo et al.: locale-day (French, using `%global-locale')
+UNRESOLVED: i18n.test: nl-langinfo et al.: default locale
+UNRESOLVED: i18n.test: nl-langinfo et al.: locale-am-string (greek)
+UNRESOLVED: i18n.test: nl-langinfo et al.: locale-pm-string (Greek)
+UNRESOLVED: i18n.test: nl-langinfo et al.: locale-digit-grouping (French)
+UNRESOLVED: i18n.test: nl-langinfo et al.: locale-monetary-grouping (French)
+UNRESOLVED: i18n.test: number->locale-string: French: integer
+UNRESOLVED: i18n.test: number->locale-string: French: negative integer
+UNRESOLVED: i18n.test: number->locale-string: French: fraction
+UNRESOLVED: i18n.test: number->locale-string: French: fraction, 1 digit
+UNRESOLVED: i18n.test: format ~h: French: 12345.678
+UNRESOLVED: i18n.test: monetary-amount->locale-string: French: integer
+UNRESOLVED: i18n.test: monetary-amount->locale-string: French: fraction
+UNRESOLVED: i18n.test: monetary-amount->locale-string: French: positive inexact zero
+UNRESOLVED: i18n.test: monetary-amount->locale-string: French: one cent
+UNRESOLVED: i18n.test: monetary-amount->locale-string: French: very little money
+Running iconv.test
+Running import.test
+Running interp.test
+Running keywords.test
+Running linker.test
+Running list.test
+Running load.test
+Running match.test
+Running modules.test
+Running net-db.test
+Running numbers.test
+Running optargs.test
+Running options.test
+Running pairs.test
+Running parameters.test
+Running peg.test
+Running peval.test
+Running poe.test
+Running popen.test
+Running ports.test
+Running posix.test
+Running print.test
+Running procprop.test
+Running procs.test
+Running q.test
+Running r4rs.test
+Running r5rs_pitfall.test
+Running r6rs-arithmetic-bitwise.test
+Running r6rs-arithmetic-fixnums.test
+UNRESOLVED: r6rs-arithmetic-fixnums.test: fx+/carry: simple
+UNRESOLVED: r6rs-arithmetic-fixnums.test: fx-/carry: simple
+UNRESOLVED: r6rs-arithmetic-fixnums.test: fx*/carry: simple
+Running r6rs-arithmetic-flonums.test
+Running r6rs-base.test
+Running r6rs-conditions.test
+Running r6rs-control.test
+Running r6rs-enums.test
+Running r6rs-eval.test
+Running r6rs-exceptions.test
+Running r6rs-files.test
+Running r6rs-hashtables.test
+Running r6rs-lists.test
+Running r6rs-ports.test
+Running r6rs-records-inspection.test
+Running r6rs-records-procedural.test
+Running r6rs-records-syntactic.test
+Running r6rs-unicode.test
+UNRESOLVED: r6rs-unicode.test: string-foldcase: case folding expands string
+Running r7rs.test
+Running random.test
+Running rdelim.test
+Running reader.test
+Running receive.test
+Running records.test
+Running regexp.test
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 128 #\200 "\x80")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 129 #\201 "\x81")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 130 #\202 "\x82")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 131 #\203 "\x83")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 132 #\204 "\x84")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 133 #\205 "\x85")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 134 #\206 "\x86")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 135 #\207 "\x87")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 136 #\210 "\x88")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 137 #\211 "\x89")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 138 #\212 "\x8a")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 139 #\213 "\x8b")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 140 #\214 "\x8c")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 141 #\215 "\x8d")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 142 #\216 "\x8e")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 143 #\217 "\x8f")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 144 #\220 "\x90")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 145 #\221 "\x91")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 146 #\222 "\x92")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 147 #\223 "\x93")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 148 #\224 "\x94")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 149 #\225 "\x95")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 150 #\226 "\x96")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 151 #\227 "\x97")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 152 #\230 "\x98")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 153 #\231 "\x99")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 154 #\232 "\x9a")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 155 #\233 "\x9b")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 156 #\234 "\x9c")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 157 #\235 "\x9d")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 158 #\236 "\x9e")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 159 #\237 "\x9f")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 160 #\240 "\xa0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 161 #\\xa1 "\xa1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 162 #\\xa2 "\xa2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 163 #\\xa3 "\xa3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 164 #\\xa4 "\xa4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 165 #\\xa5 "\xa5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 166 #\\xa6 "\xa6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 167 #\\xa7 "\xa7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 168 #\\xa8 "\xa8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 169 #\\xa9 "\xa9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 170 #\\xaa "\xaa")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 171 #\\xab "\xab")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 172 #\\xac "\xac")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 173 #\255 "\xad")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 174 #\\xae "\xae")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 175 #\\xaf "\xaf")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 176 #\\xb0 "\xb0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 177 #\\xb1 "\xb1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 178 #\\xb2 "\xb2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 179 #\\xb3 "\xb3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 180 #\\xb4 "\xb4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 181 #\\xb5 "\xb5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 182 #\\xb6 "\xb6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 183 #\\xb7 "\xb7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 184 #\\xb8 "\xb8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 185 #\\xb9 "\xb9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 186 #\\xba "\xba")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 187 #\\xbb "\xbb")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 188 #\\xbc "\xbc")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 189 #\\xbd "\xbd")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 190 #\\xbe "\xbe")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 191 #\\xbf "\xbf")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 192 #\\xc0 "\xc0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 193 #\\xc1 "\xc1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 194 #\\xc2 "\xc2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 195 #\\xc3 "\xc3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 196 #\\xc4 "\xc4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 197 #\\xc5 "\xc5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 198 #\\xc6 "\xc6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 199 #\\xc7 "\xc7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 200 #\\xc8 "\xc8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 201 #\\xc9 "\xc9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 202 #\\xca "\xca")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 203 #\\xcb "\xcb")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 204 #\\xcc "\xcc")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 205 #\\xcd "\xcd")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 206 #\\xce "\xce")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 207 #\\xcf "\xcf")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 208 #\\xd0 "\xd0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 209 #\\xd1 "\xd1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 210 #\\xd2 "\xd2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 211 #\\xd3 "\xd3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 212 #\\xd4 "\xd4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 213 #\\xd5 "\xd5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 214 #\\xd6 "\xd6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 215 #\\xd7 "\xd7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 216 #\\xd8 "\xd8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 217 #\\xd9 "\xd9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 218 #\\xda "\xda")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 219 #\\xdb "\xdb")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 220 #\\xdc "\xdc")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 221 #\\xdd "\xdd")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 222 #\\xde "\xde")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 223 #\\xdf "\xdf")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 224 #\\xe0 "\xe0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 225 #\\xe1 "\xe1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 226 #\\xe2 "\xe2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 227 #\\xe3 "\xe3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 228 #\\xe4 "\xe4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 229 #\\xe5 "\xe5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 230 #\\xe6 "\xe6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 231 #\\xe7 "\xe7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 232 #\\xe8 "\xe8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 233 #\\xe9 "\xe9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 234 #\\xea "\xea")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 235 #\\xeb "\xeb")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 236 #\\xec "\xec")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 237 #\\xed "\xed")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 238 #\\xee "\xee")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 239 #\\xef "\xef")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 240 #\\xf0 "\xf0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 241 #\\xf1 "\xf1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 242 #\\xf2 "\xf2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 243 #\\xf3 "\xf3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 244 #\\xf4 "\xf4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 245 #\\xf5 "\xf5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 246 #\\xf6 "\xf6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 247 #\\xf7 "\xf7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 248 #\\xf8 "\xf8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 249 #\\xf9 "\xf9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 250 #\\xfa "\xfa")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 251 #\\xfb "\xfb")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 252 #\\xfc "\xfc")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 253 #\\xfd "\xfd")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 254 #\\xfe "\xfe")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (char 255 #\\xff "\xff")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 128 #\200 "a\x80" "a\x80")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 129 #\201 "a\x81" "a\x81")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 130 #\202 "a\x82" "a\x82")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 131 #\203 "a\x83" "a\x83")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 132 #\204 "a\x84" "a\x84")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 133 #\205 "a\x85" "a\x85")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 134 #\206 "a\x86" "a\x86")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 135 #\207 "a\x87" "a\x87")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 136 #\210 "a\x88" "a\x88")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 137 #\211 "a\x89" "a\x89")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 138 #\212 "a\x8a" "a\x8a")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 139 #\213 "a\x8b" "a\x8b")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 140 #\214 "a\x8c" "a\x8c")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 141 #\215 "a\x8d" "a\x8d")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 142 #\216 "a\x8e" "a\x8e")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 143 #\217 "a\x8f" "a\x8f")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 144 #\220 "a\x90" "a\x90")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 145 #\221 "a\x91" "a\x91")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 146 #\222 "a\x92" "a\x92")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 147 #\223 "a\x93" "a\x93")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 148 #\224 "a\x94" "a\x94")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 149 #\225 "a\x95" "a\x95")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 150 #\226 "a\x96" "a\x96")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 151 #\227 "a\x97" "a\x97")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 152 #\230 "a\x98" "a\x98")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 153 #\231 "a\x99" "a\x99")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 154 #\232 "a\x9a" "a\x9a")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 155 #\233 "a\x9b" "a\x9b")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 156 #\234 "a\x9c" "a\x9c")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 157 #\235 "a\x9d" "a\x9d")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 158 #\236 "a\x9e" "a\x9e")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 159 #\237 "a\x9f" "a\x9f")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 160 #\240 "a\xa0" "a\xa0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 161 #\\xa1 "a\xa1" "a\xa1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 162 #\\xa2 "a\xa2" "a\xa2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 163 #\\xa3 "a\xa3" "a\xa3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 164 #\\xa4 "a\xa4" "a\xa4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 165 #\\xa5 "a\xa5" "a\xa5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 166 #\\xa6 "a\xa6" "a\xa6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 167 #\\xa7 "a\xa7" "a\xa7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 168 #\\xa8 "a\xa8" "a\xa8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 169 #\\xa9 "a\xa9" "a\xa9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 170 #\\xaa "a\xaa" "a\xaa")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 171 #\\xab "a\xab" "a\xab")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 172 #\\xac "a\xac" "a\xac")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 173 #\255 "a\xad" "a\xad")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 174 #\\xae "a\xae" "a\xae")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 175 #\\xaf "a\xaf" "a\xaf")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 176 #\\xb0 "a\xb0" "a\xb0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 177 #\\xb1 "a\xb1" "a\xb1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 178 #\\xb2 "a\xb2" "a\xb2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 179 #\\xb3 "a\xb3" "a\xb3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 180 #\\xb4 "a\xb4" "a\xb4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 181 #\\xb5 "a\xb5" "a\xb5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 182 #\\xb6 "a\xb6" "a\xb6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 183 #\\xb7 "a\xb7" "a\xb7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 184 #\\xb8 "a\xb8" "a\xb8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 185 #\\xb9 "a\xb9" "a\xb9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 186 #\\xba "a\xba" "a\xba")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 187 #\\xbb "a\xbb" "a\xbb")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 188 #\\xbc "a\xbc" "a\xbc")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 189 #\\xbd "a\xbd" "a\xbd")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 190 #\\xbe "a\xbe" "a\xbe")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 191 #\\xbf "a\xbf" "a\xbf")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 192 #\\xc0 "a\xc0" "a\xc0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 193 #\\xc1 "a\xc1" "a\xc1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 194 #\\xc2 "a\xc2" "a\xc2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 195 #\\xc3 "a\xc3" "a\xc3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 196 #\\xc4 "a\xc4" "a\xc4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 197 #\\xc5 "a\xc5" "a\xc5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 198 #\\xc6 "a\xc6" "a\xc6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 199 #\\xc7 "a\xc7" "a\xc7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 200 #\\xc8 "a\xc8" "a\xc8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 201 #\\xc9 "a\xc9" "a\xc9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 202 #\\xca "a\xca" "a\xca")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 203 #\\xcb "a\xcb" "a\xcb")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 204 #\\xcc "a\xcc" "a\xcc")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 205 #\\xcd "a\xcd" "a\xcd")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 206 #\\xce "a\xce" "a\xce")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 207 #\\xcf "a\xcf" "a\xcf")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 208 #\\xd0 "a\xd0" "a\xd0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 209 #\\xd1 "a\xd1" "a\xd1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 210 #\\xd2 "a\xd2" "a\xd2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 211 #\\xd3 "a\xd3" "a\xd3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 212 #\\xd4 "a\xd4" "a\xd4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 213 #\\xd5 "a\xd5" "a\xd5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 214 #\\xd6 "a\xd6" "a\xd6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 215 #\\xd7 "a\xd7" "a\xd7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 216 #\\xd8 "a\xd8" "a\xd8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 217 #\\xd9 "a\xd9" "a\xd9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 218 #\\xda "a\xda" "a\xda")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 219 #\\xdb "a\xdb" "a\xdb")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 220 #\\xdc "a\xdc" "a\xdc")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 221 #\\xdd "a\xdd" "a\xdd")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 222 #\\xde "a\xde" "a\xde")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 223 #\\xdf "a\xdf" "a\xdf")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 224 #\\xe0 "a\xe0" "a\xe0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 225 #\\xe1 "a\xe1" "a\xe1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 226 #\\xe2 "a\xe2" "a\xe2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 227 #\\xe3 "a\xe3" "a\xe3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 228 #\\xe4 "a\xe4" "a\xe4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 229 #\\xe5 "a\xe5" "a\xe5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 230 #\\xe6 "a\xe6" "a\xe6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 231 #\\xe7 "a\xe7" "a\xe7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 232 #\\xe8 "a\xe8" "a\xe8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 233 #\\xe9 "a\xe9" "a\xe9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 234 #\\xea "a\xea" "a\xea")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 235 #\\xeb "a\xeb" "a\xeb")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 236 #\\xec "a\xec" "a\xec")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 237 #\\xed "a\xed" "a\xed")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 238 #\\xee "a\xee" "a\xee")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 239 #\\xef "a\xef" "a\xef")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 240 #\\xf0 "a\xf0" "a\xf0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 241 #\\xf1 "a\xf1" "a\xf1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 242 #\\xf2 "a\xf2" "a\xf2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 243 #\\xf3 "a\xf3" "a\xf3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 244 #\\xf4 "a\xf4" "a\xf4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 245 #\\xf5 "a\xf5" "a\xf5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 246 #\\xf6 "a\xf6" "a\xf6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 247 #\\xf7 "a\xf7" "a\xf7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 248 #\\xf8 "a\xf8" "a\xf8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 249 #\\xf9 "a\xf9" "a\xf9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 250 #\\xfa "a\xfa" "a\xfa")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 251 #\\xfb "a\xfb" "a\xfb")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 252 #\\xfc "a\xfc" "a\xfc")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 253 #\\xfd "a\xfd" "a\xfd")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 254 #\\xfe "a\xfe" "a\xfe")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: (string "aX" 255 #\\xff "a\xff" "a\xff")
+UNRESOLVED: regexp.test: regexp-quote: regexp/basic: string of all chars
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 128 #\200 "\x80")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 129 #\201 "\x81")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 130 #\202 "\x82")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 131 #\203 "\x83")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 132 #\204 "\x84")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 133 #\205 "\x85")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 134 #\206 "\x86")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 135 #\207 "\x87")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 136 #\210 "\x88")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 137 #\211 "\x89")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 138 #\212 "\x8a")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 139 #\213 "\x8b")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 140 #\214 "\x8c")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 141 #\215 "\x8d")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 142 #\216 "\x8e")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 143 #\217 "\x8f")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 144 #\220 "\x90")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 145 #\221 "\x91")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 146 #\222 "\x92")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 147 #\223 "\x93")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 148 #\224 "\x94")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 149 #\225 "\x95")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 150 #\226 "\x96")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 151 #\227 "\x97")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 152 #\230 "\x98")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 153 #\231 "\x99")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 154 #\232 "\x9a")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 155 #\233 "\x9b")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 156 #\234 "\x9c")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 157 #\235 "\x9d")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 158 #\236 "\x9e")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 159 #\237 "\x9f")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 160 #\240 "\xa0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 161 #\\xa1 "\xa1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 162 #\\xa2 "\xa2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 163 #\\xa3 "\xa3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 164 #\\xa4 "\xa4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 165 #\\xa5 "\xa5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 166 #\\xa6 "\xa6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 167 #\\xa7 "\xa7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 168 #\\xa8 "\xa8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 169 #\\xa9 "\xa9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 170 #\\xaa "\xaa")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 171 #\\xab "\xab")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 172 #\\xac "\xac")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 173 #\255 "\xad")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 174 #\\xae "\xae")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 175 #\\xaf "\xaf")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 176 #\\xb0 "\xb0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 177 #\\xb1 "\xb1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 178 #\\xb2 "\xb2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 179 #\\xb3 "\xb3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 180 #\\xb4 "\xb4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 181 #\\xb5 "\xb5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 182 #\\xb6 "\xb6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 183 #\\xb7 "\xb7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 184 #\\xb8 "\xb8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 185 #\\xb9 "\xb9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 186 #\\xba "\xba")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 187 #\\xbb "\xbb")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 188 #\\xbc "\xbc")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 189 #\\xbd "\xbd")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 190 #\\xbe "\xbe")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 191 #\\xbf "\xbf")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 192 #\\xc0 "\xc0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 193 #\\xc1 "\xc1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 194 #\\xc2 "\xc2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 195 #\\xc3 "\xc3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 196 #\\xc4 "\xc4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 197 #\\xc5 "\xc5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 198 #\\xc6 "\xc6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 199 #\\xc7 "\xc7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 200 #\\xc8 "\xc8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 201 #\\xc9 "\xc9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 202 #\\xca "\xca")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 203 #\\xcb "\xcb")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 204 #\\xcc "\xcc")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 205 #\\xcd "\xcd")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 206 #\\xce "\xce")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 207 #\\xcf "\xcf")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 208 #\\xd0 "\xd0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 209 #\\xd1 "\xd1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 210 #\\xd2 "\xd2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 211 #\\xd3 "\xd3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 212 #\\xd4 "\xd4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 213 #\\xd5 "\xd5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 214 #\\xd6 "\xd6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 215 #\\xd7 "\xd7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 216 #\\xd8 "\xd8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 217 #\\xd9 "\xd9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 218 #\\xda "\xda")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 219 #\\xdb "\xdb")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 220 #\\xdc "\xdc")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 221 #\\xdd "\xdd")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 222 #\\xde "\xde")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 223 #\\xdf "\xdf")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 224 #\\xe0 "\xe0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 225 #\\xe1 "\xe1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 226 #\\xe2 "\xe2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 227 #\\xe3 "\xe3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 228 #\\xe4 "\xe4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 229 #\\xe5 "\xe5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 230 #\\xe6 "\xe6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 231 #\\xe7 "\xe7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 232 #\\xe8 "\xe8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 233 #\\xe9 "\xe9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 234 #\\xea "\xea")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 235 #\\xeb "\xeb")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 236 #\\xec "\xec")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 237 #\\xed "\xed")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 238 #\\xee "\xee")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 239 #\\xef "\xef")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 240 #\\xf0 "\xf0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 241 #\\xf1 "\xf1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 242 #\\xf2 "\xf2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 243 #\\xf3 "\xf3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 244 #\\xf4 "\xf4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 245 #\\xf5 "\xf5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 246 #\\xf6 "\xf6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 247 #\\xf7 "\xf7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 248 #\\xf8 "\xf8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 249 #\\xf9 "\xf9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 250 #\\xfa "\xfa")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 251 #\\xfb "\xfb")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 252 #\\xfc "\xfc")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 253 #\\xfd "\xfd")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 254 #\\xfe "\xfe")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (char 255 #\\xff "\xff")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 128 #\200 "a\x80" "a\x80")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 129 #\201 "a\x81" "a\x81")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 130 #\202 "a\x82" "a\x82")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 131 #\203 "a\x83" "a\x83")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 132 #\204 "a\x84" "a\x84")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 133 #\205 "a\x85" "a\x85")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 134 #\206 "a\x86" "a\x86")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 135 #\207 "a\x87" "a\x87")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 136 #\210 "a\x88" "a\x88")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 137 #\211 "a\x89" "a\x89")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 138 #\212 "a\x8a" "a\x8a")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 139 #\213 "a\x8b" "a\x8b")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 140 #\214 "a\x8c" "a\x8c")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 141 #\215 "a\x8d" "a\x8d")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 142 #\216 "a\x8e" "a\x8e")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 143 #\217 "a\x8f" "a\x8f")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 144 #\220 "a\x90" "a\x90")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 145 #\221 "a\x91" "a\x91")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 146 #\222 "a\x92" "a\x92")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 147 #\223 "a\x93" "a\x93")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 148 #\224 "a\x94" "a\x94")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 149 #\225 "a\x95" "a\x95")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 150 #\226 "a\x96" "a\x96")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 151 #\227 "a\x97" "a\x97")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 152 #\230 "a\x98" "a\x98")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 153 #\231 "a\x99" "a\x99")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 154 #\232 "a\x9a" "a\x9a")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 155 #\233 "a\x9b" "a\x9b")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 156 #\234 "a\x9c" "a\x9c")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 157 #\235 "a\x9d" "a\x9d")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 158 #\236 "a\x9e" "a\x9e")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 159 #\237 "a\x9f" "a\x9f")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 160 #\240 "a\xa0" "a\xa0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 161 #\\xa1 "a\xa1" "a\xa1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 162 #\\xa2 "a\xa2" "a\xa2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 163 #\\xa3 "a\xa3" "a\xa3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 164 #\\xa4 "a\xa4" "a\xa4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 165 #\\xa5 "a\xa5" "a\xa5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 166 #\\xa6 "a\xa6" "a\xa6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 167 #\\xa7 "a\xa7" "a\xa7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 168 #\\xa8 "a\xa8" "a\xa8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 169 #\\xa9 "a\xa9" "a\xa9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 170 #\\xaa "a\xaa" "a\xaa")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 171 #\\xab "a\xab" "a\xab")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 172 #\\xac "a\xac" "a\xac")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 173 #\255 "a\xad" "a\xad")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 174 #\\xae "a\xae" "a\xae")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 175 #\\xaf "a\xaf" "a\xaf")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 176 #\\xb0 "a\xb0" "a\xb0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 177 #\\xb1 "a\xb1" "a\xb1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 178 #\\xb2 "a\xb2" "a\xb2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 179 #\\xb3 "a\xb3" "a\xb3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 180 #\\xb4 "a\xb4" "a\xb4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 181 #\\xb5 "a\xb5" "a\xb5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 182 #\\xb6 "a\xb6" "a\xb6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 183 #\\xb7 "a\xb7" "a\xb7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 184 #\\xb8 "a\xb8" "a\xb8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 185 #\\xb9 "a\xb9" "a\xb9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 186 #\\xba "a\xba" "a\xba")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 187 #\\xbb "a\xbb" "a\xbb")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 188 #\\xbc "a\xbc" "a\xbc")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 189 #\\xbd "a\xbd" "a\xbd")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 190 #\\xbe "a\xbe" "a\xbe")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 191 #\\xbf "a\xbf" "a\xbf")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 192 #\\xc0 "a\xc0" "a\xc0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 193 #\\xc1 "a\xc1" "a\xc1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 194 #\\xc2 "a\xc2" "a\xc2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 195 #\\xc3 "a\xc3" "a\xc3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 196 #\\xc4 "a\xc4" "a\xc4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 197 #\\xc5 "a\xc5" "a\xc5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 198 #\\xc6 "a\xc6" "a\xc6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 199 #\\xc7 "a\xc7" "a\xc7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 200 #\\xc8 "a\xc8" "a\xc8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 201 #\\xc9 "a\xc9" "a\xc9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 202 #\\xca "a\xca" "a\xca")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 203 #\\xcb "a\xcb" "a\xcb")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 204 #\\xcc "a\xcc" "a\xcc")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 205 #\\xcd "a\xcd" "a\xcd")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 206 #\\xce "a\xce" "a\xce")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 207 #\\xcf "a\xcf" "a\xcf")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 208 #\\xd0 "a\xd0" "a\xd0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 209 #\\xd1 "a\xd1" "a\xd1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 210 #\\xd2 "a\xd2" "a\xd2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 211 #\\xd3 "a\xd3" "a\xd3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 212 #\\xd4 "a\xd4" "a\xd4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 213 #\\xd5 "a\xd5" "a\xd5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 214 #\\xd6 "a\xd6" "a\xd6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 215 #\\xd7 "a\xd7" "a\xd7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 216 #\\xd8 "a\xd8" "a\xd8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 217 #\\xd9 "a\xd9" "a\xd9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 218 #\\xda "a\xda" "a\xda")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 219 #\\xdb "a\xdb" "a\xdb")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 220 #\\xdc "a\xdc" "a\xdc")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 221 #\\xdd "a\xdd" "a\xdd")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 222 #\\xde "a\xde" "a\xde")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 223 #\\xdf "a\xdf" "a\xdf")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 224 #\\xe0 "a\xe0" "a\xe0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 225 #\\xe1 "a\xe1" "a\xe1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 226 #\\xe2 "a\xe2" "a\xe2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 227 #\\xe3 "a\xe3" "a\xe3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 228 #\\xe4 "a\xe4" "a\xe4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 229 #\\xe5 "a\xe5" "a\xe5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 230 #\\xe6 "a\xe6" "a\xe6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 231 #\\xe7 "a\xe7" "a\xe7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 232 #\\xe8 "a\xe8" "a\xe8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 233 #\\xe9 "a\xe9" "a\xe9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 234 #\\xea "a\xea" "a\xea")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 235 #\\xeb "a\xeb" "a\xeb")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 236 #\\xec "a\xec" "a\xec")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 237 #\\xed "a\xed" "a\xed")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 238 #\\xee "a\xee" "a\xee")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 239 #\\xef "a\xef" "a\xef")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 240 #\\xf0 "a\xf0" "a\xf0")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 241 #\\xf1 "a\xf1" "a\xf1")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 242 #\\xf2 "a\xf2" "a\xf2")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 243 #\\xf3 "a\xf3" "a\xf3")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 244 #\\xf4 "a\xf4" "a\xf4")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 245 #\\xf5 "a\xf5" "a\xf5")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 246 #\\xf6 "a\xf6" "a\xf6")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 247 #\\xf7 "a\xf7" "a\xf7")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 248 #\\xf8 "a\xf8" "a\xf8")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 249 #\\xf9 "a\xf9" "a\xf9")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 250 #\\xfa "a\xfa" "a\xfa")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 251 #\\xfb "a\xfb" "a\xfb")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 252 #\\xfc "a\xfc" "a\xfc")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 253 #\\xfd "a\xfd" "a\xfd")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 254 #\\xfe "a\xfe" "a\xfe")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: (string "aX" 255 #\\xff "a\xff" "a\xff")
+UNRESOLVED: regexp.test: regexp-quote: regexp/extended: string of all chars
+Running rnrs-libraries.test
+Running rtl-compilation.test
+Running rtl.test
+Running sandbox.test
+Running session.test
+Running signals.test
+Running sort.test
+Running srcprop.test
+UNRESOLVED: srcprop.test: set-source-property!: setting the breakpoint property works
+UNRESOLVED: srcprop.test: set-source-properties!: setting the breakpoint property works
+Running srfi-1.test
+Running srfi-10.test
+Running srfi-105.test
+UNRESOLVED: srfi-105.test: curly-infix: positions: singleton curly-infix list
+UNRESOLVED: srfi-105.test: curly-infix: positions: neoteric expression
+Running srfi-11.test
+Running srfi-111.test
+Running srfi-13.test
+Running srfi-14.test
+Running srfi-17.test
+Running srfi-171.test
+Running srfi-18.test
+Running srfi-19.test
+Running srfi-2.test
+Running srfi-26.test
+Running srfi-27.test
+Running srfi-31.test
+Running srfi-34.test
+Running srfi-35.test
+Running srfi-37.test
+Running srfi-38.test
+Running srfi-39.test
+Running srfi-4.test
+Running srfi-41.test
+Running srfi-42.test
+Running srfi-43.test
+Running srfi-45.test
+Running srfi-6.test
+Running srfi-60.test
+Running srfi-64.test
+Running srfi-67.test
+Running srfi-69.test
+Running srfi-71.test
+Running srfi-88.test
+Running srfi-9.test
+Running srfi-98.test
+Running statprof.test
+Running streams.test
+Running strings.test
+Running structs.test
+Running suspendable-ports.test
+Running sxml.fold.test
+Running sxml.match.test
+Running sxml.simple.test
+Running sxml.ssax.test
+Running sxml.transform.test
+Running sxml.xpath.test
+Running symbols.test
+Running syncase.test
+Running syntax.test
+Running texinfo.docbook.test
+Running texinfo.html.test
+Running texinfo.plain-text.test
+Running texinfo.serialize.test
+Running texinfo.string-utils.test
+Running texinfo.test
+Running threads.test
+Running time.test
+UNRESOLVED: time.test: strftime: C99 %z format: strftime fr_FR.utf8
+UNRESOLVED: time.test: strftime: C99 %z format: strftime fr_FR.iso88591
+UNRESOLVED: time.test: strptime: GNU %s format: strftime fr_FR.utf8
+UNRESOLVED: time.test: strptime: GNU %s format: strftime fr_FR.iso88591
+Running tree-il.test
+UNRESOLVED: tree-il.test: warnings: unused-toplevel: used by macro
+Running types.test
+Running unicode.test
+Running vectors.test
+Running version.test
+UNRESOLVED: version.test: version reporting works
+Running vlist.test
+Running vm.test
+Running weaks.test
+Running web-client.test
+Running web-http.test
+Running web-request.test
+Running web-response.test
+Running web-server.test
+Running web-uri.test
+UNRESOLVED: WARNING: Use of `load' in declarative module (test-suite test-r4rs).  Add #:declarative? #f to your define-module invocation.
+WARNING: (test-suite test-rnrs-exceptions): imported module (rnrs exceptions) overrides core binding `raise'
+warning: call to primitive-fork while multiple threads are running;
+         further behavior unspecified.  See "Processes" in the
+         manual, for more information.
+;;; SSAX warning: Skipping PI: xml
+
+;;; SSAX warning: Skipping PI: PI
+
+;;; SSAX warning: Skipping PI: PI1
+
+;;; SSAX warning: (
+ Warning:  DOCTYPE DECL  T   system1  found and skipped)
+;;; SSAX warning: (
+ Warning:  Internal DTD subset is not currently handled )
+;;; SSAX warning: (
+ Warning:  DOCTYPE DECL  T   system1  found and skipped)
+;;; SSAX warning: Skipping PI: pi
+
+;;; SSAX warning: DOCTYPE DECL T system1 found and skipped
+WARNING: (test-suite sxml-xpath): imported module (sxml xpath) overrides core binding `filter'
+web-uri.test: string->uri: http://www.example.com (sv_SE)
+
+Totals for this test run:
+passes:                 42982
+failures:               0
+unexpected passes:      0
+expected failures:      24
+unresolved test cases:  573
+untested test cases:    1
+unsupported test cases: 1
+errors:                 0
+
+PASS: check-guile
+=============
+1 test passed
+=============
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile'
+make[1]: Leaving directory '/home/gunter/Data/pi02/GNU/guile'

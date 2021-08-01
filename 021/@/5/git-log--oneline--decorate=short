@@ -1,0 +1,9 @@
+fc949ae7b (HEAD -> feature/0004/build-git-v3.0.7) : 1. sh -x ./autogen.sh
+221203b0d (origin/master, master) Add ‘expt’ to the list of effect-free primitives.
+fd5cb457f Implement cross-module inlining
+cbfad75fa Add support for recording inlinable module exports
+a892791b4 Add pass to resolve free toplevel references in declarative modules
+809b16512 Letrectify links module defs with uses
+afd268ac1 Bump objcode version
+53e5cf654 (tag: v3.0.7) Bump version to 3.0.7
+f7fdc3edc Update NEWS

@@ -1,0 +1,199 @@
+Benchmarking /home/gunter/Data/pi02/GNU/guile/meta/guile ...
+with GUILE_LOAD_PATH=/home/gunter/Data/pi02/GNU/guile/benchmark-suite
+;; running guile version 3.0.7.6-22120
+;; calibrating the benchmarking framework...
+;; calibration: ("empty initialization benchmark" 10000000 real 7.707 real/iteration 7.707e-7 run/iteration 6.036e-7 core/iteration 0.0 gc 0.0)
+("0-reference.bm: reference benchmark for iteration counts" 330000 real 0.286 real/iteration 8.666666666666666e-7 run/iteration 6.03030303030303e-7 core/iteration -5.696969696970199e-10 gc 0.0)
+("arithmetic.bm: fixnum: 1+" 10000000 real 7.639 real/iteration 7.639e-7 run/iteration 6.025e-7 core/iteration -1.1000000000000001e-9 gc 0.0)
+("arithmetic.bm: fixnum: 1-" 10000000 real 7.16 real/iteration 7.159999999999999e-7 run/iteration 6.007e-7 core/iteration -2.9000000000000003e-9 gc 0.0)
+("arithmetic.bm: fixnum: +" 10000000 real 7.462 real/iteration 7.462e-7 run/iteration 6.025e-7 core/iteration -1.1000000000000001e-9 gc 0.0)
+("arithmetic.bm: fixnum: -" 10000000 real 7.603 real/iteration 7.602999999999999e-7 run/iteration 6.035e-7 core/iteration -9.999999999999999e-11 gc 0.0)
+("arithmetic.bm: fixnum: *" 10000000 real 7.667 real/iteration 7.667e-7 run/iteration 6.043e-7 core/iteration 7.0e-10 gc 0.0)
+("arithmetic.bm: fixnum: /" 10000000 real 7.933 real/iteration 7.933e-7 run/iteration 6.047999999999999e-7 core/iteration 1.2e-9 gc 0.0)
+("bytevector-io.bm: bytevector i/o: put-bytevector" 4000 real 18.305 real/iteration 0.00457625 run/iteration 0.00217025 core/iteration 0.0021696464 gc 0.502)
+("bytevector-io.bm: bytevector i/o: get-bytevector-n!" 20000 real 33.235 real/iteration 0.00166175 run/iteration 0.0012668999999999998 core/iteration 0.0012662964 gc 3.554)
+("bytevector-io.bm: bytevector i/o: get-bytevector-n" 20000 real 35.463 real/iteration 0.00177315 run/iteration 0.00130715 core/iteration 0.0013065464 gc 3.898)
+("bytevectors.bm: ref/set!: bytevector-u8-ref" 1000000 real 1.177 real/iteration 1.1770000000000001e-6 run/iteration 1.001e-6 core/iteration 3.9739999999999995e-7 gc 0.0)
+("bytevectors.bm: ref/set!: bytevector-u16-ref (foreign)" 1000000 real 2.34 real/iteration 2.34e-6 run/iteration 1.9849999999999996e-6 core/iteration 1.3814e-6 gc 0.0)
+("bytevectors.bm: ref/set!: bytevector-u16-ref (native)" 1000000 real 2.338 real/iteration 2.338e-6 run/iteration 1.9699999999999998e-6 core/iteration 1.3664e-6 gc 0.0)
+("bytevectors.bm: ref/set!: bytevector-u16-native-ref" 1000000 real 1.187 real/iteration 1.1869999999999998e-6 run/iteration 9.99e-7 core/iteration 3.9539999999999995e-7 gc 0.0)
+("bytevectors.bm: ref/set!: bytevector-u32-ref (foreign)" 1000000 real 5.344 real/iteration 5.344e-6 run/iteration 4.504e-6 core/iteration 3.9004e-6 gc 0.0)
+("bytevectors.bm: ref/set!: bytevector-u32-ref (native)" 1000000 real 5.017 real/iteration 5.0169999999999996e-6 run/iteration 4.143e-6 core/iteration 3.5394000000000004e-6 gc 0.0)
+("bytevectors.bm: ref/set!: bytevector-u32-native-ref" 1000000 real 1.369 real/iteration 1.369e-6 run/iteration 1.136e-6 core/iteration 5.324e-7 gc 0.0)
+("bytevectors.bm: ref/set!: bytevector-u64-ref (foreign)" 1000000 real 6.362 real/iteration 6.361999999999999e-6 run/iteration 5.3010000000000006e-6 core/iteration 4.6974e-6 gc 0.0)
+("bytevectors.bm: ref/set!: bytevector-u64-ref (native)" 1000000 real 6.933 real/iteration 6.9329999999999995e-6 run/iteration 5.583000000000001e-6 core/iteration 4.979399999999999e-6 gc 0.0)
+("bytevectors.bm: ref/set!: bytevector-u64-native-ref" 1000000 real 1.32 real/iteration 1.32e-6 run/iteration 1.0050000000000001e-6 core/iteration 4.014e-7 gc 0.0)
+("bytevectors.bm: lists: bytevector->u8-list" 2000 real 26.491 real/iteration 0.0132455 run/iteration 0.010499000000000001 core/iteration 0.010498396399999999 gc 12.605)
+("bytevectors.bm: lists: bytevector->uint-list 16-bit" 2000 real 12.016 real/iteration 0.006008 run/iteration 0.0052055 core/iteration 0.0052048964 gc 6.03)
+("bytevectors.bm: lists: bytevector->uint-list 64-bit" 2000 real 12.586 real/iteration 0.006293 run/iteration 0.005448000000000001 core/iteration 0.0054473963999999995 gc 1.54)
+("bytevectors.bm: SRFI-4: u8vector-ref" 1000000 real 1.149 real/iteration 1.1490000000000001e-6 run/iteration 9.99e-7 core/iteration 3.9539999999999995e-7 gc 0.0)
+("bytevectors.bm: SRFI-4: u16vector-ref" 1000000 real 1.166 real/iteration 1.166e-6 run/iteration 9.970000000000002e-7 core/iteration 3.9339999999999996e-7 gc 0.0)
+("bytevectors.bm: SRFI-4: u32vector-ref" 1000000 real 1.323 real/iteration 1.3229999999999999e-6 run/iteration 1.131e-6 core/iteration 5.274e-7 gc 0.0)
+("bytevectors.bm: SRFI-4: u64vector-ref" 1000000 real 16.616 real/iteration 1.6615999999999998e-5 run/iteration 1.3687e-5 core/iteration 1.30834e-5 gc 4.54)
+("chars.bm: chars: char" 1000000 real 0.714 real/iteration 7.14e-7 run/iteration 6.02e-7 core/iteration -1.6000000000000228e-9 gc 0.0)
+("chars.bm: chars: octal" 1000000 real 0.724 real/iteration 7.240000000000001e-7 run/iteration 6.02e-7 core/iteration -1.6000000000000228e-9 gc 0.0)
+("chars.bm: chars: char? eq" 1000000 real 0.748 real/iteration 7.48e-7 run/iteration 6.040000000000001e-7 core/iteration 3.9999999999997727e-10 gc 0.0)
+("chars.bm: chars: char=?" 1000000 real 1.502 real/iteration 1.502e-6 run/iteration 1.28e-6 core/iteration 6.764e-7 gc 0.0)
+("chars.bm: chars: char<?" 1000000 real 1.498 real/iteration 1.4979999999999999e-6 run/iteration 1.283e-6 core/iteration 6.793999999999999e-7 gc 0.0)
+("chars.bm: chars: char-ci=?" 1000000 real 1.52 real/iteration 1.52e-6 run/iteration 1.284e-6 core/iteration 6.804e-7 gc 0.0)
+("chars.bm: chars: char-ci<? " 1000000 real 1.513 real/iteration 1.513e-6 run/iteration 1.286e-6 core/iteration 6.824e-7 gc 0.0)
+("chars.bm: chars: char->integer" 1000000 real 0.796 real/iteration 7.960000000000001e-7 run/iteration 6.07e-7 core/iteration 3.399999999999977e-9 gc 0.0)
+("chars.bm: chars: char-alphabetic?" 1000000 real 1.716 real/iteration 1.7160000000000002e-6 run/iteration 1.4250000000000001e-6 core/iteration 8.214e-7 gc 0.0)
+("chars.bm: chars: char-numeric?" 1000000 real 1.744 real/iteration 1.7440000000000002e-6 run/iteration 1.402e-6 core/iteration 7.984e-7 gc 0.0)
+("continuations.bm: call/cc" 12000 real 2.547 real/iteration 2.1224999999999998e-4 run/iteration 1.6941666666666665e-4 core/iteration 1.6881306666666668e-4 gc 1.513)
+("hash.bm: string-hash: narrow string" 100000 real 36.851 real/iteration 3.6851e-4 run/iteration 2.9983e-4 core/iteration 2.992264e-4 gc 0.0)
+("hash.bm: string-hash: wide string" 100000 real 34.791 real/iteration 3.4791e-4 run/iteration 2.7881e-4 core/iteration 2.782064e-4 gc 0.0)
+("hash.bm: string-hash: long string" 100000 real 67.444 real/iteration 6.7444e-4 run/iteration 5.458199999999999e-4 core/iteration 5.452164000000001e-4 gc 0.0)
+("if.bm: if-<expr>-then-else: executing then" 330000 real 0.231 real/iteration 7.0e-7 run/iteration 6.0e-7 core/iteration -3.6000000000000504e-9 gc 0.0)
+("if.bm: if-<expr>-then-else: executing else" 330000 real 0.233 real/iteration 7.060606060606061e-7 run/iteration 6.0e-7 core/iteration -3.6000000000000504e-9 gc 0.0)
+("if.bm: if-<expr>-then: executing then" 330000 real 0.222 real/iteration 6.727272727272727e-7 run/iteration 6.060606060606061e-7 core/iteration 2.4606060606060104e-9 gc 0.0)
+("if.bm: if-<expr>-then: executing else" 330000 real 0.228 real/iteration 6.909090909090909e-7 run/iteration 6.0e-7 core/iteration -3.6000000000000504e-9 gc 0.0)
+("if.bm: if-<iloc>-then-else: executing then" 330000 real 0.233 real/iteration 7.060606060606061e-7 run/iteration 6.0e-7 core/iteration -3.6000000000000504e-9 gc 0.0)
+("if.bm: if-<iloc>-then-else: executing else" 330000 real 0.233 real/iteration 7.060606060606061e-7 run/iteration 6.0e-7 core/iteration -3.6000000000000504e-9 gc 0.0)
+("if.bm: if-<iloc>-then: executing then" 330000 real 0.237 real/iteration 7.181818181818182e-7 run/iteration 5.969696969696969e-7 core/iteration -6.6303030303030804e-9 gc 0.0)
+("if.bm: if-<iloc>-then: executing else" 330000 real 0.224 real/iteration 6.787878787878787e-7 run/iteration 6.0e-7 core/iteration -3.6000000000000504e-9 gc 0.0)
+("if.bm: if-<bool>-then-else: executing then" 330000 real 0.231 real/iteration 7.0e-7 run/iteration 6.03030303030303e-7 core/iteration -5.696969696970199e-10 gc 0.0)
+("if.bm: if-<bool>-then-else: executing else" 330000 real 0.234 real/iteration 7.090909090909092e-7 run/iteration 6.0e-7 core/iteration -3.6000000000000504e-9 gc 0.0)
+("if.bm: if-<bool>-then: executing then" 330000 real 0.235 real/iteration 7.121212121212121e-7 run/iteration 6.0e-7 core/iteration -3.6000000000000504e-9 gc 0.0)
+("if.bm: if-<bool>-then: executing else" 330000 real 0.228 real/iteration 6.909090909090909e-7 run/iteration 6.0e-7 core/iteration -3.6000000000000504e-9 gc 0.0)
+("logand.bm: bignum" 130000 real 2.09 real/iteration 1.6076923076923075e-5 run/iteration 1.2800000000000001e-5 core/iteration 1.2196399999999999e-5 gc 0.413)
+("ports.bm: peek-char: latin-1 port" 700 real 0.823 real/iteration 0.0011757142857142858 run/iteration 0.0011714285714285715 core/iteration 0.0011708249714285715 gc 0.0)
+("ports.bm: peek-char: utf-8 port, ascii character" 700 real 0.897 real/iteration 0.0012814285714285714 run/iteration 0.0012728571428571429 core/iteration 0.0012722535428571428 gc 0.0)
+("ports.bm: peek-char: utf-8 port, Korean character" 700 real 0.996 real/iteration 0.0014228571428571428 run/iteration 0.001417142857142857 core/iteration 0.0014165392571428572 gc 0.0)
+("ports.bm: char-ready?: latin-1 port" 10000 real 10.317 real/iteration 0.0010317 run/iteration 0.0010263 core/iteration 0.0010256964 gc 0.0)
+("ports.bm: char-ready?: utf-8 port, ascii character" 10000 real 9.78 real/iteration 9.78e-4 run/iteration 9.73e-4 core/iteration 9.723964000000001e-4 gc 0.0)
+("ports.bm: char-ready?: utf-8 port, Korean character" 10000 real 10.191 real/iteration 0.0010191 run/iteration 0.0010126999999999998 core/iteration 0.0010120963999999998 gc 0.0)
+("ports.bm: read-char: latin-1 port" 10000 real 34.772 real/iteration 0.0034771999999999997 run/iteration 0.0034622999999999998 core/iteration 0.0034616964 gc 0.0)
+("ports.bm: read-char: utf-8 port, ascii character" 10000 real 37.273 real/iteration 0.0037273000000000002 run/iteration 0.0036871 core/iteration 0.0036864963999999997 gc 0.0)
+("ports.bm: read-char: utf-8 port, Korean character" 10000 real 37.272 real/iteration 0.0037272 run/iteration 0.0037099999999999998 core/iteration 0.0037093964000000004 gc 0.0)
+("ports.bm: rdelim: read-line" 1000 real 13.946 real/iteration 0.013946 run/iteration 0.013862 core/iteration 0.0138613964 gc 0.871)
+("ports.bm: rdelim: read-string" 200 real 109.056 real/iteration 0.54528 run/iteration 0.54292 core/iteration 0.5429193964 gc 3.888)
+("r6rs-arithmetic.bm: fixnum: fixnum? [yes]" 10000000 real 21.908 real/iteration 2.1908000000000003e-6 run/iteration 2.1817e-6 core/iteration 1.5781e-6 gc 0.0)
+("r6rs-arithmetic.bm: fixnum: fixnum? [no]" 10000000 real 24.991 real/iteration 2.4991000000000003e-6 run/iteration 2.4896e-6 core/iteration 1.886e-6 gc 0.0)
+("r6rs-arithmetic.bm: fixnum: fxxor [2]" 10000000 real 33.713 real/iteration 3.3713e-6 run/iteration 3.3582e-6 core/iteration 2.7546e-6 gc 0.0)
+("read.bm: read: 'none" 5 real 43.145 real/iteration 8.629 run/iteration 8.5864 core/iteration 8.586399396400001 gc 1.308)
+("read.bm: read: 'line" 10 real 30.562 real/iteration 3.0562 run/iteration 3.0295 core/iteration 3.0294993964 gc 2.905)
+("read.bm: read: 'block 4096" 10 real 30.507 real/iteration 3.0507 run/iteration 3.0354 core/iteration 3.0353993964 gc 2.909)
+("read.bm: read: 'block 8192" 10 real 30.867 real/iteration 3.0867 run/iteration 3.0714 core/iteration 3.0713993964 gc 2.952)
+("read.bm: read: 'block 16384" 10 real 30.715 real/iteration 3.0715 run/iteration 3.0562 core/iteration 3.0561993964000003 gc 2.998)
+("read.bm: read: small strings" 100000 real 24.556 real/iteration 2.4556000000000003e-4 run/iteration 2.4431e-4 core/iteration 2.437064e-4 gc 8.619)
+("read.bm: read: large strings" 100000 real 424.53 real/iteration 0.0042453000000000005 run/iteration 0.0042228199999999995 core/iteration 0.0042222164 gc 62.455)
+("srfi-1.bm: fold: big" 30 real 24.56 real/iteration 0.8186666666666667 run/iteration 0.8149 core/iteration 0.8148993964 gc 0.0)
+("srfi-1.bm: fold: small" 2000000 real 21.404 real/iteration 1.0702e-5 run/iteration 1.06595e-5 core/iteration 1.00559e-5 gc 0.0)
+("srfi-1.bm: drop-while: big" 30 real 25.563 real/iteration 0.8521 run/iteration 0.848 core/iteration 0.8479993964 gc 0.0)
+("srfi-1.bm: drop-while: small" 2000000 real 20.494 real/iteration 1.0246999999999999e-5 run/iteration 1.0206e-5 core/iteration 9.602399999999998e-6 gc 0.0)
+("srfi-1.bm: map: big" 30 real 62.766 real/iteration 2.0921999999999996 run/iteration 2.080633333333333 core/iteration 2.0806327297333334 gc 10.702)
+("srfi-1.bm: map: small" 2000000 real 35.214 real/iteration 1.7607000000000003e-5 run/iteration 1.7516e-5 core/iteration 1.69124e-5 gc 4.552)
+("srfi-1.bm: for-each: big" 30 real 25.306 real/iteration 0.8435333333333334 run/iteration 0.8394666666666667 core/iteration 0.8394660630666666 gc 0.0)
+("srfi-1.bm: for-each: small" 2000000 real 21.288 real/iteration 1.0644e-5 run/iteration 1.0604e-5 core/iteration 1.00004e-5 gc 0.0)
+("srfi-13.bm: strings: predicates: string?" 1190000 real 0.892 real/iteration 7.495798319327731e-7 run/iteration 7.470588235294117e-7 core/iteration 1.4345882352941177e-7 gc 0.0)
+("srfi-13.bm: strings: predicates: null?" 969000 real 2.714 real/iteration 2.800825593395253e-6 run/iteration 2.7925696594427245e-6 core/iteration 2.1889696594427245e-6 gc 0.0)
+("srfi-13.bm: strings: predicates: any" 94000 real 1.73 real/iteration 1.840425531914894e-5 run/iteration 1.8319148936170212e-5 core/iteration 1.7715548936170213e-5 gc 0.0)
+("srfi-13.bm: strings: predicates: every" 94000 real 1.279 real/iteration 1.3606382978723404e-5 run/iteration 1.3542553191489361e-5 core/iteration 1.2938953191489363e-5 gc 0.0)
+("srfi-13.bm: strings: constructors: string" 5000 real 2.554 real/iteration 5.108000000000001e-4 run/iteration 5.07e-4 core/iteration 5.063964e-4 gc 1.391)
+("srfi-13.bm: strings: constructors: list->" 4500 real 0.312 real/iteration 6.933333333333333e-5 run/iteration 6.933333333333333e-5 core/iteration 6.872973333333333e-5 gc 0.0)
+("srfi-13.bm: strings: constructors: reverse-list->" 5000 real 0.611 real/iteration 1.2220000000000002e-4 run/iteration 1.216e-4 core/iteration 1.2099639999999999e-4 gc 0.0)
+("srfi-13.bm: strings: constructors: make" 22000 real 0.495 real/iteration 2.2499999999999998e-5 run/iteration 2.240909090909091e-5 core/iteration 2.180549090909091e-5 gc 0.0)
+("srfi-13.bm: strings: constructors: tabulate" 17000 real 7.526 real/iteration 4.427058823529412e-4 run/iteration 4.4088235294117647e-4 core/iteration 4.402787529411765e-4 gc 0.231)
+("srfi-13.bm: strings: constructors: join" 5500 real 0.321 real/iteration 5.8363636363636364e-5 run/iteration 5.8e-5 core/iteration 5.73964e-5 gc 0.232)
+("srfi-13.bm: strings: list/string: ->list" 7300 real 4.565 real/iteration 6.253424657534246e-4 run/iteration 6.210958904109589e-4 core/iteration 6.204922904109589e-4 gc 1.864)
+("srfi-13.bm: strings: list/string: split" 60000 real 2.466 real/iteration 4.1099999999999996e-5 run/iteration 4.091666666666666e-5 core/iteration 4.0313066666666665e-5 gc 0.693)
+("srfi-13.bm: strings: selection: ref" 660 real 0.322 real/iteration 4.8787878787878784e-4 run/iteration 4.863636363636364e-4 core/iteration 4.857600363636364e-4 gc 0.0)
+("srfi-13.bm: strings: selection: copy" 20000 real 1.474 real/iteration 7.37e-5 run/iteration 7.33e-5 core/iteration 7.269640000000001e-5 gc 0.916)
+("srfi-13.bm: strings: selection: pad" 34000 real 1.375 real/iteration 4.044117647058824e-5 run/iteration 4.017647058823529e-5 core/iteration 3.957287058823529e-5 gc 0.467)
+("srfi-13.bm: strings: selection: trim trim-right trim-both" 60000 real 10.386 real/iteration 1.731e-4 run/iteration 1.7219999999999998e-4 core/iteration 1.715964e-4 gc 0.229)
+("srfi-13.bm: strings: modification: set!" 3000 real 0.386 real/iteration 1.2866666666666669e-4 run/iteration 1.2833333333333333e-4 core/iteration 1.2772973333333336e-4 gc 0.0)
+("srfi-13.bm: strings: modification: sub-move!" 230000 real 1.595 real/iteration 6.934782608695653e-6 run/iteration 6.9173913043478254e-6 core/iteration 6.313791304347827e-6 gc 0.0)
+("srfi-13.bm: strings: modification: fill!" 230000 real 1.898 real/iteration 8.252173913043477e-6 run/iteration 8.217391304347826e-6 core/iteration ;;; note: auto-compilation is enabled, set GUILE_AUTO_COMPILE=0
+;;;       or pass the --no-auto-compile argument to disable.
+;;; compiling /home/gunter/Data/pi02/GNU/guile/benchmark-suite/guile-benchmark
+;;; compiling /home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmark-suite/lib.scm
+;;; compiled /home/gunter/Data/pi02/GNU/guile/cache/guile/ccache/3.0-LE-4-4.6/home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmark-suite/lib.scm.go
+;;; compiled /home/gunter/Data/pi02/GNU/guile/cache/guile/ccache/3.0-LE-4-4.6/home/gunter/Data/pi02/GNU/guile/benchmark-suite/guile-benchmark.go
+;;; compiling /home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/0-reference.bm
+;;; compiled /home/gunter/Data/pi02/GNU/guile/cache/guile/ccache/3.0-LE-4-4.6/home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/0-reference.bm.go
+;;; compiling /home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/arithmetic.bm
+;;; compiled /home/gunter/Data/pi02/GNU/guile/cache/guile/ccache/3.0-LE-4-4.6/home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/arithmetic.bm.go
+;;; compiling /home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/bytevector-io.bm
+;;; compiled /home/gunter/Data/pi02/GNU/guile/cache/guile/ccache/3.0-LE-4-4.6/home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/bytevector-io.bm.go
+;;; compiling /home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/bytevectors.bm
+;;; compiled /home/gunter/Data/pi02/GNU/guile/cache/guile/ccache/3.0-LE-4-4.6/home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/bytevectors.bm.go
+;;; compiling /home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/chars.bm
+;;; compiled /home/gunter/Data/pi02/GNU/guile/cache/guile/ccache/3.0-LE-4-4.6/home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/chars.bm.go
+;;; compiling /home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/continuations.bm
+;;; compiled /home/gunter/Data/pi02/GNU/guile/cache/guile/ccache/3.0-LE-4-4.6/home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/continuations.bm.go
+;;; compiling /home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/hash.bm
+;;; compiled /home/gunter/Data/pi02/GNU/guile/cache/guile/ccache/3.0-LE-4-4.6/home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/hash.bm.go
+;;; compiling /home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/if.bm
+;;; compiled /home/gunter/Data/pi02/GNU/guile/cache/guile/ccache/3.0-LE-4-4.6/home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/if.bm.go
+;;; compiling /home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/logand.bm
+;;; compiled /home/gunter/Data/pi02/GNU/guile/cache/guile/ccache/3.0-LE-4-4.6/home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/logand.bm.go
+;;; compiling /home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/ports.bm
+;;; compiled /home/gunter/Data/pi02/GNU/guile/cache/guile/ccache/3.0-LE-4-4.6/home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/ports.bm.go
+;;; compiling /home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/r6rs-arithmetic.bm
+;;; compiled /home/gunter/Data/pi02/GNU/guile/cache/guile/ccache/3.0-LE-4-4.6/home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/r6rs-arithmetic.bm.go
+;;; compiling /home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/read.bm
+;;; compiled /home/gunter/Data/pi02/GNU/guile/cache/guile/ccache/3.0-LE-4-4.6/home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/read.bm.go
+;;; compiling /home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/srfi-1.bm
+;;; compiled /home/gunter/Data/pi02/GNU/guile/cache/guile/ccache/3.0-LE-4-4.6/home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/srfi-1.bm.go
+;;; compiling /home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/srfi-13.bm
+;;; compiled /home/gunter/Data/pi02/GNU/guile/cache/guile/ccache/3.0-LE-4-4.6/home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/srfi-13.bm.go
+;;; compiling /home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/strings.bm
+;;; compiled /home/gunter/Data/pi02/GNU/guile/cache/guile/ccache/3.0-LE-4-4.6/home/gunter/Data/pi02/GNU/guile/benchmark-suite/benchmarks/strings.bm.go
+Backtrace:
+In ice-9/boot-9.scm:
+  1752:10 14 (with-exception-handler _ _ #:unwind? _ # _)
+In unknown file:
+          13 (apply-smob/0 #<thunk 17145f0>)
+In ice-9/boot-9.scm:
+    724:2 12 (call-with-prompt _ _ #<procedure default-prompt-handle?>)
+In ice-9/eval.scm:
+    619:8 11 (_ #(#(#<directory (guile-user) 17046e0>)))
+In guile-benchmark:
+    211:8 10 (main _)
+In ice-9/boot-9.scm:
+   260:13  9 (for-each #<procedure b49f8850 at guile-benchmark:211:?> ?)
+In benchmark-suite/lib.scm:
+    356:4  8 (with-benchmark-prefix* _ _)
+In ice-9/boot-9.scm:
+   2836:4  7 (save-module-excursion _)
+  4388:12  6 (_)
+In benchmark-suite/lib.scm:
+    356:4  5 (with-benchmark-prefix* _ _)
+In benchmarks/strings.bm:
+    165:2  4 (_)
+In benchmark-suite/lib.scm:
+    356:4  3 (with-benchmark-prefix* _ _)
+In benchmarks/strings.bm:
+    191:4  2 (_)
+In benchmark-suite/lib.scm:
+    310:4  1 (run-benchmark "French Latin-1 locale compare initiall?" ?)
+In benchmarks/strings.bm:
+    122:6  0 (_)
+
+benchmarks/strings.bm:122:6: Throw to key `unresolved' with args `()'.
+7.613791304347826e-6 gc 0.0)
+("srfi-13.bm: strings: modification: comparison: compare compare-ci" 140000 real 2.586 real/iteration 1.8471428571428573e-5 run/iteration 1.8414285714285713e-5 core/iteration 1.7810685714285714e-5 gc 0.0)
+("srfi-13.bm: strings: modification: comparison: hash hash-ci" 1000 real 0.244 real/iteration 2.44e-4 run/iteration 2.41e-4 core/iteration 2.403964e-4 gc 0.0)
+("srfi-13.bm: strings: searching: prefix-length suffix-length" 270 real 0.517 real/iteration 0.0019148148148148147 run/iteration 0.0019074074074074074 core/iteration 0.0019068038074074075 gc 0.0)
+("srfi-13.bm: strings: searching: prefix? suffix?" 270 real 0.518 real/iteration 0.0019185185185185186 run/iteration 0.0019111111111111113 core/iteration 0.0019105075111111112 gc 0.0)
+("srfi-13.bm: strings: searching: index index-right rindex" 100000 real 4.0 real/iteration 4.0e-5 run/iteration 3.981e-5 core/iteration 3.92064e-5 gc 0.0)
+("srfi-13.bm: strings: searching: skip skip-right?" 100000 real 7.943 real/iteration 7.943e-5 run/iteration 7.913000000000001e-5 core/iteration 7.852640000000001e-5 gc 0.0)
+("srfi-13.bm: strings: searching: count" 10000 real 45.107 real/iteration 0.0045107 run/iteration 0.0044921 core/iteration 0.0044914964 gc 0.0)
+("srfi-13.bm: strings: searching: contains contains-ci" 34000 real 6.202 real/iteration 1.8241176470588236e-4 run/iteration 1.8144117647058824e-4 core/iteration 1.8083757647058824e-4 gc 0.0)
+("srfi-13.bm: strings: searching: upcase downcase upcase! downcase!" 600 real 0.27 real/iteration 4.5e-4 run/iteration 4.483333333333333e-4 core/iteration 4.477297333333333e-4 gc 0.0)
+("srfi-13.bm: strings: readers: read token, method 1" 1200 real 0.338 real/iteration 2.8166666666666666e-4 run/iteration 2.8083333333333335e-4 core/iteration 2.8022973333333335e-4 gc 0.0)
+("srfi-13.bm: strings: readers: read token, method 2" 1200 real 3.802 real/iteration 0.0031683333333333333 run/iteration 0.0031516666666666668 core/iteration 0.003151063066666667 gc 0.459)
+("strings.bm: string ops: short Latin1: compare initially differing strings" 100000 real 0.424 real/iteration 4.24e-6 run/iteration 4.219999999999999e-6 core/iteration 3.6164e-6 gc 0.0)
+("strings.bm: string ops: short Latin1: compare medially differing strings" 100000 real 0.55 real/iteration 5.5e-6 run/iteration 5.5e-6 core/iteration 4.896399999999999e-6 gc 0.0)
+("strings.bm: string ops: short Latin1: compare terminally differing strings" 100000 real 0.647 real/iteration 6.47e-6 run/iteration 6.44e-6 core/iteration 5.8364000000000006e-6 gc 0.0)
+("strings.bm: string ops: short Latin1: compare identical strings" 100000 real 0.643 real/iteration 6.43e-6 run/iteration 6.41e-6 core/iteration 5.8064e-6 gc 0.0)
+("strings.bm: string ops: short Latin1: case compare initially differing strings" 100000 real 0.601 real/iteration 6.01e-6 run/iteration 5.98e-6 core/iteration 5.3764e-6 gc 0.0)
+("strings.bm: string ops: short Latin1: case compare medially differing strings" 100000 real 1.056 real/iteration 1.056e-5 run/iteration 1.0510000000000001e-5 core/iteration 9.906399999999999e-6 gc 0.0)
+("strings.bm: string ops: short Latin1: case compare terminally differing strings" 100000 real 1.395 real/iteration 1.395e-5 run/iteration 1.3899999999999999e-5 core/iteration 1.3296400000000002e-5 gc 0.0)
+("strings.bm: string ops: short Latin1: case compare identical strings" 100000 real 1.371 real/iteration 1.371e-5 run/iteration 1.366e-5 core/iteration 1.3056400000000001e-5 gc 0.0)
+
+Some deprecated features have been used.  Set the environment
+variable GUILE_WARN_DEPRECATED to "detailed" and rerun the
+program to get more information.  Set it to "no" to suppress
+this message.

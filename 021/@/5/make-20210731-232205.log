@@ -1,0 +1,902 @@
+make -C libguile scmconfig.h
+make[1]: Entering directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+  GEN      gen-scmconfig.o
+  GEN      gen-scmconfig
+  GEN      scmconfig.h
+make[1]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+make  all-recursive
+make[1]: Entering directory '/home/gunter/Data/pi02/GNU/guile'
+Making all in lib
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/lib'
+  GEN      alloca.h
+  GEN      arpa/inet.h
+  GEN      dirent.h
+  GEN      fcntl.h
+  GEN      iconv.h
+  GEN      inttypes.h
+  GEN      langinfo.h
+  GEN      limits.h
+  GEN      locale.h
+  GEN      math.h
+  GEN      netdb.h
+  GEN      poll.h
+  GEN      signal.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      sys/file.h
+  GEN      sys/select.h
+  GEN      sys/socket.h
+  GEN      sys/stat.h
+  GEN      sys/time.h
+  GEN      sys/times.h
+  GEN      sys/types.h
+  GEN      sys/uio.h
+  GEN      time.h
+  GEN      unistd.h
+  GEN      wchar.h
+  GEN      wctype.h
+make  all-recursive
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/lib'
+make[4]: Entering directory '/home/gunter/Data/pi02/GNU/guile/lib'
+  CC       accept4.lo
+  CC       basename-lgpl.lo
+  CC       binary-io.lo
+  CC       c-ctype.lo
+  CC       c-strcasecmp.lo
+  CC       c-strncasecmp.lo
+  CC       dirname-lgpl.lo
+  CC       stripslash.lo
+  CC       malloc/dynarray_at_failure.lo
+  CC       malloc/dynarray_emplace_enlarge.lo
+  CC       malloc/dynarray_finalize.lo
+  CC       malloc/dynarray_resize.lo
+  CC       malloc/dynarray_resize_clear.lo
+  CC       full-read.lo
+  CC       full-write.lo
+  CC       hard-locale.lo
+  CC       localcharset.lo
+  CC       malloca.lo
+  CC       math.lo
+  CC       nproc.lo
+  CC       nstrftime.lo
+  CC       pipe2.lo
+  CC       safe-read.lo
+  CC       safe-write.lo
+  CC       setlocale_null.lo
+  CC       stat-time.lo
+  CC       striconveh.lo
+  CC       sys_socket.lo
+  CC       unistd.lo
+  CC       wctype-h.lo
+  CC       free.lo
+  CC       mbrtowc.lo
+  CC       regex.lo
+  CC       time_rz.lo
+  CCLD     libgnu.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[4]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/lib'
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/lib'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/lib'
+Making all in meta
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/meta'
+guile="`echo guile | /usr/bin/sed -e 's,x,x,'`" ; guild="`echo guild | /usr/bin/sed -e 's,x,x,'`" ; installed_guile="/usr/local/bin/$guile" ; /usr/bin/sed -e "s|[@]PACKAGE_NAME[@]|GNU Guile|g" -e "s|[@]PACKAGE_BUGREPORT[@]|bug-guile@gnu.org|g" -e "s|[@]GUILE_EFFECTIVE_VERSION[@]|3.0|g" -e "s|[@]GUILE_VERSION[@]|3.0.7.6-22120|g" -e "s|[@]GUILE_CFLAGS[@]|-pthread|g" -e "s|[@]GUILE_LIBS[@]|-lcrypt -ldl  -lm|g" -e "s|[@]LIBGUILE_INTERFACE[@]|5:0:4|g" -e "s|[@]BDW_GC_CFLAGS[@]||g" -e "s|[@]BDW_GC_LIBS[@]|-lgc|g" -e "s|[@]LIB_CLOCK_GETTIME[@]||g" -e "s|[@]LIBGMP[@]|-lgmp|g" -e "s|[@]LIBLTDL[@]||g" -e "s|[@]LIBFFI_LIBS[@]|-lffi|g" -e "s|[@]LIBUNISTRING[@]|-lunistring|g" -e "s|[@]LIBICONV[@]||g" -e "s|[@]LIBINTL[@]||g" -e "s|[@]LIBSOCKET[@]||g" -e "s|[@]SERVENT_LIB[@]||g" -e "s|[@]HOSTENT_LIB[@]||g" -e "s|[@]GETADDRINFO_LIB[@]||g" -e "s|[@]INET_NTOP_LIB[@]||g" -e "s|[@]INET_PTON_LIB[@]||g" -e "s|[@]PKG_CONFIG[@]|/usr/bin/pkg-config|g" -e "s|[@]pkgconfigdir[@]|/usr/local/lib/pkgconfig|g" -e "s|[@]prefix[@]|/usr/local|g" -e "s|[@]exec_prefix[@]|/usr/local|g" -e "s|[@]bindir[@]|/usr/local/bin|g" -e "s|[@]libdir[@]|/usr/local/lib|g" -e "s|[@]includedir[@]|/usr/local/include|g" -e "s|[@]datarootdir[@]|/usr/local/share|g" -e "s|[@]datadir[@]|/usr/local/share|g" -e "s|[@]sitedir[@]|/usr/local/share/guile/site/3.0|g" -e "s|[@]guile[@]|$guile|g" -e "s|[@]guild[@]|$guild|g" -e "s|[@]installed_guile[@]|$installed_guile|g" < "guile-config.in" > "guile-config.out"
+chmod +x "guile-config.out"
+mv "guile-config.out" "guile-config"
+guile="`echo guile | /usr/bin/sed -e 's,x,x,'`" ; guild="`echo guild | /usr/bin/sed -e 's,x,x,'`" ; installed_guile="/usr/local/bin/$guile" ; /usr/bin/sed -e "s|[@]PACKAGE_NAME[@]|GNU Guile|g" -e "s|[@]PACKAGE_BUGREPORT[@]|bug-guile@gnu.org|g" -e "s|[@]GUILE_EFFECTIVE_VERSION[@]|3.0|g" -e "s|[@]GUILE_VERSION[@]|3.0.7.6-22120|g" -e "s|[@]GUILE_CFLAGS[@]|-pthread|g" -e "s|[@]GUILE_LIBS[@]|-lcrypt -ldl  -lm|g" -e "s|[@]LIBGUILE_INTERFACE[@]|5:0:4|g" -e "s|[@]BDW_GC_CFLAGS[@]||g" -e "s|[@]BDW_GC_LIBS[@]|-lgc|g" -e "s|[@]LIB_CLOCK_GETTIME[@]||g" -e "s|[@]LIBGMP[@]|-lgmp|g" -e "s|[@]LIBLTDL[@]||g" -e "s|[@]LIBFFI_LIBS[@]|-lffi|g" -e "s|[@]LIBUNISTRING[@]|-lunistring|g" -e "s|[@]LIBICONV[@]||g" -e "s|[@]LIBINTL[@]||g" -e "s|[@]LIBSOCKET[@]||g" -e "s|[@]SERVENT_LIB[@]||g" -e "s|[@]HOSTENT_LIB[@]||g" -e "s|[@]GETADDRINFO_LIB[@]||g" -e "s|[@]INET_NTOP_LIB[@]||g" -e "s|[@]INET_PTON_LIB[@]||g" -e "s|[@]PKG_CONFIG[@]|/usr/bin/pkg-config|g" -e "s|[@]pkgconfigdir[@]|/usr/local/lib/pkgconfig|g" -e "s|[@]prefix[@]|/usr/local|g" -e "s|[@]exec_prefix[@]|/usr/local|g" -e "s|[@]bindir[@]|/usr/local/bin|g" -e "s|[@]libdir[@]|/usr/local/lib|g" -e "s|[@]includedir[@]|/usr/local/include|g" -e "s|[@]datarootdir[@]|/usr/local/share|g" -e "s|[@]datadir[@]|/usr/local/share|g" -e "s|[@]sitedir[@]|/usr/local/share/guile/site/3.0|g" -e "s|[@]guile[@]|$guile|g" -e "s|[@]guild[@]|$guild|g" -e "s|[@]installed_guile[@]|$installed_guile|g" < "guild.in" > "guild.out"
+chmod +x "guild.out"
+mv "guild.out" "guild"
+guile="`echo guile | /usr/bin/sed -e 's,x,x,'`" ; guild="`echo guild | /usr/bin/sed -e 's,x,x,'`" ; installed_guile="/usr/local/bin/$guile" ; /usr/bin/sed -e "s|[@]PACKAGE_NAME[@]|GNU Guile|g" -e "s|[@]PACKAGE_BUGREPORT[@]|bug-guile@gnu.org|g" -e "s|[@]GUILE_EFFECTIVE_VERSION[@]|3.0|g" -e "s|[@]GUILE_VERSION[@]|3.0.7.6-22120|g" -e "s|[@]GUILE_CFLAGS[@]|-pthread|g" -e "s|[@]GUILE_LIBS[@]|-lcrypt -ldl  -lm|g" -e "s|[@]LIBGUILE_INTERFACE[@]|5:0:4|g" -e "s|[@]BDW_GC_CFLAGS[@]||g" -e "s|[@]BDW_GC_LIBS[@]|-lgc|g" -e "s|[@]LIB_CLOCK_GETTIME[@]||g" -e "s|[@]LIBGMP[@]|-lgmp|g" -e "s|[@]LIBLTDL[@]||g" -e "s|[@]LIBFFI_LIBS[@]|-lffi|g" -e "s|[@]LIBUNISTRING[@]|-lunistring|g" -e "s|[@]LIBICONV[@]||g" -e "s|[@]LIBINTL[@]||g" -e "s|[@]LIBSOCKET[@]||g" -e "s|[@]SERVENT_LIB[@]||g" -e "s|[@]HOSTENT_LIB[@]||g" -e "s|[@]GETADDRINFO_LIB[@]||g" -e "s|[@]INET_NTOP_LIB[@]||g" -e "s|[@]INET_PTON_LIB[@]||g" -e "s|[@]PKG_CONFIG[@]|/usr/bin/pkg-config|g" -e "s|[@]pkgconfigdir[@]|/usr/local/lib/pkgconfig|g" -e "s|[@]prefix[@]|/usr/local|g" -e "s|[@]exec_prefix[@]|/usr/local|g" -e "s|[@]bindir[@]|/usr/local/bin|g" -e "s|[@]libdir[@]|/usr/local/lib|g" -e "s|[@]includedir[@]|/usr/local/include|g" -e "s|[@]datarootdir[@]|/usr/local/share|g" -e "s|[@]datadir[@]|/usr/local/share|g" -e "s|[@]sitedir[@]|/usr/local/share/guile/site/3.0|g" -e "s|[@]guile[@]|$guile|g" -e "s|[@]guild[@]|$guild|g" -e "s|[@]installed_guile[@]|$installed_guile|g" < "guile-3.0.pc.in" > "guile-3.0.pc.out"
+mv "guile-3.0.pc.out" "guile-3.0.pc"
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/meta'
+Making all in libguile
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+  GEN      libpath.h
+  SNARF  alist.x
+  SNARF  array-handle.x
+  SNARF  array-map.x
+  SNARF  arrays.x
+  SNARF  async.x
+  SNARF  atomic.x
+  SNARF  backtrace.x
+  SNARF  boolean.x
+  SNARF  bitvectors.x
+  SNARF  bytevectors.x
+  SNARF  chars.x
+  SNARF  control.x
+  SNARF  continuations.x
+  SNARF  debug.x
+  SNARF  deprecated.x
+  SNARF  deprecation.x
+  SNARF  dynl.x
+  SNARF  dynwind.x
+  SNARF  eq.x
+  SNARF  error.x
+  SNARF  eval.x
+  SNARF  evalext.x
+  SNARF  exceptions.x
+  SNARF  expand.x
+  SNARF  extensions.x
+  SNARF  fdes-finalizers.x
+  SNARF  feature.x
+  SNARF  filesys.x
+  SNARF  fluids.x
+  SNARF  foreign.x
+  SNARF  fports.x
+  SNARF  frames.x
+  SNARF  gc-malloc.x
+  SNARF  gc.x
+  SNARF  gettext.x
+  SNARF  generalized-arrays.x
+  SNARF  generalized-vectors.x
+  SNARF  goops.x
+  SNARF  gsubr.x
+  SNARF  guardians.x
+  SNARF  hash.x
+  SNARF  hashtab.x
+  SNARF  hooks.x
+  SNARF  i18n.x
+  SNARF  init.x
+  SNARF  instructions.x
+  SNARF  intrinsics.x
+  SNARF  ioext.x
+  SNARF  keywords.x
+  SNARF  list.x
+  SNARF  load.x
+  SNARF  loader.x
+  SNARF  macros.x
+  SNARF  mallocs.x
+  SNARF  memoize.x
+  SNARF  modules.x
+  SNARF  numbers.x
+  SNARF  objprop.x
+  SNARF  options.x
+  SNARF  pairs.x
+  SNARF  ports.x
+  SNARF  print.x
+  SNARF  procprop.x
+  SNARF  procs.x
+  SNARF  programs.x
+  SNARF  promises.x
+  SNARF  r6rs-ports.x
+  SNARF  random.x
+  SNARF  rdelim.x
+  SNARF  read.x
+  SNARF  rw.x
+  SNARF  scmsigs.x
+  SNARF  script.x
+  SNARF  simpos.x
+  SNARF  smob.x
+  SNARF  sort.x
+  SNARF  srcprop.x
+  SNARF  srfi-1.x
+  SNARF  srfi-4.x
+  SNARF  srfi-13.x
+  SNARF  srfi-14.x
+  SNARF  srfi-60.x
+  SNARF  stackchk.x
+  SNARF  stacks.x
+  SNARF  stime.x
+  SNARF  strings.x
+  SNARF  strorder.x
+  SNARF  strports.x
+  SNARF  struct.x
+  SNARF  symbols.x
+  SNARF  syntax.x
+  SNARF  threads.x
+  SNARF  throw.x
+  SNARF  unicode.x
+  SNARF  uniform.x
+  SNARF  values.x
+  SNARF  variable.x
+  SNARF  vectors.x
+  SNARF  version.x
+  SNARF  vm.x
+  SNARF  vports.x
+  SNARF  weak-set.x
+  SNARF  weak-table.x
+  SNARF  weak-vector.x
+  SNARF  posix.x
+  SNARF  net_db.x
+  SNARF  socket.x
+  SNARF  regex-posix.x
+make  all-am
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+  CC       guile-guile.o
+  CC       libguile_3.0_la-alist.lo
+  CC       libguile_3.0_la-array-handle.lo
+  CC       libguile_3.0_la-array-map.lo
+  CC       libguile_3.0_la-arrays.lo
+  CC       libguile_3.0_la-async.lo
+  CC       libguile_3.0_la-atomic.lo
+  CC       libguile_3.0_la-backtrace.lo
+  CC       libguile_3.0_la-boolean.lo
+  CC       libguile_3.0_la-bitvectors.lo
+  CC       libguile_3.0_la-bytevectors.lo
+  CC       libguile_3.0_la-chars.lo
+  CC       libguile_3.0_la-chooks.lo
+  CC       libguile_3.0_la-control.lo
+  CC       libguile_3.0_la-continuations.lo
+  CC       libguile_3.0_la-debug.lo
+  CC       libguile_3.0_la-deprecated.lo
+  CC       libguile_3.0_la-deprecation.lo
+  CC       libguile_3.0_la-dynstack.lo
+  CC       libguile_3.0_la-dynwind.lo
+  CC       libguile_3.0_la-eq.lo
+  CC       libguile_3.0_la-error.lo
+  CC       libguile_3.0_la-eval.lo
+  CC       libguile_3.0_la-evalext.lo
+  CC       libguile_3.0_la-exceptions.lo
+  CC       libguile_3.0_la-expand.lo
+  CC       libguile_3.0_la-extensions.lo
+  CC       libguile_3.0_la-fdes-finalizers.lo
+  CC       libguile_3.0_la-feature.lo
+  CC       libguile_3.0_la-filesys.lo
+  CC       libguile_3.0_la-finalizers.lo
+  CC       libguile_3.0_la-fluids.lo
+  CC       libguile_3.0_la-foreign.lo
+  CC       libguile_3.0_la-foreign-object.lo
+  CC       libguile_3.0_la-fports.lo
+  CC       libguile_3.0_la-frames.lo
+  CC       libguile_3.0_la-gc-malloc.lo
+  CC       libguile_3.0_la-gc.lo
+  CC       libguile_3.0_la-gettext.lo
+  CC       libguile_3.0_la-generalized-arrays.lo
+  CC       libguile_3.0_la-generalized-vectors.lo
+  CC       libguile_3.0_la-goops.lo
+  CC       libguile_3.0_la-gsubr.lo
+  CC       libguile_3.0_la-guardians.lo
+  CC       libguile_3.0_la-hash.lo
+hash.c: In function 'narrow_string_hash':
+hash.c:118:34: warning: left shift count >= width of type [-Wshift-count-overflow]
+       ret = (((unsigned long) c) << 32) | b;                            \
+                                  ^~
+hash.c:128:3: note: in expansion of macro 'JENKINS_LOOKUP3_HASHWORD2'
+   JENKINS_LOOKUP3_HASHWORD2 (str, len, ret);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+hash.c: In function 'wide_string_hash':
+hash.c:118:34: warning: left shift count >= width of type [-Wshift-count-overflow]
+       ret = (((unsigned long) c) << 32) | b;                            \
+                                  ^~
+hash.c:137:3: note: in expansion of macro 'JENKINS_LOOKUP3_HASHWORD2'
+   JENKINS_LOOKUP3_HASHWORD2 (str, len, ret);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~
+hash.c: In function 'scm_i_utf8_string_hash':
+hash.c:226:32: warning: left shift count >= width of type [-Wshift-count-overflow]
+     ret = (((unsigned long) c) << 32) | b;
+                                ^~
+  CC       libguile_3.0_la-hashtab.lo
+  CC       libguile_3.0_la-hooks.lo
+  CC       libguile_3.0_la-i18n.lo
+  CC       libguile_3.0_la-init.lo
+  CC       libguile_3.0_la-inline.lo
+  CC       libguile_3.0_la-instructions.lo
+  CC       libguile_3.0_la-intrinsics.lo
+  CC       libguile_3.0_la-ioext.lo
+  CC       libguile_3.0_la-jit.lo
+  CC       libguile_3.0_la-keywords.lo
+  CC       libguile_3.0_la-list.lo
+  CC       libguile_3.0_la-load.lo
+  CC       libguile_3.0_la-loader.lo
+  CC       libguile_3.0_la-macros.lo
+  CC       libguile_3.0_la-mallocs.lo
+  CC       libguile_3.0_la-memoize.lo
+  CC       libguile_3.0_la-modules.lo
+  CC       libguile_3.0_la-null-threads.lo
+  CC       libguile_3.0_la-numbers.lo
+  CC       libguile_3.0_la-objprop.lo
+  CC       libguile_3.0_la-options.lo
+  CC       libguile_3.0_la-pairs.lo
+  CC       libguile_3.0_la-poll.lo
+  CC       libguile_3.0_la-ports.lo
+  CC       libguile_3.0_la-print.lo
+  CC       libguile_3.0_la-procprop.lo
+  CC       libguile_3.0_la-procs.lo
+  CC       libguile_3.0_la-programs.lo
+  CC       libguile_3.0_la-promises.lo
+  CC       libguile_3.0_la-r6rs-ports.lo
+  CC       libguile_3.0_la-random.lo
+  CC       libguile_3.0_la-rdelim.lo
+  CC       libguile_3.0_la-read.lo
+  CC       libguile_3.0_la-rw.lo
+  CC       libguile_3.0_la-scmsigs.lo
+  CC       libguile_3.0_la-script.lo
+  CC       libguile_3.0_la-simpos.lo
+  CC       libguile_3.0_la-smob.lo
+  CC       libguile_3.0_la-sort.lo
+  CC       libguile_3.0_la-srcprop.lo
+  CC       libguile_3.0_la-srfi-1.lo
+  CC       libguile_3.0_la-srfi-4.lo
+  CC       libguile_3.0_la-srfi-13.lo
+  CC       libguile_3.0_la-srfi-14.lo
+  CC       libguile_3.0_la-srfi-60.lo
+  CC       libguile_3.0_la-stackchk.lo
+  CC       libguile_3.0_la-stacks.lo
+  CC       libguile_3.0_la-stime.lo
+  CC       libguile_3.0_la-strings.lo
+  CC       libguile_3.0_la-strorder.lo
+  CC       libguile_3.0_la-strports.lo
+  CC       libguile_3.0_la-struct.lo
+  CC       libguile_3.0_la-symbols.lo
+  CC       libguile_3.0_la-syntax.lo
+  CC       libguile_3.0_la-threads.lo
+  CC       libguile_3.0_la-throw.lo
+  CC       libguile_3.0_la-unicode.lo
+  CC       libguile_3.0_la-uniform.lo
+  CC       libguile_3.0_la-values.lo
+  CC       libguile_3.0_la-variable.lo
+  CC       libguile_3.0_la-vectors.lo
+  CC       libguile_3.0_la-version.lo
+  CC       libguile_3.0_la-vm.lo
+In file included from vm.c:499:
+vm-engine.c: In function 'vm_regular_engine':
+vm-engine.c:533:16: warning: unused variable 'mcode' [-Wunused-variable]
+       uint8_t *mcode;
+                ^~~~~
+vm-engine.c:1051:16: warning: variable 'mcode' set but not used [-Wunused-but-set-variable]
+       uint8_t *mcode;
+                ^~~~~
+In file included from ../libguile/pairs.h:26,
+                 from alist.h:26,
+                 from vm.c:38:
+../libguile/scm.h:176:23: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ # define SCM_PACK(x) ((SCM) (x))
+                       ^
+../libguile/gc.h:49:72: note: in definition of macro 'SCM_GC_SET_CELL_OBJECT'
+ #define SCM_GC_SET_CELL_OBJECT(x, n, v) ((((SCM *)SCM2PTR (x)) [n]) = (v))
+                                                                        ^
+../libguile/gc.h:51:38: note: in expansion of macro 'SCM_PACK'
+   (SCM_GC_SET_CELL_OBJECT ((x), (n), SCM_PACK (v)))
+                                      ^~~~~~~~
+../libguile/gc.h:67:36: note: in expansion of macro 'SCM_GC_SET_CELL_WORD'
+ #define SCM_SET_CELL_WORD(x, n, v) SCM_GC_SET_CELL_WORD ((x), (n), (v))
+                                    ^~~~~~~~~~~~~~~~~~~~
+vm-engine.c:1964:7: note: in expansion of macro 'SCM_SET_CELL_WORD'
+       SCM_SET_CELL_WORD (SP_REF (obj), SP_REF_U64 (idx), SP_REF_U64 (val));
+       ^~~~~~~~~~~~~~~~~
+../libguile/scm.h:176:23: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ # define SCM_PACK(x) ((SCM) (x))
+                       ^
+../libguile/gc.h:49:72: note: in definition of macro 'SCM_GC_SET_CELL_OBJECT'
+ #define SCM_GC_SET_CELL_OBJECT(x, n, v) ((((SCM *)SCM2PTR (x)) [n]) = (v))
+                                                                        ^
+../libguile/gc.h:51:38: note: in expansion of macro 'SCM_PACK'
+   (SCM_GC_SET_CELL_OBJECT ((x), (n), SCM_PACK (v)))
+                                      ^~~~~~~~
+../libguile/gc.h:67:36: note: in expansion of macro 'SCM_GC_SET_CELL_WORD'
+ #define SCM_SET_CELL_WORD(x, n, v) SCM_GC_SET_CELL_WORD ((x), (n), (v))
+                                    ^~~~~~~~~~~~~~~~~~~~
+vm-engine.c:1996:7: note: in expansion of macro 'SCM_SET_CELL_WORD'
+       SCM_SET_CELL_WORD (SP_REF (obj), idx, SP_REF_U64 (val));
+       ^~~~~~~~~~~~~~~~~
+In file included from vm.c:507:
+vm-engine.c: In function 'vm_debug_engine':
+vm-engine.c:533:16: warning: unused variable 'mcode' [-Wunused-variable]
+       uint8_t *mcode;
+                ^~~~~
+vm-engine.c:1051:16: warning: variable 'mcode' set but not used [-Wunused-but-set-variable]
+       uint8_t *mcode;
+                ^~~~~
+In file included from ../libguile/pairs.h:26,
+                 from alist.h:26,
+                 from vm.c:38:
+../libguile/scm.h:176:23: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ # define SCM_PACK(x) ((SCM) (x))
+                       ^
+../libguile/gc.h:49:72: note: in definition of macro 'SCM_GC_SET_CELL_OBJECT'
+ #define SCM_GC_SET_CELL_OBJECT(x, n, v) ((((SCM *)SCM2PTR (x)) [n]) = (v))
+                                                                        ^
+../libguile/gc.h:51:38: note: in expansion of macro 'SCM_PACK'
+   (SCM_GC_SET_CELL_OBJECT ((x), (n), SCM_PACK (v)))
+                                      ^~~~~~~~
+../libguile/gc.h:67:36: note: in expansion of macro 'SCM_GC_SET_CELL_WORD'
+ #define SCM_SET_CELL_WORD(x, n, v) SCM_GC_SET_CELL_WORD ((x), (n), (v))
+                                    ^~~~~~~~~~~~~~~~~~~~
+vm-engine.c:1964:7: note: in expansion of macro 'SCM_SET_CELL_WORD'
+       SCM_SET_CELL_WORD (SP_REF (obj), SP_REF_U64 (idx), SP_REF_U64 (val));
+       ^~~~~~~~~~~~~~~~~
+../libguile/scm.h:176:23: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ # define SCM_PACK(x) ((SCM) (x))
+                       ^
+../libguile/gc.h:49:72: note: in definition of macro 'SCM_GC_SET_CELL_OBJECT'
+ #define SCM_GC_SET_CELL_OBJECT(x, n, v) ((((SCM *)SCM2PTR (x)) [n]) = (v))
+                                                                        ^
+../libguile/gc.h:51:38: note: in expansion of macro 'SCM_PACK'
+   (SCM_GC_SET_CELL_OBJECT ((x), (n), SCM_PACK (v)))
+                                      ^~~~~~~~
+../libguile/gc.h:67:36: note: in expansion of macro 'SCM_GC_SET_CELL_WORD'
+ #define SCM_SET_CELL_WORD(x, n, v) SCM_GC_SET_CELL_WORD ((x), (n), (v))
+                                    ^~~~~~~~~~~~~~~~~~~~
+vm-engine.c:1996:7: note: in expansion of macro 'SCM_SET_CELL_WORD'
+       SCM_SET_CELL_WORD (SP_REF (obj), idx, SP_REF_U64 (val));
+       ^~~~~~~~~~~~~~~~~
+vm.c: In function 'scm_call_n':
+vm.c:1595:18: warning: unused variable 'mcode' [-Wunused-variable]
+         uint8_t *mcode = vp->mra_after_abort;
+                  ^~~~~
+  CC       libguile_3.0_la-vports.lo
+  CC       libguile_3.0_la-weak-set.lo
+  CC       libguile_3.0_la-weak-table.lo
+  CC       libguile_3.0_la-weak-vector.lo
+  CC       libguile_3.0_la-dynl.lo
+  CC       libguile_3.0_la-posix.lo
+  CC       libguile_3.0_la-net_db.lo
+  CC       libguile_3.0_la-socket.lo
+  CC       libguile_3.0_la-regex-posix.lo
+  CCLD     libguile-3.0.la
+/usr/bin/ld: .libs/libguile_3.0_la-posix.o: in function `scm_tmpnam':
+/home/gunter/Data/pi02/GNU/guile/libguile/posix.c:1611: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CCLD     guile
+  GEN      c-tokenize.o
+  GEN      guile_filter_doc_snarfage
+  SNARF  alist.doc
+  SNARF  array-handle.doc
+  SNARF  array-map.doc
+  SNARF  arrays.doc
+  SNARF  async.doc
+  SNARF  atomic.doc
+  SNARF  backtrace.doc
+  SNARF  boolean.doc
+  SNARF  bitvectors.doc
+  SNARF  bytevectors.doc
+  SNARF  chars.doc
+  SNARF  control.doc
+  SNARF  continuations.doc
+  SNARF  debug.doc
+  SNARF  deprecated.doc
+  SNARF  deprecation.doc
+  SNARF  dynl.doc
+  SNARF  dynwind.doc
+  SNARF  eq.doc
+  SNARF  error.doc
+  SNARF  eval.doc
+  SNARF  evalext.doc
+  SNARF  exceptions.doc
+  SNARF  expand.doc
+  SNARF  extensions.doc
+  SNARF  fdes-finalizers.doc
+  SNARF  feature.doc
+  SNARF  filesys.doc
+  SNARF  fluids.doc
+  SNARF  foreign.doc
+  SNARF  fports.doc
+  SNARF  gc-malloc.doc
+  SNARF  gc.doc
+  SNARF  gettext.doc
+  SNARF  generalized-arrays.doc
+  SNARF  generalized-vectors.doc
+  SNARF  goops.doc
+  SNARF  gsubr.doc
+  SNARF  guardians.doc
+  SNARF  hash.doc
+  SNARF  hashtab.doc
+  SNARF  hooks.doc
+  SNARF  i18n.doc
+  SNARF  init.doc
+  SNARF  ioext.doc
+  SNARF  keywords.doc
+  SNARF  list.doc
+  SNARF  load.doc
+  SNARF  macros.doc
+  SNARF  mallocs.doc
+  SNARF  memoize.doc
+  SNARF  modules.doc
+  SNARF  numbers.doc
+  SNARF  objprop.doc
+  SNARF  options.doc
+  SNARF  pairs.doc
+  SNARF  ports.doc
+  SNARF  print.doc
+  SNARF  procprop.doc
+  SNARF  procs.doc
+  SNARF  promises.doc
+  SNARF  r6rs-ports.doc
+  SNARF  random.doc
+  SNARF  rdelim.doc
+  SNARF  read.doc
+  SNARF  rw.doc
+  SNARF  scmsigs.doc
+  SNARF  script.doc
+  SNARF  simpos.doc
+  SNARF  smob.doc
+  SNARF  sort.doc
+  SNARF  srcprop.doc
+  SNARF  srfi-1.doc
+  SNARF  srfi-4.doc
+  SNARF  srfi-13.doc
+  SNARF  srfi-14.doc
+  SNARF  srfi-60.doc
+  SNARF  stackchk.doc
+  SNARF  stacks.doc
+  SNARF  stime.doc
+  SNARF  strings.doc
+  SNARF  strorder.doc
+  SNARF  strports.doc
+  SNARF  struct.doc
+  SNARF  symbols.doc
+  SNARF  syntax.doc
+  SNARF  threads.doc
+  SNARF  throw.doc
+  SNARF  unicode.doc
+  SNARF  uniform.doc
+  SNARF  values.doc
+  SNARF  variable.doc
+  SNARF  vectors.doc
+  SNARF  version.doc
+  SNARF  vports.doc
+  SNARF  weak-set.doc
+  SNARF  weak-table.doc
+  SNARF  weak-vector.doc
+  SNARF  posix.doc
+  SNARF  net_db.doc
+  SNARF  socket.doc
+  SNARF  regex-posix.doc
+  GEN      guile-procedures.texi
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+Making all in bootstrap
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/bootstrap'
+  BOOTSTRAP GUILEC ice-9/eval.go
+wrote `ice-9/eval.go'
+  BOOTSTRAP GUILEC ice-9/psyntax-pp.go
+wrote `ice-9/psyntax-pp.go'
+  BOOTSTRAP GUILEC language/tree-il/compile-bytecode.go
+wrote `language/tree-il/compile-bytecode.go'
+  BOOTSTRAP GUILEC ice-9/boot-9.go
+wrote `ice-9/boot-9.go'
+  BOOTSTRAP GUILEC srfi/srfi-1.go
+wrote `srfi/srfi-1.go'
+  BOOTSTRAP GUILEC language/tree-il.go
+wrote `language/tree-il.go'
+  BOOTSTRAP GUILEC language/tree-il/analyze.go
+wrote `language/tree-il/analyze.go'
+  BOOTSTRAP GUILEC language/tree-il/debug.go
+wrote `language/tree-il/debug.go'
+  BOOTSTRAP GUILEC language/tree-il/effects.go
+wrote `language/tree-il/effects.go'
+  BOOTSTRAP GUILEC language/tree-il/eta-expand.go
+wrote `language/tree-il/eta-expand.go'
+  BOOTSTRAP GUILEC language/tree-il/fix-letrec.go
+wrote `language/tree-il/fix-letrec.go'
+  BOOTSTRAP GUILEC language/tree-il/inlinable-exports.go
+wrote `language/tree-il/inlinable-exports.go'
+  BOOTSTRAP GUILEC language/tree-il/letrectify.go
+wrote `language/tree-il/letrectify.go'
+  BOOTSTRAP GUILEC language/tree-il/optimize.go
+wrote `language/tree-il/optimize.go'
+  BOOTSTRAP GUILEC language/tree-il/peval.go
+wrote `language/tree-il/peval.go'
+  BOOTSTRAP GUILEC language/tree-il/primitives.go
+wrote `language/tree-il/primitives.go'
+  BOOTSTRAP GUILEC language/tree-il/resolve-free-vars.go
+wrote `language/tree-il/resolve-free-vars.go'
+  BOOTSTRAP GUILEC language/tree-il/spec.go
+wrote `language/tree-il/spec.go'
+  BOOTSTRAP GUILEC language/scheme/spec.go
+wrote `language/scheme/spec.go'
+  BOOTSTRAP GUILEC language/scheme/compile-tree-il.go
+wrote `language/scheme/compile-tree-il.go'
+  BOOTSTRAP GUILEC language/scheme/decompile-tree-il.go
+wrote `language/scheme/decompile-tree-il.go'
+  BOOTSTRAP GUILEC language/bytecode.go
+wrote `language/bytecode.go'
+  BOOTSTRAP GUILEC language/bytecode/spec.go
+wrote `language/bytecode/spec.go'
+  BOOTSTRAP GUILEC language/value/spec.go
+wrote `language/value/spec.go'
+  BOOTSTRAP GUILEC system/base/pmatch.go
+wrote `system/base/pmatch.go'
+  BOOTSTRAP GUILEC system/base/syntax.go
+wrote `system/base/syntax.go'
+  BOOTSTRAP GUILEC system/base/compile.go
+wrote `system/base/compile.go'
+  BOOTSTRAP GUILEC system/base/optimize.go
+wrote `system/base/optimize.go'
+  BOOTSTRAP GUILEC system/base/language.go
+wrote `system/base/language.go'
+  BOOTSTRAP GUILEC system/base/lalr.go
+wrote `system/base/lalr.go'
+  BOOTSTRAP GUILEC system/base/message.go
+wrote `system/base/message.go'
+  BOOTSTRAP GUILEC system/base/target.go
+wrote `system/base/target.go'
+  BOOTSTRAP GUILEC system/base/types.go
+wrote `system/base/types.go'
+  BOOTSTRAP GUILEC system/base/types/internal.go
+wrote `system/base/types/internal.go'
+  BOOTSTRAP GUILEC system/base/ck.go
+wrote `system/base/ck.go'
+  BOOTSTRAP GUILEC ice-9/ports.go
+wrote `ice-9/ports.go'
+  BOOTSTRAP GUILEC ice-9/r5rs.go
+wrote `ice-9/r5rs.go'
+  BOOTSTRAP GUILEC ice-9/deprecated.go
+wrote `ice-9/deprecated.go'
+  BOOTSTRAP GUILEC ice-9/binary-ports.go
+wrote `ice-9/binary-ports.go'
+  BOOTSTRAP GUILEC ice-9/command-line.go
+wrote `ice-9/command-line.go'
+  BOOTSTRAP GUILEC ice-9/control.go
+wrote `ice-9/control.go'
+  BOOTSTRAP GUILEC ice-9/format.go
+wrote `ice-9/format.go'
+  BOOTSTRAP GUILEC ice-9/getopt-long.go
+wrote `ice-9/getopt-long.go'
+  BOOTSTRAP GUILEC ice-9/i18n.go
+wrote `ice-9/i18n.go'
+  BOOTSTRAP GUILEC ice-9/match.go
+wrote `ice-9/match.go'
+  BOOTSTRAP GUILEC ice-9/networking.go
+wrote `ice-9/networking.go'
+  BOOTSTRAP GUILEC ice-9/posix.go
+wrote `ice-9/posix.go'
+  BOOTSTRAP GUILEC ice-9/rdelim.go
+wrote `ice-9/rdelim.go'
+  BOOTSTRAP GUILEC ice-9/receive.go
+wrote `ice-9/receive.go'
+  BOOTSTRAP GUILEC ice-9/regex.go
+wrote `ice-9/regex.go'
+  BOOTSTRAP GUILEC ice-9/session.go
+wrote `ice-9/session.go'
+  BOOTSTRAP GUILEC ice-9/pretty-print.go
+wrote `ice-9/pretty-print.go'
+  BOOTSTRAP GUILEC ice-9/vlist.go
+wrote `ice-9/vlist.go'
+  BOOTSTRAP GUILEC system/vm/assembler.go
+wrote `system/vm/assembler.go'
+  BOOTSTRAP GUILEC system/vm/debug.go
+wrote `system/vm/debug.go'
+  BOOTSTRAP GUILEC system/vm/disassembler.go
+wrote `system/vm/disassembler.go'
+  BOOTSTRAP GUILEC system/vm/dwarf.go
+wrote `system/vm/dwarf.go'
+  BOOTSTRAP GUILEC system/vm/elf.go
+wrote `system/vm/elf.go'
+  BOOTSTRAP GUILEC system/vm/frame.go
+wrote `system/vm/frame.go'
+  BOOTSTRAP GUILEC system/vm/linker.go
+wrote `system/vm/linker.go'
+  BOOTSTRAP GUILEC system/vm/loader.go
+wrote `system/vm/loader.go'
+  BOOTSTRAP GUILEC system/vm/program.go
+wrote `system/vm/program.go'
+  BOOTSTRAP GUILEC system/vm/vm.go
+wrote `system/vm/vm.go'
+  BOOTSTRAP GUILEC system/foreign.go
+wrote `system/foreign.go'
+  BOOTSTRAP GUILEC system/foreign-library.go
+wrote `system/foreign-library.go'
+  BOOTSTRAP GUILEC language/tree-il/compile-cps.go
+wrote `language/tree-il/compile-cps.go'
+  BOOTSTRAP GUILEC language/tree-il/cps-primitives.go
+wrote `language/tree-il/cps-primitives.go'
+  BOOTSTRAP GUILEC language/cps.go
+wrote `language/cps.go'
+  BOOTSTRAP GUILEC language/cps/closure-conversion.go
+wrote `language/cps/closure-conversion.go'
+  BOOTSTRAP GUILEC language/cps/compile-bytecode.go
+wrote `language/cps/compile-bytecode.go'
+  BOOTSTRAP GUILEC language/cps/contification.go
+wrote `language/cps/contification.go'
+  BOOTSTRAP GUILEC language/cps/cse.go
+wrote `language/cps/cse.go'
+  BOOTSTRAP GUILEC language/cps/dce.go
+wrote `language/cps/dce.go'
+  BOOTSTRAP GUILEC language/cps/devirtualize-integers.go
+wrote `language/cps/devirtualize-integers.go'
+  BOOTSTRAP GUILEC language/cps/effects-analysis.go
+wrote `language/cps/effects-analysis.go'
+  BOOTSTRAP GUILEC language/cps/elide-arity-checks.go
+wrote `language/cps/elide-arity-checks.go'
+  BOOTSTRAP GUILEC language/cps/intmap.go
+wrote `language/cps/intmap.go'
+  BOOTSTRAP GUILEC language/cps/intset.go
+wrote `language/cps/intset.go'
+  BOOTSTRAP GUILEC language/cps/graphs.go
+wrote `language/cps/graphs.go'
+  BOOTSTRAP GUILEC language/cps/licm.go
+wrote `language/cps/licm.go'
+  BOOTSTRAP GUILEC language/cps/loop-instrumentation.go
+wrote `language/cps/loop-instrumentation.go'
+  BOOTSTRAP GUILEC language/cps/peel-loops.go
+wrote `language/cps/peel-loops.go'
+  BOOTSTRAP GUILEC language/cps/prune-top-level-scopes.go
+wrote `language/cps/prune-top-level-scopes.go'
+  BOOTSTRAP GUILEC language/cps/reify-primitives.go
+wrote `language/cps/reify-primitives.go'
+  BOOTSTRAP GUILEC language/cps/renumber.go
+wrote `language/cps/renumber.go'
+  BOOTSTRAP GUILEC language/cps/rotate-loops.go
+wrote `language/cps/rotate-loops.go'
+  BOOTSTRAP GUILEC language/cps/optimize.go
+wrote `language/cps/optimize.go'
+  BOOTSTRAP GUILEC language/cps/simplify.go
+wrote `language/cps/simplify.go'
+  BOOTSTRAP GUILEC language/cps/self-references.go
+wrote `language/cps/self-references.go'
+  BOOTSTRAP GUILEC language/cps/slot-allocation.go
+wrote `language/cps/slot-allocation.go'
+  BOOTSTRAP GUILEC language/cps/spec.go
+wrote `language/cps/spec.go'
+  BOOTSTRAP GUILEC language/cps/specialize-primcalls.go
+wrote `language/cps/specialize-primcalls.go'
+  BOOTSTRAP GUILEC language/cps/specialize-numbers.go
+wrote `language/cps/specialize-numbers.go'
+  BOOTSTRAP GUILEC language/cps/split-rec.go
+wrote `language/cps/split-rec.go'
+  BOOTSTRAP GUILEC language/cps/switch.go
+wrote `language/cps/switch.go'
+  BOOTSTRAP GUILEC language/cps/type-checks.go
+wrote `language/cps/type-checks.go'
+  BOOTSTRAP GUILEC language/cps/type-fold.go
+wrote `language/cps/type-fold.go'
+  BOOTSTRAP GUILEC language/cps/types.go
+wrote `language/cps/types.go'
+  BOOTSTRAP GUILEC language/cps/utils.go
+wrote `language/cps/utils.go'
+  BOOTSTRAP GUILEC language/cps/verify.go
+wrote `language/cps/verify.go'
+  BOOTSTRAP GUILEC language/cps/with-cps.go
+wrote `language/cps/with-cps.go'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/bootstrap'
+Making all in module
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/module'
+  GUILEC ice-9/eval.go
+wrote `ice-9/eval.go'
+  GUILEC ice-9/psyntax-pp.go
+wrote `ice-9/psyntax-pp.go'
+  GUILEC language/cps.go
+wrote `language/cps.go'
+  GUILEC language/cps/closure-conversion.go
+wrote `language/cps/closure-conversion.go'
+  GUILEC language/cps/compile-bytecode.go
+wrote `language/cps/compile-bytecode.go'
+  GUILEC language/cps/contification.go
+wrote `language/cps/contification.go'
+  GUILEC language/cps/cse.go
+wrote `language/cps/cse.go'
+  GUILEC language/cps/dce.go
+wrote `language/cps/dce.go'
+  GUILEC language/cps/devirtualize-integers.go
+wrote `language/cps/devirtualize-integers.go'
+  GUILEC language/cps/elide-arity-checks.go
+wrote `language/cps/elide-arity-checks.go'
+  GUILEC language/cps/effects-analysis.go
+wrote `language/cps/effects-analysis.go'
+  GUILEC language/cps/graphs.go
+wrote `language/cps/graphs.go'
+  GUILEC language/cps/intmap.go
+wrote `language/cps/intmap.go'
+  GUILEC language/cps/intset.go
+wrote `language/cps/intset.go'
+  GUILEC language/cps/licm.go
+wrote `language/cps/licm.go'
+  GUILEC language/cps/loop-instrumentation.go
+wrote `language/cps/loop-instrumentation.go'
+  GUILEC language/cps/optimize.go
+wrote `language/cps/optimize.go'
+  GUILEC language/cps/peel-loops.go
+wrote `language/cps/peel-loops.go'
+  GUILEC language/cps/prune-top-level-scopes.go
+wrote `language/cps/prune-top-level-scopes.go'
+  GUILEC language/cps/reify-primitives.go
+wrote `language/cps/reify-primitives.go'
+  GUILEC language/cps/renumber.go
+wrote `language/cps/renumber.go'
+  GUILEC language/cps/rotate-loops.go
+wrote `language/cps/rotate-loops.go'
+  GUILEC language/cps/self-references.go
+wrote `language/cps/self-references.go'
+  GUILEC language/cps/simplify.go
+wrote `language/cps/simplify.go'
+  GUILEC language/cps/slot-allocation.go
+wrote `language/cps/slot-allocation.go'
+  GUILEC language/cps/spec.go
+wrote `language/cps/spec.go'
+  GUILEC language/cps/specialize-primcalls.go
+wrote `language/cps/specialize-primcalls.go'
+  GUILEC language/cps/specialize-numbers.go
+wrote `language/cps/specialize-numbers.go'
+  GUILEC language/cps/split-rec.go
+wrote `language/cps/split-rec.go'
+  GUILEC language/cps/switch.go
+wrote `language/cps/switch.go'
+  GUILEC language/cps/type-checks.go
+wrote `language/cps/type-checks.go'
+  GUILEC language/cps/type-fold.go
+wrote `language/cps/type-fold.go'
+  GUILEC language/cps/types.go
+wrote `language/cps/types.go'
+  GUILEC language/cps/utils.go
+wrote `language/cps/utils.go'
+  GUILEC language/cps/verify.go
+wrote `language/cps/verify.go'
+  GUILEC language/cps/with-cps.go
+wrote `language/cps/with-cps.go'
+  GUILEC language/tree-il.go
+wrote `language/tree-il.go'
+  GUILEC language/tree-il/analyze.go
+wrote `language/tree-il/analyze.go'
+  GUILEC language/tree-il/compile-bytecode.go
+wrote `language/tree-il/compile-bytecode.go'
+  GUILEC language/tree-il/compile-cps.go
+wrote `language/tree-il/compile-cps.go'
+  GUILEC language/tree-il/cps-primitives.go
+wrote `language/tree-il/cps-primitives.go'
+  GUILEC language/tree-il/debug.go
+wrote `language/tree-il/debug.go'
+  GUILEC language/tree-il/effects.go
+wrote `language/tree-il/effects.go'
+  GUILEC language/tree-il/eta-expand.go
+wrote `language/tree-il/eta-expand.go'
+  GUILEC language/tree-il/fix-letrec.go
+wrote `language/tree-il/fix-letrec.go'
+  GUILEC language/tree-il/inlinable-exports.go
+wrote `language/tree-il/inlinable-exports.go'
+  GUILEC language/tree-il/letrectify.go
+wrote `language/tree-il/letrectify.go'
+  GUILEC language/tree-il/optimize.go
+wrote `language/tree-il/optimize.go'
+  GUILEC language/tree-il/peval.go
+wrote `language/tree-il/peval.go'
+  GUILEC language/tree-il/primitives.go
+wrote `language/tree-il/primitives.go'
+  GUILEC language/tree-il/resolve-free-vars.go
+wrote `language/tree-il/resolve-free-vars.go'
+  GUILEC language/tree-il/spec.go
+wrote `language/tree-il/spec.go'
+  GUILEC ice-9/and-let-star.go
+wrote `ice-9/and-let-star.go'
+  GUILEC ice-9/arrays.go
+wrote `ice-9/arrays.go'
+  GUILEC ice-9/atomic.go
+wrote `ice-9/atomic.go'
+  GUILEC ice-9/binary-ports.go
+wrote `ice-9/binary-ports.go'
+  GUILEC ice-9/boot-9.go
+ice-9/boot-9.scm:4669:35: warning: possibly unbound variable `syntax?'
+wrote `ice-9/boot-9.go'
+  GUILEC ice-9/buffered-input.go
+wrote `ice-9/buffered-input.go'
+  GUILEC ice-9/calling.go
+wrote `ice-9/calling.go'
+  GUILEC ice-9/command-line.go
+wrote `ice-9/command-line.go'
+  GUILEC ice-9/common-list.go
+wrote `ice-9/common-list.go'
+  GUILEC ice-9/control.go
+wrote `ice-9/control.go'
+  GUILEC ice-9/copy-tree.go
+wrote `ice-9/copy-tree.go'
+  GUILEC ice-9/curried-definitions.go
+wrote `ice-9/curried-definitions.go'
+  GUILEC ice-9/deprecated.go
+wrote `ice-9/deprecated.go'
+  GUILEC ice-9/documentation.go
+wrote `ice-9/documentation.go'
+  GUILEC ice-9/eval-string.go
+wrote `ice-9/eval-string.go'
+  GUILEC ice-9/exceptions.go
+wrote `ice-9/exceptions.go'
+  GUILEC ice-9/expect.go
+wrote `ice-9/expect.go'
+  GUILEC ice-9/fdes-finalizers.go
+wrote `ice-9/fdes-finalizers.go'
+  GUILEC ice-9/format.go
+wrote `ice-9/format.go'
+  GUILEC ice-9/ftw.go
+wrote `ice-9/ftw.go'
+  GUILEC ice-9/futures.go
+wrote `ice-9/futures.go'
+  GUILEC ice-9/gap-buffer.go
+wrote `ice-9/gap-buffer.go'
+  GUILEC ice-9/getopt-long.go
+wrote `ice-9/getopt-long.go'
+  GUILEC ice-9/hash-table.go
+wrote `ice-9/hash-table.go'
+  GUILEC ice-9/hcons.go
+wrote `ice-9/hcons.go'
+  GUILEC ice-9/history.go
+wrote `ice-9/history.go'
+  GUILEC ice-9/i18n.go

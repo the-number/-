@@ -1,0 +1,360 @@
+WARNING: version string 3.0.7.6-22120 is out of date;
+run 'make _version' to fix it
+make  install-recursive
+make[1]: Entering directory '/home/gunter/Data/pi02/GNU/guile'
+Making install in lib
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/lib'
+make  install-recursive
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/lib'
+make[4]: Entering directory '/home/gunter/Data/pi02/GNU/guile/lib'
+make[5]: Entering directory '/home/gunter/Data/pi02/GNU/guile/lib'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/lib'
+make[4]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/lib'
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/lib'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/lib'
+Making install in meta
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/meta'
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/meta'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/bin'
+ /usr/bin/install -c guile-config guild '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/bin'
+make  install-exec-hook
+make[4]: Entering directory '/home/gunter/Data/pi02/GNU/guile/meta'
+guild="`echo -n guild				\
+   | /usr/bin/sed -e 's,x,x,'`" ;		\
+guile_tools="`echo -n guile-tools		\
+   | /usr/bin/sed -e 's,x,x,'`" ;		\
+cd /home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/bin && rm -f "$guile_tools" &&	\
+ln -s "$guild" "$guile_tools"
+make[4]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/meta'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/aclocal'
+ /usr/bin/install -c -m 644 guile.m4 '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/aclocal'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/pkgconfig'
+ /usr/bin/install -c -m 644 guile-3.0.pc '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/pkgconfig'
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/meta'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/meta'
+Making install in libguile
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+make  install-am
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+make[4]: Entering directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libguile-3.0.la '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib'
+libtool: install: /usr/bin/install -c .libs/libguile-3.0.so.1.4.0 /home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/libguile-3.0.so.1.4.0
+libtool: install: (cd /home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib && { ln -s -f libguile-3.0.so.1.4.0 libguile-3.0.so.1 || { rm -f libguile-3.0.so.1 && ln -s libguile-3.0.so.1.4.0 libguile-3.0.so.1; }; })
+libtool: install: (cd /home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib && { ln -s -f libguile-3.0.so.1.4.0 libguile-3.0.so || { rm -f libguile-3.0.so && ln -s libguile-3.0.so.1.4.0 libguile-3.0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libguile-3.0.lai /home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/libguile-3.0.la
+libtool: install: /usr/bin/install -c .libs/libguile-3.0.a /home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/libguile-3.0.a
+libtool: install: chmod 644 /home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/libguile-3.0.a
+libtool: install: ranlib /home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/libguile-3.0.a
+libtool: warning: remember to run 'libtool --finish /usr/local/lib'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/bin'
+  /bin/bash ../libtool   --mode=install /usr/bin/install -c guile '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/bin'
+libtool: install: /usr/bin/install -c .libs/guile /home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/bin/guile
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/bin'
+ /usr/bin/install -c guile-snarf '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/bin'
+make  install-exec-hook
+make[5]: Entering directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+rm -f /home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/bin/guile-snarf.awk
+make[5]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/include/guile/3.0/libguile'
+ /usr/bin/install -c -m 644 scm.h __scm.h alist.h array-handle.h array-map.h arrays.h async.h atomic.h backtrace.h bdw-gc.h boolean.h bitvectors.h bytevectors.h chars.h chooks.h control.h continuations.h debug-malloc.h debug.h deprecated.h deprecation.h dynl.h dynstack.h dynwind.h eq.h error.h eval.h evalext.h exceptions.h expand.h extensions.h fdes-finalizers.h feature.h finalizers.h filesys.h fluids.h foreign.h foreign-object.h fports.h frames.h '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/include/guile/3.0/libguile'
+ /usr/bin/install -c -m 644 gc.h gc-inline.h gettext.h generalized-arrays.h generalized-vectors.h goops.h gsubr.h guardians.h hash.h hashtab.h hooks.h i18n.h init.h inline.h instructions.h ioext.h iselect.h jit.h keywords.h list.h load.h loader.h macros.h mallocs.h memoize.h modules.h net_db.h null-threads.h numbers.h objprop.h options.h pairs.h poll.h ports.h posix.h print.h procprop.h procs.h programs.h promises.h '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/include/guile/3.0/libguile'
+ /usr/bin/install -c -m 644 pthread-threads.h r6rs-ports.h random.h rdelim.h read.h regex-posix.h rw.h scmsigs.h script.h simpos.h smob.h snarf.h socket.h sort.h srcprop.h srfi-1.h srfi-4.h srfi-13.h srfi-14.h srfi-60.h stackchk.h stacks.h stime.h strings.h strorder.h strports.h struct.h symbols.h tags.h threads.h throw.h validate.h unicode.h uniform.h values.h variable.h vectors.h vm-builtins.h vm-expand.h vm.h '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/include/guile/3.0/libguile'
+ /usr/bin/install -c -m 644 vports.h weak-set.h weak-table.h weak-vector.h '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/include/guile/3.0/libguile'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/include/guile/3.0/libguile'
+ /usr/bin/install -c -m 644 version.h scmconfig.h '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/include/guile/3.0/libguile'
+make  install-data-hook
+make[5]: Entering directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+ /usr/bin/install -c -m 644 libguile-3.0-gdb.scm				/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/libguile-3.0.so.1.4.0-gdb.scm
+make[5]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+make[4]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+Making install in bootstrap
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/bootstrap'
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/bootstrap'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/bootstrap'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/bootstrap'
+Making install in module
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/module'
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/module'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0/'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//ice-9'
+ /usr/bin/install -c -m 644  ice-9/eval.scm ice-9/psyntax-pp.scm ice-9/and-let-star.scm ice-9/arrays.scm ice-9/atomic.scm ice-9/binary-ports.scm ice-9/boot-9.scm ice-9/buffered-input.scm ice-9/calling.scm ice-9/command-line.scm ice-9/common-list.scm ice-9/control.scm ice-9/copy-tree.scm ice-9/curried-definitions.scm ice-9/deprecated.scm ice-9/documentation.scm ice-9/eval-string.scm ice-9/exceptions.scm ice-9/expect.scm ice-9/fdes-finalizers.scm ice-9/format.scm ice-9/ftw.scm ice-9/futures.scm ice-9/gap-buffer.scm ice-9/getopt-long.scm ice-9/hash-table.scm ice-9/hcons.scm ice-9/history.scm ice-9/i18n.scm ice-9/iconv.scm ice-9/lineio.scm ice-9/list.scm ice-9/local-eval.scm ice-9/ls.scm ice-9/match.scm ice-9/networking.scm ice-9/null.scm ice-9/occam-channel.scm ice-9/optargs.scm ice-9/peg.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//ice-9'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//oop/goops'
+ /usr/bin/install -c -m 644  oop/goops/active-slot.scm oop/goops/composite-slot.scm oop/goops/describe.scm oop/goops/internal.scm oop/goops/save.scm oop/goops/stklos.scm oop/goops/accessors.scm oop/goops/simple.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//oop/goops'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//ice-9'
+ /usr/bin/install -c -m 644  ice-9/poe.scm ice-9/poll.scm ice-9/popen.scm ice-9/ports.scm ice-9/posix.scm ice-9/pretty-print.scm ice-9/q.scm ice-9/r5rs.scm ice-9/rdelim.scm ice-9/receive.scm ice-9/regex.scm ice-9/runq.scm ice-9/rw.scm ice-9/safe-r5rs.scm ice-9/safe.scm ice-9/sandbox.scm ice-9/save-stack.scm ice-9/scm-style-repl.scm ice-9/serialize.scm ice-9/session.scm ice-9/slib.scm ice-9/stack-catch.scm ice-9/streams.scm ice-9/string-fun.scm ice-9/suspendable-ports.scm ice-9/textual-ports.scm ice-9/threads.scm ice-9/time.scm ice-9/top-repl.scm ice-9/unicode.scm ice-9/vlist.scm ice-9/weak-vector.scm ice-9/match.upstream.scm ice-9/psyntax.scm ice-9/read.scm ice-9/r6rs-libraries.scm ice-9/r7rs-libraries.scm ice-9/quasisyntax.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//ice-9'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//language/scheme'
+ /usr/bin/install -c -m 644  language/scheme/compile-tree-il.scm language/scheme/decompile-tree-il.scm language/scheme/spec.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//language/scheme'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//system/base/types'
+ /usr/bin/install -c -m 644  system/base/types/internal.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//system/base/types'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//srfi/srfi-171'
+ /usr/bin/install -c -m 644  srfi/srfi-171/gnu.scm srfi/srfi-171/meta.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//srfi/srfi-171'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//scheme'
+ /usr/bin/install -c -m 644  scheme/base.scm scheme/case-lambda.scm scheme/char.scm scheme/complex.scm scheme/cxr.scm scheme/eval.scm scheme/file.scm scheme/inexact.scm scheme/lazy.scm scheme/load.scm scheme/process-context.scm scheme/r5rs.scm scheme/read.scm scheme/repl.scm scheme/time.scm scheme/write.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//scheme'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//language/elisp'
+ /usr/bin/install -c -m 644  language/elisp/falias.scm language/elisp/lexer.scm language/elisp/parser.scm language/elisp/bindings.scm language/elisp/compile-tree-il.scm language/elisp/runtime.scm language/elisp/spec.scm language/elisp/boot.el '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//language/elisp'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//rnrs/records'
+ /usr/bin/install -c -m 644  rnrs/records/inspection.scm rnrs/records/procedural.scm rnrs/records/syntactic.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//rnrs/records'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//language'
+ /usr/bin/install -c -m 644  language/cps.scm language/tree-il.scm language/bytecode.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//language'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//system/base'
+ /usr/bin/install -c -m 644  system/base/pmatch.scm system/base/syntax.scm system/base/compile.scm system/base/optimize.scm system/base/language.scm system/base/lalr.scm system/base/message.scm system/base/target.scm system/base/types.scm system/base/ck.scm system/base/lalr.upstream.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//system/base'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//language/elisp/runtime'
+ /usr/bin/install -c -m 644  language/elisp/runtime/function-slot.scm language/elisp/runtime/value-slot.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//language/elisp/runtime'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//rnrs/io'
+ /usr/bin/install -c -m 644  rnrs/io/simple.scm rnrs/io/ports.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//rnrs/io'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//rnrs/arithmetic'
+ /usr/bin/install -c -m 644  rnrs/arithmetic/bitwise.scm rnrs/arithmetic/fixnums.scm rnrs/arithmetic/flonums.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//rnrs/arithmetic'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//web/server'
+ /usr/bin/install -c -m 644  web/server/http.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//web/server'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//system/vm'
+ /usr/bin/install -c -m 644  system/vm/assembler.scm system/vm/coverage.scm system/vm/debug.scm system/vm/disassembler.scm system/vm/dwarf.scm system/vm/elf.scm system/vm/frame.scm system/vm/inspect.scm system/vm/linker.scm system/vm/loader.scm system/vm/program.scm system/vm/trace.scm system/vm/trap-state.scm system/vm/traps.scm system/vm/vm.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//system/vm'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//language/bytecode'
+ /usr/bin/install -c -m 644  language/bytecode/spec.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//language/bytecode'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//sxml/ssax'
+ /usr/bin/install -c -m 644  sxml/ssax/input-parse.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//sxml/ssax'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//language/tree-il'
+ /usr/bin/install -c -m 644  language/tree-il/analyze.scm language/tree-il/compile-bytecode.scm language/tree-il/compile-cps.scm language/tree-il/cps-primitives.scm language/tree-il/debug.scm language/tree-il/effects.scm language/tree-il/eta-expand.scm language/tree-il/fix-letrec.scm language/tree-il/inlinable-exports.scm language/tree-il/letrectify.scm language/tree-il/optimize.scm language/tree-il/peval.scm language/tree-il/primitives.scm language/tree-il/resolve-free-vars.scm language/tree-il/spec.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//language/tree-il'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//ice-9/peg'
+ /usr/bin/install -c -m 644  ice-9/peg/cache.scm ice-9/peg/codegen.scm ice-9/peg/simplify-tree.scm ice-9/peg/string-peg.scm ice-9/peg/using-parsers.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//ice-9/peg'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//srfi/srfi-67'
+ /usr/bin/install -c -m 644  srfi/srfi-67/compare.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//srfi/srfi-67'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//language/cps'
+ /usr/bin/install -c -m 644  language/cps/closure-conversion.scm language/cps/compile-bytecode.scm language/cps/contification.scm language/cps/cse.scm language/cps/dce.scm language/cps/devirtualize-integers.scm language/cps/elide-arity-checks.scm language/cps/effects-analysis.scm language/cps/graphs.scm language/cps/intmap.scm language/cps/intset.scm language/cps/licm.scm language/cps/loop-instrumentation.scm language/cps/optimize.scm language/cps/peel-loops.scm language/cps/prune-top-level-scopes.scm language/cps/reify-primitives.scm language/cps/renumber.scm language/cps/rotate-loops.scm language/cps/self-references.scm language/cps/simplify.scm language/cps/slot-allocation.scm language/cps/spec.scm language/cps/specialize-primcalls.scm language/cps/specialize-numbers.scm language/cps/split-rec.scm language/cps/switch.scm language/cps/type-checks.scm language/cps/type-fold.scm language/cps/types.scm language/cps/utils.scm language/cps/verify.scm language/cps/with-cps.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//language/cps'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//srfi/srfi-64'
+ /usr/bin/install -c -m 644  srfi/srfi-64/testing.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//srfi/srfi-64'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//srfi/srfi-9'
+ /usr/bin/install -c -m 644  srfi/srfi-9/gnu.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//srfi/srfi-9'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//language/ecmascript'
+ /usr/bin/install -c -m 644  language/ecmascript/tokenize.scm language/ecmascript/parse.scm language/ecmascript/impl.scm language/ecmascript/base.scm language/ecmascript/function.scm language/ecmascript/array.scm language/ecmascript/compile-tree-il.scm language/ecmascript/spec.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//language/ecmascript'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//srfi/srfi-42'
+ /usr/bin/install -c -m 644  srfi/srfi-42/ec.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//srfi/srfi-42'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//srfi/srfi-4'
+ /usr/bin/install -c -m 644  srfi/srfi-4/gnu.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//srfi/srfi-4'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//language/brainfuck'
+ /usr/bin/install -c -m 644  language/brainfuck/parse.scm language/brainfuck/compile-scheme.scm language/brainfuck/compile-tree-il.scm language/brainfuck/spec.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//language/brainfuck'
+ /usr/bin/install -c -m 644  rnrs.scm statprof.scm texinfo.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//.'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//texinfo'
+ /usr/bin/install -c -m 644  texinfo/docbook.scm texinfo/html.scm texinfo/indexing.scm texinfo/string-utils.scm texinfo/plain-text.scm texinfo/reflection.scm texinfo/serialize.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//texinfo'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//srfi'
+ /usr/bin/install -c -m 644  srfi/srfi-1.scm srfi/srfi-2.scm srfi/srfi-4.scm srfi/srfi-6.scm srfi/srfi-8.scm srfi/srfi-9.scm srfi/srfi-10.scm srfi/srfi-11.scm srfi/srfi-13.scm srfi/srfi-14.scm srfi/srfi-16.scm srfi/srfi-17.scm srfi/srfi-18.scm srfi/srfi-19.scm srfi/srfi-26.scm srfi/srfi-27.scm srfi/srfi-28.scm srfi/srfi-31.scm srfi/srfi-34.scm srfi/srfi-35.scm srfi/srfi-37.scm srfi/srfi-38.scm srfi/srfi-41.scm srfi/srfi-42.scm srfi/srfi-43.scm srfi/srfi-39.scm srfi/srfi-45.scm srfi/srfi-60.scm srfi/srfi-64.scm srfi/srfi-67.scm srfi/srfi-69.scm srfi/srfi-71.scm srfi/srfi-88.scm srfi/srfi-98.scm srfi/srfi-111.scm srfi/srfi-171.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//srfi'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//system'
+ /usr/bin/install -c -m 644  system/foreign.scm system/foreign-library.scm system/foreign-object.scm system/syntax.scm system/xref.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//system'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//oop'
+ /usr/bin/install -c -m 644  oop/goops.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//oop'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//sxml'
+ /usr/bin/install -c -m 644  sxml/apply-templates.scm sxml/fold.scm sxml/match.scm sxml/simple.scm sxml/ssax.scm sxml/transform.scm sxml/xpath.scm sxml/sxml-match.ss '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//sxml'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//rnrs'
+ /usr/bin/install -c -m 644  rnrs/base.scm rnrs/conditions.scm rnrs/control.scm rnrs/enums.scm rnrs/eval.scm rnrs/exceptions.scm rnrs/files.scm rnrs/hashtables.scm rnrs/lists.scm rnrs/mutable-pairs.scm rnrs/mutable-strings.scm rnrs/programs.scm rnrs/r5rs.scm rnrs/sorting.scm rnrs/syntax-case.scm rnrs/unicode.scm rnrs/bytevectors.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//rnrs'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//language/value'
+ /usr/bin/install -c -m 644  language/value/spec.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//language/value'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//scripts'
+ /usr/bin/install -c -m 644  scripts/compile.scm scripts/disassemble.scm scripts/display-commentary.scm scripts/doc-snarf.scm scripts/frisk.scm scripts/generate-autoload.scm scripts/help.scm scripts/lint.scm scripts/list.scm scripts/punify.scm scripts/read-scheme-source.scm scripts/read-text-outline.scm scripts/use2dot.scm scripts/snarf-check-and-output-texi.scm scripts/summarize-guile-TODO.scm scripts/api-diff.scm scripts/read-rfc822.scm scripts/snarf-guile-m4-docs.scm scripts/autofrisk.scm scripts/scan-api.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//scripts'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//sxml/upstream'
+ /usr/bin/install -c -m 644  sxml/upstream/SSAX.scm sxml/upstream/SXML-tree-trans.scm sxml/upstream/SXPath-old.scm sxml/upstream/assert.scm sxml/upstream/input-parse.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//sxml/upstream'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//system/repl'
+ /usr/bin/install -c -m 644  system/repl/debug.scm system/repl/error-handling.scm system/repl/common.scm system/repl/command.scm system/repl/repl.scm system/repl/server.scm system/repl/coop-server.scm system/repl/describe.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//system/repl'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//web'
+ /usr/bin/install -c -m 644  web/client.scm web/http.scm web/request.scm web/response.scm web/server.scm web/uri.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//web'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache/'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//ice-9'
+ /usr/bin/install -c -m 644  ice-9/eval.go ice-9/psyntax-pp.go ice-9/and-let-star.go ice-9/arrays.go ice-9/atomic.go ice-9/binary-ports.go ice-9/boot-9.go ice-9/buffered-input.go ice-9/calling.go ice-9/command-line.go ice-9/common-list.go ice-9/control.go ice-9/copy-tree.go ice-9/curried-definitions.go ice-9/deprecated.go ice-9/documentation.go ice-9/eval-string.go ice-9/exceptions.go ice-9/expect.go ice-9/fdes-finalizers.go ice-9/format.go ice-9/ftw.go ice-9/futures.go ice-9/gap-buffer.go ice-9/getopt-long.go ice-9/hash-table.go ice-9/hcons.go ice-9/history.go ice-9/i18n.go ice-9/iconv.go ice-9/lineio.go ice-9/list.go ice-9/local-eval.go ice-9/ls.go ice-9/match.go ice-9/networking.go ice-9/null.go ice-9/occam-channel.go ice-9/optargs.go ice-9/peg.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//ice-9'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//oop/goops'
+ /usr/bin/install -c -m 644  oop/goops/active-slot.go oop/goops/composite-slot.go oop/goops/describe.go oop/goops/internal.go oop/goops/save.go oop/goops/stklos.go oop/goops/accessors.go oop/goops/simple.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//oop/goops'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//language/scheme'
+ /usr/bin/install -c -m 644  language/scheme/compile-tree-il.go language/scheme/decompile-tree-il.go language/scheme/spec.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//language/scheme'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//ice-9'
+ /usr/bin/install -c -m 644  ice-9/poe.go ice-9/poll.go ice-9/popen.go ice-9/ports.go ice-9/posix.go ice-9/pretty-print.go ice-9/q.go ice-9/r5rs.go ice-9/rdelim.go ice-9/receive.go ice-9/regex.go ice-9/runq.go ice-9/rw.go ice-9/safe-r5rs.go ice-9/safe.go ice-9/sandbox.go ice-9/save-stack.go ice-9/scm-style-repl.go ice-9/serialize.go ice-9/session.go ice-9/slib.go ice-9/stack-catch.go ice-9/streams.go ice-9/string-fun.go ice-9/suspendable-ports.go ice-9/textual-ports.go ice-9/threads.go ice-9/time.go ice-9/top-repl.go ice-9/unicode.go ice-9/vlist.go ice-9/weak-vector.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//ice-9'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//system/base/types'
+ /usr/bin/install -c -m 644  system/base/types/internal.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//system/base/types'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//srfi/srfi-171'
+ /usr/bin/install -c -m 644  srfi/srfi-171/gnu.go srfi/srfi-171/meta.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//srfi/srfi-171'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//scheme'
+ /usr/bin/install -c -m 644  scheme/base.go scheme/case-lambda.go scheme/char.go scheme/complex.go scheme/cxr.go scheme/eval.go scheme/file.go scheme/inexact.go scheme/lazy.go scheme/load.go scheme/process-context.go scheme/r5rs.go scheme/read.go scheme/repl.go scheme/time.go scheme/write.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//scheme'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//language/elisp'
+ /usr/bin/install -c -m 644  language/elisp/falias.go language/elisp/lexer.go language/elisp/parser.go language/elisp/bindings.go language/elisp/compile-tree-il.go language/elisp/runtime.go language/elisp/spec.go language/elisp/boot.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//language/elisp'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//rnrs/records'
+ /usr/bin/install -c -m 644  rnrs/records/inspection.go rnrs/records/procedural.go rnrs/records/syntactic.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//rnrs/records'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//language'
+ /usr/bin/install -c -m 644  language/cps.go language/tree-il.go language/bytecode.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//language'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//system/base'
+ /usr/bin/install -c -m 644  system/base/pmatch.go system/base/syntax.go system/base/compile.go system/base/optimize.go system/base/language.go system/base/lalr.go system/base/message.go system/base/target.go system/base/types.go system/base/ck.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//system/base'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//language/elisp/runtime'
+ /usr/bin/install -c -m 644  language/elisp/runtime/function-slot.go language/elisp/runtime/value-slot.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//language/elisp/runtime'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//rnrs/io'
+ /usr/bin/install -c -m 644  rnrs/io/simple.go rnrs/io/ports.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//rnrs/io'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//rnrs/arithmetic'
+ /usr/bin/install -c -m 644  rnrs/arithmetic/bitwise.go rnrs/arithmetic/fixnums.go rnrs/arithmetic/flonums.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//rnrs/arithmetic'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//web/server'
+ /usr/bin/install -c -m 644  web/server/http.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//web/server'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//system/vm'
+ /usr/bin/install -c -m 644  system/vm/assembler.go system/vm/coverage.go system/vm/debug.go system/vm/disassembler.go system/vm/dwarf.go system/vm/elf.go system/vm/frame.go system/vm/inspect.go system/vm/linker.go system/vm/loader.go system/vm/program.go system/vm/trace.go system/vm/trap-state.go system/vm/traps.go system/vm/vm.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//system/vm'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//language/bytecode'
+ /usr/bin/install -c -m 644  language/bytecode/spec.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//language/bytecode'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//sxml/ssax'
+ /usr/bin/install -c -m 644  sxml/ssax/input-parse.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//sxml/ssax'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//language/tree-il'
+ /usr/bin/install -c -m 644  language/tree-il/analyze.go language/tree-il/compile-bytecode.go language/tree-il/compile-cps.go language/tree-il/cps-primitives.go language/tree-il/debug.go language/tree-il/effects.go language/tree-il/eta-expand.go language/tree-il/fix-letrec.go language/tree-il/inlinable-exports.go language/tree-il/letrectify.go language/tree-il/optimize.go language/tree-il/peval.go language/tree-il/primitives.go language/tree-il/resolve-free-vars.go language/tree-il/spec.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//language/tree-il'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//ice-9/peg'
+ /usr/bin/install -c -m 644  ice-9/peg/cache.go ice-9/peg/codegen.go ice-9/peg/simplify-tree.go ice-9/peg/string-peg.go ice-9/peg/using-parsers.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//ice-9/peg'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//language/cps'
+ /usr/bin/install -c -m 644  language/cps/closure-conversion.go language/cps/compile-bytecode.go language/cps/contification.go language/cps/cse.go language/cps/dce.go language/cps/devirtualize-integers.go language/cps/elide-arity-checks.go language/cps/effects-analysis.go language/cps/graphs.go language/cps/intmap.go language/cps/intset.go language/cps/licm.go language/cps/loop-instrumentation.go language/cps/optimize.go language/cps/peel-loops.go language/cps/prune-top-level-scopes.go language/cps/reify-primitives.go language/cps/renumber.go language/cps/rotate-loops.go language/cps/self-references.go language/cps/simplify.go language/cps/slot-allocation.go language/cps/spec.go language/cps/specialize-primcalls.go language/cps/specialize-numbers.go language/cps/split-rec.go language/cps/switch.go language/cps/type-checks.go language/cps/type-fold.go language/cps/types.go language/cps/utils.go language/cps/verify.go language/cps/with-cps.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//language/cps'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//srfi/srfi-9'
+ /usr/bin/install -c -m 644  srfi/srfi-9/gnu.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//srfi/srfi-9'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//language/ecmascript'
+ /usr/bin/install -c -m 644  language/ecmascript/tokenize.go language/ecmascript/parse.go language/ecmascript/impl.go language/ecmascript/base.go language/ecmascript/function.go language/ecmascript/array.go language/ecmascript/compile-tree-il.go language/ecmascript/spec.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//language/ecmascript'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//srfi/srfi-4'
+ /usr/bin/install -c -m 644  srfi/srfi-4/gnu.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//srfi/srfi-4'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//language/brainfuck'
+ /usr/bin/install -c -m 644  language/brainfuck/parse.go language/brainfuck/compile-scheme.go language/brainfuck/compile-tree-il.go language/brainfuck/spec.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//language/brainfuck'
+ /usr/bin/install -c -m 644  rnrs.go statprof.go texinfo.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//.'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//texinfo'
+ /usr/bin/install -c -m 644  texinfo/docbook.go texinfo/html.go texinfo/indexing.go texinfo/string-utils.go texinfo/plain-text.go texinfo/reflection.go texinfo/serialize.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//texinfo'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//srfi'
+ /usr/bin/install -c -m 644  srfi/srfi-1.go srfi/srfi-2.go srfi/srfi-4.go srfi/srfi-6.go srfi/srfi-8.go srfi/srfi-9.go srfi/srfi-10.go srfi/srfi-11.go srfi/srfi-13.go srfi/srfi-14.go srfi/srfi-16.go srfi/srfi-17.go srfi/srfi-18.go srfi/srfi-19.go srfi/srfi-26.go srfi/srfi-27.go srfi/srfi-28.go srfi/srfi-31.go srfi/srfi-34.go srfi/srfi-35.go srfi/srfi-37.go srfi/srfi-38.go srfi/srfi-41.go srfi/srfi-42.go srfi/srfi-43.go srfi/srfi-39.go srfi/srfi-45.go srfi/srfi-60.go srfi/srfi-64.go srfi/srfi-67.go srfi/srfi-69.go srfi/srfi-71.go srfi/srfi-88.go srfi/srfi-98.go srfi/srfi-111.go srfi/srfi-171.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//srfi'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//system'
+ /usr/bin/install -c -m 644  system/foreign.go system/foreign-library.go system/foreign-object.go system/syntax.go system/xref.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//system'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//oop'
+ /usr/bin/install -c -m 644  oop/goops.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//oop'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//sxml'
+ /usr/bin/install -c -m 644  sxml/apply-templates.go sxml/fold.go sxml/match.go sxml/simple.go sxml/ssax.go sxml/transform.go sxml/xpath.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//sxml'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//rnrs'
+ /usr/bin/install -c -m 644  rnrs/base.go rnrs/conditions.go rnrs/control.go rnrs/enums.go rnrs/eval.go rnrs/exceptions.go rnrs/files.go rnrs/hashtables.go rnrs/lists.go rnrs/mutable-pairs.go rnrs/mutable-strings.go rnrs/programs.go rnrs/r5rs.go rnrs/sorting.go rnrs/syntax-case.go rnrs/unicode.go rnrs/bytevectors.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//rnrs'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//language/value'
+ /usr/bin/install -c -m 644  language/value/spec.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//language/value'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//scripts'
+ /usr/bin/install -c -m 644  scripts/compile.go scripts/disassemble.go scripts/display-commentary.go scripts/doc-snarf.go scripts/frisk.go scripts/generate-autoload.go scripts/help.go scripts/lint.go scripts/list.go scripts/punify.go scripts/read-scheme-source.go scripts/read-text-outline.go scripts/use2dot.go scripts/snarf-check-and-output-texi.go scripts/summarize-guile-TODO.go scripts/api-diff.go scripts/read-rfc822.go scripts/snarf-guile-m4-docs.go scripts/autofrisk.go scripts/scan-api.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//scripts'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//system/repl'
+ /usr/bin/install -c -m 644  system/repl/debug.go system/repl/error-handling.go system/repl/common.go system/repl/command.go system/repl/repl.go system/repl/server.go system/repl/coop-server.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//system/repl'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//web'
+ /usr/bin/install -c -m 644  web/client.go web/http.go web/request.go web/response.go web/server.go web/uri.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//web'
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/module'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/module'
+Making install in guile-readline
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/guile-readline'
+make  install-am
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/guile-readline'
+make[4]: Entering directory '/home/gunter/Data/pi02/GNU/guile/guile-readline'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/extensions'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   guile-readline.la '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/extensions'
+libtool: warning: relinking 'guile-readline.la'
+libtool: install: (cd /home/gunter/Data/pi02/GNU/guile/guile-readline; /bin/bash "/home/gunter/Data/pi02/GNU/guile/libtool"  --silent --tag CC --mode=relink gcc -std=gnu11 -Wall -Wmissing-prototypes -Wpointer-arith -fno-strict-aliasing -fwrapv -g -O2 -export-dynamic -no-undefined -module -o guile-readline.la -rpath /usr/local/lib/guile/3.0/extensions readline.lo -lreadline -lncurses ../libguile/libguile-3.0.la ../lib/libgnu.la -lcrypt -ldl -lm -inst-prefix-dir /home/gunter/Data/pi02/GNU/guile/DESTDIR)
+libtool: install: /usr/bin/install -c .libs/guile-readline.so.0.0.0T /home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/extensions/guile-readline.so.0.0.0
+libtool: install: (cd /home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/extensions && { ln -s -f guile-readline.so.0.0.0 guile-readline.so.0 || { rm -f guile-readline.so.0 && ln -s guile-readline.so.0.0.0 guile-readline.so.0; }; })
+libtool: install: (cd /home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/extensions && { ln -s -f guile-readline.so.0.0.0 guile-readline.so || { rm -f guile-readline.so && ln -s guile-readline.so.0.0.0 guile-readline.so; }; })
+libtool: install: /usr/bin/install -c .libs/guile-readline.lai /home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/extensions/guile-readline.la
+libtool: install: /usr/bin/install -c .libs/guile-readline.a /home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/extensions/guile-readline.a
+libtool: install: chmod 644 /home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/extensions/guile-readline.a
+libtool: install: ranlib /home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/extensions/guile-readline.a
+libtool: warning: remember to run 'libtool --finish /usr/local/lib/guile/3.0/extensions'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/include/guile/3.0'
+ /usr/bin/install -c -m 644 readline.h '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/include/guile/3.0'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0/'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//ice-9'
+ /usr/bin/install -c -m 644  ice-9/readline.scm '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0//ice-9'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache/'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//ice-9'
+ /usr/bin/install -c -m 644  ice-9/readline.go '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/lib/guile/3.0/ccache//ice-9'
+make[4]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/guile-readline'
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/guile-readline'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/guile-readline'
+Making install in examples
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/examples'
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/examples'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/examples'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/examples'
+Making install in emacs
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/emacs'
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/emacs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/emacs'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/emacs'
+Making install in test-suite
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/test-suite'
+Making install in standalone
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/test-suite/standalone'
+make  install-am
+make[4]: Entering directory '/home/gunter/Data/pi02/GNU/guile/test-suite/standalone'
+make[5]: Entering directory '/home/gunter/Data/pi02/GNU/guile/test-suite/standalone'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/test-suite/standalone'
+make[4]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/test-suite/standalone'
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/test-suite/standalone'
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/test-suite'
+make[4]: Entering directory '/home/gunter/Data/pi02/GNU/guile/test-suite'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/test-suite'
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/test-suite'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/test-suite'
+Making install in benchmark-suite
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/benchmark-suite'
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/benchmark-suite'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/benchmark-suite'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/benchmark-suite'
+Making install in gc-benchmarks
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/gc-benchmarks'
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/gc-benchmarks'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/gc-benchmarks'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/gc-benchmarks'
+Making install in am
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/am'
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/am'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/am'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/am'
+Making install in doc
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/doc'
+Making install in ref
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/doc/ref'
+make[4]: Entering directory '/home/gunter/Data/pi02/GNU/guile/doc/ref'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/info'
+ /usr/bin/install -c -m 644 ./guile.info ./guile.info-1 ./guile.info-2 ./guile.info-3 ./guile.info-4 ./guile.info-5 ./guile.info-6 ./guile.info-7 ./guile.info-8 ./guile.info-9 ./guile.info-10 ./guile.info-11 '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/info'
+ install-info --info-dir='/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/info' '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/info/guile.info'
+make[4]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/doc/ref'
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/doc/ref'
+Making install in r5rs
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/doc/r5rs'
+make[4]: Entering directory '/home/gunter/Data/pi02/GNU/guile/doc/r5rs'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/info'
+ /usr/bin/install -c -m 644 ./r5rs.info '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/info'
+ install-info --info-dir='/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/info' '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/info/r5rs.info'
+make[4]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/doc/r5rs'
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/doc/r5rs'
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/doc'
+make[4]: Entering directory '/home/gunter/Data/pi02/GNU/guile/doc'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/man/man1'
+ /usr/bin/install -c -m 644 guile.1 '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/man/man1'
+make[4]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/doc'
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/doc'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/doc'
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile'
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/include/guile/3.0'
+ /usr/bin/install -c -m 644 libguile.h '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/include/guile/3.0'
+ /usr/bin/mkdir -p '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0'
+ /usr/bin/install -c -m 644 libguile/guile-procedures.txt '/home/gunter/Data/pi02/GNU/guile/DESTDIR/usr/local/share/guile/3.0'
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile'
+make[1]: Leaving directory '/home/gunter/Data/pi02/GNU/guile'

@@ -1,0 +1,670 @@
+make  all-recursive
+make[1]: Entering directory '/home/gunter/Data/pi02/GNU/guile'
+Making all in lib
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/lib'
+make  all-recursive
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/lib'
+make[4]: Entering directory '/home/gunter/Data/pi02/GNU/guile/lib'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/lib'
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/lib'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/lib'
+Making all in meta
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/meta'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/meta'
+Making all in libguile
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+make  all-am
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/libguile'
+Making all in bootstrap
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/bootstrap'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/bootstrap'
+Making all in module
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/module'
+  GUILEC ice-9/i18n.go
+wrote `ice-9/i18n.go'
+  GUILEC ice-9/iconv.go
+wrote `ice-9/iconv.go'
+  GUILEC ice-9/lineio.go
+wrote `ice-9/lineio.go'
+  GUILEC ice-9/list.go
+wrote `ice-9/list.go'
+  GUILEC ice-9/local-eval.go
+wrote `ice-9/local-eval.go'
+  GUILEC ice-9/ls.go
+wrote `ice-9/ls.go'
+  GUILEC ice-9/match.go
+wrote `ice-9/match.go'
+  GUILEC ice-9/networking.go
+wrote `ice-9/networking.go'
+  GUILEC ice-9/null.go
+wrote `ice-9/null.go'
+  GUILEC ice-9/occam-channel.go
+wrote `ice-9/occam-channel.go'
+  GUILEC ice-9/optargs.go
+wrote `ice-9/optargs.go'
+  GUILEC ice-9/peg.go
+wrote `ice-9/peg.go'
+  GUILEC ice-9/peg/cache.go
+wrote `ice-9/peg/cache.go'
+  GUILEC ice-9/peg/codegen.go
+wrote `ice-9/peg/codegen.go'
+  GUILEC ice-9/peg/simplify-tree.go
+wrote `ice-9/peg/simplify-tree.go'
+  GUILEC ice-9/peg/string-peg.go
+wrote `ice-9/peg/string-peg.go'
+  GUILEC ice-9/peg/using-parsers.go
+wrote `ice-9/peg/using-parsers.go'
+  GUILEC ice-9/poe.go
+wrote `ice-9/poe.go'
+  GUILEC ice-9/poll.go
+wrote `ice-9/poll.go'
+  GUILEC ice-9/popen.go
+wrote `ice-9/popen.go'
+  GUILEC ice-9/ports.go
+wrote `ice-9/ports.go'
+  GUILEC ice-9/posix.go
+wrote `ice-9/posix.go'
+  GUILEC ice-9/pretty-print.go
+wrote `ice-9/pretty-print.go'
+ice-9/pretty-print.scm:439:39: warning: non-literal format string
+  GUILEC ice-9/q.go
+wrote `ice-9/q.go'
+  GUILEC ice-9/r5rs.go
+wrote `ice-9/r5rs.go'
+  GUILEC ice-9/rdelim.go
+wrote `ice-9/rdelim.go'
+  GUILEC ice-9/receive.go
+wrote `ice-9/receive.go'
+  GUILEC ice-9/regex.go
+wrote `ice-9/regex.go'
+  GUILEC ice-9/runq.go
+wrote `ice-9/runq.go'
+ice-9/runq.scm:93:9: warning: possibly unbound variable `apply-to-args'
+  GUILEC ice-9/rw.go
+wrote `ice-9/rw.go'
+  GUILEC ice-9/safe-r5rs.go
+wrote `ice-9/safe-r5rs.go'
+  GUILEC ice-9/safe.go
+wrote `ice-9/safe.go'
+  GUILEC ice-9/sandbox.go
+wrote `ice-9/sandbox.go'
+  GUILEC ice-9/save-stack.go
+wrote `ice-9/save-stack.go'
+  GUILEC ice-9/scm-style-repl.go
+wrote `ice-9/scm-style-repl.go'
+  GUILEC ice-9/serialize.go
+wrote `ice-9/serialize.go'
+  GUILEC ice-9/session.go
+wrote `ice-9/session.go'
+ice-9/session.scm:241:11: warning: non-literal format string
+  GUILEC ice-9/slib.go
+wrote `ice-9/slib.go'
+WARNING: Use of `load' in declarative module (#{ g141}#).  Add #:declarative? #f to your define-module invocation.
+  GUILEC ice-9/stack-catch.go
+wrote `ice-9/stack-catch.go'
+  GUILEC ice-9/streams.go
+wrote `ice-9/streams.go'
+  GUILEC ice-9/string-fun.go
+wrote `ice-9/string-fun.go'
+  GUILEC ice-9/suspendable-ports.go
+wrote `ice-9/suspendable-ports.go'
+  GUILEC ice-9/textual-ports.go
+wrote `ice-9/textual-ports.go'
+  GUILEC ice-9/threads.go
+wrote `ice-9/threads.go'
+  GUILEC ice-9/time.go
+wrote `ice-9/time.go'
+  GUILEC ice-9/top-repl.go
+wrote `ice-9/top-repl.go'
+WARNING: Use of `load' in declarative module (system repl command).  Add #:declarative? #f to your define-module invocation.
+  GUILEC ice-9/unicode.go
+wrote `ice-9/unicode.go'
+  GUILEC ice-9/vlist.go
+wrote `ice-9/vlist.go'
+  GUILEC ice-9/weak-vector.go
+wrote `ice-9/weak-vector.go'
+  GUILEC language/brainfuck/parse.go
+wrote `language/brainfuck/parse.go'
+  GUILEC language/brainfuck/compile-scheme.go
+wrote `language/brainfuck/compile-scheme.go'
+  GUILEC language/brainfuck/compile-tree-il.go
+wrote `language/brainfuck/compile-tree-il.go'
+  GUILEC language/brainfuck/spec.go
+wrote `language/brainfuck/spec.go'
+  GUILEC language/bytecode.go
+wrote `language/bytecode.go'
+  GUILEC language/bytecode/spec.go
+wrote `language/bytecode/spec.go'
+  GUILEC language/ecmascript/tokenize.go
+wrote `language/ecmascript/tokenize.go'
+  GUILEC language/ecmascript/parse.go
+%% Reduce/Reduce conflict (reduce 11, reduce 7) on '--' in state 422
+%% Reduce/Reduce conflict (reduce 11, reduce 7) on '++' in state 422
+%% Reduce/Reduce conflict (reduce 11, reduce 7) on '-' in state 422
+%% Reduce/Reduce conflict (reduce 11, reduce 7) on '+' in state 422
+%% Reduce/Reduce conflict (reduce 11, reduce 7) on 'semicolon' in state 422
+%% Reduce/Reduce conflict (reduce 11, reduce 7) on 'dot' in state 422
+%% Reduce/Reduce conflict (reduce 11, reduce 7) on 'lbracket' in state 422
+%% Reduce/Reduce conflict (reduce 11, reduce 7) on 'lparen' in state 422
+%% Reduce/Reduce conflict (reduce 9, reduce 6) on '--' in state 397
+%% Reduce/Reduce conflict (reduce 9, reduce 6) on '++' in state 397
+%% Reduce/Reduce conflict (reduce 9, reduce 6) on '-' in state 397
+%% Reduce/Reduce conflict (reduce 9, reduce 6) on '+' in state 397
+%% Reduce/Reduce conflict (reduce 9, reduce 6) on 'semicolon' in state 397
+%% Reduce/Reduce conflict (reduce 9, reduce 6) on 'dot' in state 397
+%% Reduce/Reduce conflict (reduce 9, reduce 6) on 'lbracket' in state 397
+%% Reduce/Reduce conflict (reduce 9, reduce 6) on 'lparen' in state 397
+%% Shift/Reduce conflict (shift 367, reduce 49) on 'else' in state 319
+%% Shift/Reduce conflict (shift 144, reduce 177) on 'in' in state 242
+%% Shift/Reduce conflict (shift 144, reduce 178) on 'in' in state 241
+%% Shift/Reduce conflict (shift 144, reduce 179) on 'in' in state 240
+%% Shift/Reduce conflict (shift 144, reduce 180) on 'in' in state 239
+%% Shift/Reduce conflict (shift 80, reduce 119) on 'colon' in state 125
+%% Shift/Reduce conflict (shift 170, reduce 139) on '++' in state 85
+%% Shift/Reduce conflict (shift 169, reduce 139) on '--' in state 85
+%% Shift/Reduce conflict (shift 153, reduce 159) on '+' in state 49
+%% Shift/Reduce conflict (shift 152, reduce 159) on '-' in state 49
+%% Shift/Reduce conflict (shift 144, reduce 176) on 'in' in state 47
+wrote `language/ecmascript/parse.go'
+  GUILEC language/ecmascript/impl.go
+wrote `language/ecmascript/impl.go'
+  GUILEC language/ecmascript/base.go
+language/ecmascript/base.scm:229:52: warning: possibly unbound variable `Boolean'
+language/ecmascript/base.scm:230:51: warning: possibly unbound variable `String'
+language/ecmascript/base.scm:231:51: warning: possibly unbound variable `Number'
+wrote `language/ecmascript/base.go'
+  GUILEC language/ecmascript/function.go
+language/ecmascript/function.scm:40:9: warning: possibly unbound variable `<js-array-object>'
+language/ecmascript/function.scm:44:43: warning: possibly unbound variable `js-array-vector'
+wrote `language/ecmascript/function.go'
+  GUILEC language/ecmascript/array.go
+wrote `language/ecmascript/array.go'
+  GUILEC language/ecmascript/compile-tree-il.go
+wrote `language/ecmascript/compile-tree-il.go'
+  GUILEC language/ecmascript/spec.go
+wrote `language/ecmascript/spec.go'
+  GUILEC language/elisp/falias.go
+wrote `language/elisp/falias.go'
+  GUILEC language/elisp/lexer.go
+wrote `language/elisp/lexer.go'
+  GUILEC language/elisp/parser.go
+wrote `language/elisp/parser.go'
+  GUILEC language/elisp/bindings.go
+wrote `language/elisp/bindings.go'
+  GUILEC language/elisp/compile-tree-il.go
+wrote `language/elisp/compile-tree-il.go'
+  GUILEC language/elisp/runtime.go
+wrote `language/elisp/runtime.go'
+  GUILEC language/elisp/runtime/function-slot.go
+wrote `language/elisp/runtime/function-slot.go'
+  GUILEC language/elisp/runtime/value-slot.go
+wrote `language/elisp/runtime/value-slot.go'
+  GUILEC language/elisp/spec.go
+wrote `language/elisp/spec.go'
+  GUILEC language/scheme/compile-tree-il.go
+wrote `language/scheme/compile-tree-il.go'
+  GUILEC language/scheme/decompile-tree-il.go
+wrote `language/scheme/decompile-tree-il.go'
+  GUILEC language/scheme/spec.go
+wrote `language/scheme/spec.go'
+  GUILEC language/value/spec.go
+wrote `language/value/spec.go'
+  GUILEC rnrs/base.go
+wrote `rnrs/base.go'
+  GUILEC rnrs/conditions.go
+wrote `rnrs/conditions.go'
+  GUILEC rnrs/control.go
+wrote `rnrs/control.go'
+  GUILEC rnrs/enums.go
+wrote `rnrs/enums.go'
+  GUILEC rnrs/eval.go
+wrote `rnrs/eval.go'
+  GUILEC rnrs/exceptions.go
+wrote `rnrs/exceptions.go'
+  GUILEC rnrs/files.go
+wrote `rnrs/files.go'
+  GUILEC rnrs/hashtables.go
+wrote `rnrs/hashtables.go'
+  GUILEC rnrs/lists.go
+wrote `rnrs/lists.go'
+  GUILEC rnrs/mutable-pairs.go
+wrote `rnrs/mutable-pairs.go'
+  GUILEC rnrs/mutable-strings.go
+wrote `rnrs/mutable-strings.go'
+  GUILEC rnrs/programs.go
+wrote `rnrs/programs.go'
+  GUILEC rnrs/r5rs.go
+wrote `rnrs/r5rs.go'
+  GUILEC rnrs/sorting.go
+wrote `rnrs/sorting.go'
+  GUILEC rnrs/syntax-case.go
+wrote `rnrs/syntax-case.go'
+  GUILEC rnrs/unicode.go
+wrote `rnrs/unicode.go'
+  GUILEC rnrs/arithmetic/bitwise.go
+wrote `rnrs/arithmetic/bitwise.go'
+  GUILEC rnrs/arithmetic/fixnums.go
+wrote `rnrs/arithmetic/fixnums.go'
+  GUILEC rnrs/arithmetic/flonums.go
+wrote `rnrs/arithmetic/flonums.go'
+  GUILEC rnrs/bytevectors.go
+wrote `rnrs/bytevectors.go'
+  GUILEC rnrs/io/simple.go
+wrote `rnrs/io/simple.go'
+  GUILEC rnrs/io/ports.go
+wrote `rnrs/io/ports.go'
+  GUILEC rnrs/records/inspection.go
+wrote `rnrs/records/inspection.go'
+  GUILEC rnrs/records/procedural.go
+wrote `rnrs/records/procedural.go'
+  GUILEC rnrs/records/syntactic.go
+wrote `rnrs/records/syntactic.go'
+  GUILEC rnrs.go
+wrote `rnrs.go'
+  GUILEC oop/goops.go
+wrote `oop/goops.go'
+  GUILEC oop/goops/active-slot.go
+wrote `oop/goops/active-slot.go'
+  GUILEC oop/goops/composite-slot.go
+wrote `oop/goops/composite-slot.go'
+  GUILEC oop/goops/describe.go
+wrote `oop/goops/describe.go'
+  GUILEC oop/goops/internal.go
+wrote `oop/goops/internal.go'
+  GUILEC oop/goops/save.go
+wrote `oop/goops/save.go'
+  GUILEC oop/goops/stklos.go
+wrote `oop/goops/stklos.go'
+  GUILEC oop/goops/accessors.go
+wrote `oop/goops/accessors.go'
+  GUILEC oop/goops/simple.go
+wrote `oop/goops/simple.go'
+  GUILEC scheme/base.go
+wrote `scheme/base.go'
+  GUILEC scheme/case-lambda.go
+wrote `scheme/case-lambda.go'
+  GUILEC scheme/char.go
+wrote `scheme/char.go'
+  GUILEC scheme/complex.go
+wrote `scheme/complex.go'
+  GUILEC scheme/cxr.go
+wrote `scheme/cxr.go'
+  GUILEC scheme/eval.go
+wrote `scheme/eval.go'
+  GUILEC scheme/file.go
+wrote `scheme/file.go'
+  GUILEC scheme/inexact.go
+wrote `scheme/inexact.go'
+  GUILEC scheme/lazy.go
+wrote `scheme/lazy.go'
+  GUILEC scheme/load.go
+WARNING: Use of `load' in declarative module (scheme load).  Add #:declarative? #f to your define-module invocation.
+wrote `scheme/load.go'
+  GUILEC scheme/process-context.go
+wrote `scheme/process-context.go'
+  GUILEC scheme/r5rs.go
+wrote `scheme/r5rs.go'
+  GUILEC scheme/read.go
+wrote `scheme/read.go'
+  GUILEC scheme/repl.go
+wrote `scheme/repl.go'
+  GUILEC scheme/time.go
+wrote `scheme/time.go'
+  GUILEC scheme/write.go
+wrote `scheme/write.go'
+  GUILEC scripts/compile.go
+wrote `scripts/compile.go'
+  GUILEC scripts/disassemble.go
+wrote `scripts/disassemble.go'
+  GUILEC scripts/display-commentary.go
+wrote `scripts/display-commentary.go'
+  GUILEC scripts/doc-snarf.go
+wrote `scripts/doc-snarf.go'
+scripts/doc-snarf.scm:98:34: warning: possibly unbound variable `doc-snarf-version'
+  GUILEC scripts/frisk.go
+wrote `scripts/frisk.go'
+  GUILEC scripts/generate-autoload.go
+wrote `scripts/generate-autoload.go'
+  GUILEC scripts/help.go
+wrote `scripts/help.go'
+  GUILEC scripts/lint.go
+wrote `scripts/lint.go'
+  GUILEC scripts/list.go
+wrote `scripts/list.go'
+  GUILEC scripts/punify.go
+wrote `scripts/punify.go'
+  GUILEC scripts/read-scheme-source.go
+wrote `scripts/read-scheme-source.go'
+  GUILEC scripts/read-text-outline.go
+wrote `scripts/read-text-outline.go'
+  GUILEC scripts/use2dot.go
+wrote `scripts/use2dot.go'
+  GUILEC scripts/snarf-check-and-output-texi.go
+wrote `scripts/snarf-check-and-output-texi.go'
+  GUILEC scripts/summarize-guile-TODO.go
+wrote `scripts/summarize-guile-TODO.go'
+  GUILEC scripts/api-diff.go
+wrote `scripts/api-diff.go'
+  GUILEC scripts/read-rfc822.go
+wrote `scripts/read-rfc822.go'
+  GUILEC scripts/snarf-guile-m4-docs.go
+wrote `scripts/snarf-guile-m4-docs.go'
+  GUILEC scripts/autofrisk.go
+wrote `scripts/autofrisk.go'
+scripts/autofrisk.scm:185:2: warning: non-literal format string
+  GUILEC scripts/scan-api.go
+wrote `scripts/scan-api.go'
+  GUILEC srfi/srfi-1.go
+wrote `srfi/srfi-1.go'
+  GUILEC srfi/srfi-2.go
+wrote `srfi/srfi-2.go'
+  GUILEC srfi/srfi-4.go
+wrote `srfi/srfi-4.go'
+  GUILEC srfi/srfi-4/gnu.go
+wrote `srfi/srfi-4/gnu.go'
+  GUILEC srfi/srfi-6.go
+wrote `srfi/srfi-6.go'
+  GUILEC srfi/srfi-8.go
+wrote `srfi/srfi-8.go'
+  GUILEC srfi/srfi-9.go
+wrote `srfi/srfi-9.go'
+  GUILEC srfi/srfi-9/gnu.go
+wrote `srfi/srfi-9/gnu.go'
+  GUILEC srfi/srfi-10.go
+wrote `srfi/srfi-10.go'
+  GUILEC srfi/srfi-11.go
+wrote `srfi/srfi-11.go'
+  GUILEC srfi/srfi-13.go
+wrote `srfi/srfi-13.go'
+  GUILEC srfi/srfi-14.go
+wrote `srfi/srfi-14.go'
+  GUILEC srfi/srfi-16.go
+wrote `srfi/srfi-16.go'
+  GUILEC srfi/srfi-17.go
+wrote `srfi/srfi-17.go'
+  GUILEC srfi/srfi-18.go
+wrote `srfi/srfi-18.go'
+  GUILEC srfi/srfi-19.go
+wrote `srfi/srfi-19.go'
+  GUILEC srfi/srfi-26.go
+wrote `srfi/srfi-26.go'
+  GUILEC srfi/srfi-27.go
+wrote `srfi/srfi-27.go'
+  GUILEC srfi/srfi-28.go
+wrote `srfi/srfi-28.go'
+  GUILEC srfi/srfi-31.go
+wrote `srfi/srfi-31.go'
+  GUILEC srfi/srfi-34.go
+wrote `srfi/srfi-34.go'
+  GUILEC srfi/srfi-35.go
+wrote `srfi/srfi-35.go'
+  GUILEC srfi/srfi-37.go
+wrote `srfi/srfi-37.go'
+  GUILEC srfi/srfi-38.go
+wrote `srfi/srfi-38.go'
+  GUILEC srfi/srfi-41.go
+wrote `srfi/srfi-41.go'
+  GUILEC srfi/srfi-42.go
+wrote `srfi/srfi-42.go'
+  GUILEC srfi/srfi-43.go
+wrote `srfi/srfi-43.go'
+  GUILEC srfi/srfi-39.go
+wrote `srfi/srfi-39.go'
+  GUILEC srfi/srfi-45.go
+wrote `srfi/srfi-45.go'
+  GUILEC srfi/srfi-60.go
+wrote `srfi/srfi-60.go'
+  GUILEC srfi/srfi-64.go
+wrote `srfi/srfi-64.go'
+  GUILEC srfi/srfi-67.go
+wrote `srfi/srfi-67.go'
+  GUILEC srfi/srfi-69.go
+wrote `srfi/srfi-69.go'
+  GUILEC srfi/srfi-71.go
+wrote `srfi/srfi-71.go'
+  GUILEC srfi/srfi-88.go
+wrote `srfi/srfi-88.go'
+  GUILEC srfi/srfi-98.go
+wrote `srfi/srfi-98.go'
+  GUILEC srfi/srfi-111.go
+wrote `srfi/srfi-111.go'
+  GUILEC srfi/srfi-171.go
+wrote `srfi/srfi-171.go'
+  GUILEC srfi/srfi-171/gnu.go
+wrote `srfi/srfi-171/gnu.go'
+  GUILEC srfi/srfi-171/meta.go
+wrote `srfi/srfi-171/meta.go'
+  GUILEC statprof.go
+wrote `statprof.go'
+  GUILEC system/base/pmatch.go
+wrote `system/base/pmatch.go'
+  GUILEC system/base/syntax.go
+wrote `system/base/syntax.go'
+  GUILEC system/base/compile.go
+wrote `system/base/compile.go'
+  GUILEC system/base/optimize.go
+wrote `system/base/optimize.go'
+  GUILEC system/base/language.go
+wrote `system/base/language.go'
+  GUILEC system/base/lalr.go
+wrote `system/base/lalr.go'
+  GUILEC system/base/message.go
+wrote `system/base/message.go'
+  GUILEC system/base/target.go
+wrote `system/base/target.go'
+  GUILEC system/base/types.go
+wrote `system/base/types.go'
+  GUILEC system/base/types/internal.go
+wrote `system/base/types/internal.go'
+  GUILEC system/base/ck.go
+wrote `system/base/ck.go'
+  GUILEC system/foreign.go
+wrote `system/foreign.go'
+  GUILEC system/foreign-library.go
+wrote `system/foreign-library.go'
+  GUILEC system/foreign-object.go
+wrote `system/foreign-object.go'
+  GUILEC system/repl/debug.go
+wrote `system/repl/debug.go'
+  GUILEC system/repl/error-handling.go
+WARNING: Use of `load' in declarative module (system repl command).  Add #:declarative? #f to your define-module invocation.
+wrote `system/repl/error-handling.go'
+  GUILEC system/repl/common.go
+wrote `system/repl/common.go'
+  GUILEC system/repl/command.go
+WARNING: Use of `load' in declarative module (system repl command).  Add #:declarative? #f to your define-module invocation.
+wrote `system/repl/command.go'
+  GUILEC system/repl/repl.go
+wrote `system/repl/repl.go'
+  GUILEC system/repl/server.go
+wrote `system/repl/server.go'
+  GUILEC system/repl/coop-server.go
+wrote `system/repl/coop-server.go'
+  GUILEC system/vm/assembler.go
+wrote `system/vm/assembler.go'
+  GUILEC system/vm/coverage.go
+wrote `system/vm/coverage.go'
+  GUILEC system/vm/debug.go
+wrote `system/vm/debug.go'
+  GUILEC system/vm/disassembler.go
+wrote `system/vm/disassembler.go'
+  GUILEC system/vm/dwarf.go
+wrote `system/vm/dwarf.go'
+  GUILEC system/vm/elf.go
+wrote `system/vm/elf.go'
+  GUILEC system/vm/frame.go
+wrote `system/vm/frame.go'
+  GUILEC system/vm/inspect.go
+wrote `system/vm/inspect.go'
+  GUILEC system/vm/linker.go
+wrote `system/vm/linker.go'
+  GUILEC system/vm/loader.go
+wrote `system/vm/loader.go'
+  GUILEC system/vm/program.go
+wrote `system/vm/program.go'
+  GUILEC system/vm/trace.go
+wrote `system/vm/trace.go'
+  GUILEC system/vm/trap-state.go
+wrote `system/vm/trap-state.go'
+  GUILEC system/vm/traps.go
+wrote `system/vm/traps.go'
+  GUILEC system/vm/vm.go
+wrote `system/vm/vm.go'
+  GUILEC system/syntax.go
+wrote `system/syntax.go'
+  GUILEC system/xref.go
+wrote `system/xref.go'
+  GUILEC sxml/apply-templates.go
+wrote `sxml/apply-templates.go'
+  GUILEC sxml/fold.go
+wrote `sxml/fold.go'
+  GUILEC sxml/match.go
+wrote `sxml/match.go'
+  GUILEC sxml/simple.go
+wrote `sxml/simple.go'
+  GUILEC sxml/ssax/input-parse.go
+wrote `sxml/ssax/input-parse.go'
+  GUILEC sxml/ssax.go
+wrote `sxml/ssax.go'
+  GUILEC sxml/transform.go
+wrote `sxml/transform.go'
+  GUILEC sxml/xpath.go
+wrote `sxml/xpath.go'
+  GUILEC texinfo.go
+wrote `texinfo.go'
+  GUILEC texinfo/docbook.go
+wrote `texinfo/docbook.go'
+  GUILEC texinfo/html.go
+wrote `texinfo/html.go'
+  GUILEC texinfo/indexing.go
+wrote `texinfo/indexing.go'
+  GUILEC texinfo/string-utils.go
+wrote `texinfo/string-utils.go'
+  GUILEC texinfo/plain-text.go
+wrote `texinfo/plain-text.go'
+  GUILEC texinfo/reflection.go
+wrote `texinfo/reflection.go'
+  GUILEC texinfo/serialize.go
+wrote `texinfo/serialize.go'
+  GUILEC web/client.go
+wrote `web/client.go'
+web/client.scm:108:5: warning: possibly unbound variable `set-certificate-credentials-x509-trust-data!'
+web/client.scm:114:16: warning: possibly unbound variable `make-certificate-credentials'
+web/client.scm:128:21: warning: possibly unbound variable `x509-certificate-format/pem'
+web/client.scm:134:10: warning: possibly unbound variable `session-peer-certificate-chain'
+web/client.scm:136:6: warning: possibly unbound variable `import-x509-certificate'
+web/client.scm:136:36: warning: possibly unbound variable `x509-certificate-format/der'
+web/client.scm:145:11: warning: possibly unbound variable `x509-certificate-matches-hostname?'
+web/client.scm:150:10: warning: possibly unbound variable `peer-certificate-status'
+web/client.scm:169:31: warning: possibly unbound variable `certificate-status->string'
+web/client.scm:164:21: warning: possibly unbound variable `x509-certificate-dn'
+web/client.scm:183:19: warning: possibly unbound variable `make-session'
+web/client.scm:183:32: warning: possibly unbound variable `connection-end/client'
+web/client.scm:191:9: warning: possibly unbound variable `set-session-server-name!'
+web/client.scm:191:42: warning: possibly unbound variable `server-name-type/dns'
+web/client.scm:195:5: warning: possibly unbound variable `set-session-transport-fd!'
+web/client.scm:196:5: warning: possibly unbound variable `set-session-default-priority!'
+web/client.scm:202:5: warning: possibly unbound variable `set-session-priorities!'
+web/client.scm:204:5: warning: possibly unbound variable `set-session-credentials!'
+web/client.scm:216:9: warning: possibly unbound variable `handshake'
+web/client.scm:218:24: warning: possibly unbound variable `error/warning-alert-received'
+web/client.scm:223:24: warning: possibly unbound variable `alert-description->string'
+web/client.scm:223:51: warning: possibly unbound variable `alert-get'
+web/client.scm:245:19: warning: possibly unbound variable `session-record-port'
+web/client.scm:256:27: warning: possibly unbound variable `error/premature-termination'
+  GUILEC web/http.go
+wrote `web/http.go'
+  GUILEC web/request.go
+wrote `web/request.go'
+  GUILEC web/response.go
+wrote `web/response.go'
+  GUILEC web/server.go
+wrote `web/server.go'
+  GUILEC web/server/http.go
+wrote `web/server/http.go'
+  GUILEC web/uri.go
+wrote `web/uri.go'
+  GUILEC language/elisp/boot.go
+wrote `language/elisp/boot.go'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/module'
+Making all in guile-readline
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/guile-readline'
+  SNARF  readline.x
+make  all-am
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/guile-readline'
+  CC       readline.lo
+  CCLD     guile-readline.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+  GUILEC ice-9/readline.go
+wrote `ice-9/readline.go'
+ice-9/readline.scm:65:3: warning: possibly unbound variable `readline-options-interface'
+ice-9/readline.scm:98:50: warning: possibly unbound variable `%readline'
+ice-9/readline.scm:208:4: warning: possibly unbound variable `*readline-completion-function*'
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/guile-readline'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/guile-readline'
+Making all in examples
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/examples'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/examples'
+Making all in emacs
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/emacs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/emacs'
+Making all in test-suite
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/test-suite'
+Making all in standalone
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/test-suite/standalone'
+  SNARF  test-asmobs-lib.x
+make  all-am
+make[4]: Entering directory '/home/gunter/Data/pi02/GNU/guile/test-suite/standalone'
+  CC       libtest_asmobs_la-test-asmobs-lib.lo
+  CCLD     libtest-asmobs.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CC       libtest_ffi_la-test-ffi-lib.lo
+  CCLD     libtest-ffi.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CC       libtest_extensions_la-test-extensions-lib.lo
+  CCLD     libtest-extensions.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[4]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/test-suite/standalone'
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/test-suite/standalone'
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/test-suite'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/test-suite'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/test-suite'
+Making all in benchmark-suite
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/benchmark-suite'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/benchmark-suite'
+Making all in gc-benchmarks
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/gc-benchmarks'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/gc-benchmarks'
+Making all in am
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/am'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/am'
+Making all in doc
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile/doc'
+Making all in ref
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/doc/ref'
+Updating ./version.texi
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/doc/ref'
+Making all in r5rs
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/doc/r5rs'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/doc/r5rs'
+make[3]: Entering directory '/home/gunter/Data/pi02/GNU/guile/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/doc'
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile/doc'
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guile'
+  GEN      libguile/guile-procedures.txt
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guile'
+make[1]: Leaving directory '/home/gunter/Data/pi02/GNU/guile'
