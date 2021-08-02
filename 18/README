@@ -1,0 +1,22 @@
+# 20210802, Monday -*- mode: org; -*-
+* Being Secure
+# ssh-keygen
+# cp ~/.ssh/id_rsa.pub @/0/
+: ssh-keygen
+: ssh-keygen -v -l -f @/0/id_rsa.pub
+: 2048 SHA256:LM8eGYw7GDk9DAgT+QPh4kPJdZJMNGDJ0LQOyTr+ggo gunter@raspberrypi (RSA)
+: +---[RSA 2048]----+
+: |OOB*..           |
+: |B*+=+            |
+: |+Oo .            |
+: |=oo  = +         |
+: |oo..+ * S        |
+: |...  + * o       |
+: |E.  . o =        |
+: |o..    o .       |
+: |o ..    .        |
+: +----[SHA256]-----+
+** Signing these commits
+: GPG_TTY=\$( tty )
+: git commit -S -m "This is this!"
+: export GPG_TTY
