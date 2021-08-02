@@ -100,18 +100,18 @@ _ ()
     };
     function c () 
     { 
-        local DD="git commit: git commit -s -m '$sprint_topic: $*'";
-        git commit -s -m "$sprint_topic: $*"
+        local DD="git commit: git commit -S -m '$sprint_topic: $*'";
+        git commit -S -m "$sprint_topic: $*"
     };
     function c_ () 
     { 
         local DD="git: amend this commit, with this here";
-        git commit -s --amend -m "$sprint_topic: $*"
+        git commit -S --amend -m "$sprint_topic: $*"
     };
     function c__ () 
     { 
         local DD="git: amend this commit, without a new message";
-        EDITOR=echo git commit -s --amend
+        EDITOR=echo git commit -S --amend
     };
     local a="echo Usage: [ export DO=' '\; ] _ [ <n> | <command> ] ($D)";
     test -n "$( declare -F "$1" )" && a="${1}";

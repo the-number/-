@@ -1,5 +1,6 @@
 # 20210802, Monday -*- mode: org; -*-
 * Being Secure
+** Let's have a key
 # ssh-keygen
 # cp ~/.ssh/id_rsa.pub @/0/
 : ssh-keygen
@@ -18,5 +19,8 @@
 : +----[SHA256]-----+
 ** Signing these commits
 : GPG_TTY=\$( tty )
-: git commit -S -m "This is this!"
 : export GPG_TTY
+Use our key to sign these commits into the git repository
+: git commit -S -m "This is this!"
+Show the signatures
+: git log --show-signature
