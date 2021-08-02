@@ -19,7 +19,7 @@
 : |o ..    .        |
 : +----[SHA256]-----+
 *** Telling Github about us
-Go to [[]] and give our new public key
+Go to [[/settings/keys]] and give our new public key
 ** Signing these commits
 # https://gnupg.org/gph/en/manual.html
 First, make our GNU Privacy Guard Key
