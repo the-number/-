@@ -3,8 +3,8 @@ _ ()
     local D="0 new Fn/, 1 new set, 2 recall, 3 describe, 4 definitions, 5 this repository, 9 store, _ reformat, m,n,v,c,n_,c_,c__, set_sprint_topic";
     function set_sprint_topic () 
     { 
-        local DD="guix, this-04, network";
-        export sprint_topic="Pi Zero W, TV HAT"
+        local DD="Set the topic of this, here";
+        export sprint_topic="Pi Zero W"
     };
     function a__ () 
     { 
@@ -92,6 +92,11 @@ _ ()
     function n_ () 
     { 
         local DD="git status --oneline";
+        git log --oneline --date relative -- ${1:-.}
+    };
+    function n__ () 
+    { 
+        local DD="git status --oneline --show-signature";
         git log --show-signature --oneline --date relative -- ${1:-.}
     };
     function v () 
