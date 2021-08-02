@@ -1,6 +1,7 @@
 # 20210802, Monday -*- mode: org; -*-
 * Being Secure
-** Let's have a key
+** Let's have a key to push things here
+*** Making our SSH Key
 # ssh-keygen
 # cp ~/.ssh/id_rsa.pub @/0/
 : ssh-keygen
@@ -17,10 +18,15 @@
 : |o..    o .       |
 : |o ..    .        |
 : +----[SHA256]-----+
+*** Telling Github about us
+Go to [[]] and give our new public key
 ** Signing these commits
+# https://gnupg.org/gph/en/manual.html
+First, make our GNU Privacy Guard Key
+: gpg --gen-key
+Then, use our key to sign these commits into the git repository
 : GPG_TTY=\$( tty )
 : export GPG_TTY
-Use our key to sign these commits into the git repository
 : git commit -S -m "This is this!"
 Show the signatures
 : git log --show-signature
