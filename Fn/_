@@ -92,7 +92,7 @@ _ ()
     function n_ () 
     { 
         local DD="git status --oneline";
-        git log --oneline --date relative -- ${1:-.}
+        git log --show-signature --oneline --date relative -- ${1:-.}
     };
     function v () 
     { 
