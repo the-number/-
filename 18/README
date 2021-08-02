@@ -1,11 +1,12 @@
 # 20210802, Monday -*- mode: org; -*-
 * Being Secure
 ** Let's have a key to push things here
-*** Making our SSH Key
-# ssh-keygen
-# cp ~/.ssh/id_rsa.pub @/0/
+First, make our SSH Key
 : ssh-keygen
+# cp ~/.ssh/id_rsa.pub @/0/
+and see what our key looks like,
 : ssh-keygen -v -l -f @/0/id_rsa.pub
+such like this:
 : 2048 SHA256:LM8eGYw7GDk9DAgT+QPh4kPJdZJMNGDJ0LQOyTr+ggo gunter@raspberrypi (RSA)
 : +---[RSA 2048]----+
 : |OOB*..           |
@@ -28,5 +29,5 @@ Then, use our key to sign these commits into the git repository
 : GPG_TTY=\$( tty )
 : export GPG_TTY
 : git commit -S -m "This is this!"
-Show the signatures
+and show the state of our commits, with regard to GNU Privacy Guard signatures
 : git log --show-signature
