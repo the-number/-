@@ -29,6 +29,9 @@ How do we appear to the Github?
 keep this log, for appearance, so
 : $ ssh -T git@github.com |& tee -a ssh-T-20210803-133049.log
 : Hi glisze! You've successfully authenticated, but GitHub does not provide shell access.
+# https://docs.github.com/en/github/authenticating-to-github/troubleshooting-ssh/error-permission-denied-publickey
+# there lies the clue: git clone ssh://git@github.com/the-number/pi
+# ok!
 ** Signing these commits
 # https://gnupg.org/gph/en/manual.html
 First, make our GNU Privacy Guard Key
