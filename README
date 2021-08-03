@@ -4,7 +4,7 @@
   The development branch has now seen us to connect in some secure way,
   after switching on, and getting some hands on the Pi.
 ** The Number Pi
-: $ ls -1 | while read a;do echo $(( $a )) = $a;done| sort -h
-   [[./18]]
-   
-
+: $ ls -1 | while read a;do echo "$(( $a ))=[[./$a/]]";done| sort -h | sed - -e 's/^/  + /'
+  + 3=[[./3/]]
+  + 5=[[./5/]]
+  + 18=[[./18/]]
