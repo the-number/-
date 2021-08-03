@@ -1,0 +1,3 @@
+$ ssh -T git@github.com
+$ ssh -T git@github.com |& tee -a ssh-T-20210803-133049.log
+Hi glisze! You've successfully authenticated, but GitHub does not provide shell access.

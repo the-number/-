@@ -1,0 +1,10 @@
+# 20210803, Tuesday, about the Pi from different angles -*- mode: org; -*-
+* Pi Zero W
+  About being secure, first.
+  The development branch has now seen us to connect in some secure way,
+  after switching on, and getting some hands on the Pi.
+** The Number Pi
+: $ ls -1 | while read a;do echo $(( $a ));done| sort -h
+   [[./18]]
+   
+

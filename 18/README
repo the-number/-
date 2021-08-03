@@ -1,0 +1,44 @@
+# 20210802, Monday -*- mode: org; -*-
+* Being Secure
+** Let's have a key to push things here
+First, make our SSH Key
+: ssh-keygen
+# cp ~/.ssh/id_rsa.pub @/0/
+and see what our key looks like,
+: ssh-keygen -v -l -f @/0/id_rsa.pub
+such like this:
+: 2048 SHA256:LM8eGYw7GDk9DAgT+QPh4kPJdZJMNGDJ0LQOyTr+ggo gunter@raspberrypi (RSA)
+: +---[RSA 2048]----+
+: |OOB*..           |
+: |B*+=+            |
+: |+Oo .            |
+: |=oo  = +         |
+: |oo..+ * S        |
+: |...  + * o       |
+: |E.  . o =        |
+: |o..    o .       |
+: |o ..    .        |
+: +----[SHA256]-----+
+*** Telling Github about us
+Go to [[https://github.com/settings/keys]] and give our new public key
+** And try, to see what happens
+# https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection
+[[./i/0.jpg]]
+How do we appear to the Github?
+: $ ssh -T git@github.com
+keep this log, for appearance, so
+: $ ssh -T git@github.com |& tee -a ssh-T-20210803-133049.log
+: Hi glisze! You've successfully authenticated, but GitHub does not provide shell access.
+# https://docs.github.com/en/github/authenticating-to-github/troubleshooting-ssh/error-permission-denied-publickey
+# there lies the clue: git clone ssh://git@github.com/the-number/pi
+# ok!
+** Signing these commits
+# https://gnupg.org/gph/en/manual.html
+First, make our GNU Privacy Guard Key
+: gpg --gen-key
+Then, use our key to sign these commits into the git repository
+: GPG_TTY=\$( tty )
+: export GPG_TTY
+: git commit -S -m "This is this!"
+and show the state of our commits, with regard to GNU Privacy Guard signatures
+: git log --show-signature
