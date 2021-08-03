@@ -21,6 +21,9 @@ such like this:
 : +----[SHA256]-----+
 *** Telling Github about us
 Go to [[https://github.com/settings/keys]] and give our new public key
+** And try, to see what happens
+# https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection
+[[./i/0.jpg]]
 ** Signing these commits
 # https://gnupg.org/gph/en/manual.html
 First, make our GNU Privacy Guard Key
