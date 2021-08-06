@@ -1,5 +1,5 @@
 # 20210806.Friday back in the Net -*- mode: org; -*-
-* Pi Zero W and its Net
+* Pi Zero W in its Nets
 : sysctl net.ipv4.ip_forward=1
 : sysctl net.ipv4.conf.all.proxy_arp=1
 : iptables -t nat -A POSTROUTING -o wlan0 -j MASQUERADE
