@@ -1,0 +1,7 @@
+stop-router () 
+{ 
+    local D="stop routing, and masquerading";
+    sysctl net.ipv4.ip_forward=0;
+    sysctl net.ipv4.conf.all.proxy_arp=0;
+    iptables -t nat -D POSTROUTING 1
+}
