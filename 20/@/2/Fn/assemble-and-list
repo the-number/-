@@ -1,0 +1,4 @@
+assemble-and-list () 
+{ 
+    as -o 1.o 1.S -alh -R
+}
