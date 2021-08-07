@@ -1,0 +1,4 @@
+compile () 
+{ 
+    gcc -S 0.c -o 0.S
+}

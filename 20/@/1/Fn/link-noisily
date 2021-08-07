@@ -1,0 +1,4 @@
+link-noisily () 
+{ 
+    gcc 0.o -o 0 -v
+}

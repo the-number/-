@@ -1,0 +1,4 @@
+set-pat () 
+{ 
+    export PAT=$( head -1 ~/.gnupg/github.pat )
+}

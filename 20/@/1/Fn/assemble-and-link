@@ -1,0 +1,4 @@
+assemble-and-link () 
+{ 
+    gcc 0.S -o 0
+}
