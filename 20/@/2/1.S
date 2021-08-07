@@ -2,7 +2,7 @@
 	.data
 
 msg:
-	.ascii	"Hello, Arm!\n\j"
+	.ascii	"Hello, Arm!\012\000"
 	len	= . - msg
 
 	.text
@@ -16,10 +16,3 @@ _start:
 	mov   %r0, $0    /* status = 0 */
 	mov   %r7, $1    /* syscall 1: exit */
 	swi   $0
-
-	
-
-
-
-
-
