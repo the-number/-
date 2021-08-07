@@ -1,0 +1,38 @@
+# 20210807 -*- mode: org; -*-
+* Hello, Arm
+  Assemble, link, and run.
+** Arm6 Architecture
+#+BEGIN_SRC as
+ARM GAS  1.S 			page 1
+
+
+   1              	/* 1.S Hello, World to the Arm11 */
+   2              		.data
+   3              	
+   4              	msg:
+   5 0000 48656C6C 		.ascii	"Hello, Arm!\n"
+   5      6F2C2041 
+   5      726D210A 
+   6              		len	= . - msg
+   7              	
+   8              		.text
+   9              		.globl	_start
+  10              	_start:
+  11 0000 0100A0E3 		mov   %r0, $1    /* fd=1, stdout */
+  12 0004 14109FE5 		ldr   %r1, =msg
+  13 0008 0C20A0E3 		ldr   %r2, =len
+  14 000c 0470A0E3 		mov   %r7, $4    /* syscall 4: write */ 
+  15 0010 000000EF 		swi   $0
+  16 0014 0000A0E3 		mov   %r0, $0    /* status = 0 */
+  17 0018 0170A0E3 		mov   %r7, $1    /* syscall 1: exit */
+  18 001c 000000EF 		swi   $0
+  18      00000000 
+#+END_SRC
+** Assemble and list
+: as -o 1.o 1.S -alh
+** Link the assembled objects
+: ld -s -o 1 1.o
+** Run, just to say Hello!
+: ./1
+Hello
+: Hello, Arm!

@@ -2,7 +2,7 @@
 	.data
 
 msg:
-	.ascii	"Hello, Arm!\012\000"
+	.ascii	"Hello, Arm!\n"
 	len	= . - msg
 
 	.text
