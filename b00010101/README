@@ -9,7 +9,7 @@
 9. () 
 { 
     ls --color=auto -1 @/0/?. | while read b; do
-        echo -n "[[./@/0/${b.}]] " >> README;
+        echo -n "[[./${b}]] " >> README;
     done
 }
 #+END_COMMENT
