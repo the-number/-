@@ -1,0 +1,17 @@
+ARM GAS  2.S 			page 1
+
+
+   1              	.text
+   2              	.global main
+   3              	.extern printf
+   4              	main:
+   5 0000 00502DE9 	        push {ip, lr}
+   6 0004 0010A0E1 	        mov  r1, r0
+   7 0008 04009FE5 	        ldr  r0, =string
+   8 000c FEFFFFEB 	        bl   printf
+   9 0010 0090BDE8 	        pop  {ip,pc}
+  10              	
+  11              	.data
+  12 0000 41726763 	string: .asciz "Argc: %d\n"
+  12      3A202564 
+  12      0A00
