@@ -1,0 +1,9 @@
+7. () 
+{ 
+    for a in ${FUNCNAME[@]};
+    do
+        echo === $a ===;
+        declare -f $a | tee @/0/Fn/$a;
+    done;
+    8.
+}

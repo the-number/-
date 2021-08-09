@@ -1,0 +1,6 @@
+2. () 
+{ 
+    echo $FUNCNAME;
+    caller;
+    3.
+}

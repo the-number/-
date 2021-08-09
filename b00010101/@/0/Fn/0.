@@ -1,0 +1,13 @@
+0. () 
+{ 
+    local D="(D for describe this briefly";
+    test -f @/0/README || cat > @/0/README <<'EOT'
+# 20210809, Monday (morning morphed else) -*- mode: org; -*-
+* FUNCNAME
+# endless fun
+** This is it
+# man bash
+EOT
+
+    1.
+}

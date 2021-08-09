@@ -1,0 +1,17 @@
+# 20210809, Monday (morning morphed else) -*- mode: org; -*-
+* FUNCNAME
+# endless fun
+** This is it
+# man bash
+#+BEGIN_COMMENT
+8. () 
+{ 
+    mkdir -p @/0/Fn
+}
+9. () 
+{ 
+    ls --color=auto -1 @/0/Fn/[0-9]. | while read b; do
+        echo -n "[[./${b}]] " >> README;
+    done
+}
+#+END_COMMENT
