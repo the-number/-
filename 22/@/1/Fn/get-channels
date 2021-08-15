@@ -1,0 +1,5 @@
+get-channels () 
+{ 
+    local D="wget to obtain the channel list from TVheadend";
+    wget --http-user=admin --http-password=$TVID http://10.128.192.51:9981/playlist/channels
+}

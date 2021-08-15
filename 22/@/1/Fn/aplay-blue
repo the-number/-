@@ -1,0 +1,4 @@
+aplay-blue () 
+{ 
+    aplay -D bluealsa:SRV=org.bluealsa,DEV=$( sound-device Jam Classic 2.0 ),PROFILE=a2dp "$@"
+}

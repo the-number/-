@@ -1,0 +1,4 @@
+channels-id () 
+{ 
+    sed channels -e '/'"$*"'/s,^.*\,,,p' -n
+}

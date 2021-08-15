@@ -1,0 +1,8 @@
+atest1 () 
+{ 
+    local D="bluealsa, in e";
+    for a in ${@:-/usr/share/sounds/alsa/*}
+    do
+        aplay -D bluealsa:SRV=org.bluealsa,DEV=FC:58:FA:98:0A:17,PROFILE=a2dp $a;
+    done
+}
