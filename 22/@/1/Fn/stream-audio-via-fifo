@@ -1,4 +1,4 @@
-stream-audio-to-fifo () 
+stream-audio-via-fifo () 
 { 
     local D="Stream audio to FIFO, given Channel Name (TVID must be set)";
     rm -f FIFO FIFOO;
