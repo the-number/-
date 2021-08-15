@@ -1,8 +1,8 @@
 # 20210815,17:29 sound -*- mode: org; -*-
 * Sound
   with the Bluetooth
-[[./i/0.jpg]]
 ** To play
+[[./i/0.jpg]]
 #+BEGIN_SRC sh
 aplay -D bluealsa:DEV=FC:58:FA:98:0A:17:profile=a2dp /usr/share/sounds/alsa/*
 #+END_SRC
