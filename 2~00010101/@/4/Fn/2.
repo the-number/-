@@ -1,0 +1,5 @@
+2. () 
+{ 
+    local D="Kernel, initrd";
+    wget http://ftp.nluug.nl/os/Linux/distr/tinycorelinux/12.x/x86_64/release/distribution_files/{vmlinuz64,corepure64.gz}{,.md5.txt}
+}

@@ -1,0 +1,26 @@
+1.tce () 
+{ 
+    local D="prepare Tiny Core things, (/tce)";
+    local a="ca-certificates
+libiw
+libnl
+ncurses
+openssh
+readline
+wifi
+firmware-iwlwifi
+wireless_tools
+wpa_supplicant
+wireless-5.10.3-tinycore64
+";
+    local c="http://ftp.nluug.nl/os/Linux/distr/tinycorelinux/12.x/x86_64/tcz";
+    function 1. () 
+    { 
+        local DD="download things";
+        for b in $a;
+        do
+            ${DO:-echo} wget $c/$b.tcz{,.{dep,info,list,md5.txt,tree,rsync}};
+        done
+    };
+    1. $@
+}
