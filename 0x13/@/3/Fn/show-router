@@ -1,7 +1,7 @@
 show-router () 
 { 
     local D="show the state of routing and masquerading";
-    sysctl net.ipv4.ip_forward;
-    sysctl net.ipv4.conf.all.proxy_arp;
-    iptables -t nat -L POSTROUTING
+    sudo sysctl net.ipv4.ip_forward;
+    sudo sysctl net.ipv4.conf.all.proxy_arp;
+    sudo iptables -t nat -L POSTROUTING
 }
