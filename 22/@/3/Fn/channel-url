@@ -1,0 +1,5 @@
+channel-url () 
+{ 
+    local D="return the URL of the first matching channel";
+    sed channels -e /"$*"/,+1p -n | tail -1
+}

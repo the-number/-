@@ -1,0 +1,4 @@
+sound-device () 
+{ 
+    sudo bluetoothctl devices | sed - -e /"${*:-Jam Classic 2.0}"/'s,Device \(.................\).*$,\1,'p -n
+}

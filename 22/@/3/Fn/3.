@@ -1,0 +1,21 @@
+3. () 
+{ 
+    local D="coproc: listen over bluealsa";
+    local a="$*";
+    local A="$( head -1 ~/.this | sed - -e 's/this\(.*\)is/\1/p' -n )";
+    local B="$( head -1 ~/.this | sed - -e 's/is\(.*\)that/\1/p' -n )";
+    local C="$( head -1 ~/.this | sed - -e 's/that\(.*\)this/\1/p' -n )";
+    coproc a { 
+        wget --http-user="$B" --http-password="$A" http://localhost:9981/playlist/channels -o /dev/null -O -
+    } 2>&${a[2]};
+    coproc b { 
+        sed - -e /"${a}"/,+1p | tail -1
+    } 1>&${d[1]} 2>&{b[2]};
+    coproc e { 
+        wget --http-user="$B" --http-password="$A" "$( cat )" -o /dev/null -O -
+    } 0<&${d[1]} 2>&${b[2]};
+    coproc f { 
+        cat | mplayer -
+    } 0<&${e[1]} 2>&${b[2]};
+    wait $f_PID { cat } 0<&${b[2]}
+}

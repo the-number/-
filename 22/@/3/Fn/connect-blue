@@ -1,0 +1,4 @@
+connect-blue () 
+{ 
+    sudo bluetoothctl connect ${1:-$( sound-device Jam Classic 2.0 )} && echo yes || echo no
+}

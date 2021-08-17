@@ -1,0 +1,8 @@
+stream-audio-via-fifo () 
+{ 
+    local D="Stream audio to FIFO, given Channel Name (TVID must be set)";
+    rm -f FIFO FIFOO;
+    mkfifo FIFO;
+    mkfifo FIFOO;
+    wget --http-user=admin --http-password=$TVID "$( channel-url $* )" -O FIFO & cat FIFO | mplayer - -ao pcm:file=%5%FIFOO -vo null & aplay -D bluealsa:SRV=org.bluealsa,DEV=$( sound-device Jam Classic ),PROFILE=a2dp FIFOO
+}
