@@ -1,0 +1,7 @@
+folder-numbers () 
+{ 
+    'ls' -1 | while read b; do
+        a=$( echo $b | sed -e 's_~_#_' | sed -e 's_^\([0-9]*\|0[xX][0-9A-Fa-f]*\|[0-9]*#[0-9A-Fa-f]*\)$_\1_p' -n );
+        echo $(( a ))=="$b";
+    done | sort -h | sed -e '/^0==[^0]/d'
+}
