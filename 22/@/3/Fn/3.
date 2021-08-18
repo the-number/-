@@ -1,23 +1,23 @@
 3. () 
 { 
     local D="coproc: listen over bluealsa";
-    local a="$*";
+    local C="$*";
     local A="$( sed ~/.this -e 's/.*this\(.*\)is.*/\1/p' -n )";
     local B="$( sed ~/.this -e 's/.*is\(.*\)that.*/\1/p' -n )";
     coproc a { 
         wget --http-user="$B" --http-password="$A" http://localhost:9981/playlist/channels -o /dev/null -O -
-    } 
+    };
     coproc b { 
-        sed - -e /"${a}"/,+1p | tail -1
-    } <&${a[1]} 2>&${a[2]};
+        sed -e /"${C}"/,+1p | tail -1
+    } 0<&${a[0]};
     coproc c { 
-        wget --http-user="$B" --http-password="$A" "$( cat )" -o /dev/null -O -
-    } <&${b[1]} 2>&${a[2]};
+        wget --http-user="$B" --http-password="$A" "$( cat - )" -o /dev/null -O -
+    } 0<&${b[0]};
     coproc d { 
         cat | mplayer - -vo null -ao pcm:%11%/dev/stdout
-    } <&${c[1]} 2>&${a[2]};
-    coproc e {
+    } 0<&${c[0]};
+    coproc e { 
         aplay -D bluealsa:SRV:org.bluealsa,DEV=$( sound-device Jam Classic ),PROFILE=a2dp -
-	} <&${d[1]} 2>&${a[2};			  
-    wait $e_PID { cat } <&${a[2]}
+    } 0<&${d[0]}};
+    wait $e_PID && echo === That\'s all, $? === || echo +++ something +++
 }
