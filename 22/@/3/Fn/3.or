@@ -1,0 +1,16 @@
+3.or () 
+{ 
+    local D="play with bluealsa";
+    ( function 1. () 
+    { 
+        rm -f FIFO;
+        mkfifo FIFO
+    };
+    function 2. () 
+    { 
+        coproc A { 
+            mplayer -vo null -ao pcm:file=FIFO -user $( set-tvb ) -passwd $( set-tva ) $( channel-url ${*:-Radio 3} )
+        } 2> 3.or.errors
+    };
+    1. && 2. && atest1 FIFO & )
+}

@@ -1,0 +1,5 @@
+set-tva () 
+{ 
+    local D="set TVA";
+    echo "$( sed ~/.this -e 's/.*this\(.*\)is.*/\1/p' -n )"
+}

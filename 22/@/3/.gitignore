@@ -1,2 +1,6 @@
 channels
 wget-log*
+FIFO
+*.wav
+*.mp3
+

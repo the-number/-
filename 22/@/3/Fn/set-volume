@@ -1,0 +1,5 @@
+set-volume () 
+{ 
+    local D="set the sound volume (default is 50%";
+    amixer -D bluealsa sset "$( sound-device Jam Classic) - A2DP" ${1:-50%}
+}

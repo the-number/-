@@ -1,0 +1,5 @@
+set-tvb () 
+{ 
+    local D="set TVB";
+    echo "$( sed ~/.this -e 's/.*is\(.*\)that.*/\1/p' -n )"
+}
