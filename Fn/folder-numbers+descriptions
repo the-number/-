@@ -1,7 +1,7 @@
-folder-numbers () 
+folder-numbers+descriptions () 
 { 
     'ls' -1 | while read b; do
-        a=$( echo $b | sed -e 's_~_#_' );
+        a=$( echo $b | sed -e 's_~_#_' | sed -e 's_^\([+-]\([0-9]*\|0[xX][0-9A-Fa-f]*\|[0-9]*#[0-9A-Za-z]*\)\)*$_\2_p' -n );
         echo $(( a ))=="$b"$( test -f "$b/_this_" && echo ": " && cat "$b/_this_" );
     done | sort -h | sed -e '/^0==[^0]/d'
 }
