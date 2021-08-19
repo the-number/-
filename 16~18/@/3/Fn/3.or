@@ -12,5 +12,5 @@
             mplayer -vo null -ao pcm:file=FIFO -user $( set-tvb ) -passwd $( set-tva ) $( channel-url ${*:-Radio 3} )
         } 2> 3.or.errors
     };
-    1. && 2. && atest1 FIFO & )
+    1. && 2. $@ && atest1 FIFO & )
 }
