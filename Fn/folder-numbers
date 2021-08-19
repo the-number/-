@@ -3,5 +3,5 @@ folder-numbers ()
     'ls' -1 | while read b; do
         a=$( echo $b | sed -e 's_~_#_' );
         echo $(( a ))=="$b"$( test -f "$b/_this_" && echo ": " && cat "$b/_this_" );
-    done | sort -h | sed -e '/^0==[^0]/d'
+    done | sort -h | sed -e '/^0==[^0]/d' -e 's,^,  + ,'
 }

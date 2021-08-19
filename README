@@ -21,7 +21,10 @@ this.
   + 15 = [[./017/][017]], LibreELEC on the Pi
   + 16 = [[./0x10/]]
   + 17 = [[./021/]]
-  + 18 = [[./18/]]
+  + 18 = [[./18/][18]]: authenticate, authorize, audit
   + 19 = [[./0x13/]]
   + 20 = [[./20/][Arm v6 architecture]], assemble, link, run to say Hello!
   + 21=[[./2~00010101/][2#00010101]], A cup of pi, under them numbers
+  + 22 = [[026]]
+  + 23 = [[8~30-1]]: GNU Guix, pull (after some time has passed)
+  + 24 = [[16~18][16#18]]: Concurrency for Blue Alsa
