@@ -1,0 +1,5 @@
+00-untar () 
+{ 
+    local D="untar in tmp/0, mv gnnu to /, mv guix to /var";
+    cd /tmp/0 && tar --warning=no-timestamp -xf guix-binary-1.3.0.armhf-linux.tar.xz
+}

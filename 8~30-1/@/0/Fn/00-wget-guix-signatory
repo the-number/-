@@ -1,0 +1,5 @@
+00-wget-guix-signatory () 
+{ 
+    local D="The public signature of the Guix signatory";
+    wget 'https://sv.gnu.org/people/viewgpg.php?user_id=127547' -qO - | gpg --import -
+}

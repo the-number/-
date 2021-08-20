@@ -1,0 +1,6 @@
+00-wget-guix-binary-1.3.0-armhf-linux () 
+{ 
+    local D="acquire the binary tarball, with signature";
+    wget https://ftp.gnu.org/gnu/guix/guix-binary-1.3.0.armhf-linux.tar.xz.sig;
+    wget https://ftp.gnu.org/gnu/guix/guix-binary-1.3.0.armhf-linux.tar.xz
+}

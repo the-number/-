@@ -1,0 +1,5 @@
+00-gcc-dumpmache () 
+{ 
+    local D="So, what is this system? (Any clues?)";
+    gcc -dumpmachine
+}

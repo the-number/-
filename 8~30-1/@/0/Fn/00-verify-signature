@@ -1,0 +1,5 @@
+00-verify-signature () 
+{ 
+    local D="verify the signature of the tar ball";
+    gpg --verify guix-binary-1.3.0.armhf-linux.tar.xz.sig
+}

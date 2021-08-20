@@ -1,0 +1,56 @@
+#!/usr/local/bin/guile \
+--no-auto-compile -e main -s
+!#
+
+(set! %load-path (append (quote ("/gnu/store/x4dkw6z80x1qv6i4syh875y5af3rcida-guile-avahi-0.4.0-1.6d43caf/share/guile/site/3.0" "/gnu/store/xy3jrcvk5iv5d9n2zbsf8yy70fnz1ij5-guile-gcrypt-0.3.0/share/guile/site/3.0" "/gnu/store/4xz4fkzn1dc9jlq2v8md9428w49hym7f-guile-json-4.5.2/share/guile/site/3.0" "/gnu/store/6dfdp4v3ir71wnrgjdkszz6bm9id3h0p-guile-sqlite3-0.1.2/share/guile/site/3.0" "/gnu/store/jr0x0v4yaw4m04y1hni937jrxs3f1341-gnutls-3.6.15/share/guile/site/3.0" "/gnu/store/1mbx03r813nb3psw7vcakvf7c1ri23yn-guile-git-0.5.1/share/guile/site/3.0" "/gnu/store/yk88g10clmxqg8nqrbfbr4ak6jdwd2f4-guile-bytestructures-1.0.10/share/guile/site/3.0" "/gnu/store/yydslbn7bhpcmdipgg8w8dcgxi915izf-guile-ssh-0.13.1/share/guile/site/3.0" "/gnu/store/969d7dbaj58gy14vk76v3amk2lm5lfr7-guile-zlib-0.1.0/share/guile/site/3.0" "/gnu/store/1cfbihr300czn4vhvycxsw1a2fx2x3yl-guile-lzlib-0.0.2/share/guile/site/3.0" "/gnu/store/rs39l0kqcs2l1avq9kj5j8q76p744xn9-guile-zstd-0.1.1/share/guile/site/3.0" "/gnu/store/iz17m2fk3kvjzlfp1974c8bl214g8qif-guile-lib-0.2.7/share/guile/site/3.0")) %load-path))
+(set! %load-compiled-path (append (quote ("/gnu/store/x4dkw6z80x1qv6i4syh875y5af3rcida-guile-avahi-0.4.0-1.6d43caf/lib/guile/3.0/site-ccache" "/gnu/store/xy3jrcvk5iv5d9n2zbsf8yy70fnz1ij5-guile-gcrypt-0.3.0/lib/guile/3.0/site-ccache" "/gnu/store/4xz4fkzn1dc9jlq2v8md9428w49hym7f-guile-json-4.5.2/lib/guile/3.0/site-ccache" "/gnu/store/6dfdp4v3ir71wnrgjdkszz6bm9id3h0p-guile-sqlite3-0.1.2/lib/guile/3.0/site-ccache" "/gnu/store/jr0x0v4yaw4m04y1hni937jrxs3f1341-gnutls-3.6.15/lib/guile/3.0/site-ccache" "/gnu/store/1mbx03r813nb3psw7vcakvf7c1ri23yn-guile-git-0.5.1/lib/guile/3.0/site-ccache" "/gnu/store/yk88g10clmxqg8nqrbfbr4ak6jdwd2f4-guile-bytestructures-1.0.10/lib/guile/3.0/site-ccache" "/gnu/store/yydslbn7bhpcmdipgg8w8dcgxi915izf-guile-ssh-0.13.1/lib/guile/3.0/site-ccache" "/gnu/store/969d7dbaj58gy14vk76v3amk2lm5lfr7-guile-zlib-0.1.0/lib/guile/3.0/site-ccache" "/gnu/store/1cfbihr300czn4vhvycxsw1a2fx2x3yl-guile-lzlib-0.0.2/lib/guile/3.0/site-ccache" "/gnu/store/rs39l0kqcs2l1avq9kj5j8q76p744xn9-guile-zstd-0.1.1/lib/guile/3.0/site-ccache" "/gnu/store/iz17m2fk3kvjzlfp1974c8bl214g8qif-guile-lib-0.2.7/lib/guile/3.0/site-ccache")) %load-compiled-path))
+(let ((path (getenv "GUIX_LOCPATH"))) (setenv "GUIX_LOCPATH" (if path (string-append path ":" "/gnu/store/27ypbzcqlb8iy299b8a4yxpkqw9f6mp5-glibc-utf8-locales-2.31/lib/locale") "/gnu/store/27ypbzcqlb8iy299b8a4yxpkqw9f6mp5-glibc-utf8-locales-2.31/lib/locale")))
+
+
+;;; GNU Guix --- Functional package management for GNU
+;;; Copyright © 2013 Mark H Weaver <mhw@netris.org>
+;;; Copyright © 2018 Mathieu Lirzin <mthl@gnu.org>
+;;;
+;;; This file is part of GNU Guix.
+;;;
+;;; GNU Guix is free software; you can redistribute it and/or modify it
+;;; under the terms of the GNU General Public License as published by
+;;; the Free Software Foundation; either version 3 of the License, or (at
+;;; your option) any later version.
+;;;
+;;; GNU Guix is distributed in the hope that it will be useful, but
+;;; WITHOUT ANY WARRANTY; without even the implied warranty of
+;;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;;; GNU General Public License for more details.
+;;;
+;;; You should have received a copy of the GNU General Public License
+;;; along with GNU Guix.  If not, see <http://www.gnu.org/licenses/>.
+
+;; IMPORTANT: We must avoid loading any modules from Guix here,
+;; because we need to adjust the guile load paths first.
+;; It's okay to import modules from core Guile though.
+
+(define-syntax-rule (push! elt v) (set! v (cons elt v)))
+
+(define (augment-load-paths!)
+  ;; Add installed modules to load-path.
+  (push! "/gnu/store/9lkhky3c6fdgjysf3yj99b5f1mpb7p6y-guix-1.3.0/share/guile/site/3.0" %load-path)
+  (push! "/gnu/store/9lkhky3c6fdgjysf3yj99b5f1mpb7p6y-guix-1.3.0/lib/guile/3.0/site-ccache" %load-compiled-path))
+
+(define* (main #:optional (args (command-line)))
+  (unless (getenv "GUIX_UNINSTALLED")
+    (augment-load-paths!))
+
+  (let ((guix-main (module-ref (resolve-interface '(guix ui))
+                               'guix-main)))
+    (bindtextdomain "guix" "/gnu/store/9lkhky3c6fdgjysf3yj99b5f1mpb7p6y-guix-1.3.0/share/locale")
+    (bindtextdomain "guix-packages" "/gnu/store/9lkhky3c6fdgjysf3yj99b5f1mpb7p6y-guix-1.3.0/share/locale")
+    ;; XXX: It would be more convenient to change it to:
+    ;;   (exit (apply guix-main (command-line)))
+    ;; but since the 'guix' command is not updated by 'guix pull', we cannot
+    ;; really do it now.
+    (apply guix-main args)))
+
+;;; Local Variables:
+;;; mode: scheme
+;;; End:

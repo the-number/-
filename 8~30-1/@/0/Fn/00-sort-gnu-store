@@ -1,0 +1,5 @@
+00-sort-gnu-store () 
+{ 
+    local D="What folders are in store?";
+    'ls' /gnu/store/* -d | sort -t- -k2
+}
