@@ -1,0 +1,12 @@
+=== continuing (time: with the TV on) ===
+=== tail -f /home/gunter/Data/pi02/GNU/guix/@/0/guix-20210823-191803.log ===
+[ 18%] LOAD     guix/scripts.scm
+[ 18%] LOAD     guix/ssh.scm
+[ 18%] LOAD     guix/remote.scm
+[ 18%] LOAD     guix/store/ssh.scm
+[ 18%] LOAD     guix/avahi.scm
+[ 18%] LOAD     guix/store/database.scm
+[ 18%] LOAD     guix/store/deduplication.scm
+[ 18%] LOAD     guix/store/roots.scm
+[ 18%] LOAD     guix/config.scm
+[ 18%] LOAD     guix/tests.scm
