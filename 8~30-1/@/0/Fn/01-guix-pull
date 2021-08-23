@@ -1,0 +1,5 @@
+01-guix-pull () 
+{ 
+    local D="guix pull # update our store";
+    guix pull
+}
