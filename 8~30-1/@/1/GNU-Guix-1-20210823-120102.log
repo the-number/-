@@ -575,3 +575,7 @@ ar: `u' modifier ignored since `D' is the default (see `U')
   GEN      scripts/guix
 Compiling Scheme modules...
 [  0%] LOAD     guix.scm
+[  0%] LOAD     guix/base16.scm
+[  0%] LOAD     guix/base32.scm
+[  0%] LOAD     guix/base64.scm
+[  0%] LOAD     guix/ci.scm
