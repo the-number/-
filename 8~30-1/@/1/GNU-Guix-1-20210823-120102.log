@@ -540,3 +540,38 @@ In file included from /usr/include/c++/8/list:64,
 /usr/include/c++/8/bits/list.tcc:320:11: note: parameter passing for argument of type ‘std::_List_const_iterator<nix::ValidPathInfo>’ changed in GCC 7.1
   CXX      nix/libstore/libstore_a-pathlocks.o
   CXX      nix/libstore/libstore_a-derivations.o
+  CXX      nix/libstore/libstore_a-builtins.o
+  CXX      nix/libstore/libstore_a-sqlite.o
+  AR       libstore.a
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CXX      nix/libutil/libutil_a-archive.o
+  CXX      nix/libutil/libutil_a-affinity.o
+  CXX      nix/libutil/libutil_a-serialise.o
+  CXX      nix/libutil/libutil_a-util.o
+In file included from /usr/include/c++/8/vector:69,
+                 from ./nix/boost/format.hpp:22,
+                 from nix/libutil/types.hh:9,
+                 from nix/libutil/util.hh:3,
+                 from nix/libutil/util.cc:3:
+/usr/include/c++/8/bits/vector.tcc: In member function ‘void std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, long long unsigned int&, unsigned char&}; _Tp = nix::DirEntry; _Alloc = std::allocator<nix::DirEntry>]’:
+/usr/include/c++/8/bits/vector.tcc:413:7: note: parameter passing for argument of type ‘std::vector<nix::DirEntry>::iterator’ {aka ‘__gnu_cxx::__normal_iterator<nix::DirEntry*, std::vector<nix::DirEntry> >’} changed in GCC 7.1
+       vector<_Tp, _Alloc>::
+       ^~~~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/vector.tcc: In function ‘nix::DirEntries nix::readDirectory(const Path&)’:
+/usr/include/c++/8/bits/vector.tcc:109:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<nix::DirEntry*, std::vector<nix::DirEntry> >’ changed in GCC 7.1
+    _M_realloc_insert(end(), std::forward<_Args>(__args)...);
+    ^~~~~~~~~~~~~~~~~
+  CXX      nix/libutil/libutil_a-hash.o
+  AR       libutil.a
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CXX      nix/boost/format/libformat_a-free_funcs.o
+  CXX      nix/boost/format/libformat_a-parsing.o
+  CXX      nix/boost/format/libformat_a-format_implementation.o
+  AR       libformat.a
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CXXLD    guix-daemon
+  CC       gnu/packages/aux-files/guile-guile-launcher.o
+  CCLD     guile
+  GEN      scripts/guix
+Compiling Scheme modules...
+[  0%] LOAD     guix.scm
