@@ -10,3 +10,203 @@
 [ 18%] LOAD     guix/store/roots.scm
 [ 18%] LOAD     guix/config.scm
 [ 18%] LOAD     guix/tests.scm
+[ 18%] LOAD     guix/tests/http.scm
+[ 18%] LOAD     guix/tests/git.scm
+[ 18%] LOAD     guix/tests/gnupg.scm
+[ 18%] GUILEC   guix/build/guile-build-system.go
+[ 18%] GUILEC   guix/build/maven-build-system.go
+[ 18%] GUILEC   guix/build/minetest-build-system.go
+[ 19%] GUILEC   guix/build/node-build-system.go
+[ 19%] GUILEC   guix/build/perl-build-system.go
+[ 19%] GUILEC   guix/build/python-build-system.go
+[ 19%] GUILEC   guix/build/ocaml-build-system.go
+[ 19%] GUILEC   guix/build/qt-build-system.go
+[ 19%] GUILEC   guix/build/r-build-system.go
+[ 19%] GUILEC   guix/build/renpy-build-system.go
+[ 19%] GUILEC   guix/build/rakudo-build-system.go
+[ 19%] GUILEC   guix/build/ruby-build-system.go
+[ 19%] GUILEC   guix/build/scons-build-system.go
+[ 19%] GUILEC   guix/build/texlive-build-system.go
+[ 19%] GUILEC   guix/build/waf-build-system.go
+[ 19%] GUILEC   guix/build/haskell-build-system.go
+[ 19%] GUILEC   guix/build/julia-build-system.go
+[ 19%] GUILEC   guix/build/linux-module-build-system.go
+[ 19%] GUILEC   guix/build/store-copy.go
+[ 19%] GUILEC   guix/build/json.go
+[ 19%] GUILEC   guix/build/pack.go
+[ 19%] GUILEC   guix/build/utils.go
+[ 20%] GUILEC   guix/build/union.go
+[ 20%] GUILEC   guix/build/profiles.go
+[ 20%] GUILEC   guix/build/compile.go
+[ 20%] GUILEC   guix/build/rpath.go
+[ 20%] GUILEC   guix/build/cvs.go
+[ 20%] GUILEC   guix/build/svn.go
+[ 20%] GUILEC   guix/build/syscalls.go
+[ 20%] GUILEC   guix/build/gremlin.go
+[ 20%] GUILEC   guix/build/debug-link.go
+[ 20%] GUILEC   guix/build/clojure-build-system.go
+[ 20%] GUILEC   guix/build/clojure-utils.go
+[ 20%] GUILEC   guix/build/emacs-utils.go
+[ 20%] GUILEC   guix/build/java-utils.go
+[ 20%] GUILEC   guix/build/lisp-utils.go
+[ 20%] GUILEC   guix/build/maven/java.go
+[ 20%] GUILEC   guix/build/maven/plugin.go
+[ 20%] GUILEC   guix/build/maven/pom.go
+[ 20%] GUILEC   guix/build/graft.go
+[ 21%] GUILEC   guix/build/bournish.go
+[ 21%] GUILEC   guix/build/qt-utils.go
+[ 21%] GUILEC   guix/build/make-bootstrap.go
+[ 21%] GUILEC   guix/search-paths.go
+[ 21%] GUILEC   guix/packages.go
+[ 21%] GUILEC   guix/import/cabal.go
+[ 21%] GUILEC   guix/import/cpan.go
+[ 21%] GUILEC   guix/import/cran.go
+[ 21%] GUILEC   guix/import/crate.go
+Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+WARNING: (guix build guile-build-system): imported module (guix build utils) overrides core binding `delete'
+guix/build/guile-build-system.scm:72:44: warning: possibly unbound variable `current-processor-count'
+WARNING: (guix build maven-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build minetest-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build perl-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build python-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build ocaml-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build r-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build renpy-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build rakudo-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build ruby-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build scons-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build texlive-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build waf-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build haskell-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build julia-build-system): imported module (guix build utils) overrides core binding `delete'
+guix/build/compile.scm:48:19: warning: possibly unbound variable `tree-il-default-optimization-options'
+guix/build/compile.scm:49:19: warning: possibly unbound variable `cps-default-optimization-options'
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload semver<? in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload semver->string in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload semver<? in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload semver<? in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload semver->string in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload semver->string in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload semver<? in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver->string in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+guix/import/crate.scm:224:5: warning: possibly unbound variable `semver-range-contains?'
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+guix/import/crate.scm:224:29: warning: possibly unbound variable `string->semver-range'
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+guix/import/crate.scm:225:29: warning: possibly unbound variable `string->semver'
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload semver<? in (semver):
+;;; no code for module (semver)
+guix/import/crate.scm:250:13: warning: possibly unbound variable `semver<?'
+;;; Failed to autoload semver->string in (semver):
+;;; no code for module (semver)
+guix/import/crate.scm:252:12: warning: possibly unbound variable `semver->string'
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload semver<? in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; [ 21%] GUILEC   guix/import/egg.go
+[ 21%] GUILEC   guix/import/elpa.go
