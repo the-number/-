@@ -1,0 +1,5 @@
+Generation 2	Mar 13 2021 19:06:41	(current)
+  guix 15b3982
+    repository URL: https://git.savannah.gnu.org/git/guix.git
+    branch: master
+    commit: 15b39826ffef7adae2adff459264bfdc5362f320

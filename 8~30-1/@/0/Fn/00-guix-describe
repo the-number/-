@@ -1,0 +1,5 @@
+00-guix-describe () 
+{ 
+    local D="guix describe # where are we?";
+    guix describe
+}
