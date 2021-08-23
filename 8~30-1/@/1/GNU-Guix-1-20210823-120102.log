@@ -751,3 +751,79 @@ Compiling Scheme modules...
 [ 10%] LOAD     guix/import/cpan.scm
 [ 10%] LOAD     guix/import/cran.scm
 [ 10%] LOAD     guix/import/crate.scm
+WARNING: Use of `load' in declarative module (guix ui).  Add #:declarative? #f to your define-module invocation.
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+WARNING: (guix build ant-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build cargo-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build chicken-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build cmake-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build dub-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build ocaml-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build dune-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build meson-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build minify-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build font-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build go-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build asdf-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build copy-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build gnu-dist): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build guile-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build maven-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build minetest-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build perl-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build python-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build r-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build renpy-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build rakudo-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build ruby-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build scons-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build texlive-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build waf-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build haskell-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build julia-build-system): imported module (guix build utils) overrides core binding `delete'
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver in (semver):
+;;; [ 10%] LOAD     guix/import/egg.scm
+[ 10%] LOAD     guix/import/elpa.scm
+[ 10%] LOAD     guix/import/gem.scm
+[ 10%] LOAD     guix/import/github.scm
+[ 10%] LOAD     guix/import/gnome.scm
+[ 10%] LOAD     guix/import/gnu.scm
+[ 10%] LOAD     guix/import/go.scm
+[ 10%] LOAD     guix/import/hackage.scm
+[ 10%] LOAD     guix/import/json.scm
+[ 10%] LOAD     guix/import/kde.scm
+[ 10%] LOAD     guix/import/launchpad.scm
+[ 10%] LOAD     guix/import/minetest.scm
+[ 10%] LOAD     guix/import/opam.scm
+[ 10%] LOAD     guix/import/print.scm
+[ 10%] LOAD     guix/import/pypi.scm
+[ 11%] LOAD     guix/import/stackage.scm
+[ 11%] LOAD     guix/import/texlive.scm
+[ 11%] LOAD     guix/import/utils.scm
+[ 11%] LOAD     guix/scripts.scm
+[ 11%] LOAD     guix/ssh.scm
+[ 11%] LOAD     guix/remote.scm
+[ 11%] LOAD     guix/store/ssh.scm
+[ 11%] LOAD     guix/avahi.scm
+[ 11%] LOAD     guix/store/database.scm
+[ 11%] LOAD     guix/store/deduplication.scm
+[ 11%] LOAD     guix/store/roots.scm
+[ 11%] LOAD     guix/config.scm
+[ 11%] LOAD     guix/tests.scm
