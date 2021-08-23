@@ -1,0 +1,11 @@
+Depencies for GNU Guix are installed
+stamp-and-do these things
+[?2004h[35mscheme[0m[36m@([0m[37mguile-user[0m[36m)[0m[31m[0m[36m> [0m(use-modules (git)[C[C[C[C[C)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h[35mscheme[0m[36m@([0m[37mguile-user[0m[36m)[0m[31m[0m[36m> [0mclone
+[?2004l[?2004h[35mscheme[0m[36m@([0m[37mguile-user[0m[36m)[0m[31m[0m[36m> [0m,d clone
+[?2004l[?2004h[35mscheme[0m[36m@([0m[37mguile-user[0m[36m)[0m[31m[0m[36m> [0m,q
+[?2004l$1 = [33;1m#<procedure 16c07b0 at git/clone.scm:39:4 (url directory #:optional clone-options)>[0m
+Clones a remote repository found at URL into DIRECTORY.  An
+authentication method from (git auth) can be passed optionally if the
+repository is protected.  Returns the repository on success or throws an error
+on failure.
