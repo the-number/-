@@ -1,0 +1,156 @@
+tail -f $s/@/0/guix-20210823-163055.log
+[  7%] LOAD     guix/colors.scm
+[  8%] LOAD     guix/i18n.scm
+[  8%] LOAD     guix/diagnostics.scm
+[  8%] LOAD     guix/ui.scm
+[  8%] LOAD     guix/status.scm
+[  8%] LOAD     guix/build/android-ndk-build-system.scm
+[  8%] LOAD     guix/build/ant-build-system.scm
+[  8%] LOAD     guix/build/download.scm
+[  8%] LOAD     guix/build/download-nar.scm
+[  8%] LOAD     guix/build/cargo-build-system.scm
+[  8%] LOAD     guix/build/cargo-utils.scm
+[  8%] LOAD     guix/build/chicken-build-system.scm
+[  8%] LOAD     guix/build/cmake-build-system.scm
+[  8%] LOAD     guix/build/dub-build-system.scm
+[  8%] LOAD     guix/build/dune-build-system.scm
+[  8%] LOAD     guix/build/emacs-build-system.scm
+[  8%] LOAD     guix/build/meson-build-system.scm
+[  8%] LOAD     guix/build/minify-build-system.scm
+[  8%] LOAD     guix/build/font-build-system.scm
+[  8%] LOAD     guix/build/go-build-system.scm
+[  9%] LOAD     guix/build/android-repo.scm
+[  9%] LOAD     guix/build/asdf-build-system.scm
+[  9%] LOAD     guix/build/bzr.scm
+[  9%] LOAD     guix/build/copy-build-system.scm
+[  9%] LOAD     guix/build/git.scm
+[  9%] LOAD     guix/build/hg.scm
+[  9%] LOAD     guix/build/glib-or-gtk-build-system.scm
+[  9%] LOAD     guix/build/gnu-bootstrap.scm
+[  9%] LOAD     guix/build/gnu-build-system.scm
+[  9%] LOAD     guix/build/gnu-dist.scm
+[  9%] LOAD     guix/build/guile-build-system.scm
+[  9%] LOAD     guix/build/maven-build-system.scm
+[  9%] LOAD     guix/build/minetest-build-system.scm
+[  9%] LOAD     guix/build/node-build-system.scm
+[  9%] LOAD     guix/build/perl-build-system.scm
+[  9%] LOAD     guix/build/python-build-system.scm
+[  9%] LOAD     guix/build/ocaml-build-system.scm
+[  9%] LOAD     guix/build/qt-build-system.scm
+[ 10%] LOAD     guix/build/r-build-system.scm
+[ 10%] LOAD     guix/build/renpy-build-system.scm
+[ 10%] LOAD     guix/build/rakudo-build-system.scm
+[ 10%] LOAD     guix/build/ruby-build-system.scm
+[ 10%] LOAD     guix/build/scons-build-system.scm
+[ 10%] LOAD     guix/build/texlive-build-system.scm
+[ 10%] LOAD     guix/build/waf-build-system.scm
+[ 10%] LOAD     guix/build/haskell-build-system.scm
+[ 10%] LOAD     guix/build/julia-build-system.scm
+[ 10%] LOAD     guix/build/linux-module-build-system.scm
+[ 10%] LOAD     guix/build/store-copy.scm
+[ 10%] LOAD     guix/build/json.scm
+[ 10%] LOAD     guix/build/pack.scm
+[ 10%] LOAD     guix/build/utils.scm
+[ 10%] LOAD     guix/build/union.scm
+[ 10%] LOAD     guix/build/profiles.scm
+[ 10%] LOAD     guix/build/compile.scm
+[ 10%] LOAD     guix/build/rpath.scm
+[ 11%] LOAD     guix/build/cvs.scm
+[ 11%] LOAD     guix/build/svn.scm
+[ 11%] LOAD     guix/build/syscalls.scm
+[ 11%] LOAD     guix/build/gremlin.scm
+[ 11%] LOAD     guix/build/debug-link.scm
+[ 11%] LOAD     guix/build/clojure-build-system.scm
+[ 11%] LOAD     guix/build/clojure-utils.scm
+[ 11%] LOAD     guix/build/emacs-utils.scm
+[ 11%] LOAD     guix/build/java-utils.scm
+[ 11%] LOAD     guix/build/lisp-utils.scm
+[ 11%] LOAD     guix/build/maven/java.scm
+[ 11%] LOAD     guix/build/maven/plugin.scm
+[ 11%] LOAD     guix/build/maven/pom.scm
+[ 11%] LOAD     guix/build/graft.scm
+[ 11%] LOAD     guix/build/bournish.scm
+[ 11%] LOAD     guix/build/qt-utils.scm
+[ 11%] LOAD     guix/build/make-bootstrap.scm
+[ 11%] LOAD     guix/search-paths.scm
+[ 11%] LOAD     guix/packages.scm
+[ 12%] LOAD     guix/import/cabal.scm
+[ 12%] LOAD     guix/import/cpan.scm
+[ 12%] LOAD     guix/import/cran.scm
+[ 12%] LOAD     guix/import/crate.scm
+WARNING: Use of `load' in declarative module (guix ui).  Add #:declarative? #f to your define-module invocation.
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+WARNING: (guix build ant-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build cargo-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build chicken-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build cmake-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build dub-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build ocaml-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build dune-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build meson-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build minify-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build font-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build go-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build asdf-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build copy-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build gnu-dist): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build guile-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build maven-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build minetest-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build perl-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build python-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build r-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build renpy-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build rakudo-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build ruby-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build scons-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build texlive-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build waf-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build haskell-build-system): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build julia-build-system): imported module (guix build utils) overrides core binding `delete'
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver in (semver):
+;;; [ 12%] LOAD     guix/import/egg.scm
+[ 12%] LOAD     guix/import/elpa.scm
+[ 12%] LOAD     guix/import/gem.scm
+[ 12%] LOAD     guix/import/github.scm
+[ 12%] LOAD     guix/import/gnome.scm
+[ 12%] LOAD     guix/import/gnu.scm
+[ 12%] LOAD     guix/import/go.scm
+[ 12%] LOAD     guix/import/hackage.scm
+[ 12%] LOAD     guix/import/json.scm
+[ 12%] LOAD     guix/import/kde.scm
+[ 12%] LOAD     guix/import/launchpad.scm
+[ 12%] LOAD     guix/import/minetest.scm
+[ 12%] LOAD     guix/import/opam.scm
+[ 12%] LOAD     guix/import/print.scm
+[ 13%] LOAD     guix/import/pypi.scm
+[ 13%] LOAD     guix/import/stackage.scm
+[ 13%] LOAD     guix/import/texlive.scm
+[ 13%] LOAD     guix/import/utils.scm
+[ 13%] LOAD     guix/scripts.scm
+[ 13%] LOAD     guix/ssh.scm
+[ 13%] LOAD     guix/remote.scm
+[ 13%] LOAD     guix/store/ssh.scm
+[ 13%] LOAD     guix/avahi.scm
+[ 13%] LOAD     guix/store/database.scm
+[ 13%] LOAD     guix/store/deduplication.scm
+[ 13%] LOAD     guix/store/roots.scm
+[ 13%] LOAD     guix/config.scm
+[ 13%] LOAD     guix/tests.scm
