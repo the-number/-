@@ -190,3 +190,123 @@ WARNING: (guix build julia-build-system): imported module (guix build utils) ove
 [ 15%] GUILEC   guix/build-system/asdf.go
 [ 15%] GUILEC   guix/build-system/copy.go
 [ 15%] GUILEC   guix/build-system/glib-or-gtk.go
+[ 15%] GUILEC   guix/build-system/gnu.go
+[ 15%] GUILEC   guix/build-system/guile.go
+[ 15%] GUILEC   guix/build-system/haskell.go
+[ 15%] GUILEC   guix/build-system/julia.go
+[ 15%] GUILEC   guix/build-system/linux-module.go
+[ 16%] GUILEC   guix/build-system/maven.go
+[ 16%] GUILEC   guix/build-system/node.go
+[ 16%] GUILEC   guix/build-system/perl.go
+[ 16%] GUILEC   guix/build-system/python.go
+[ 16%] GUILEC   guix/build-system/renpy.go
+[ 16%] GUILEC   guix/build-system/ocaml.go
+[ 16%] GUILEC   guix/build-system/qt.go
+[ 16%] GUILEC   guix/build-system/waf.go
+[ 16%] GUILEC   guix/build-system/r.go
+[ 16%] GUILEC   guix/build-system/rakudo.go
+[ 16%] GUILEC   guix/build-system/ruby.go
+[ 16%] GUILEC   guix/build-system/scons.go
+[ 16%] GUILEC   guix/build-system/texlive.go
+[ 16%] GUILEC   guix/build-system/trivial.go
+[ 16%] GUILEC   guix/ftp-client.go
+[ 16%] GUILEC   guix/http-client.go
+[ 16%] GUILEC   guix/gnupg.go
+[ 16%] GUILEC   guix/elf.go
+[ 17%] GUILEC   guix/profiling.go
+[ 17%] GUILEC   guix/store.go
+[ 17%] GUILEC   guix/cvs-download.go
+[ 17%] GUILEC   guix/svn-download.go
+[ 17%] GUILEC   guix/colors.go
+[ 17%] GUILEC   guix/i18n.go
+[ 17%] GUILEC   guix/diagnostics.go
+[ 17%] GUILEC   guix/ui.go
+[ 17%] GUILEC   guix/status.go
+no code for module (semver)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload semver<? in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload semver->string in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload semver<? in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+guix/gnu-maintenance.scm:485:17: warning: possibly unbound variable `html->sxml'
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+guix/diagnostics.scm:308:9: warning: non-literal format string
+WARNING: Use of `load' in declarative module (guix ui).  Add #:declarative? #f to your define-module invocation.
+guix/ui.scm:1070:21: warning: non-literal format string
+guix/ui.scm:1075:21: warning: non-literal format string
+guix/ui.scm:1121:21: warning: non-literal format string
+guix/ui.scm:1126:21: warning: non-literal format string
+guix/ui.scm:1868:19: warning: non-literal format string
+guix/status.scm:581:5: warning: non-literal format string
+guix/status.scm:574:5: warning: non-literal format string
+guix/status.scm:576:5: warning: non-literal format string
+guix/status.scm:569:5: warning: non-literal format string
+guix/status.scm:561:9: warning: non-literal format string
+guix/status.scm:535:7: warning: non-literal format string
+guix/status.scm:530:7: warning: non-literal format string
+guix/status.scm:518:5: warning: non-literal format string
+guix/status.scm:525:8: warning: non-literal format string
+guix/status.scm:522:8: warning: non-literal format string
+guix/status.scm:506:7: warning: non-literal format string
