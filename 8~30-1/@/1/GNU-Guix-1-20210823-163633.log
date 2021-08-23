@@ -154,3 +154,7 @@ WARNING: (guix build julia-build-system): imported module (guix build utils) ove
 [ 13%] LOAD     guix/store/roots.scm
 [ 13%] LOAD     guix/config.scm
 [ 13%] LOAD     guix/tests.scm
+[ 13%] LOAD     guix/tests/http.scm
+[ 13%] LOAD     guix/tests/git.scm
+[ 13%] LOAD     guix/tests/gnupg.scm
+[ 13%] GUILEC   guix/channels.go
