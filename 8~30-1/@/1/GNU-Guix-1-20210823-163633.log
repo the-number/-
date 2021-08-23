@@ -310,3 +310,28 @@ guix/status.scm:518:5: warning: non-literal format string
 guix/status.scm:525:8: warning: non-literal format string
 guix/status.scm:522:8: warning: non-literal format string
 guix/status.scm:506:7: warning: non-literal format string
+[ 17%] GUILEC   guix/build/android-ndk-build-system.go
+[ 17%] GUILEC   guix/build/ant-build-system.go
+[ 17%] GUILEC   guix/build/download.go
+[ 17%] GUILEC   guix/build/download-nar.go
+[ 17%] GUILEC   guix/build/cargo-build-system.go
+[ 17%] GUILEC   guix/build/cargo-utils.go
+[ 17%] GUILEC   guix/build/chicken-build-system.go
+[ 17%] GUILEC   guix/build/cmake-build-system.go
+[ 17%] GUILEC   guix/build/dub-build-system.go
+[ 17%] GUILEC   guix/build/dune-build-system.go
+[ 18%] GUILEC   guix/build/emacs-build-system.go
+[ 18%] GUILEC   guix/build/meson-build-system.go
+[ 18%] GUILEC   guix/build/minify-build-system.go
+[ 18%] GUILEC   guix/build/font-build-system.go
+[ 18%] GUILEC   guix/build/go-build-system.go
+[ 18%] GUILEC   guix/build/android-repo.go
+[ 18%] GUILEC   guix/build/asdf-build-system.go
+[ 18%] GUILEC   guix/build/bzr.go
+[ 18%] GUILEC   guix/build/copy-build-system.go
+[ 18%] GUILEC   guix/build/git.go
+[ 18%] GUILEC   guix/build/hg.go
+[ 18%] GUILEC   guix/build/glib-or-gtk-build-system.go
+[ 18%] GUILEC   guix/build/gnu-bootstrap.go
+[ 18%] GUILEC   guix/build/gnu-build-system.go
+  
