@@ -4,3 +4,8 @@
 [[./i/0.png]]
 # wc -l guix-install.sh
 #  628 guix-install.sh
+** With its depentencies
+[[./i/1.png]]
+** And on its way
+# a seemingly treacherous path
+[[./@/1/][./i/2.png]]
