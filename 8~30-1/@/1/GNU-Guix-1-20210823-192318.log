@@ -210,3 +210,118 @@ guix/import/crate.scm:252:12: warning: possibly unbound variable `semver->string
 ;;; Failed to autoload semver-range-contains? in (semver ranges):
 ;;; [ 21%] GUILEC   guix/import/egg.go
 [ 21%] GUILEC   guix/import/elpa.go
+[ 21%] GUILEC   guix/import/gem.go
+[ 21%] GUILEC   guix/import/github.go
+[ 21%] GUILEC   guix/import/gnome.go
+[ 21%] GUILEC   guix/import/gnu.go
+[ 21%] GUILEC   guix/import/go.go
+no code for module (semver ranges)
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload semver<? in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload semver->string in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload string->semver-range in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload semver-range-contains? in (semver ranges):
+;;; no code for module (semver ranges)
+;;; Failed to autoload string->semver in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload semver<? in (semver):
+;;; no code for module (semver)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; no code for module (htmlprag)
+;;; Failed to autoload html->sxml in (htmlprag):
+;;; [ 21%] GUILEC   guix/import/hackage.go
+[ 21%] GUILEC   guix/import/json.go
+[ 22%] GUILEC   guix/import/kde.go
+[ 22%] GUILEC   guix/import/launchpad.go
+[ 22%] GUILEC   guix/import/minetest.go
+[ 22%] GUILEC   guix/import/opam.go
+[ 22%] GUILEC   guix/import/print.go
+[ 22%] GUILEC   guix/import/pypi.go
+/bin/bash: line 1:  2419 Killed                  XDG_CACHE_HOME=/nowhere host=armv6l-unknown-linux-gnueabihf srcdir="." ./pre-inst-env /usr/local/bin/guile -L "." -L "." --no-auto-compile -s "."/build-aux/compile-all.scm --total 918 --completed 0 guix.scm guix/base16.scm guix/base32.scm guix/base64.scm guix/ci.scm guix/cpio.scm guix/deprecation.scm guix/docker.scm guix/records.scm guix/openpgp.scm guix/pki.scm guix/progress.scm guix/combinators.scm guix/memoization.scm guix/utils.scm guix/sets.scm guix/modules.scm guix/download.scm guix/discovery.scm guix/android-repo-download.scm guix/bzr-download.scm guix/git-download.scm guix/hg-download.scm guix/swh.scm guix/monads.scm guix/monad-repl.scm guix/gexp.scm guix/profiles.scm guix/serialization.scm guix/nar.scm guix/narinfo.scm guix/derivations.scm guix/grafts.scm guix/repl.scm guix/transformations.scm guix/inferior.scm guix/describe.scm guix/quirks.scm guix/channels.scm guix/gnu-maintenance.scm guix/self.scm guix/substitutes.scm guix/upstream.scm guix/licenses.scm guix/lint.scm guix/glob.scm guix/git.scm guix/git-authenticate.scm guix/graph.scm guix/cache.scm guix/cve.scm guix/workers.scm guix/ipfs.scm guix/build-system.scm guix/build-system/android-ndk.scm guix/build-system/ant.scm guix/build-system/cargo.scm guix/build-system/chicken.scm guix/build-system/clojure.scm guix/build-system/cmake.scm guix/build-system/dub.scm guix/build-system/dune.scm guix/build-system/emacs.scm guix/build-system/font.scm guix/build-system/go.scm guix/build-system/meson.scm guix/build-system/minify.scm guix/build-system/minetest.scm guix/build-system/asdf.scm guix/build-system/copy.scm guix/build-system/glib-or-gtk.scm guix/build-system/gnu.scm guix/build-system/guile.scm guix/build-system/haskell.scm guix/build-system/julia.scm guix/build-system/linux-module.scm guix/build-system/maven.scm guix/build-system/node.scm guix/build-system/perl.scm guix/build-system/python.scm guix/build-system/renpy.scm guix/build-system/ocaml.scm guix/build-system/qt.scm guix/build-system/waf.scm guix/build-system/r.scm guix/build-system/rakudo.scm guix/build-system/ruby.scm guix/build-system/scons.scm guix/build-system/texlive.scm guix/build-system/trivial.scm guix/ftp-client.scm guix/http-client.scm guix/gnupg.scm guix/elf.scm guix/profiling.scm guix/store.scm guix/cvs-download.scm guix/svn-download.scm guix/colors.scm guix/i18n.scm guix/diagnostics.scm guix/ui.scm guix/status.scm guix/build/android-ndk-build-system.scm guix/build/ant-build-system.scm guix/build/download.scm guix/build/download-nar.scm guix/build/cargo-build-system.scm guix/build/cargo-utils.scm guix/build/chicken-build-system.scm guix/build/cmake-build-system.scm guix/build/dub-build-system.scm guix/build/dune-build-system.scm guix/build/emacs-build-system.scm guix/build/meson-build-system.scm guix/build/minify-build-system.scm guix/build/font-build-system.scm guix/build/go-build-system.scm guix/build/android-repo.scm guix/build/asdf-build-system.scm guix/build/bzr.scm guix/build/copy-build-system.scm guix/build/git.scm guix/build/hg.scm guix/build/glib-or-gtk-build-system.scm guix/build/gnu-bootstrap.scm guix/build/gnu-build-system.scm guix/build/gnu-dist.scm guix/build/guile-build-system.scm guix/build/maven-build-system.scm guix/build/minetest-build-system.scm guix/build/node-build-system.scm guix/build/perl-build-system.scm guix/build/python-build-system.scm guix/build/ocaml-build-system.scm guix/build/qt-build-system.scm guix/build/r-build-system.scm guix/build/renpy-build-system.scm guix/build/rakudo-build-system.scm guix/build/ruby-build-system.scm guix/build/scons-build-system.scm guix/build/texlive-build-system.scm guix/build/waf-build-system.scm guix/build/haskell-build-system.scm guix/build/julia-build-system.scm guix/build/linux-module-build-system.scm guix/build/store-copy.scm guix/build/json.scm guix/build/pack.scm guix/build/utils.scm guix/build/union.scm guix/build/profiles.scm guix/build/compile.scm guix/build/rpath.scm guix/build/cvs.scm guix/build/svn.scm guix/build/syscalls.scm guix/build/gremlin.scm guix/build/debug-link.scm guix/build/clojure-build-system.scm guix/build/clojure-utils.scm guix/build/emacs-utils.scm guix/build/java-utils.scm guix/build/lisp-utils.scm guix/build/maven/java.scm guix/build/maven/plugin.scm guix/build/maven/pom.scm guix/build/graft.scm guix/build/bournish.scm guix/build/qt-utils.scm guix/build/make-bootstrap.scm guix/search-paths.scm guix/packages.scm guix/import/cabal.scm guix/import/cpan.scm guix/import/cran.scm guix/import/crate.scm guix/import/egg.scm guix/import/elpa.scm guix/import/gem.scm guix/import/github.scm guix/import/gnome.scm guix/import/gnu.scm guix/import/go.scm guix/import/hackage.scm guix/import/json.scm guix/import/kde.scm guix/import/launchpad.scm guix/import/minetest.scm guix/import/opam.scm guix/import/print.scm guix/import/pypi.scm guix/import/stackage.scm guix/import/texlive.scm guix/import/utils.scm guix/scripts.scm guix/ssh.scm guix/remote.scm guix/store/ssh.scm guix/avahi.scm guix/store/database.scm guix/store/deduplication.scm guix/store/roots.scm guix/config.scm guix/tests.scm guix/tests/http.scm guix/tests/git.scm guix/tests/gnupg.scm
+make[2]: *** [Makefile:7073: make-core-go] Error 137
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guix'
+make[1]: *** [Makefile:6158: all-recursive] Error 1
+make[1]: Leaving directory '/home/gunter/Data/pi02/GNU/guix'
+make: *** [Makefile:3855: all] Error 2
