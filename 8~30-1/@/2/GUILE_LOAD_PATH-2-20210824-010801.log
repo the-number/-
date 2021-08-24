@@ -18,3 +18,10 @@ Bee, this is
 Ahh, this is
 %load-path (./b ./a)
 Bee, this is
+=== ./2.sh ===
+guile -c '(use-modules (this))(display %load-path)(newline)(this)'
+(./a ./b /gnu/store/6l9rix46ydxyldf74dvpgr60rf5ily0c-guile-3.0.7/share/guile/3.0 /gnu/store/6l9rix46ydxyldf74dvpgr60rf5ily0c-guile-3.0.7/share/guile/site/3.0 /gnu/store/6l9rix46ydxyldf74dvpgr60rf5ily0c-guile-3.0.7/share/guile/site /gnu/store/6l9rix46ydxyldf74dvpgr60rf5ily0c-guile-3.0.7/share/guile)
+Ahh, this is
+guile -c '(use-modules (this))(display %load-path)(newline)(this)'
+(./b ./a /gnu/store/6l9rix46ydxyldf74dvpgr60rf5ily0c-guile-3.0.7/share/guile/3.0 /gnu/store/6l9rix46ydxyldf74dvpgr60rf5ily0c-guile-3.0.7/share/guile/site/3.0 /gnu/store/6l9rix46ydxyldf74dvpgr60rf5ily0c-guile-3.0.7/share/guile/site /gnu/store/6l9rix46ydxyldf74dvpgr60rf5ily0c-guile-3.0.7/share/guile)
+Bee, this is
