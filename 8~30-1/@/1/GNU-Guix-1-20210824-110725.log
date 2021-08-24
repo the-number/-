@@ -1,0 +1,11 @@
+=== continuing the make-over ===
+  POXREF doc/guix-cookbook.zh_Hans.texi
+cat: doc/guix-cookbook.zh_Hans.texi.tmp: No such file or directory
+mv "doc/guix-cookbook.zh_Hans.texi.tmp" "doc/guix-cookbook.zh_Hans.texi"
+mv: cannot stat 'doc/guix-cookbook.zh_Hans.texi.tmp': No such file or directory
+make[2]: [Makefile:7146: doc/guix-cookbook.zh_Hans.texi] Error 1 (ignored)
+Compiling Scheme modules...
+[ 23%] LOAD     guix/build/gnu-build-system.scm
+[ 23%] GUILEC   guix/build/gnu-build-system.go
+Compiling Scheme modules...
+[ 26%] LOAD     gnu/packages/bioconductor.scm
