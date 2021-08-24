@@ -1,0 +1,13 @@
+=== echo continue === ===
+continue ===
+=== tail -f /home/gunter/Data/pi02/GNU/guix/@/0/guix-20210824-190817.log ===
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guix/po/guix'
+Making all in po/packages
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guix/po/packages'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guix/po/packages'
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guix'
+Compiling Scheme modules...
+Compiling Scheme modules...
+[ 31%] LOAD     gnu/packages/crates-io.scm

@@ -2,5 +2,6 @@ stamp-this ()
 { 
     local D="for the purpose of taking a log, here";
     export STAMP="${*:-@/0/}$( basename $( pwd -P ) )-$( date +%Y%m%d-%H%M%S ).log";
-    echo $STAMP
+    echo $STAMP;
+    ln -sv $STAMP STAMP
 }
