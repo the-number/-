@@ -1,0 +1,11 @@
+=== continuing the make-over ===
+[ 21%] LOAD     guix/scripts.scm
+[ 21%] LOAD     guix/ssh.scm
+[ 21%] LOAD     guix/remote.scm
+[ 21%] LOAD     guix/store/ssh.scm
+[ 21%] LOAD     guix/avahi.scm
+[ 21%] LOAD     guix/store/database.scm
+[ 21%] LOAD     guix/store/deduplication.scm
+[ 21%] LOAD     guix/store/roots.scm
+[ 22%] LOAD     guix/config.scm
+[ 22%] LOAD     guix/tests.scm

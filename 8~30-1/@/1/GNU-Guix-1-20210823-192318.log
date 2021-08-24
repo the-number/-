@@ -325,3 +325,13 @@ make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guix'
 make[1]: *** [Makefile:6158: all-recursive] Error 1
 make[1]: Leaving directory '/home/gunter/Data/pi02/GNU/guix'
 make: *** [Makefile:3855: all] Error 2
+[ 21%] LOAD     guix/scripts.scm
+[ 21%] LOAD     guix/ssh.scm
+[ 21%] LOAD     guix/remote.scm
+[ 21%] LOAD     guix/store/ssh.scm
+[ 21%] LOAD     guix/avahi.scm
+[ 21%] LOAD     guix/store/database.scm
+[ 21%] LOAD     guix/store/deduplication.scm
+[ 21%] LOAD     guix/store/roots.scm
+[ 22%] LOAD     guix/config.scm
+[ 22%] LOAD     guix/tests.scm
