@@ -1,0 +1,20 @@
+=== ./0.sh ===
+This is Ahh
+This is Bee
+PATH: ==./a:./b==
+this.sh: This is Ahh
+2.
+This is Ahh
+This is Bee
+PATH: ==./b:.a==
+this.sh: This is Bee
+=== ./1.sh ===
+GUILE_LOAD_PATH=./a:./b
+Ahh, this is
+GUILE_LOAD_PATH=./b:./a
+Bee, this is
+=== ./1.scm ===
+%load-path (./a ./b)
+Ahh, this is
+%load-path (./b ./a)
+Bee, this is
