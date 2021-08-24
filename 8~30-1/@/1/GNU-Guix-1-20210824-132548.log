@@ -1,0 +1,12 @@
+=== continue, ===
+=== tail -f /home/gunter/Data/pi02/GNU/guix/@/0/guix-20210824-133058.log ===
+  PO4A doc/contributing.de.texi
+Your input po file po/doc/guix-manual.de.po seems outdated (The amount of entries differ between files: 10859 is not 453
+). Please consider running po4a-updatepo to refresh it.
+  POXREF doc/contributing.de.texi
+mv "doc/contributing.de.texi.tmp" "doc/contributing.de.texi"
+  PO4A doc/guix.de.texi
+Your input po file po/doc/guix-manual.de.po seems outdated (The amount of entries differ between files: 10859 is not 10507
+). Please consider running po4a-updatepo to refresh it.
+sed -i "s|guix\.info|$(basename "doc/guix.de.texi" | sed 's|texi$|info|')|" "doc/guix.de.texi.tmp"
+  POXREF doc/guix.de.texi

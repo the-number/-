@@ -9,3 +9,1395 @@ Compiling Scheme modules...
 [ 23%] GUILEC   guix/build/gnu-build-system.go
 Compiling Scheme modules...
 [ 26%] LOAD     gnu/packages/bioconductor.scm
+  POXREF doc/guix-cookbook.zh_Hans.texi
+cat: doc/guix-cookbook.zh_Hans.texi.tmp: No such file or directory
+mv "doc/guix-cookbook.zh_Hans.texi.tmp" "doc/guix-cookbook.zh_Hans.texi"
+mv: cannot stat 'doc/guix-cookbook.zh_Hans.texi.tmp': No such file or directory
+make[2]: [Makefile:7146: doc/guix-cookbook.zh_Hans.texi] Error 1 (ignored)
+Compiling Scheme modules...
+[ 23%] LOAD     guix/build/gnu-build-system.scm
+[ 23%] GUILEC   guix/build/gnu-build-system.go
+Compiling Scheme modules...
+[ 26%] LOAD     gnu/packages/bioconductor.scm
+=== make GUILE_LOAD_COMPILED_PATH=/usr/local/lib/guile-lib/guile/3.0/site-ccache/ GUILE_LOAD_PATH=/usr/local/share/guile-lib ===
+  PO4A doc/contributing.de.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7149: doc/contributing.de.texi] Error 127 (ignored)
+  POXREF doc/contributing.de.texi
+cat: doc/contributing.de.texi.tmp: No such file or directory
+mv "doc/contributing.de.texi.tmp" "doc/contributing.de.texi"
+mv: cannot stat 'doc/contributing.de.texi.tmp': No such file or directory
+make: [Makefile:7151: doc/contributing.de.texi] Error 1 (ignored)
+  PO4A doc/guix.de.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7137: doc/guix.de.texi] Error 127 (ignored)
+sed -i "s|guix\.info|$(basename "doc/guix.de.texi" | sed 's|texi$|info|')|" "doc/guix.de.texi.tmp"
+sed: can't read doc/guix.de.texi.tmp: No such file or directory
+make: [Makefile:7138: doc/guix.de.texi] Error 2 (ignored)
+  POXREF doc/guix.de.texi
+cat: doc/guix.de.texi.tmp: No such file or directory
+mv "doc/guix.de.texi.tmp" "doc/guix.de.texi"
+mv: cannot stat 'doc/guix.de.texi.tmp': No such file or directory
+make: [Makefile:7140: doc/guix.de.texi] Error 1 (ignored)
+  PO4A doc/contributing.es.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7149: doc/contributing.es.texi] Error 127 (ignored)
+  POXREF doc/contributing.es.texi
+cat: doc/contributing.es.texi.tmp: No such file or directory
+mv "doc/contributing.es.texi.tmp" "doc/contributing.es.texi"
+mv: cannot stat 'doc/contributing.es.texi.tmp': No such file or directory
+make: [Makefile:7151: doc/contributing.es.texi] Error 1 (ignored)
+  PO4A doc/guix.es.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7137: doc/guix.es.texi] Error 127 (ignored)
+sed -i "s|guix\.info|$(basename "doc/guix.es.texi" | sed 's|texi$|info|')|" "doc/guix.es.texi.tmp"
+sed: can't read doc/guix.es.texi.tmp: No such file or directory
+make: [Makefile:7138: doc/guix.es.texi] Error 2 (ignored)
+  POXREF doc/guix.es.texi
+cat: doc/guix.es.texi.tmp: No such file or directory
+mv "doc/guix.es.texi.tmp" "doc/guix.es.texi"
+mv: cannot stat 'doc/guix.es.texi.tmp': No such file or directory
+make: [Makefile:7140: doc/guix.es.texi] Error 1 (ignored)
+  PO4A doc/contributing.fa.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7149: doc/contributing.fa.texi] Error 127 (ignored)
+  POXREF doc/contributing.fa.texi
+cat: doc/contributing.fa.texi.tmp: No such file or directory
+mv "doc/contributing.fa.texi.tmp" "doc/contributing.fa.texi"
+mv: cannot stat 'doc/contributing.fa.texi.tmp': No such file or directory
+make: [Makefile:7151: doc/contributing.fa.texi] Error 1 (ignored)
+  PO4A doc/guix.fa.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7137: doc/guix.fa.texi] Error 127 (ignored)
+sed -i "s|guix\.info|$(basename "doc/guix.fa.texi" | sed 's|texi$|info|')|" "doc/guix.fa.texi.tmp"
+sed: can't read doc/guix.fa.texi.tmp: No such file or directory
+make: [Makefile:7138: doc/guix.fa.texi] Error 2 (ignored)
+  POXREF doc/guix.fa.texi
+cat: doc/guix.fa.texi.tmp: No such file or directory
+mv "doc/guix.fa.texi.tmp" "doc/guix.fa.texi"
+mv: cannot stat 'doc/guix.fa.texi.tmp': No such file or directory
+make: [Makefile:7140: doc/guix.fa.texi] Error 1 (ignored)
+  PO4A doc/contributing.fr.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7149: doc/contributing.fr.texi] Error 127 (ignored)
+  POXREF doc/contributing.fr.texi
+cat: doc/contributing.fr.texi.tmp: No such file or directory
+mv "doc/contributing.fr.texi.tmp" "doc/contributing.fr.texi"
+mv: cannot stat 'doc/contributing.fr.texi.tmp': No such file or directory
+make: [Makefile:7151: doc/contributing.fr.texi] Error 1 (ignored)
+  PO4A doc/guix.fr.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7137: doc/guix.fr.texi] Error 127 (ignored)
+sed -i "s|guix\.info|$(basename "doc/guix.fr.texi" | sed 's|texi$|info|')|" "doc/guix.fr.texi.tmp"
+sed: can't read doc/guix.fr.texi.tmp: No such file or directory
+make: [Makefile:7138: doc/guix.fr.texi] Error 2 (ignored)
+  POXREF doc/guix.fr.texi
+cat: doc/guix.fr.texi.tmp: No such file or directory
+mv "doc/guix.fr.texi.tmp" "doc/guix.fr.texi"
+mv: cannot stat 'doc/guix.fr.texi.tmp': No such file or directory
+make: [Makefile:7140: doc/guix.fr.texi] Error 1 (ignored)
+  PO4A doc/contributing.it.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7149: doc/contributing.it.texi] Error 127 (ignored)
+  POXREF doc/contributing.it.texi
+cat: doc/contributing.it.texi.tmp: No such file or directory
+mv "doc/contributing.it.texi.tmp" "doc/contributing.it.texi"
+mv: cannot stat 'doc/contributing.it.texi.tmp': No such file or directory
+make: [Makefile:7151: doc/contributing.it.texi] Error 1 (ignored)
+  PO4A doc/guix.it.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7137: doc/guix.it.texi] Error 127 (ignored)
+sed -i "s|guix\.info|$(basename "doc/guix.it.texi" | sed 's|texi$|info|')|" "doc/guix.it.texi.tmp"
+sed: can't read doc/guix.it.texi.tmp: No such file or directory
+make: [Makefile:7138: doc/guix.it.texi] Error 2 (ignored)
+  POXREF doc/guix.it.texi
+cat: doc/guix.it.texi.tmp: No such file or directory
+mv "doc/guix.it.texi.tmp" "doc/guix.it.texi"
+mv: cannot stat 'doc/guix.it.texi.tmp': No such file or directory
+make: [Makefile:7140: doc/guix.it.texi] Error 1 (ignored)
+  PO4A doc/contributing.ko.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7149: doc/contributing.ko.texi] Error 127 (ignored)
+  POXREF doc/contributing.ko.texi
+cat: doc/contributing.ko.texi.tmp: No such file or directory
+mv "doc/contributing.ko.texi.tmp" "doc/contributing.ko.texi"
+mv: cannot stat 'doc/contributing.ko.texi.tmp': No such file or directory
+make: [Makefile:7151: doc/contributing.ko.texi] Error 1 (ignored)
+  PO4A doc/guix.ko.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7137: doc/guix.ko.texi] Error 127 (ignored)
+sed -i "s|guix\.info|$(basename "doc/guix.ko.texi" | sed 's|texi$|info|')|" "doc/guix.ko.texi.tmp"
+sed: can't read doc/guix.ko.texi.tmp: No such file or directory
+make: [Makefile:7138: doc/guix.ko.texi] Error 2 (ignored)
+  POXREF doc/guix.ko.texi
+cat: doc/guix.ko.texi.tmp: No such file or directory
+mv "doc/guix.ko.texi.tmp" "doc/guix.ko.texi"
+mv: cannot stat 'doc/guix.ko.texi.tmp': No such file or directory
+make: [Makefile:7140: doc/guix.ko.texi] Error 1 (ignored)
+  PO4A doc/contributing.pt_BR.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7149: doc/contributing.pt_BR.texi] Error 127 (ignored)
+  POXREF doc/contributing.pt_BR.texi
+cat: doc/contributing.pt_BR.texi.tmp: No such file or directory
+mv "doc/contributing.pt_BR.texi.tmp" "doc/contributing.pt_BR.texi"
+mv: cannot stat 'doc/contributing.pt_BR.texi.tmp': No such file or directory
+make: [Makefile:7151: doc/contributing.pt_BR.texi] Error 1 (ignored)
+  PO4A doc/guix.pt_BR.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7137: doc/guix.pt_BR.texi] Error 127 (ignored)
+sed -i "s|guix\.info|$(basename "doc/guix.pt_BR.texi" | sed 's|texi$|info|')|" "doc/guix.pt_BR.texi.tmp"
+sed: can't read doc/guix.pt_BR.texi.tmp: No such file or directory
+make: [Makefile:7138: doc/guix.pt_BR.texi] Error 2 (ignored)
+  POXREF doc/guix.pt_BR.texi
+cat: doc/guix.pt_BR.texi.tmp: No such file or directory
+mv "doc/guix.pt_BR.texi.tmp" "doc/guix.pt_BR.texi"
+mv: cannot stat 'doc/guix.pt_BR.texi.tmp': No such file or directory
+make: [Makefile:7140: doc/guix.pt_BR.texi] Error 1 (ignored)
+  PO4A doc/contributing.ru.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7149: doc/contributing.ru.texi] Error 127 (ignored)
+  POXREF doc/contributing.ru.texi
+cat: doc/contributing.ru.texi.tmp: No such file or directory
+mv "doc/contributing.ru.texi.tmp" "doc/contributing.ru.texi"
+mv: cannot stat 'doc/contributing.ru.texi.tmp': No such file or directory
+make: [Makefile:7151: doc/contributing.ru.texi] Error 1 (ignored)
+  PO4A doc/guix.ru.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7137: doc/guix.ru.texi] Error 127 (ignored)
+sed -i "s|guix\.info|$(basename "doc/guix.ru.texi" | sed 's|texi$|info|')|" "doc/guix.ru.texi.tmp"
+sed: can't read doc/guix.ru.texi.tmp: No such file or directory
+make: [Makefile:7138: doc/guix.ru.texi] Error 2 (ignored)
+  POXREF doc/guix.ru.texi
+cat: doc/guix.ru.texi.tmp: No such file or directory
+mv "doc/guix.ru.texi.tmp" "doc/guix.ru.texi"
+mv: cannot stat 'doc/guix.ru.texi.tmp': No such file or directory
+make: [Makefile:7140: doc/guix.ru.texi] Error 1 (ignored)
+  PO4A doc/contributing.sk.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7149: doc/contributing.sk.texi] Error 127 (ignored)
+  POXREF doc/contributing.sk.texi
+cat: doc/contributing.sk.texi.tmp: No such file or directory
+mv "doc/contributing.sk.texi.tmp" "doc/contributing.sk.texi"
+mv: cannot stat 'doc/contributing.sk.texi.tmp': No such file or directory
+make: [Makefile:7151: doc/contributing.sk.texi] Error 1 (ignored)
+  PO4A doc/guix.sk.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7137: doc/guix.sk.texi] Error 127 (ignored)
+sed -i "s|guix\.info|$(basename "doc/guix.sk.texi" | sed 's|texi$|info|')|" "doc/guix.sk.texi.tmp"
+sed: can't read doc/guix.sk.texi.tmp: No such file or directory
+make: [Makefile:7138: doc/guix.sk.texi] Error 2 (ignored)
+  POXREF doc/guix.sk.texi
+cat: doc/guix.sk.texi.tmp: No such file or directory
+mv "doc/guix.sk.texi.tmp" "doc/guix.sk.texi"
+mv: cannot stat 'doc/guix.sk.texi.tmp': No such file or directory
+make: [Makefile:7140: doc/guix.sk.texi] Error 1 (ignored)
+  PO4A doc/contributing.zh_CN.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7149: doc/contributing.zh_CN.texi] Error 127 (ignored)
+  POXREF doc/contributing.zh_CN.texi
+cat: doc/contributing.zh_CN.texi.tmp: No such file or directory
+mv "doc/contributing.zh_CN.texi.tmp" "doc/contributing.zh_CN.texi"
+mv: cannot stat 'doc/contributing.zh_CN.texi.tmp': No such file or directory
+make: [Makefile:7151: doc/contributing.zh_CN.texi] Error 1 (ignored)
+  PO4A doc/guix.zh_CN.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7137: doc/guix.zh_CN.texi] Error 127 (ignored)
+sed -i "s|guix\.info|$(basename "doc/guix.zh_CN.texi" | sed 's|texi$|info|')|" "doc/guix.zh_CN.texi.tmp"
+sed: can't read doc/guix.zh_CN.texi.tmp: No such file or directory
+make: [Makefile:7138: doc/guix.zh_CN.texi] Error 2 (ignored)
+  POXREF doc/guix.zh_CN.texi
+cat: doc/guix.zh_CN.texi.tmp: No such file or directory
+mv "doc/guix.zh_CN.texi.tmp" "doc/guix.zh_CN.texi"
+mv: cannot stat 'doc/guix.zh_CN.texi.tmp': No such file or directory
+make: [Makefile:7140: doc/guix.zh_CN.texi] Error 1 (ignored)
+  PO4A doc/guix-cookbook.de.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7143: doc/guix-cookbook.de.texi] Error 127 (ignored)
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.de.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.de.texi.tmp"
+sed: can't read doc/guix-cookbook.de.texi.tmp: No such file or directory
+make: [Makefile:7144: doc/guix-cookbook.de.texi] Error 2 (ignored)
+  POXREF doc/guix-cookbook.de.texi
+cat: doc/guix-cookbook.de.texi.tmp: No such file or directory
+mv "doc/guix-cookbook.de.texi.tmp" "doc/guix-cookbook.de.texi"
+mv: cannot stat 'doc/guix-cookbook.de.texi.tmp': No such file or directory
+make: [Makefile:7146: doc/guix-cookbook.de.texi] Error 1 (ignored)
+  PO4A doc/guix-cookbook.fa.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7143: doc/guix-cookbook.fa.texi] Error 127 (ignored)
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.fa.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.fa.texi.tmp"
+sed: can't read doc/guix-cookbook.fa.texi.tmp: No such file or directory
+make: [Makefile:7144: doc/guix-cookbook.fa.texi] Error 2 (ignored)
+  POXREF doc/guix-cookbook.fa.texi
+cat: doc/guix-cookbook.fa.texi.tmp: No such file or directory
+mv "doc/guix-cookbook.fa.texi.tmp" "doc/guix-cookbook.fa.texi"
+mv: cannot stat 'doc/guix-cookbook.fa.texi.tmp': No such file or directory
+make: [Makefile:7146: doc/guix-cookbook.fa.texi] Error 1 (ignored)
+  PO4A doc/guix-cookbook.fr.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7143: doc/guix-cookbook.fr.texi] Error 127 (ignored)
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.fr.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.fr.texi.tmp"
+sed: can't read doc/guix-cookbook.fr.texi.tmp: No such file or directory
+make: [Makefile:7144: doc/guix-cookbook.fr.texi] Error 2 (ignored)
+  POXREF doc/guix-cookbook.fr.texi
+cat: doc/guix-cookbook.fr.texi.tmp: No such file or directory
+mv "doc/guix-cookbook.fr.texi.tmp" "doc/guix-cookbook.fr.texi"
+mv: cannot stat 'doc/guix-cookbook.fr.texi.tmp': No such file or directory
+make: [Makefile:7146: doc/guix-cookbook.fr.texi] Error 1 (ignored)
+  PO4A doc/guix-cookbook.ko.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7143: doc/guix-cookbook.ko.texi] Error 127 (ignored)
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.ko.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.ko.texi.tmp"
+sed: can't read doc/guix-cookbook.ko.texi.tmp: No such file or directory
+make: [Makefile:7144: doc/guix-cookbook.ko.texi] Error 2 (ignored)
+  POXREF doc/guix-cookbook.ko.texi
+cat: doc/guix-cookbook.ko.texi.tmp: No such file or directory
+mv "doc/guix-cookbook.ko.texi.tmp" "doc/guix-cookbook.ko.texi"
+mv: cannot stat 'doc/guix-cookbook.ko.texi.tmp': No such file or directory
+make: [Makefile:7146: doc/guix-cookbook.ko.texi] Error 1 (ignored)
+  PO4A doc/guix-cookbook.ru.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7143: doc/guix-cookbook.ru.texi] Error 127 (ignored)
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.ru.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.ru.texi.tmp"
+sed: can't read doc/guix-cookbook.ru.texi.tmp: No such file or directory
+make: [Makefile:7144: doc/guix-cookbook.ru.texi] Error 2 (ignored)
+  POXREF doc/guix-cookbook.ru.texi
+cat: doc/guix-cookbook.ru.texi.tmp: No such file or directory
+mv "doc/guix-cookbook.ru.texi.tmp" "doc/guix-cookbook.ru.texi"
+mv: cannot stat 'doc/guix-cookbook.ru.texi.tmp': No such file or directory
+make: [Makefile:7146: doc/guix-cookbook.ru.texi] Error 1 (ignored)
+  PO4A doc/guix-cookbook.sk.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7143: doc/guix-cookbook.sk.texi] Error 127 (ignored)
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.sk.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.sk.texi.tmp"
+sed: can't read doc/guix-cookbook.sk.texi.tmp: No such file or directory
+make: [Makefile:7144: doc/guix-cookbook.sk.texi] Error 2 (ignored)
+  POXREF doc/guix-cookbook.sk.texi
+cat: doc/guix-cookbook.sk.texi.tmp: No such file or directory
+mv "doc/guix-cookbook.sk.texi.tmp" "doc/guix-cookbook.sk.texi"
+mv: cannot stat 'doc/guix-cookbook.sk.texi.tmp': No such file or directory
+make: [Makefile:7146: doc/guix-cookbook.sk.texi] Error 1 (ignored)
+  PO4A doc/guix-cookbook.zh_Hans.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make: [Makefile:7143: doc/guix-cookbook.zh_Hans.texi] Error 127 (ignored)
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.zh_Hans.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.zh_Hans.texi.tmp"
+sed: can't read doc/guix-cookbook.zh_Hans.texi.tmp: No such file or directory
+make: [Makefile:7144: doc/guix-cookbook.zh_Hans.texi] Error 2 (ignored)
+  POXREF doc/guix-cookbook.zh_Hans.texi
+cat: doc/guix-cookbook.zh_Hans.texi.tmp: No such file or directory
+mv "doc/guix-cookbook.zh_Hans.texi.tmp" "doc/guix-cookbook.zh_Hans.texi"
+mv: cannot stat 'doc/guix-cookbook.zh_Hans.texi.tmp': No such file or directory
+make: [Makefile:7146: doc/guix-cookbook.zh_Hans.texi] Error 1 (ignored)
+make  all-recursive
+make[1]: Entering directory '/home/gunter/Data/pi02/GNU/guix'
+Making all in po/guix
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guix/po/guix'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guix/po/guix'
+Making all in po/packages
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guix/po/packages'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guix/po/packages'
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guix'
+  PO4A doc/contributing.de.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7149: doc/contributing.de.texi] Error 127 (ignored)
+  POXREF doc/contributing.de.texi
+cat: doc/contributing.de.texi.tmp: No such file or directory
+mv "doc/contributing.de.texi.tmp" "doc/contributing.de.texi"
+mv: cannot stat 'doc/contributing.de.texi.tmp': No such file or directory
+make[2]: [Makefile:7151: doc/contributing.de.texi] Error 1 (ignored)
+  PO4A doc/guix.de.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7137: doc/guix.de.texi] Error 127 (ignored)
+sed -i "s|guix\.info|$(basename "doc/guix.de.texi" | sed 's|texi$|info|')|" "doc/guix.de.texi.tmp"
+sed: can't read doc/guix.de.texi.tmp: No such file or directory
+make[2]: [Makefile:7138: doc/guix.de.texi] Error 2 (ignored)
+  POXREF doc/guix.de.texi
+cat: doc/guix.de.texi.tmp: No such file or directory
+mv "doc/guix.de.texi.tmp" "doc/guix.de.texi"
+mv: cannot stat 'doc/guix.de.texi.tmp': No such file or directory
+make[2]: [Makefile:7140: doc/guix.de.texi] Error 1 (ignored)
+  PO4A doc/contributing.es.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7149: doc/contributing.es.texi] Error 127 (ignored)
+  POXREF doc/contributing.es.texi
+cat: doc/contributing.es.texi.tmp: No such file or directory
+mv "doc/contributing.es.texi.tmp" "doc/contributing.es.texi"
+mv: cannot stat 'doc/contributing.es.texi.tmp': No such file or directory
+make[2]: [Makefile:7151: doc/contributing.es.texi] Error 1 (ignored)
+  PO4A doc/guix.es.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7137: doc/guix.es.texi] Error 127 (ignored)
+sed -i "s|guix\.info|$(basename "doc/guix.es.texi" | sed 's|texi$|info|')|" "doc/guix.es.texi.tmp"
+sed: can't read doc/guix.es.texi.tmp: No such file or directory
+make[2]: [Makefile:7138: doc/guix.es.texi] Error 2 (ignored)
+  POXREF doc/guix.es.texi
+cat: doc/guix.es.texi.tmp: No such file or directory
+mv "doc/guix.es.texi.tmp" "doc/guix.es.texi"
+mv: cannot stat 'doc/guix.es.texi.tmp': No such file or directory
+make[2]: [Makefile:7140: doc/guix.es.texi] Error 1 (ignored)
+  PO4A doc/contributing.fa.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7149: doc/contributing.fa.texi] Error 127 (ignored)
+  POXREF doc/contributing.fa.texi
+cat: doc/contributing.fa.texi.tmp: No such file or directory
+mv "doc/contributing.fa.texi.tmp" "doc/contributing.fa.texi"
+mv: cannot stat 'doc/contributing.fa.texi.tmp': No such file or directory
+make[2]: [Makefile:7151: doc/contributing.fa.texi] Error 1 (ignored)
+  PO4A doc/guix.fa.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7137: doc/guix.fa.texi] Error 127 (ignored)
+sed -i "s|guix\.info|$(basename "doc/guix.fa.texi" | sed 's|texi$|info|')|" "doc/guix.fa.texi.tmp"
+sed: can't read doc/guix.fa.texi.tmp: No such file or directory
+make[2]: [Makefile:7138: doc/guix.fa.texi] Error 2 (ignored)
+  POXREF doc/guix.fa.texi
+cat: doc/guix.fa.texi.tmp: No such file or directory
+mv "doc/guix.fa.texi.tmp" "doc/guix.fa.texi"
+mv: cannot stat 'doc/guix.fa.texi.tmp': No such file or directory
+make[2]: [Makefile:7140: doc/guix.fa.texi] Error 1 (ignored)
+  PO4A doc/contributing.fr.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7149: doc/contributing.fr.texi] Error 127 (ignored)
+  POXREF doc/contributing.fr.texi
+cat: doc/contributing.fr.texi.tmp: No such file or directory
+mv "doc/contributing.fr.texi.tmp" "doc/contributing.fr.texi"
+mv: cannot stat 'doc/contributing.fr.texi.tmp': No such file or directory
+make[2]: [Makefile:7151: doc/contributing.fr.texi] Error 1 (ignored)
+  PO4A doc/guix.fr.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7137: doc/guix.fr.texi] Error 127 (ignored)
+sed -i "s|guix\.info|$(basename "doc/guix.fr.texi" | sed 's|texi$|info|')|" "doc/guix.fr.texi.tmp"
+sed: can't read doc/guix.fr.texi.tmp: No such file or directory
+make[2]: [Makefile:7138: doc/guix.fr.texi] Error 2 (ignored)
+  POXREF doc/guix.fr.texi
+cat: doc/guix.fr.texi.tmp: No such file or directory
+mv "doc/guix.fr.texi.tmp" "doc/guix.fr.texi"
+mv: cannot stat 'doc/guix.fr.texi.tmp': No such file or directory
+make[2]: [Makefile:7140: doc/guix.fr.texi] Error 1 (ignored)
+  PO4A doc/contributing.it.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7149: doc/contributing.it.texi] Error 127 (ignored)
+  POXREF doc/contributing.it.texi
+cat: doc/contributing.it.texi.tmp: No such file or directory
+mv "doc/contributing.it.texi.tmp" "doc/contributing.it.texi"
+mv: cannot stat 'doc/contributing.it.texi.tmp': No such file or directory
+make[2]: [Makefile:7151: doc/contributing.it.texi] Error 1 (ignored)
+  PO4A doc/guix.it.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7137: doc/guix.it.texi] Error 127 (ignored)
+sed -i "s|guix\.info|$(basename "doc/guix.it.texi" | sed 's|texi$|info|')|" "doc/guix.it.texi.tmp"
+sed: can't read doc/guix.it.texi.tmp: No such file or directory
+make[2]: [Makefile:7138: doc/guix.it.texi] Error 2 (ignored)
+  POXREF doc/guix.it.texi
+cat: doc/guix.it.texi.tmp: No such file or directory
+mv "doc/guix.it.texi.tmp" "doc/guix.it.texi"
+mv: cannot stat 'doc/guix.it.texi.tmp': No such file or directory
+make[2]: [Makefile:7140: doc/guix.it.texi] Error 1 (ignored)
+  PO4A doc/contributing.ko.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7149: doc/contributing.ko.texi] Error 127 (ignored)
+  POXREF doc/contributing.ko.texi
+cat: doc/contributing.ko.texi.tmp: No such file or directory
+mv "doc/contributing.ko.texi.tmp" "doc/contributing.ko.texi"
+mv: cannot stat 'doc/contributing.ko.texi.tmp': No such file or directory
+make[2]: [Makefile:7151: doc/contributing.ko.texi] Error 1 (ignored)
+  PO4A doc/guix.ko.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7137: doc/guix.ko.texi] Error 127 (ignored)
+sed -i "s|guix\.info|$(basename "doc/guix.ko.texi" | sed 's|texi$|info|')|" "doc/guix.ko.texi.tmp"
+sed: can't read doc/guix.ko.texi.tmp: No such file or directory
+make[2]: [Makefile:7138: doc/guix.ko.texi] Error 2 (ignored)
+  POXREF doc/guix.ko.texi
+cat: doc/guix.ko.texi.tmp: No such file or directory
+mv "doc/guix.ko.texi.tmp" "doc/guix.ko.texi"
+mv: cannot stat 'doc/guix.ko.texi.tmp': No such file or directory
+make[2]: [Makefile:7140: doc/guix.ko.texi] Error 1 (ignored)
+  PO4A doc/contributing.pt_BR.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7149: doc/contributing.pt_BR.texi] Error 127 (ignored)
+  POXREF doc/contributing.pt_BR.texi
+cat: doc/contributing.pt_BR.texi.tmp: No such file or directory
+mv "doc/contributing.pt_BR.texi.tmp" "doc/contributing.pt_BR.texi"
+mv: cannot stat 'doc/contributing.pt_BR.texi.tmp': No such file or directory
+make[2]: [Makefile:7151: doc/contributing.pt_BR.texi] Error 1 (ignored)
+  PO4A doc/guix.pt_BR.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7137: doc/guix.pt_BR.texi] Error 127 (ignored)
+sed -i "s|guix\.info|$(basename "doc/guix.pt_BR.texi" | sed 's|texi$|info|')|" "doc/guix.pt_BR.texi.tmp"
+sed: can't read doc/guix.pt_BR.texi.tmp: No such file or directory
+make[2]: [Makefile:7138: doc/guix.pt_BR.texi] Error 2 (ignored)
+  POXREF doc/guix.pt_BR.texi
+cat: doc/guix.pt_BR.texi.tmp: No such file or directory
+mv "doc/guix.pt_BR.texi.tmp" "doc/guix.pt_BR.texi"
+mv: cannot stat 'doc/guix.pt_BR.texi.tmp': No such file or directory
+make[2]: [Makefile:7140: doc/guix.pt_BR.texi] Error 1 (ignored)
+  PO4A doc/contributing.ru.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7149: doc/contributing.ru.texi] Error 127 (ignored)
+  POXREF doc/contributing.ru.texi
+cat: doc/contributing.ru.texi.tmp: No such file or directory
+mv "doc/contributing.ru.texi.tmp" "doc/contributing.ru.texi"
+mv: cannot stat 'doc/contributing.ru.texi.tmp': No such file or directory
+make[2]: [Makefile:7151: doc/contributing.ru.texi] Error 1 (ignored)
+  PO4A doc/guix.ru.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7137: doc/guix.ru.texi] Error 127 (ignored)
+sed -i "s|guix\.info|$(basename "doc/guix.ru.texi" | sed 's|texi$|info|')|" "doc/guix.ru.texi.tmp"
+sed: can't read doc/guix.ru.texi.tmp: No such file or directory
+make[2]: [Makefile:7138: doc/guix.ru.texi] Error 2 (ignored)
+  POXREF doc/guix.ru.texi
+cat: doc/guix.ru.texi.tmp: No such file or directory
+mv "doc/guix.ru.texi.tmp" "doc/guix.ru.texi"
+mv: cannot stat 'doc/guix.ru.texi.tmp': No such file or directory
+make[2]: [Makefile:7140: doc/guix.ru.texi] Error 1 (ignored)
+  PO4A doc/contributing.sk.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7149: doc/contributing.sk.texi] Error 127 (ignored)
+  POXREF doc/contributing.sk.texi
+cat: doc/contributing.sk.texi.tmp: No such file or directory
+mv "doc/contributing.sk.texi.tmp" "doc/contributing.sk.texi"
+mv: cannot stat 'doc/contributing.sk.texi.tmp': No such file or directory
+make[2]: [Makefile:7151: doc/contributing.sk.texi] Error 1 (ignored)
+  PO4A doc/guix.sk.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7137: doc/guix.sk.texi] Error 127 (ignored)
+sed -i "s|guix\.info|$(basename "doc/guix.sk.texi" | sed 's|texi$|info|')|" "doc/guix.sk.texi.tmp"
+sed: can't read doc/guix.sk.texi.tmp: No such file or directory
+make[2]: [Makefile:7138: doc/guix.sk.texi] Error 2 (ignored)
+  POXREF doc/guix.sk.texi
+cat: doc/guix.sk.texi.tmp: No such file or directory
+mv "doc/guix.sk.texi.tmp" "doc/guix.sk.texi"
+mv: cannot stat 'doc/guix.sk.texi.tmp': No such file or directory
+make[2]: [Makefile:7140: doc/guix.sk.texi] Error 1 (ignored)
+  PO4A doc/contributing.zh_CN.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7149: doc/contributing.zh_CN.texi] Error 127 (ignored)
+  POXREF doc/contributing.zh_CN.texi
+cat: doc/contributing.zh_CN.texi.tmp: No such file or directory
+mv "doc/contributing.zh_CN.texi.tmp" "doc/contributing.zh_CN.texi"
+mv: cannot stat 'doc/contributing.zh_CN.texi.tmp': No such file or directory
+make[2]: [Makefile:7151: doc/contributing.zh_CN.texi] Error 1 (ignored)
+  PO4A doc/guix.zh_CN.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7137: doc/guix.zh_CN.texi] Error 127 (ignored)
+sed -i "s|guix\.info|$(basename "doc/guix.zh_CN.texi" | sed 's|texi$|info|')|" "doc/guix.zh_CN.texi.tmp"
+sed: can't read doc/guix.zh_CN.texi.tmp: No such file or directory
+make[2]: [Makefile:7138: doc/guix.zh_CN.texi] Error 2 (ignored)
+  POXREF doc/guix.zh_CN.texi
+cat: doc/guix.zh_CN.texi.tmp: No such file or directory
+mv "doc/guix.zh_CN.texi.tmp" "doc/guix.zh_CN.texi"
+mv: cannot stat 'doc/guix.zh_CN.texi.tmp': No such file or directory
+make[2]: [Makefile:7140: doc/guix.zh_CN.texi] Error 1 (ignored)
+  PO4A doc/guix-cookbook.de.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7143: doc/guix-cookbook.de.texi] Error 127 (ignored)
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.de.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.de.texi.tmp"
+sed: can't read doc/guix-cookbook.de.texi.tmp: No such file or directory
+make[2]: [Makefile:7144: doc/guix-cookbook.de.texi] Error 2 (ignored)
+  POXREF doc/guix-cookbook.de.texi
+cat: doc/guix-cookbook.de.texi.tmp: No such file or directory
+mv "doc/guix-cookbook.de.texi.tmp" "doc/guix-cookbook.de.texi"
+mv: cannot stat 'doc/guix-cookbook.de.texi.tmp': No such file or directory
+make[2]: [Makefile:7146: doc/guix-cookbook.de.texi] Error 1 (ignored)
+  PO4A doc/guix-cookbook.fa.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7143: doc/guix-cookbook.fa.texi] Error 127 (ignored)
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.fa.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.fa.texi.tmp"
+sed: can't read doc/guix-cookbook.fa.texi.tmp: No such file or directory
+make[2]: [Makefile:7144: doc/guix-cookbook.fa.texi] Error 2 (ignored)
+  POXREF doc/guix-cookbook.fa.texi
+cat: doc/guix-cookbook.fa.texi.tmp: No such file or directory
+mv "doc/guix-cookbook.fa.texi.tmp" "doc/guix-cookbook.fa.texi"
+mv: cannot stat 'doc/guix-cookbook.fa.texi.tmp': No such file or directory
+make[2]: [Makefile:7146: doc/guix-cookbook.fa.texi] Error 1 (ignored)
+  PO4A doc/guix-cookbook.fr.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7143: doc/guix-cookbook.fr.texi] Error 127 (ignored)
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.fr.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.fr.texi.tmp"
+sed: can't read doc/guix-cookbook.fr.texi.tmp: No such file or directory
+make[2]: [Makefile:7144: doc/guix-cookbook.fr.texi] Error 2 (ignored)
+  POXREF doc/guix-cookbook.fr.texi
+cat: doc/guix-cookbook.fr.texi.tmp: No such file or directory
+mv "doc/guix-cookbook.fr.texi.tmp" "doc/guix-cookbook.fr.texi"
+mv: cannot stat 'doc/guix-cookbook.fr.texi.tmp': No such file or directory
+make[2]: [Makefile:7146: doc/guix-cookbook.fr.texi] Error 1 (ignored)
+  PO4A doc/guix-cookbook.ko.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7143: doc/guix-cookbook.ko.texi] Error 127 (ignored)
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.ko.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.ko.texi.tmp"
+sed: can't read doc/guix-cookbook.ko.texi.tmp: No such file or directory
+make[2]: [Makefile:7144: doc/guix-cookbook.ko.texi] Error 2 (ignored)
+  POXREF doc/guix-cookbook.ko.texi
+cat: doc/guix-cookbook.ko.texi.tmp: No such file or directory
+mv "doc/guix-cookbook.ko.texi.tmp" "doc/guix-cookbook.ko.texi"
+mv: cannot stat 'doc/guix-cookbook.ko.texi.tmp': No such file or directory
+make[2]: [Makefile:7146: doc/guix-cookbook.ko.texi] Error 1 (ignored)
+  PO4A doc/guix-cookbook.ru.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7143: doc/guix-cookbook.ru.texi] Error 127 (ignored)
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.ru.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.ru.texi.tmp"
+sed: can't read doc/guix-cookbook.ru.texi.tmp: No such file or directory
+make[2]: [Makefile:7144: doc/guix-cookbook.ru.texi] Error 2 (ignored)
+  POXREF doc/guix-cookbook.ru.texi
+cat: doc/guix-cookbook.ru.texi.tmp: No such file or directory
+mv "doc/guix-cookbook.ru.texi.tmp" "doc/guix-cookbook.ru.texi"
+mv: cannot stat 'doc/guix-cookbook.ru.texi.tmp': No such file or directory
+make[2]: [Makefile:7146: doc/guix-cookbook.ru.texi] Error 1 (ignored)
+  PO4A doc/guix-cookbook.sk.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7143: doc/guix-cookbook.sk.texi] Error 127 (ignored)
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.sk.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.sk.texi.tmp"
+sed: can't read doc/guix-cookbook.sk.texi.tmp: No such file or directory
+make[2]: [Makefile:7144: doc/guix-cookbook.sk.texi] Error 2 (ignored)
+  POXREF doc/guix-cookbook.sk.texi
+cat: doc/guix-cookbook.sk.texi.tmp: No such file or directory
+mv "doc/guix-cookbook.sk.texi.tmp" "doc/guix-cookbook.sk.texi"
+mv: cannot stat 'doc/guix-cookbook.sk.texi.tmp': No such file or directory
+make[2]: [Makefile:7146: doc/guix-cookbook.sk.texi] Error 1 (ignored)
+  PO4A doc/guix-cookbook.zh_Hans.texi
+/home/gunter/Data/pi02/GNU/guix/build-aux/missing: line 81: po4a-translate: command not found
+WARNING: 'po4a-translate' is missing on your system.
+         You might have modified some files without having the proper
+         tools for further handling them.  Check the 'README' file, it
+         often tells you about the needed prerequisites for installing
+         this package.  You may also peek at any GNU archive site, in
+         case some other package contains this missing 'po4a-translate' program.
+make[2]: [Makefile:7143: doc/guix-cookbook.zh_Hans.texi] Error 127 (ignored)
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.zh_Hans.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.zh_Hans.texi.tmp"
+sed: can't read doc/guix-cookbook.zh_Hans.texi.tmp: No such file or directory
+make[2]: [Makefile:7144: doc/guix-cookbook.zh_Hans.texi] Error 2 (ignored)
+  POXREF doc/guix-cookbook.zh_Hans.texi
+cat: doc/guix-cookbook.zh_Hans.texi.tmp: No such file or directory
+mv "doc/guix-cookbook.zh_Hans.texi.tmp" "doc/guix-cookbook.zh_Hans.texi"
+mv: cannot stat 'doc/guix-cookbook.zh_Hans.texi.tmp': No such file or directory
+make[2]: [Makefile:7146: doc/guix-cookbook.zh_Hans.texi] Error 1 (ignored)
+Compiling Scheme modules...
+[ 23%] LOAD     guix/build/gnu-dist.scm
+[ 23%] GUILEC   guix/build/gnu-dist.go
+WARNING: (guix build gnu-dist): imported module (guix build utils) overrides core binding `delete'
+WARNING: (guix build gnu-dist): imported module (guix build utils) overrides core binding `delete'
+Compiling Scheme modules...
+[ 26%] LOAD     gnu/packages/bioconductor.scm
+[ 26%] LOAD     gnu/packages/bioinformatics.scm
+[ 26%] LOAD     gnu/packages/bittorrent.scm
+[ 26%] LOAD     gnu/packages/bison.scm
+[ 26%] LOAD     gnu/packages/boost.scm
+[ 26%] LOAD     gnu/packages/bootloaders.scm
+[ 26%] LOAD     gnu/packages/bootstrap.scm
+[ 26%] LOAD     gnu/packages/browser-extensions.scm
+[ 27%] LOAD     gnu/packages/build-tools.scm
+[ 27%] LOAD     gnu/packages/busybox.scm
+[ 27%] LOAD     gnu/packages/c.scm
+[ 27%] LOAD     gnu/packages/calcurse.scm
+[ 27%] LOAD     gnu/packages/ccache.scm
+[ 27%] LOAD     gnu/packages/cdrom.scm
+[ 27%] LOAD     gnu/packages/cedille.scm
+[ 27%] LOAD     gnu/packages/certs.scm
+[ 27%] LOAD     gnu/packages/check.scm
+[ 27%] LOAD     gnu/packages/chemistry.scm
+[ 27%] LOAD     gnu/packages/chez.scm
+[ 27%] LOAD     gnu/packages/chicken.scm
+[ 27%] LOAD     gnu/packages/chromium.scm
+[ 27%] LOAD     gnu/packages/ci.scm
+[ 27%] LOAD     gnu/packages/cinnamon.scm
+[ 27%] LOAD     gnu/packages/clojure.scm
+[ 27%] LOAD     gnu/packages/cluster.scm
+[ 27%] LOAD     gnu/packages/cmake.scm
+[ 28%] LOAD     gnu/packages/cobol.scm
+[ 28%] LOAD     gnu/packages/code.scm
+[ 28%] LOAD     gnu/packages/commencement.scm
+[ 28%] LOAD     gnu/packages/compression.scm
+[ 28%] LOAD     gnu/packages/compton.scm
+[ 28%] LOAD     gnu/packages/configuration-management.scm
+[ 28%] LOAD     gnu/packages/conky.scm
+[ 28%] LOAD     gnu/packages/connman.scm
+[ 28%] LOAD     gnu/packages/convmv.scm
+[ 28%] LOAD     gnu/packages/cook.scm
+[ 28%] LOAD     gnu/packages/coq.scm
+[ 28%] LOAD     gnu/packages/cpio.scm
+[ 28%] LOAD     gnu/packages/cpp.scm
+[ 28%] LOAD     gnu/packages/cppi.scm
+[ 28%] LOAD     gnu/packages/cran.scm
+[ 28%] LOAD     gnu/packages/crates-io.scm
+[ 28%] LOAD     gnu/packages/crates-graphics.scm
+[ 28%] LOAD     gnu/packages/crates-gtk.scm
+[ 28%] LOAD     gnu/packages/cross-base.scm
+[ 29%] LOAD     gnu/packages/crypto.scm
+[ 29%] LOAD     gnu/packages/cryptsetup.scm
+[ 29%] LOAD     gnu/packages/cups.scm
+[ 29%] LOAD     gnu/packages/curl.scm
+[ 29%] LOAD     gnu/packages/cvassistant.scm
+[ 29%] LOAD     gnu/packages/cybersecurity.scm
+[ 29%] LOAD     gnu/packages/cyrus-sasl.scm
+[ 29%] LOAD     gnu/packages/databases.scm
+[ 29%] LOAD     gnu/packages/datamash.scm
+[ 29%] LOAD     gnu/packages/datastructures.scm
+[ 29%] LOAD     gnu/packages/dav.scm
+[ 29%] LOAD     gnu/packages/dbm.scm
+[ 29%] LOAD     gnu/packages/dc.scm
+[ 29%] LOAD     gnu/packages/debian.scm
+[ 29%] LOAD     gnu/packages/debug.scm
+[ 29%] LOAD     gnu/packages/dejagnu.scm
+[ 29%] LOAD     gnu/packages/dhall.scm
+[ 29%] LOAD     gnu/packages/dico.scm
+[ 30%] LOAD     gnu/packages/dictionaries.scm
+[ 30%] LOAD     gnu/packages/diffoscope.scm
+[ 30%] LOAD     gnu/packages/digest.scm
+[ 30%] LOAD     gnu/packages/direct-connect.scm
+[ 30%] LOAD     gnu/packages/disk.scm
+[ 30%] LOAD     gnu/packages/distributed.scm
+[ 30%] LOAD     gnu/packages/display-managers.scm
+[ 30%] LOAD     gnu/packages/django.scm
+[ 30%] LOAD     gnu/packages/djvu.scm
+[ 30%] LOAD     gnu/packages/dlang.scm
+[ 30%] LOAD     gnu/packages/dns.scm
+[ 30%] LOAD     gnu/packages/docbook.scm
+[ 30%] LOAD     gnu/packages/docker.scm
+[ 30%] LOAD     gnu/packages/documentation.scm
+[ 30%] LOAD     gnu/packages/dunst.scm
+[ 30%] LOAD     gnu/packages/dvtm.scm
+[ 30%] LOAD     gnu/packages/easyrpg.scm
+[ 30%] LOAD     gnu/packages/ebook.scm
+[ 31%] LOAD     gnu/packages/ed.scm
+[ 31%] LOAD     gnu/packages/education.scm
+[ 31%] LOAD     gnu/packages/efi.scm
+[ 31%] LOAD     gnu/packages/electronics.scm
+[ 31%] LOAD     gnu/packages/elf.scm
+[ 31%] LOAD     gnu/packages/elixir.scm
+[ 31%] LOAD     gnu/packages/elm.scm
+[ 31%] LOAD     gnu/packages/embedded.scm
+[ 31%] LOAD     gnu/packages/emacs.scm
+[ 31%] LOAD     gnu/packages/emacs-xyz.scm
+[ 31%] LOAD     gnu/packages/emulators.scm
+[ 31%] LOAD     gnu/packages/enchant.scm
+[ 31%] LOAD     gnu/packages/engineering.scm
+[ 31%] LOAD     gnu/packages/enlightenment.scm
+[ 31%] LOAD     gnu/packages/entr.scm
+[ 31%] LOAD     gnu/packages/erlang.scm
+[ 31%] LOAD     gnu/packages/esolangs.scm
+[ 31%] LOAD     gnu/packages/fabric-management.scm
+[ 31%] LOAD     gnu/packages/fcitx.scm
+[ 32%] LOAD     gnu/packages/fcitx5.scm
+[ 32%] LOAD     gnu/packages/figlet.scm
+[ 32%] LOAD     gnu/packages/file.scm
+[ 32%] LOAD     gnu/packages/file-systems.scm
+[ 32%] LOAD     gnu/packages/finance.scm
+[ 32%] LOAD     gnu/packages/firmware.scm
+[ 32%] LOAD     gnu/packages/flashing-tools.scm
+[ 32%] LOAD     gnu/packages/flex.scm
+[ 32%] LOAD     gnu/packages/fltk.scm
+[ 32%] LOAD     gnu/packages/fonts.scm
+[ 32%] LOAD     gnu/packages/fontutils.scm
+[ 32%] LOAD     gnu/packages/fpga.scm
+[ 32%] LOAD     gnu/packages/forth.scm
+[ 32%] LOAD     gnu/packages/freedesktop.scm
+[ 32%] LOAD     gnu/packages/freeipmi.scm
+[ 32%] LOAD     gnu/packages/ftp.scm
+[ 32%] LOAD     gnu/packages/fribidi.scm
+[ 32%] LOAD     gnu/packages/fvwm.scm
+[ 33%] LOAD     gnu/packages/game-development.scm
+[ 33%] LOAD     gnu/packages/games.scm
+[ 33%] LOAD     gnu/packages/gawk.scm
+[ 33%] LOAD     gnu/packages/gcal.scm
+[ 33%] LOAD     gnu/packages/gcc.scm
+[ 33%] LOAD     gnu/packages/gd.scm
+[ 33%] LOAD     gnu/packages/gdb.scm
+[ 33%] LOAD     gnu/packages/genealogy.scm
+[ 33%] LOAD     gnu/packages/genimage.scm
+[ 33%] LOAD     gnu/packages/geo.scm
+[ 33%] LOAD     gnu/packages/gettext.scm
+[ 33%] LOAD     gnu/packages/ghostscript.scm
+[ 33%] LOAD     gnu/packages/gimp.scm
+[ 33%] LOAD     gnu/packages/gkrellm.scm
+[ 33%] LOAD     gnu/packages/gl.scm
+[ 33%] LOAD     gnu/packages/glib.scm
+[ 33%] LOAD     gnu/packages/gnome.scm
+[ 33%] LOAD     gnu/packages/gnome-xyz.scm
+[ 33%] LOAD     gnu/packages/gnu-doc.scm
+[ 34%] LOAD     gnu/packages/gnucash.scm
+[ 34%] LOAD     gnu/packages/gnunet.scm
+[ 34%] LOAD     gnu/packages/gnupg.scm
+[ 34%] LOAD     gnu/packages/gnustep.scm
+[ 34%] LOAD     gnu/packages/gnuzilla.scm
+[ 34%] LOAD     gnu/packages/gnu-pw-mgr.scm
+[ 34%] LOAD     gnu/packages/gobby.scm
+[ 34%] LOAD     gnu/packages/golang.scm
+[ 34%] LOAD     gnu/packages/gperf.scm
+[ 34%] LOAD     gnu/packages/gpodder.scm
+[ 34%] LOAD     gnu/packages/gps.scm
+[ 34%] LOAD     gnu/packages/graph.scm
+[ 34%] LOAD     gnu/packages/graphics.scm
+[ 34%] LOAD     gnu/packages/graphviz.scm
+[ 34%] LOAD     gnu/packages/groff.scm
+[ 34%] LOAD     gnu/packages/groovy.scm
+[ 34%] LOAD     gnu/packages/gsasl.scm
+[ 34%] LOAD     gnu/packages/gstreamer.scm
+[ 35%] LOAD     gnu/packages/gtk.scm
+[ 35%] LOAD     gnu/packages/guile.scm
+[ 35%] LOAD     gnu/packages/guile-wm.scm
+[ 35%] LOAD     gnu/packages/guile-xyz.scm
+[ 35%] LOAD     gnu/packages/gv.scm
+[ 35%] LOAD     gnu/packages/gxmessage.scm
+[ 35%] LOAD     gnu/packages/hardware.scm
+[ 35%] LOAD     gnu/packages/haskell.scm
+[ 35%] LOAD     gnu/packages/haskell-apps.scm
+[ 35%] LOAD     gnu/packages/haskell-check.scm
+[ 35%] LOAD     gnu/packages/haskell-crypto.scm
+[ 35%] LOAD     gnu/packages/haskell-web.scm
+[ 35%] LOAD     gnu/packages/haskell-xyz.scm
+[ 35%] LOAD     gnu/packages/heads.scm
+[ 35%] LOAD     gnu/packages/hexedit.scm
+[ 35%] LOAD     gnu/packages/hugs.scm
+[ 35%] LOAD     gnu/packages/hunspell.scm
+[ 35%] LOAD     gnu/packages/hurd.scm
+[ 36%] LOAD     gnu/packages/hyperledger.scm
+[ 36%] LOAD     gnu/packages/i2p.scm
+[ 36%] LOAD     gnu/packages/ibus.scm
+[ 36%] LOAD     gnu/packages/icu4c.scm
+[ 36%] LOAD     gnu/packages/idris.scm
+[ 36%] LOAD     gnu/packages/idutils.scm
+[ 36%] LOAD     gnu/packages/image.scm
+[ 36%] LOAD     gnu/packages/image-processing.scm
+[ 36%] LOAD     gnu/packages/image-viewers.scm
+[ 36%] LOAD     gnu/packages/imagemagick.scm
+[ 36%] LOAD     gnu/packages/inklingreader.scm
+[ 36%] LOAD     gnu/packages/inkscape.scm
+[ 36%] LOAD     gnu/packages/installers.scm
+[ 36%] LOAD     gnu/packages/ipfs.scm
+[ 36%] LOAD     gnu/packages/irc.scm
+[ 36%] LOAD     gnu/packages/irods.scm
+[ 36%] LOAD     gnu/packages/iso-codes.scm
+[ 36%] LOAD     gnu/packages/jami.scm
+[ 36%] LOAD     gnu/packages/java.scm
+[ 37%] LOAD     gnu/packages/java-compression.scm
+[ 37%] LOAD     gnu/packages/java-graphics.scm
+[ 37%] LOAD     gnu/packages/java-maths.scm
+[ 37%] LOAD     gnu/packages/javascript.scm
+[ 37%] LOAD     gnu/packages/jemalloc.scm
+[ 37%] LOAD     gnu/packages/jrnl.scm
+[ 37%] LOAD     gnu/packages/jose.scm
+[ 37%] LOAD     gnu/packages/julia.scm
+[ 37%] LOAD     gnu/packages/julia-jll.scm
+[ 37%] LOAD     gnu/packages/julia-xyz.scm
+[ 37%] LOAD     gnu/packages/jupyter.scm
+[ 37%] LOAD     gnu/packages/kawa.scm
+[ 37%] LOAD     gnu/packages/kde.scm
+[ 37%] LOAD     gnu/packages/kde-frameworks.scm
+[ 37%] LOAD     gnu/packages/kde-internet.scm
+[ 37%] LOAD     gnu/packages/kde-multimedia.scm
+[ 37%] LOAD     gnu/packages/kde-pim.scm
+[ 37%] LOAD     gnu/packages/kde-plasma.scm
+[ 38%] LOAD     gnu/packages/kde-systemtools.scm
+[ 38%] LOAD     gnu/packages/kde-utils.scm
+[ 38%] LOAD     gnu/packages/kerberos.scm
+[ 38%] LOAD     gnu/packages/key-mon.scm
+[ 38%] LOAD     gnu/packages/kodi.scm
+[ 38%] LOAD     gnu/packages/language.scm
+[ 38%] LOAD     gnu/packages/lean.scm
+[ 38%] LOAD     gnu/packages/lego.scm
+[ 38%] LOAD     gnu/packages/less.scm
+[ 38%] LOAD     gnu/packages/lesstif.scm
+[ 38%] LOAD     gnu/packages/libbsd.scm
+[ 38%] LOAD     gnu/packages/libcanberra.scm
+[ 38%] LOAD     gnu/packages/libdaemon.scm
+[ 38%] LOAD     gnu/packages/libedit.scm
+[ 38%] LOAD     gnu/packages/libevent.scm
+[ 38%] LOAD     gnu/packages/libffcall.scm
+[ 38%] LOAD     gnu/packages/libffi.scm
+[ 38%] LOAD     gnu/packages/libftdi.scm
+[ 39%] LOAD     gnu/packages/license.scm
+[ 39%] LOAD     gnu/packages/calendar.scm
+[ 39%] LOAD     gnu/packages/libidn.scm
+[ 39%] LOAD     gnu/packages/libphidget.scm
+[ 39%] LOAD     gnu/packages/libreoffice.scm
+[ 39%] LOAD     gnu/packages/libsigsegv.scm
+[ 39%] LOAD     gnu/packages/libunistring.scm
+[ 39%] LOAD     gnu/packages/libusb.scm
+[ 39%] LOAD     gnu/packages/libunwind.scm
+[ 39%] LOAD     gnu/packages/lighting.scm
+[ 39%] LOAD     gnu/packages/linphone.scm
+[ 39%] LOAD     gnu/packages/linux.scm
+[ 39%] LOAD     gnu/packages/lirc.scm
+[ 39%] LOAD     gnu/packages/lisp.scm
+[ 39%] LOAD     gnu/packages/lisp-check.scm
+[ 39%] LOAD     gnu/packages/lisp-xyz.scm
+[ 39%] LOAD     gnu/packages/llvm.scm
+[ 39%] LOAD     gnu/packages/lout.scm
+[ 39%] LOAD     gnu/packages/logging.scm
+[ 40%] LOAD     gnu/packages/logo.scm
+[ 40%] LOAD     gnu/packages/loko.scm
+[ 40%] LOAD     gnu/packages/lsof.scm
+[ 40%] LOAD     gnu/packages/lua.scm
+[ 40%] LOAD     gnu/packages/lxde.scm
+[ 40%] LOAD     gnu/packages/lxqt.scm
+[ 40%] LOAD     gnu/packages/m4.scm
+[ 40%] LOAD     gnu/packages/machine-learning.scm
+[ 40%] LOAD     gnu/packages/magic-wormhole.scm
+[ 40%] LOAD     gnu/packages/man.scm
+[ 40%] LOAD     gnu/packages/mastodon.scm
+[ 40%] LOAD     gnu/packages/mail.scm
+[ 40%] LOAD     gnu/packages/make-bootstrap.scm
+[ 40%] LOAD     gnu/packages/markup.scm
+[ 40%] LOAD     gnu/packages/marst.scm
+[ 40%] LOAD     gnu/packages/mate.scm
+[ 40%] LOAD     gnu/packages/maths.scm
+[ 40%] LOAD     gnu/packages/matrix.scm
+[ 41%] LOAD     gnu/packages/maven.scm
+[ 41%] LOAD     gnu/packages/maven-parent-pom.scm
+[ 41%] LOAD     gnu/packages/mc.scm
+[ 41%] LOAD     gnu/packages/mcrypt.scm
+[ 41%] LOAD     gnu/packages/medical.scm
+[ 41%] LOAD     gnu/packages/mercury.scm
+[ 41%] LOAD     gnu/packages/mes.scm
+[ 41%] LOAD     gnu/packages/messaging.scm
+[ 41%] LOAD     gnu/packages/minetest.scm
+[ 41%] LOAD     gnu/packages/mingw.scm
+[ 41%] LOAD     gnu/packages/microcom.scm
+[ 41%] LOAD     gnu/packages/moe.scm
+[ 41%] LOAD     gnu/packages/motti.scm
+[ 41%] LOAD     gnu/packages/monitoring.scm
+[ 41%] LOAD     gnu/packages/mono.scm
+[ 41%] LOAD     gnu/packages/moreutils.scm
+[ 41%] LOAD     gnu/packages/mpd.scm
+[ 41%] LOAD     gnu/packages/mp3.scm
+[ 42%] LOAD     gnu/packages/mpi.scm
+[ 42%] LOAD     gnu/packages/multiprecision.scm
+[ 42%] LOAD     gnu/packages/music.scm
+[ 42%] LOAD     gnu/packages/musl.scm
+[ 42%] LOAD     gnu/packages/mtools.scm
+[ 42%] LOAD     gnu/packages/nano.scm
+[ 42%] LOAD     gnu/packages/ncdu.scm
+[ 42%] LOAD     gnu/packages/ncurses.scm
+[ 42%] LOAD     gnu/packages/netpbm.scm
+[ 42%] LOAD     gnu/packages/nettle.scm
+[ 42%] LOAD     gnu/packages/networking.scm
+[ 42%] LOAD     gnu/packages/nfs.scm
+[ 42%] LOAD     gnu/packages/nickle.scm
+[ 42%] LOAD     gnu/packages/nicotine.scm
+[ 42%] LOAD     gnu/packages/nim.scm
+[ 42%] LOAD     gnu/packages/ninja.scm
+[ 42%] LOAD     gnu/packages/node.scm
+[ 42%] LOAD     gnu/packages/node-xyz.scm
+[ 42%] LOAD     gnu/packages/noweb.scm
+[ 43%] LOAD     gnu/packages/nss.scm
+[ 43%] LOAD     gnu/packages/ntp.scm
+[ 43%] LOAD     gnu/packages/nutrition.scm
+[ 43%] LOAD     gnu/packages/nvi.scm
+[ 43%] LOAD     gnu/packages/ocaml.scm
+[ 43%] LOAD     gnu/packages/ocr.scm
+[ 43%] LOAD     gnu/packages/openkinect.scm
+[ 43%] LOAD     gnu/packages/onc-rpc.scm
+[ 43%] LOAD     gnu/packages/opencl.scm
+[ 43%] LOAD     gnu/packages/openbox.scm
+[ 43%] LOAD     gnu/packages/opencog.scm
+[ 43%] LOAD     gnu/packages/openldap.scm
+[ 43%] LOAD     gnu/packages/openpgp.scm
+[ 43%] LOAD     gnu/packages/openstack.scm
+[ 43%] LOAD     gnu/packages/orange.scm
+[ 43%] LOAD     gnu/packages/orpheus.scm
+[ 43%] LOAD     gnu/packages/ots.scm
+[ 43%] LOAD     gnu/packages/package-management.scm
+[ 44%] LOAD     gnu/packages/pantheon.scm
+[ 44%] LOAD     gnu/packages/parallel.scm
+[ 44%] LOAD     gnu/packages/pascal.scm
+[ 44%] LOAD     gnu/packages/password-utils.scm
+[ 44%] LOAD     gnu/packages/patchutils.scm
+[ 44%] LOAD     gnu/packages/pciutils.scm
+[ 44%] LOAD     gnu/packages/pcre.scm
+[ 44%] LOAD     gnu/packages/pdf.scm
+[ 44%] LOAD     gnu/packages/pem.scm
+[ 44%] LOAD     gnu/packages/pep.scm
+[ 44%] LOAD     gnu/packages/perl.scm
+[ 44%] LOAD     gnu/packages/perl-check.scm
+[ 44%] LOAD     gnu/packages/perl-compression.scm
+[ 44%] LOAD     gnu/packages/perl-maths.scm
+[ 44%] LOAD     gnu/packages/perl-web.scm
+[ 44%] LOAD     gnu/packages/perl6.scm
+[ 44%] LOAD     gnu/packages/photo.scm
+[ 44%] LOAD     gnu/packages/phabricator.scm
+[ 44%] LOAD     gnu/packages/php.scm
+[ 45%] LOAD     gnu/packages/piet.scm
+[ 45%] LOAD     gnu/packages/pkg-config.scm
+[ 45%] LOAD     gnu/packages/plan9.scm
+[ 45%] LOAD     gnu/packages/plotutils.scm
+[ 45%] LOAD     gnu/packages/poedit.scm
+[ 45%] LOAD     gnu/packages/polkit.scm
+[ 45%] LOAD     gnu/packages/popt.scm
+[ 45%] LOAD     gnu/packages/printers.scm
+[ 45%] LOAD     gnu/packages/profiling.scm
+[ 45%] LOAD     gnu/packages/prolog.scm
+[ 45%] LOAD     gnu/packages/pth.scm
+[ 45%] LOAD     gnu/packages/pulseaudio.scm
+[ 45%] LOAD     gnu/packages/pumpio.scm
+[ 45%] LOAD     gnu/packages/presentation.scm
+[ 45%] LOAD     gnu/packages/pretty-print.scm
+[ 45%] LOAD     gnu/packages/protobuf.scm
+[ 45%] LOAD     gnu/packages/pure.scm
+[ 45%] LOAD     gnu/packages/purescript.scm
+[ 46%] LOAD     gnu/packages/pv.scm
+[ 46%] LOAD     gnu/packages/python.scm
+[ 46%] LOAD     gnu/packages/python-build.scm
+[ 46%] LOAD     gnu/packages/python-check.scm
+[ 46%] LOAD     gnu/packages/python-compression.scm
+[ 46%] LOAD     gnu/packages/python-crypto.scm
+[ 46%] LOAD     gnu/packages/python-science.scm
+[ 46%] LOAD     gnu/packages/python-web.scm
+[ 46%] LOAD     gnu/packages/python-xyz.scm
+[ 46%] LOAD     gnu/packages/toys.scm
+[ 46%] LOAD     gnu/packages/tryton.scm
+[ 46%] LOAD     gnu/packages/qt.scm
+[ 46%] LOAD     gnu/packages/racket.scm
+[ 46%] LOAD     gnu/packages/radio.scm
+[ 46%] LOAD     gnu/packages/ragel.scm
+[ 46%] LOAD     gnu/packages/rails.scm
+[ 46%] LOAD     gnu/packages/raspberry-pi.scm
+[ 46%] LOAD     gnu/packages/ratpoison.scm
+[ 47%] LOAD     gnu/packages/rcm.scm
+[ 47%] LOAD     gnu/packages/rdesktop.scm
+[ 47%] LOAD     gnu/packages/rdf.scm
+[ 47%] LOAD     gnu/packages/re2c.scm
+[ 47%] LOAD     gnu/packages/readline.scm
+[ 47%] LOAD     gnu/packages/rednotebook.scm
+[ 47%] LOAD     gnu/packages/regex.scm
+[ 47%] LOAD     gnu/packages/robotics.scm
+[ 47%] LOAD     gnu/packages/rpc.scm
+[ 47%] LOAD     gnu/packages/rpm.scm
+[ 47%] LOAD     gnu/packages/rrdtool.scm
+[ 47%] LOAD     gnu/packages/rsync.scm
+[ 47%] LOAD     gnu/packages/ruby.scm
+[ 47%] LOAD     gnu/packages/rush.scm
+[ 47%] LOAD     gnu/packages/rust.scm
+[ 47%] LOAD     gnu/packages/rust-apps.scm
+[ 47%] LOAD     gnu/packages/samba.scm
+[ 47%] LOAD     gnu/packages/sagemath.scm
+[ 47%] LOAD     gnu/packages/sawfish.scm
+[ 48%] LOAD     gnu/packages/scanner.scm
+[ 48%] LOAD     gnu/packages/scheme.scm
+[ 48%] LOAD     gnu/packages/screen.scm
+[ 48%] LOAD     gnu/packages/scribus.scm
+[ 48%] LOAD     gnu/packages/scsi.scm
+[ 48%] LOAD     gnu/packages/sdl.scm
+[ 48%] LOAD     gnu/packages/search.scm
+[ 48%] LOAD     gnu/packages/security-token.scm
+[ 48%] LOAD     gnu/packages/selinux.scm
+[ 48%] LOAD     gnu/packages/sequoia.scm
+[ 48%] LOAD     gnu/packages/serialization.scm
+[ 48%] LOAD     gnu/packages/serveez.scm
+[ 48%] LOAD     gnu/packages/shells.scm
+[ 48%] LOAD     gnu/packages/shellutils.scm
+[ 48%] LOAD     gnu/packages/simh.scm
+[ 48%] LOAD     gnu/packages/simulation.scm
+[ 48%] LOAD     gnu/packages/skarnet.scm
+[ 48%] LOAD     gnu/packages/skribilo.scm
+[ 49%] LOAD     gnu/packages/slang.scm
+[ 49%] LOAD     gnu/packages/smalltalk.scm
+[ 49%] LOAD     gnu/packages/sml.scm
+[ 49%] LOAD     gnu/packages/speech.scm
+[ 49%] LOAD     gnu/packages/sphinx.scm
+[ 49%] LOAD     gnu/packages/spice.scm
+[ 49%] LOAD     gnu/packages/sqlite.scm
+[ 49%] LOAD     gnu/packages/squirrel.scm
+[ 49%] LOAD     gnu/packages/ssh.scm
+[ 49%] LOAD     gnu/packages/sssd.scm
+[ 49%] LOAD     gnu/packages/stalonetray.scm
+[ 49%] LOAD     gnu/packages/statistics.scm
+[ 49%] LOAD     gnu/packages/stb.scm
+[ 49%] LOAD     gnu/packages/stenography.scm
+[ 49%] LOAD     gnu/packages/storage.scm
+[ 49%] LOAD     gnu/packages/suckless.scm
+[ 49%] LOAD     gnu/packages/swig.scm
+[ 49%] LOAD     gnu/packages/sync.scm
+[ 50%] LOAD     gnu/packages/syncthing.scm
+[ 50%] LOAD     gnu/packages/synergy.scm
+[ 50%] LOAD     gnu/packages/syndication.scm
+[ 50%] LOAD     gnu/packages/task-management.scm
+[ 50%] LOAD     gnu/packages/task-runners.scm
+[ 50%] LOAD     gnu/packages/tbb.scm
+[ 50%] LOAD     gnu/packages/tcl.scm
+[ 50%] LOAD     gnu/packages/telegram.scm
+[ 50%] LOAD     gnu/packages/telephony.scm
+[ 50%] LOAD     gnu/packages/terminals.scm
+[ 50%] LOAD     gnu/packages/terraform.scm
+[ 50%] LOAD     gnu/packages/texinfo.scm
+[ 50%] LOAD     gnu/packages/tex.scm
+[ 50%] LOAD     gnu/packages/textutils.scm
+[ 50%] LOAD     gnu/packages/text-editors.scm
+[ 50%] LOAD     gnu/packages/time.scm
+[ 50%] LOAD     gnu/packages/tls.scm
+[ 50%] LOAD     gnu/packages/tmux.scm
+[ 50%] LOAD     gnu/packages/tor.scm
+[ 51%] LOAD     gnu/packages/tv.scm
+[ 51%] LOAD     gnu/packages/uglifyjs.scm
+[ 51%] LOAD     gnu/packages/uml.scm
+[ 51%] LOAD     gnu/packages/unicode.scm
+[ 51%] LOAD     gnu/packages/unrtf.scm
+[ 51%] LOAD     gnu/packages/upnp.scm
+[ 51%] LOAD     gnu/packages/usb-modeswitch.scm
+[ 51%] LOAD     gnu/packages/uucp.scm
+[ 51%] LOAD     gnu/packages/valgrind.scm
+[ 51%] LOAD     gnu/packages/version-control.scm
+[ 51%] LOAD     gnu/packages/video.scm
+[ 51%] LOAD     gnu/packages/vim.scm
+[ 51%] LOAD     gnu/packages/virtualization.scm
+[ 51%] LOAD     gnu/packages/visidata.scm
+[ 51%] LOAD     gnu/packages/vlang.scm
+[ 51%] LOAD     gnu/packages/vnc.scm
+[ 51%] LOAD     gnu/packages/vpn.scm
+[ 51%] LOAD     gnu/packages/vulkan.scm
+[ 52%] LOAD     gnu/packages/w3m.scm
+[ 52%] LOAD     gnu/packages/wdiff.scm
+[ 52%] LOAD     gnu/packages/web.scm
+[ 52%] LOAD     gnu/packages/web-browsers.scm
+[ 52%] LOAD     gnu/packages/webkit.scm
+[ 52%] LOAD     gnu/packages/wget.scm
+[ 52%] LOAD     gnu/packages/wicd.scm
+[ 52%] LOAD     gnu/packages/wine.scm
+[ 52%] LOAD     gnu/packages/wireservice.scm
+[ 52%] LOAD     gnu/packages/wm.scm
+[ 52%] LOAD     gnu/packages/wordnet.scm
+[ 52%] LOAD     gnu/packages/wv.scm
+[ 52%] LOAD     gnu/packages/wxwidgets.scm
+[ 52%] LOAD     gnu/packages/xfig.scm
+[ 52%] LOAD     gnu/packages/xiph.scm
+[ 52%] LOAD     gnu/packages/xml.scm
+[ 52%] LOAD     gnu/packages/xnee.scm
+[ 52%] LOAD     gnu/packages/xdisorg.scm
+[ 53%] LOAD     gnu/packages/xorg.scm
+[ 53%] LOAD     gnu/packages/xfce.scm
+[ 53%] LOAD     gnu/packages/zile.scm
+[ 53%] LOAD     gnu/packages/zwave.scm
+[ 53%] GUILEC   gnu/packages/bioconductor.go
+[ 53%] GUILEC   gnu/packages/bioinformatics.go
+[ 53%] GUILEC   gnu/packages/bittorrent.go
+[ 53%] GUILEC   gnu/packages/bison.go
+[ 53%] GUILEC   gnu/packages/boost.go
+[ 53%] GUILEC   gnu/packages/bootloaders.go
+[ 53%] GUILEC   gnu/packages/bootstrap.go
+[ 53%] GUILEC   gnu/packages/browser-extensions.go
+[ 53%] GUILEC   gnu/packages/build-tools.go
+[ 53%] GUILEC   gnu/packages/busybox.go
+[ 53%] GUILEC   gnu/packages/c.go
+[ 53%] GUILEC   gnu/packages/calcurse.go
+[ 53%] GUILEC   gnu/packages/ccache.go
+[ 53%] GUILEC   gnu/packages/cdrom.go
+[ 53%] GUILEC   gnu/packages/cedille.go
+[ 54%] GUILEC   gnu/packages/certs.go
+[ 54%] GUILEC   gnu/packages/check.go
