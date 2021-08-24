@@ -63,3 +63,4 @@
 000001dc
 #+END_EXAMPLE
 
+# fdtdump bcm2708-rpi-zero-w.dtb
