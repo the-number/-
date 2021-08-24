@@ -1,0 +1,4 @@
+0-compile() {
+  local D="Compile the device tree overlay, \$1"
+  ${DO:-echo} dtc -@ -Hepapr -I dts -O dtb -o ${1:-0}.dtbo ${1:-0}-overlay.dts
+  }

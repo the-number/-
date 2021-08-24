@@ -10,3 +10,693 @@ Your input po file po/doc/guix-manual.de.po seems outdated (The amount of entrie
 ). Please consider running po4a-updatepo to refresh it.
 sed -i "s|guix\.info|$(basename "doc/guix.de.texi" | sed 's|texi$|info|')|" "doc/guix.de.texi.tmp"
   POXREF doc/guix.de.texi
+mv "doc/guix.de.texi.tmp" "doc/guix.de.texi"
+  PO4A doc/contributing.es.texi
+Your input po file po/doc/guix-manual.es.po seems outdated (The amount of entries differ between files: 10859 is not 453
+). Please consider running po4a-updatepo to refresh it.
+  POXREF doc/contributing.es.texi
+mv "doc/contributing.es.texi.tmp" "doc/contributing.es.texi"
+  PO4A doc/guix.es.texi
+Your input po file po/doc/guix-manual.es.po seems outdated (The amount of entries differ between files: 10859 is not 10507
+). Please consider running po4a-updatepo to refresh it.
+sed -i "s|guix\.info|$(basename "doc/guix.es.texi" | sed 's|texi$|info|')|" "doc/guix.es.texi.tmp"
+  POXREF doc/guix.es.texi
+mv "doc/guix.es.texi.tmp" "doc/guix.es.texi"
+  PO4A doc/contributing.fa.texi
+Your input po file po/doc/guix-manual.fa.po seems outdated (The amount of entries differ between files: 10859 is not 453
+). Please consider running po4a-updatepo to refresh it.
+  POXREF doc/contributing.fa.texi
+mv "doc/contributing.fa.texi.tmp" "doc/contributing.fa.texi"
+  PO4A doc/guix.fa.texi
+Your input po file po/doc/guix-manual.fa.po seems outdated (The amount of entries differ between files: 10859 is not 10507
+). Please consider running po4a-updatepo to refresh it.
+sed -i "s|guix\.info|$(basename "doc/guix.fa.texi" | sed 's|texi$|info|')|" "doc/guix.fa.texi.tmp"
+  POXREF doc/guix.fa.texi
+mv "doc/guix.fa.texi.tmp" "doc/guix.fa.texi"
+  PO4A doc/contributing.fr.texi
+Your input po file po/doc/guix-manual.fr.po seems outdated (The amount of entries differ between files: 10859 is not 453
+). Please consider running po4a-updatepo to refresh it.
+  POXREF doc/contributing.fr.texi
+mv "doc/contributing.fr.texi.tmp" "doc/contributing.fr.texi"
+  PO4A doc/guix.fr.texi
+Your input po file po/doc/guix-manual.fr.po seems outdated (The amount of entries differ between files: 10859 is not 10507
+). Please consider running po4a-updatepo to refresh it.
+sed -i "s|guix\.info|$(basename "doc/guix.fr.texi" | sed 's|texi$|info|')|" "doc/guix.fr.texi.tmp"
+  POXREF doc/guix.fr.texi
+mv "doc/guix.fr.texi.tmp" "doc/guix.fr.texi"
+  PO4A doc/contributing.it.texi
+Your input po file po/doc/guix-manual.it.po seems outdated (The amount of entries differ between files: 10859 is not 453
+). Please consider running po4a-updatepo to refresh it.
+  POXREF doc/contributing.it.texi
+mv "doc/contributing.it.texi.tmp" "doc/contributing.it.texi"
+  PO4A doc/guix.it.texi
+Your input po file po/doc/guix-manual.it.po seems outdated (The amount of entries differ between files: 10859 is not 10507
+). Please consider running po4a-updatepo to refresh it.
+sed -i "s|guix\.info|$(basename "doc/guix.it.texi" | sed 's|texi$|info|')|" "doc/guix.it.texi.tmp"
+  POXREF doc/guix.it.texi
+mv "doc/guix.it.texi.tmp" "doc/guix.it.texi"
+  PO4A doc/contributing.ko.texi
+Your input po file po/doc/guix-manual.ko.po seems outdated (The amount of entries differ between files: 10859 is not 453
+). Please consider running po4a-updatepo to refresh it.
+  POXREF doc/contributing.ko.texi
+mv "doc/contributing.ko.texi.tmp" "doc/contributing.ko.texi"
+  PO4A doc/guix.ko.texi
+Your input po file po/doc/guix-manual.ko.po seems outdated (The amount of entries differ between files: 10859 is not 10507
+). Please consider running po4a-updatepo to refresh it.
+sed -i "s|guix\.info|$(basename "doc/guix.ko.texi" | sed 's|texi$|info|')|" "doc/guix.ko.texi.tmp"
+  POXREF doc/guix.ko.texi
+mv "doc/guix.ko.texi.tmp" "doc/guix.ko.texi"
+  PO4A doc/contributing.pt_BR.texi
+Your input po file po/doc/guix-manual.pt_BR.po seems outdated (The amount of entries differ between files: 10859 is not 453
+). Please consider running po4a-updatepo to refresh it.
+  POXREF doc/contributing.pt_BR.texi
+mv "doc/contributing.pt_BR.texi.tmp" "doc/contributing.pt_BR.texi"
+  PO4A doc/guix.pt_BR.texi
+Your input po file po/doc/guix-manual.pt_BR.po seems outdated (The amount of entries differ between files: 10859 is not 10507
+). Please consider running po4a-updatepo to refresh it.
+sed -i "s|guix\.info|$(basename "doc/guix.pt_BR.texi" | sed 's|texi$|info|')|" "doc/guix.pt_BR.texi.tmp"
+  POXREF doc/guix.pt_BR.texi
+mv "doc/guix.pt_BR.texi.tmp" "doc/guix.pt_BR.texi"
+  PO4A doc/contributing.ru.texi
+Your input po file po/doc/guix-manual.ru.po seems outdated (The amount of entries differ between files: 10859 is not 453
+). Please consider running po4a-updatepo to refresh it.
+  POXREF doc/contributing.ru.texi
+mv "doc/contributing.ru.texi.tmp" "doc/contributing.ru.texi"
+  PO4A doc/guix.ru.texi
+Your input po file po/doc/guix-manual.ru.po seems outdated (The amount of entries differ between files: 10859 is not 10507
+). Please consider running po4a-updatepo to refresh it.
+sed -i "s|guix\.info|$(basename "doc/guix.ru.texi" | sed 's|texi$|info|')|" "doc/guix.ru.texi.tmp"
+  POXREF doc/guix.ru.texi
+mv "doc/guix.ru.texi.tmp" "doc/guix.ru.texi"
+  PO4A doc/contributing.sk.texi
+Your input po file po/doc/guix-manual.sk.po seems outdated (The amount of entries differ between files: 10859 is not 453
+). Please consider running po4a-updatepo to refresh it.
+  POXREF doc/contributing.sk.texi
+mv "doc/contributing.sk.texi.tmp" "doc/contributing.sk.texi"
+  PO4A doc/guix.sk.texi
+Your input po file po/doc/guix-manual.sk.po seems outdated (The amount of entries differ between files: 10859 is not 10507
+). Please consider running po4a-updatepo to refresh it.
+sed -i "s|guix\.info|$(basename "doc/guix.sk.texi" | sed 's|texi$|info|')|" "doc/guix.sk.texi.tmp"
+  POXREF doc/guix.sk.texi
+mv "doc/guix.sk.texi.tmp" "doc/guix.sk.texi"
+  PO4A doc/contributing.zh_CN.texi
+Your input po file po/doc/guix-manual.zh_CN.po seems outdated (The amount of entries differ between files: 10859 is not 453
+). Please consider running po4a-updatepo to refresh it.
+  POXREF doc/contributing.zh_CN.texi
+mv "doc/contributing.zh_CN.texi.tmp" "doc/contributing.zh_CN.texi"
+  PO4A doc/guix.zh_CN.texi
+Your input po file po/doc/guix-manual.zh_CN.po seems outdated (The amount of entries differ between files: 10859 is not 10507
+). Please consider running po4a-updatepo to refresh it.
+sed -i "s|guix\.info|$(basename "doc/guix.zh_CN.texi" | sed 's|texi$|info|')|" "doc/guix.zh_CN.texi.tmp"
+  POXREF doc/guix.zh_CN.texi
+mv "doc/guix.zh_CN.texi.tmp" "doc/guix.zh_CN.texi"
+  PO4A doc/guix-cookbook.de.texi
+Your input po file po/doc/guix-cookbook.de.po seems outdated (msgid declared in one file only: Create a directory, say @file{~./guix-packages} and add it to the @samp{GUIX_PACKAGE_PATH} environment variable:
+). Please consider running po4a-updatepo to refresh it.
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.de.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.de.texi.tmp"
+  POXREF doc/guix-cookbook.de.texi
+mv "doc/guix-cookbook.de.texi.tmp" "doc/guix-cookbook.de.texi"
+  PO4A doc/guix-cookbook.fa.texi
+Your input po file po/doc/guix-cookbook.fa.po seems outdated (msgid declared in one file only: Copyright @copyright{} 2019 Ricardo Wurmus@* Copyright @copyright{} 2019 Efraim Flashner@* Copyright @copyright{} 2019 Pierre Neidhardt@* Copyright @copyright{} 2020 Oleg Pykhalov@* Copyright @copyright{} 2020 Matthew Brooks@* Copyright @copyright{} 2020 Marcin Karpezo@* Copyright @copyright{} 2020 Brice Waegeneire@* Copyright @copyright{} 2020 André Batista@* Copyright @copyright{} 2020 Christopher Lemmer Webber Copyright @copyright{} 2021 Joshua Branson@*
+). Please consider running po4a-updatepo to refresh it.
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.fa.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.fa.texi.tmp"
+  POXREF doc/guix-cookbook.fa.texi
+mv "doc/guix-cookbook.fa.texi.tmp" "doc/guix-cookbook.fa.texi"
+  PO4A doc/guix-cookbook.fr.texi
+Your input po file po/doc/guix-cookbook.fr.po seems outdated (msgid declared in one file only: Create a directory, say @file{~./guix-packages} and add it to the @samp{GUIX_PACKAGE_PATH} environment variable:
+). Please consider running po4a-updatepo to refresh it.
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.fr.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.fr.texi.tmp"
+  POXREF doc/guix-cookbook.fr.texi
+mv "doc/guix-cookbook.fr.texi.tmp" "doc/guix-cookbook.fr.texi"
+  PO4A doc/guix-cookbook.ko.texi
+Your input po file po/doc/guix-cookbook.ko.po seems outdated (msgid declared in one file only: Create a directory, say @file{~./guix-packages} and add it to the @samp{GUIX_PACKAGE_PATH} environment variable:
+). Please consider running po4a-updatepo to refresh it.
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.ko.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.ko.texi.tmp"
+  POXREF doc/guix-cookbook.ko.texi
+mv "doc/guix-cookbook.ko.texi.tmp" "doc/guix-cookbook.ko.texi"
+  PO4A doc/guix-cookbook.ru.texi
+Your input po file po/doc/guix-cookbook.ru.po seems outdated (msgid declared in one file only: Create a directory, say @file{~./guix-packages} and add it to the @samp{GUIX_PACKAGE_PATH} environment variable:
+). Please consider running po4a-updatepo to refresh it.
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.ru.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.ru.texi.tmp"
+  POXREF doc/guix-cookbook.ru.texi
+mv "doc/guix-cookbook.ru.texi.tmp" "doc/guix-cookbook.ru.texi"
+  PO4A doc/guix-cookbook.sk.texi
+Your input po file po/doc/guix-cookbook.sk.po seems outdated (msgid declared in one file only: Create a directory, say @file{~./guix-packages} and add it to the @samp{GUIX_PACKAGE_PATH} environment variable:
+). Please consider running po4a-updatepo to refresh it.
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.sk.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.sk.texi.tmp"
+  POXREF doc/guix-cookbook.sk.texi
+mv "doc/guix-cookbook.sk.texi.tmp" "doc/guix-cookbook.sk.texi"
+  PO4A doc/guix-cookbook.zh_Hans.texi
+Your input po file po/doc/guix-cookbook.zh_Hans.po seems outdated (msgid declared in one file only: Create a directory, say @file{~./guix-packages} and add it to the @samp{GUIX_PACKAGE_PATH} environment variable:
+). Please consider running po4a-updatepo to refresh it.
+sed -i "s|guix-cookbook\.info|$(basename "doc/guix-cookbook.zh_Hans.texi" | sed 's|texi$|info|')|" "doc/guix-cookbook.zh_Hans.texi.tmp"
+  POXREF doc/guix-cookbook.zh_Hans.texi
+mv "doc/guix-cookbook.zh_Hans.texi.tmp" "doc/guix-cookbook.zh_Hans.texi"
+make  all-recursive
+make[1]: Entering directory '/home/gunter/Data/pi02/GNU/guix'
+Making all in po/guix
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guix/po/guix'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guix/po/guix'
+Making all in po/packages
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guix/po/packages'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guix/po/packages'
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guix'
+Updating ./doc/version-de.texi
+  MAKEINFO doc/guix.de.info
+Updating ./doc/version-es.texi
+  MAKEINFO doc/guix.es.info
+./doc/guix.es.texi:16457: warning: `.' or `,' must follow @xref, not p
+./doc/guix.es.texi:36481: warning: `.' or `,' must follow @xref, not p
+Updating ./doc/version-fa.texi
+  MAKEINFO doc/guix.fa.info
+Updating ./doc/version-fr.texi
+  MAKEINFO doc/guix.fr.info
+./doc/guix.fr.texi:12541: warning: `.' or `,' must follow @xref, not p
+./doc/guix.fr.texi:14208: warning: @pxref node name should not contain `.'
+Updating ./doc/version-it.texi
+  MAKEINFO doc/guix.it.info
+Updating ./doc/version-ko.texi
+  MAKEINFO doc/guix.ko.info
+Updating ./doc/version-pt_BR.texi
+  MAKEINFO doc/guix.pt_BR.info
+Updating ./doc/version-ru.texi
+  MAKEINFO doc/guix.ru.info
+Wide character in warn at /usr/bin/makeinfo line 720.
+./doc/guix.ru.texi:10623: warning: `.' or `,' must follow @xref, not д
+Updating ./doc/version-sk.texi
+  MAKEINFO doc/guix.sk.info
+Updating ./doc/version-zh_CN.texi
+  MAKEINFO doc/guix.zh_CN.info
+  MAKEINFO doc/guix-cookbook.de.info
+  MAKEINFO doc/guix-cookbook.fa.info
+  MAKEINFO doc/guix-cookbook.fr.info
+  MAKEINFO doc/guix-cookbook.ko.info
+  MAKEINFO doc/guix-cookbook.ru.info
+  MAKEINFO doc/guix-cookbook.sk.info
+  MAKEINFO doc/guix-cookbook.zh_Hans.info
+Compiling Scheme modules...
+[ 22%] LOAD     guix/gnupg.scm
+[ 23%] LOAD     guix/tests/gnupg.scm
+[ 23%] GUILEC   guix/gnupg.go
+[ 23%] GUILEC   guix/tests/gnupg.go
+Compiling Scheme modules...
+[ 28%] LOAD     gnu/packages/check.scm
+[ 28%] LOAD     gnu/packages/chemistry.scm
+[ 28%] LOAD     gnu/packages/chez.scm
+[ 28%] LOAD     gnu/packages/chicken.scm
+[ 28%] LOAD     gnu/packages/chromium.scm
+[ 28%] LOAD     gnu/packages/ci.scm
+[ 28%] LOAD     gnu/packages/cinnamon.scm
+[ 28%] LOAD     gnu/packages/clojure.scm
+[ 28%] LOAD     gnu/packages/cluster.scm
+[ 28%] LOAD     gnu/packages/cmake.scm
+[ 28%] LOAD     gnu/packages/cobol.scm
+[ 28%] LOAD     gnu/packages/code.scm
+[ 28%] LOAD     gnu/packages/commencement.scm
+[ 29%] LOAD     gnu/packages/compression.scm
+[ 29%] LOAD     gnu/packages/compton.scm
+[ 29%] LOAD     gnu/packages/configuration-management.scm
+[ 29%] LOAD     gnu/packages/conky.scm
+[ 29%] LOAD     gnu/packages/connman.scm
+[ 29%] LOAD     gnu/packages/convmv.scm
+[ 29%] LOAD     gnu/packages/cook.scm
+[ 29%] LOAD     gnu/packages/coq.scm
+[ 29%] LOAD     gnu/packages/cpio.scm
+[ 29%] LOAD     gnu/packages/cpp.scm
+[ 29%] LOAD     gnu/packages/cppi.scm
+[ 29%] LOAD     gnu/packages/cran.scm
+[ 29%] LOAD     gnu/packages/crates-io.scm
+[ 29%] LOAD     gnu/packages/crates-graphics.scm
+[ 29%] LOAD     gnu/packages/crates-gtk.scm
+[ 29%] LOAD     gnu/packages/cross-base.scm
+[ 29%] LOAD     gnu/packages/crypto.scm
+[ 29%] LOAD     gnu/packages/cryptsetup.scm
+[ 30%] LOAD     gnu/packages/cups.scm
+[ 30%] LOAD     gnu/packages/curl.scm
+[ 30%] LOAD     gnu/packages/cvassistant.scm
+[ 30%] LOAD     gnu/packages/cybersecurity.scm
+[ 30%] LOAD     gnu/packages/cyrus-sasl.scm
+[ 30%] LOAD     gnu/packages/databases.scm
+[ 30%] LOAD     gnu/packages/datamash.scm
+[ 30%] LOAD     gnu/packages/datastructures.scm
+[ 30%] LOAD     gnu/packages/dav.scm
+[ 30%] LOAD     gnu/packages/dbm.scm
+[ 30%] LOAD     gnu/packages/dc.scm
+[ 30%] LOAD     gnu/packages/debian.scm
+[ 30%] LOAD     gnu/packages/debug.scm
+[ 30%] LOAD     gnu/packages/dejagnu.scm
+[ 30%] LOAD     gnu/packages/dhall.scm
+[ 30%] LOAD     gnu/packages/dico.scm
+[ 30%] LOAD     gnu/packages/dictionaries.scm
+[ 30%] LOAD     gnu/packages/diffoscope.scm
+[ 31%] LOAD     gnu/packages/digest.scm
+[ 31%] LOAD     gnu/packages/direct-connect.scm
+[ 31%] LOAD     gnu/packages/disk.scm
+[ 31%] LOAD     gnu/packages/distributed.scm
+[ 31%] LOAD     gnu/packages/display-managers.scm
+[ 31%] LOAD     gnu/packages/django.scm
+[ 31%] LOAD     gnu/packages/djvu.scm
+[ 31%] LOAD     gnu/packages/dlang.scm
+[ 31%] LOAD     gnu/packages/dns.scm
+[ 31%] LOAD     gnu/packages/docbook.scm
+[ 31%] LOAD     gnu/packages/docker.scm
+[ 31%] LOAD     gnu/packages/documentation.scm
+[ 31%] LOAD     gnu/packages/dunst.scm
+[ 31%] LOAD     gnu/packages/dvtm.scm
+[ 31%] LOAD     gnu/packages/easyrpg.scm
+[ 31%] LOAD     gnu/packages/ebook.scm
+[ 31%] LOAD     gnu/packages/ed.scm
+[ 31%] LOAD     gnu/packages/education.scm
+[ 31%] LOAD     gnu/packages/efi.scm
+[ 32%] LOAD     gnu/packages/electronics.scm
+[ 32%] LOAD     gnu/packages/elf.scm
+[ 32%] LOAD     gnu/packages/elixir.scm
+[ 32%] LOAD     gnu/packages/elm.scm
+[ 32%] LOAD     gnu/packages/embedded.scm
+[ 32%] LOAD     gnu/packages/emacs.scm
+[ 32%] LOAD     gnu/packages/emacs-xyz.scm
+[ 32%] LOAD     gnu/packages/emulators.scm
+[ 32%] LOAD     gnu/packages/enchant.scm
+[ 32%] LOAD     gnu/packages/engineering.scm
+[ 32%] LOAD     gnu/packages/enlightenment.scm
+[ 32%] LOAD     gnu/packages/entr.scm
+[ 32%] LOAD     gnu/packages/erlang.scm
+[ 32%] LOAD     gnu/packages/esolangs.scm
+[ 32%] LOAD     gnu/packages/fabric-management.scm
+[ 32%] LOAD     gnu/packages/fcitx.scm
+[ 32%] LOAD     gnu/packages/fcitx5.scm
+[ 32%] LOAD     gnu/packages/figlet.scm
+[ 33%] LOAD     gnu/packages/file.scm
+[ 33%] LOAD     gnu/packages/file-systems.scm
+[ 33%] LOAD     gnu/packages/finance.scm
+[ 33%] LOAD     gnu/packages/firmware.scm
+[ 33%] LOAD     gnu/packages/flashing-tools.scm
+[ 33%] LOAD     gnu/packages/flex.scm
+[ 33%] LOAD     gnu/packages/fltk.scm
+[ 33%] LOAD     gnu/packages/fonts.scm
+[ 33%] LOAD     gnu/packages/fontutils.scm
+[ 33%] LOAD     gnu/packages/fpga.scm
+[ 33%] LOAD     gnu/packages/forth.scm
+[ 33%] LOAD     gnu/packages/freedesktop.scm
+[ 33%] LOAD     gnu/packages/freeipmi.scm
+[ 33%] LOAD     gnu/packages/ftp.scm
+[ 33%] LOAD     gnu/packages/fribidi.scm
+[ 33%] LOAD     gnu/packages/fvwm.scm
+[ 33%] LOAD     gnu/packages/game-development.scm
+[ 33%] LOAD     gnu/packages/games.scm
+[ 33%] LOAD     gnu/packages/gawk.scm
+[ 34%] LOAD     gnu/packages/gcal.scm
+[ 34%] LOAD     gnu/packages/gcc.scm
+[ 34%] LOAD     gnu/packages/gd.scm
+[ 34%] LOAD     gnu/packages/gdb.scm
+[ 34%] LOAD     gnu/packages/genealogy.scm
+[ 34%] LOAD     gnu/packages/genimage.scm
+[ 34%] LOAD     gnu/packages/geo.scm
+[ 34%] LOAD     gnu/packages/gettext.scm
+[ 34%] LOAD     gnu/packages/ghostscript.scm
+[ 34%] LOAD     gnu/packages/gimp.scm
+[ 34%] LOAD     gnu/packages/gkrellm.scm
+[ 34%] LOAD     gnu/packages/gl.scm
+[ 34%] LOAD     gnu/packages/glib.scm
+[ 34%] LOAD     gnu/packages/gnome.scm
+[ 34%] LOAD     gnu/packages/gnome-xyz.scm
+[ 34%] LOAD     gnu/packages/gnu-doc.scm
+[ 34%] LOAD     gnu/packages/gnucash.scm
+[ 34%] LOAD     gnu/packages/gnunet.scm
+[ 35%] LOAD     gnu/packages/gnupg.scm
+[ 35%] LOAD     gnu/packages/gnustep.scm
+[ 35%] LOAD     gnu/packages/gnuzilla.scm
+[ 35%] LOAD     gnu/packages/gnu-pw-mgr.scm
+[ 35%] LOAD     gnu/packages/gobby.scm
+[ 35%] LOAD     gnu/packages/golang.scm
+[ 35%] LOAD     gnu/packages/gperf.scm
+[ 35%] LOAD     gnu/packages/gpodder.scm
+[ 35%] LOAD     gnu/packages/gps.scm
+[ 35%] LOAD     gnu/packages/graph.scm
+[ 35%] LOAD     gnu/packages/graphics.scm
+[ 35%] LOAD     gnu/packages/graphviz.scm
+[ 35%] LOAD     gnu/packages/groff.scm
+[ 35%] LOAD     gnu/packages/groovy.scm
+[ 35%] LOAD     gnu/packages/gsasl.scm
+[ 35%] LOAD     gnu/packages/gstreamer.scm
+[ 35%] LOAD     gnu/packages/gtk.scm
+[ 35%] LOAD     gnu/packages/guile.scm
+[ 36%] LOAD     gnu/packages/guile-wm.scm
+[ 36%] LOAD     gnu/packages/guile-xyz.scm
+[ 36%] LOAD     gnu/packages/gv.scm
+[ 36%] LOAD     gnu/packages/gxmessage.scm
+[ 36%] LOAD     gnu/packages/hardware.scm
+[ 36%] LOAD     gnu/packages/haskell.scm
+[ 36%] LOAD     gnu/packages/haskell-apps.scm
+[ 36%] LOAD     gnu/packages/haskell-check.scm
+[ 36%] LOAD     gnu/packages/haskell-crypto.scm
+[ 36%] LOAD     gnu/packages/haskell-web.scm
+[ 36%] LOAD     gnu/packages/haskell-xyz.scm
+[ 36%] LOAD     gnu/packages/heads.scm
+[ 36%] LOAD     gnu/packages/hexedit.scm
+[ 36%] LOAD     gnu/packages/hugs.scm
+[ 36%] LOAD     gnu/packages/hunspell.scm
+[ 36%] LOAD     gnu/packages/hurd.scm
+[ 36%] LOAD     gnu/packages/hyperledger.scm
+[ 36%] LOAD     gnu/packages/i2p.scm
+[ 36%] LOAD     gnu/packages/ibus.scm
+[ 37%] LOAD     gnu/packages/icu4c.scm
+[ 37%] LOAD     gnu/packages/idris.scm
+[ 37%] LOAD     gnu/packages/idutils.scm
+[ 37%] LOAD     gnu/packages/image.scm
+[ 37%] LOAD     gnu/packages/image-processing.scm
+[ 37%] LOAD     gnu/packages/image-viewers.scm
+[ 37%] LOAD     gnu/packages/imagemagick.scm
+[ 37%] LOAD     gnu/packages/inklingreader.scm
+[ 37%] LOAD     gnu/packages/inkscape.scm
+[ 37%] LOAD     gnu/packages/installers.scm
+[ 37%] LOAD     gnu/packages/ipfs.scm
+[ 37%] LOAD     gnu/packages/irc.scm
+[ 37%] LOAD     gnu/packages/irods.scm
+[ 37%] LOAD     gnu/packages/iso-codes.scm
+[ 37%] LOAD     gnu/packages/jami.scm
+[ 37%] LOAD     gnu/packages/java.scm
+[ 37%] LOAD     gnu/packages/java-compression.scm
+[ 37%] LOAD     gnu/packages/java-graphics.scm
+[ 38%] LOAD     gnu/packages/java-maths.scm
+[ 38%] LOAD     gnu/packages/javascript.scm
+[ 38%] LOAD     gnu/packages/jemalloc.scm
+[ 38%] LOAD     gnu/packages/jrnl.scm
+[ 38%] LOAD     gnu/packages/jose.scm
+[ 38%] LOAD     gnu/packages/julia.scm
+[ 38%] LOAD     gnu/packages/julia-jll.scm
+[ 38%] LOAD     gnu/packages/julia-xyz.scm
+[ 38%] LOAD     gnu/packages/jupyter.scm
+[ 38%] LOAD     gnu/packages/kawa.scm
+[ 38%] LOAD     gnu/packages/kde.scm
+[ 38%] LOAD     gnu/packages/kde-frameworks.scm
+[ 38%] LOAD     gnu/packages/kde-internet.scm
+[ 38%] LOAD     gnu/packages/kde-multimedia.scm
+[ 38%] LOAD     gnu/packages/kde-pim.scm
+[ 38%] LOAD     gnu/packages/kde-plasma.scm
+[ 38%] LOAD     gnu/packages/kde-systemtools.scm
+[ 38%] LOAD     gnu/packages/kde-utils.scm
+[ 39%] LOAD     gnu/packages/kerberos.scm
+[ 39%] LOAD     gnu/packages/key-mon.scm
+[ 39%] LOAD     gnu/packages/kodi.scm
+[ 39%] LOAD     gnu/packages/language.scm
+[ 39%] LOAD     gnu/packages/lean.scm
+[ 39%] LOAD     gnu/packages/lego.scm
+[ 39%] LOAD     gnu/packages/less.scm
+[ 39%] LOAD     gnu/packages/lesstif.scm
+[ 39%] LOAD     gnu/packages/libbsd.scm
+[ 39%] LOAD     gnu/packages/libcanberra.scm
+[ 39%] LOAD     gnu/packages/libdaemon.scm
+[ 39%] LOAD     gnu/packages/libedit.scm
+[ 39%] LOAD     gnu/packages/libevent.scm
+[ 39%] LOAD     gnu/packages/libffcall.scm
+[ 39%] LOAD     gnu/packages/libffi.scm
+[ 39%] LOAD     gnu/packages/libftdi.scm
+[ 39%] LOAD     gnu/packages/license.scm
+[ 39%] LOAD     gnu/packages/calendar.scm
+[ 39%] LOAD     gnu/packages/libidn.scm
+[ 40%] LOAD     gnu/packages/libphidget.scm
+[ 40%] LOAD     gnu/packages/libreoffice.scm
+[ 40%] LOAD     gnu/packages/libsigsegv.scm
+[ 40%] LOAD     gnu/packages/libunistring.scm
+[ 40%] LOAD     gnu/packages/libusb.scm
+[ 40%] LOAD     gnu/packages/libunwind.scm
+[ 40%] LOAD     gnu/packages/lighting.scm
+[ 40%] LOAD     gnu/packages/linphone.scm
+[ 40%] LOAD     gnu/packages/linux.scm
+[ 40%] LOAD     gnu/packages/lirc.scm
+[ 40%] LOAD     gnu/packages/lisp.scm
+[ 40%] LOAD     gnu/packages/lisp-check.scm
+[ 40%] LOAD     gnu/packages/lisp-xyz.scm
+[ 40%] LOAD     gnu/packages/llvm.scm
+[ 40%] LOAD     gnu/packages/lout.scm
+[ 40%] LOAD     gnu/packages/logging.scm
+[ 40%] LOAD     gnu/packages/logo.scm
+[ 40%] LOAD     gnu/packages/loko.scm
+[ 41%] LOAD     gnu/packages/lsof.scm
+[ 41%] LOAD     gnu/packages/lua.scm
+[ 41%] LOAD     gnu/packages/lxde.scm
+[ 41%] LOAD     gnu/packages/lxqt.scm
+[ 41%] LOAD     gnu/packages/m4.scm
+[ 41%] LOAD     gnu/packages/machine-learning.scm
+[ 41%] LOAD     gnu/packages/magic-wormhole.scm
+[ 41%] LOAD     gnu/packages/man.scm
+[ 41%] LOAD     gnu/packages/mastodon.scm
+[ 41%] LOAD     gnu/packages/mail.scm
+[ 41%] LOAD     gnu/packages/make-bootstrap.scm
+[ 41%] LOAD     gnu/packages/markup.scm
+[ 41%] LOAD     gnu/packages/marst.scm
+[ 41%] LOAD     gnu/packages/mate.scm
+[ 41%] LOAD     gnu/packages/maths.scm
+[ 41%] LOAD     gnu/packages/matrix.scm
+[ 41%] LOAD     gnu/packages/maven.scm
+[ 41%] LOAD     gnu/packages/maven-parent-pom.scm
+[ 42%] LOAD     gnu/packages/mc.scm
+[ 42%] LOAD     gnu/packages/mcrypt.scm
+[ 42%] LOAD     gnu/packages/medical.scm
+[ 42%] LOAD     gnu/packages/mercury.scm
+[ 42%] LOAD     gnu/packages/mes.scm
+[ 42%] LOAD     gnu/packages/messaging.scm
+[ 42%] LOAD     gnu/packages/minetest.scm
+[ 42%] LOAD     gnu/packages/mingw.scm
+[ 42%] LOAD     gnu/packages/microcom.scm
+[ 42%] LOAD     gnu/packages/moe.scm
+[ 42%] LOAD     gnu/packages/motti.scm
+[ 42%] LOAD     gnu/packages/monitoring.scm
+[ 42%] LOAD     gnu/packages/mono.scm
+[ 42%] LOAD     gnu/packages/moreutils.scm
+[ 42%] LOAD     gnu/packages/mpd.scm
+[ 42%] LOAD     gnu/packages/mp3.scm
+[ 42%] LOAD     gnu/packages/mpi.scm
+[ 42%] LOAD     gnu/packages/multiprecision.scm
+[ 42%] LOAD     gnu/packages/music.scm
+[ 43%] LOAD     gnu/packages/musl.scm
+[ 43%] LOAD     gnu/packages/mtools.scm
+[ 43%] LOAD     gnu/packages/nano.scm
+[ 43%] LOAD     gnu/packages/ncdu.scm
+[ 43%] LOAD     gnu/packages/ncurses.scm
+[ 43%] LOAD     gnu/packages/netpbm.scm
+[ 43%] LOAD     gnu/packages/nettle.scm
+[ 43%] LOAD     gnu/packages/networking.scm
+[ 43%] LOAD     gnu/packages/nfs.scm
+[ 43%] LOAD     gnu/packages/nickle.scm
+[ 43%] LOAD     gnu/packages/nicotine.scm
+[ 43%] LOAD     gnu/packages/nim.scm
+[ 43%] LOAD     gnu/packages/ninja.scm
+[ 43%] LOAD     gnu/packages/node.scm
+[ 43%] LOAD     gnu/packages/node-xyz.scm
+[ 43%] LOAD     gnu/packages/noweb.scm
+[ 43%] LOAD     gnu/packages/nss.scm
+[ 43%] LOAD     gnu/packages/ntp.scm
+[ 44%] LOAD     gnu/packages/nutrition.scm
+[ 44%] LOAD     gnu/packages/nvi.scm
+[ 44%] LOAD     gnu/packages/ocaml.scm
+[ 44%] LOAD     gnu/packages/ocr.scm
+[ 44%] LOAD     gnu/packages/openkinect.scm
+[ 44%] LOAD     gnu/packages/onc-rpc.scm
+[ 44%] LOAD     gnu/packages/opencl.scm
+[ 44%] LOAD     gnu/packages/openbox.scm
+[ 44%] LOAD     gnu/packages/opencog.scm
+[ 44%] LOAD     gnu/packages/openldap.scm
+[ 44%] LOAD     gnu/packages/openpgp.scm
+[ 44%] LOAD     gnu/packages/openstack.scm
+[ 44%] LOAD     gnu/packages/orange.scm
+[ 44%] LOAD     gnu/packages/orpheus.scm
+[ 44%] LOAD     gnu/packages/ots.scm
+[ 44%] LOAD     gnu/packages/package-management.scm
+[ 44%] LOAD     gnu/packages/pantheon.scm
+[ 44%] LOAD     gnu/packages/parallel.scm
+[ 44%] LOAD     gnu/packages/pascal.scm
+[ 45%] LOAD     gnu/packages/password-utils.scm
+[ 45%] LOAD     gnu/packages/patchutils.scm
+[ 45%] LOAD     gnu/packages/pciutils.scm
+[ 45%] LOAD     gnu/packages/pcre.scm
+[ 45%] LOAD     gnu/packages/pdf.scm
+[ 45%] LOAD     gnu/packages/pem.scm
+[ 45%] LOAD     gnu/packages/pep.scm
+[ 45%] LOAD     gnu/packages/perl.scm
+[ 45%] LOAD     gnu/packages/perl-check.scm
+[ 45%] LOAD     gnu/packages/perl-compression.scm
+[ 45%] LOAD     gnu/packages/perl-maths.scm
+[ 45%] LOAD     gnu/packages/perl-web.scm
+[ 45%] LOAD     gnu/packages/perl6.scm
+[ 45%] LOAD     gnu/packages/photo.scm
+[ 45%] LOAD     gnu/packages/phabricator.scm
+[ 45%] LOAD     gnu/packages/php.scm
+[ 45%] LOAD     gnu/packages/piet.scm
+[ 45%] LOAD     gnu/packages/pkg-config.scm
+[ 46%] LOAD     gnu/packages/plan9.scm
+[ 46%] LOAD     gnu/packages/plotutils.scm
+[ 46%] LOAD     gnu/packages/poedit.scm
+[ 46%] LOAD     gnu/packages/polkit.scm
+[ 46%] LOAD     gnu/packages/popt.scm
+[ 46%] LOAD     gnu/packages/printers.scm
+[ 46%] LOAD     gnu/packages/profiling.scm
+[ 46%] LOAD     gnu/packages/prolog.scm
+[ 46%] LOAD     gnu/packages/pth.scm
+[ 46%] LOAD     gnu/packages/pulseaudio.scm
+[ 46%] LOAD     gnu/packages/pumpio.scm
+[ 46%] LOAD     gnu/packages/presentation.scm
+[ 46%] LOAD     gnu/packages/pretty-print.scm
+[ 46%] LOAD     gnu/packages/protobuf.scm
+[ 46%] LOAD     gnu/packages/pure.scm
+[ 46%] LOAD     gnu/packages/purescript.scm
+[ 46%] LOAD     gnu/packages/pv.scm
+[ 46%] LOAD     gnu/packages/python.scm
+[ 47%] LOAD     gnu/packages/python-build.scm
+[ 47%] LOAD     gnu/packages/python-check.scm
+[ 47%] LOAD     gnu/packages/python-compression.scm
+[ 47%] LOAD     gnu/packages/python-crypto.scm
+[ 47%] LOAD     gnu/packages/python-science.scm
+[ 47%] LOAD     gnu/packages/python-web.scm
+[ 47%] LOAD     gnu/packages/python-xyz.scm
+[ 47%] LOAD     gnu/packages/toys.scm
+[ 47%] LOAD     gnu/packages/tryton.scm
+[ 47%] LOAD     gnu/packages/qt.scm
+[ 47%] LOAD     gnu/packages/racket.scm
+[ 47%] LOAD     gnu/packages/radio.scm
+[ 47%] LOAD     gnu/packages/ragel.scm
+[ 47%] LOAD     gnu/packages/rails.scm
+[ 47%] LOAD     gnu/packages/raspberry-pi.scm
+[ 47%] LOAD     gnu/packages/ratpoison.scm
+[ 47%] LOAD     gnu/packages/rcm.scm
+[ 47%] LOAD     gnu/packages/rdesktop.scm
+[ 47%] LOAD     gnu/packages/rdf.scm
+[ 48%] LOAD     gnu/packages/re2c.scm
+[ 48%] LOAD     gnu/packages/readline.scm
+[ 48%] LOAD     gnu/packages/rednotebook.scm
+[ 48%] LOAD     gnu/packages/regex.scm
+[ 48%] LOAD     gnu/packages/robotics.scm
+[ 48%] LOAD     gnu/packages/rpc.scm
+[ 48%] LOAD     gnu/packages/rpm.scm
+[ 48%] LOAD     gnu/packages/rrdtool.scm
+[ 48%] LOAD     gnu/packages/rsync.scm
+[ 48%] LOAD     gnu/packages/ruby.scm
+[ 48%] LOAD     gnu/packages/rush.scm
+[ 48%] LOAD     gnu/packages/rust.scm
+[ 48%] LOAD     gnu/packages/rust-apps.scm
+[ 48%] LOAD     gnu/packages/samba.scm
+[ 48%] LOAD     gnu/packages/sagemath.scm
+[ 48%] LOAD     gnu/packages/sawfish.scm
+[ 48%] LOAD     gnu/packages/scanner.scm
+[ 48%] LOAD     gnu/packages/scheme.scm
+[ 49%] LOAD     gnu/packages/screen.scm
+[ 49%] LOAD     gnu/packages/scribus.scm
+[ 49%] LOAD     gnu/packages/scsi.scm
+[ 49%] LOAD     gnu/packages/sdl.scm
+[ 49%] LOAD     gnu/packages/search.scm
+[ 49%] LOAD     gnu/packages/security-token.scm
+[ 49%] LOAD     gnu/packages/selinux.scm
+[ 49%] LOAD     gnu/packages/sequoia.scm
+[ 49%] LOAD     gnu/packages/serialization.scm
+[ 49%] LOAD     gnu/packages/serveez.scm
+[ 49%] LOAD     gnu/packages/shells.scm
+[ 49%] LOAD     gnu/packages/shellutils.scm
+[ 49%] LOAD     gnu/packages/simh.scm
+[ 49%] LOAD     gnu/packages/simulation.scm
+[ 49%] LOAD     gnu/packages/skarnet.scm
+[ 49%] LOAD     gnu/packages/skribilo.scm
+[ 49%] LOAD     gnu/packages/slang.scm
+[ 49%] LOAD     gnu/packages/smalltalk.scm
+[ 50%] LOAD     gnu/packages/sml.scm
+[ 50%] LOAD     gnu/packages/speech.scm
+[ 50%] LOAD     gnu/packages/sphinx.scm
+[ 50%] LOAD     gnu/packages/spice.scm
+[ 50%] LOAD     gnu/packages/sqlite.scm
+[ 50%] LOAD     gnu/packages/squirrel.scm
+[ 50%] LOAD     gnu/packages/ssh.scm
+[ 50%] LOAD     gnu/packages/sssd.scm
+[ 50%] LOAD     gnu/packages/stalonetray.scm
+[ 50%] LOAD     gnu/packages/statistics.scm
+[ 50%] LOAD     gnu/packages/stb.scm
+[ 50%] LOAD     gnu/packages/stenography.scm
+[ 50%] LOAD     gnu/packages/storage.scm
+[ 50%] LOAD     gnu/packages/suckless.scm
+[ 50%] LOAD     gnu/packages/swig.scm
+[ 50%] LOAD     gnu/packages/sync.scm
+[ 50%] LOAD     gnu/packages/syncthing.scm
+[ 50%] LOAD     gnu/packages/synergy.scm
+[ 50%] LOAD     gnu/packages/syndication.scm
+[ 51%] LOAD     gnu/packages/task-management.scm
+[ 51%] LOAD     gnu/packages/task-runners.scm
+[ 51%] LOAD     gnu/packages/tbb.scm
+[ 51%] LOAD     gnu/packages/tcl.scm
+[ 51%] LOAD     gnu/packages/telegram.scm
+[ 51%] LOAD     gnu/packages/telephony.scm
+[ 51%] LOAD     gnu/packages/terminals.scm
+[ 51%] LOAD     gnu/packages/terraform.scm
+[ 51%] LOAD     gnu/packages/texinfo.scm
+[ 51%] LOAD     gnu/packages/tex.scm
+[ 51%] LOAD     gnu/packages/textutils.scm
+[ 51%] LOAD     gnu/packages/text-editors.scm
+[ 51%] LOAD     gnu/packages/time.scm
+[ 51%] LOAD     gnu/packages/tls.scm
+[ 51%] LOAD     gnu/packages/tmux.scm
+[ 51%] LOAD     gnu/packages/tor.scm
+[ 51%] LOAD     gnu/packages/tv.scm
+[ 51%] LOAD     gnu/packages/uglifyjs.scm
+[ 52%] LOAD     gnu/packages/uml.scm
+[ 52%] LOAD     gnu/packages/unicode.scm
+[ 52%] LOAD     gnu/packages/unrtf.scm
+[ 52%] LOAD     gnu/packages/upnp.scm
+[ 52%] LOAD     gnu/packages/usb-modeswitch.scm
+[ 52%] LOAD     gnu/packages/uucp.scm
+[ 52%] LOAD     gnu/packages/valgrind.scm
+[ 52%] LOAD     gnu/packages/version-control.scm
+[ 52%] LOAD     gnu/packages/video.scm
+[ 52%] LOAD     gnu/packages/vim.scm
+[ 52%] LOAD     gnu/packages/virtualization.scm
+[ 52%] LOAD     gnu/packages/visidata.scm
+[ 52%] LOAD     gnu/packages/vlang.scm
+[ 52%] LOAD     gnu/packages/vnc.scm
+[ 52%] LOAD     gnu/packages/vpn.scm
+[ 52%] LOAD     gnu/packages/vulkan.scm
+[ 52%] LOAD     gnu/packages/w3m.scm
+[ 52%] LOAD     gnu/packages/wdiff.scm
+[ 53%] LOAD     gnu/packages/web.scm
+[ 53%] LOAD     gnu/packages/web-browsers.scm
+[ 53%] LOAD     gnu/packages/webkit.scm
+[ 53%] LOAD     gnu/packages/wget.scm
+[ 53%] LOAD     gnu/packages/wicd.scm
+[ 53%] LOAD     gnu/packages/wine.scm
+[ 53%] LOAD     gnu/packages/wireservice.scm
+[ 53%] LOAD     gnu/packages/wm.scm
+[ 53%] LOAD     gnu/packages/wordnet.scm
+[ 53%] LOAD     gnu/packages/wv.scm
+[ 53%] LOAD     gnu/packages/wxwidgets.scm
+[ 53%] LOAD     gnu/packages/xfig.scm
+[ 53%] LOAD     gnu/packages/xiph.scm
+[ 53%] LOAD     gnu/packages/xml.scm
+[ 53%] LOAD     gnu/packages/xnee.scm
+[ 53%] LOAD     gnu/packages/xdisorg.scm
+[ 53%] LOAD     gnu/packages/xorg.scm
+[ 53%] LOAD     gnu/packages/xfce.scm
+[ 53%] LOAD     gnu/packages/zile.scm
+[ 54%] LOAD     gnu/packages/zwave.scm
+[ 54%] GUILEC   gnu/packages/check.go
+[ 54%] GUILEC   gnu/packages/chemistry.go
+[ 54%] GUILEC   gnu/packages/chez.go
+[ 54%] GUILEC   gnu/packages/chicken.go
+[ 54%] GUILEC   gnu/packages/chromium.go
+[ 54%] GUILEC   gnu/packages/ci.go
+[ 54%] GUILEC   gnu/packages/cinnamon.go
+[ 54%] GUILEC   gnu/packages/clojure.go
+[ 54%] GUILEC   gnu/packages/cluster.go
+[ 54%] GUILEC   gnu/packages/cmake.go
+[ 54%] GUILEC   gnu/packages/cobol.go
+[ 54%] GUILEC   gnu/packages/code.go
+[ 54%] GUILEC   gnu/packages/commencement.go
+[ 54%] GUILEC   gnu/packages/compression.go
+[ 54%] GUILEC   gnu/packages/compton.go
+[ 54%] GUILEC   gnu/packages/configuration-management.go
+[ 54%] GUILEC   gnu/packages/conky.go
+[ 55%] GUILEC   gnu/packages/connman.go
+[ 55%] GUILEC   gnu/packages/convmv.go
+[ 55%] GUILEC   gnu/packages/cook.go
+[ 55%] GUILEC   gnu/packages/coq.go
+[ 55%] GUILEC   gnu/packages/cpio.go
+[ 55%] GUILEC   gnu/packages/cpp.go
+[ 55%] GUILEC   gnu/packages/cppi.go
+[ 55%] GUILEC   gnu/packages/cran.go

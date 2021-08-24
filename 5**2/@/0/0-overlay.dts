@@ -1,0 +1,17 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "bcrm,bcm2835";
+
+    fragment@0 {
+      target = <&i2s>;
+      __overlay__ {
+        status = "okay";
+        a = <&a_>;
+        a_: a__ {
+          b;
+        };
+      };
+    };
+};
