@@ -11,3 +11,18 @@ make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guix'
 Compiling Scheme modules...
 Compiling Scheme modules...
 [ 31%] LOAD     gnu/packages/crates-io.scm
+=== make -j1 ===
+make  all-recursive
+make[1]: Entering directory '/home/gunter/Data/pi02/GNU/guix'
+Making all in po/guix
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guix/po/guix'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guix/po/guix'
+Making all in po/packages
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guix/po/packages'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/gunter/Data/pi02/GNU/guix/po/packages'
+make[2]: Entering directory '/home/gunter/Data/pi02/GNU/guix'
+Compiling Scheme modules...
+Compiling Scheme modules...
+[ 31%] LOAD     gnu/packages/crates-io.scm
