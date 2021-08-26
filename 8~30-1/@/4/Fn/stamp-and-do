@@ -1,0 +1,8 @@
+stamp-and-do () 
+{ 
+    local D="do, and record a log";
+    test -z "$STAMP" && stamp-this;
+    echo stamped: =${STAMP}=;
+    echo === ${*:-nothing said} === >> $STAMP;
+    ${DO:-echo} ${*:-autoreconf -vif} 2>&1 | tee -a "$STAMP"
+}

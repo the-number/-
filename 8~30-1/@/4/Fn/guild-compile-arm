@@ -1,0 +1,5 @@
+guild-compile-arm () 
+{ 
+    local D="Guile (scripts compile) and (... target)";
+    guild compile -L . --target=armv6l-unkown-linux-gnueabihf -W0 -o ${2:-.}/${1:-hi}.go.arm ${2:-.}/${1:-hi}.scm
+}

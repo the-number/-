@@ -1,0 +1,10 @@
+compile-bases-here () 
+{ 
+    local D="compile modules for the armv6l-unkown-linux-gnueabihf";
+    cat bases | while read a b; do
+        echo -n "=$b/$a.scm";
+        test -f "$b/$a.go.arm" && echo -n "<e>" && continue;
+        guild-compile-arm "$a" "$b";
+        echo -n ", ";
+    done
+}

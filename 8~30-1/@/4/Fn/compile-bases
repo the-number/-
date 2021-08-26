@@ -1,0 +1,10 @@
+compile-bases () 
+{ 
+    ( unset GUIX_LOAD_COMPILED_PATH;
+    XDG_CACHE_HOME=/nowhere;
+    cat bases | while read a b; do
+        echo =$a= in =$b=;
+        guild-compile-arm "$a" "$b";
+        echo -n ", ";
+    done )
+}

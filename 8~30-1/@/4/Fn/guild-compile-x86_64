@@ -1,0 +1,5 @@
+guild-compile-x86_64 () 
+{ 
+    local D="Guile (scripts compile) and (... target)";
+    guild compile -L . --target=x86_64-unkown-linux-gnu -o ${2:-.}/${1:-hi}.go.x86_64 ${2:-.}/${1:-hi}.scm
+}
