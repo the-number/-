@@ -1,0 +1,5 @@
+guile-cli () 
+{ 
+    local D="guile with load path, right here";
+    ( GUILE_LOAD_COMPILED_PATH=. guile )
+}

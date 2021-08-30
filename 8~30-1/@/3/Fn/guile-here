@@ -1,0 +1,6 @@
+guile-here () 
+{ 
+    local D="try a module, right here, under this tree";
+    ( export GUILE_LOAD_COMPILED_PATH=".";
+    guile -c "(use-modules (${*:-hi}))(hi)" )
+}
