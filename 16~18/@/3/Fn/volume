@@ -1,4 +1,4 @@
 volume () 
 { 
-    amixer -D bluealsa sset "Jam Classic 2.0 - A2DP,0" ${1:-50%}
+    sudo amixer -D bluealsa sset "Jam Classic 2.0 - A2DP,0" ${1:-50%}
 }
