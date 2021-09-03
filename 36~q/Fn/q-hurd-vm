@@ -6,7 +6,7 @@ q-hurd-vm ()
     local DO="";
     test "$1" = "-snapshot" && SNAPSHOT="$1" && shift;
     test "$1" = "-echo" && DO="echo" && shift;
-    local a="-m 512 --enable-kvm";
+    local a="-m 512 --enable-kvm ${SNAPSHOT}";
     local b="-device rtl8139,netdev=net0";
     local c="-netdev user,id=net0,hostfwd=tcp:127.0.0.1:${PORT}-:2222";
     local d="-drive file=./store/hurd-vm-disk-image.img,format=qcow2,cache=writeback";
@@ -14,5 +14,6 @@ q-hurd-vm ()
     test -n "$1" && shift;
     local f="-monitor ${1:-/dev/tty14}";
     test -n "$1" && shift;
-    ${DO} ${DO_SUDO:-sudo} qemu-system-i386 ${a} ${b} ${c} ${d} ${e} ${f} $( shift && until test -z "$1";do echo "$1";shift;done; )
+    local g="$( shift && until test -z "$1";do echo "$1";shift;done; )";
+    ${DO} ${DO_SUDO:-sudo} qemu-system-i386 ${a} ${b} ${c} ${d} ${e} ${f} ${g}
 }
