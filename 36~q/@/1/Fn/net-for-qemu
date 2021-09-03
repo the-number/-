@@ -1,0 +1,41 @@
+net-for-qemu () 
+{ 
+    ( D="Install a network hub/switch, port are named \"t$1, t$2, ...\"";
+    a="$*";
+    [ -z "$a" ] && a="0 1 2 3";
+    b="10.128.64.50/24";
+    function 4_ () 
+    { 
+        lsmod | "grep" "$1" >> /dev/null || sudo modprobe "$1"
+    };
+    function 3_ () 
+    { 
+        while [ -n "$1" ]; do
+            sudo ip link set dev t$1 master b0;
+            shift;
+        done;
+        sudo ip link set dev i0 master b0
+    };
+    function 2_ () 
+    { 
+        local a="$1";
+        sudo ip link add b0 type bridge;
+        sudo ip link set b0 up;
+        sudo ip addr add ${a} dev b0
+    };
+    function 1_ () 
+    { 
+        sudo ip link add i0 type dummy;
+        sudo ip link set i0 up
+    };
+    function 0_ () 
+    { 
+        4_ tap;
+        while [ -n "$1" ]; do
+            sudo ip tuntap add dev t$1 mode tap;
+            sudo ip link set t$1 up;
+            shift;
+        done
+    };
+    0_ $a && 1_ && 2_ "$b" && 3_ $a && echo yes || echo no )
+}

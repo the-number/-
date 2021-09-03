@@ -1,0 +1,5 @@
+wget-579628 () 
+{ 
+    local D="hurd-barebones.qcow2 of 314.8MiB";
+    wget https://ci.guix.gnu.org/download/74
+}

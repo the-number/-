@@ -1,0 +1,30 @@
+# 20210903 Friday GNU, Guix, Hurd -*- mode: org; -*-
+* Feeding a machine into the service
+[[https://ci.guix.gnu.org/build/579628/details][Number 579628]], a hurd barebones that was build just 18 hours ago.  Let's start here.
+(That is for download, for now on [[https://ci.guix.gnu.org/download/74]])
+# C-c C-, (org-insert-structure-template)
+** Download
+#+begin_src sh :tangle Fn/wget-579628
+wget-579628 () 
+{ 
+    local D="hurd-barebones.qcow2 of 314.8MiB";
+    wget https://ci.guix.gnu.org/download/74
+}
+#+end_src
+# /srv/Ha-1/store/3kxzrwfsyw990lnnjq6mlvs9k8l3gkg8-hurd-barebones.qcow2
+** Start
+#+begin_src sh :tangle Fn/q-ha-vm
+q-hurd-vm () 
+{ 
+    local D="Start the Guix/GNU/Hurd machine";
+    local a="-m 1024 --enable-kvm";
+    local b="--device rtl8139,netdev=a,mac=DA:DB:DC:BB:64:04";
+    local c="--netdev tap,id=a,ifname=t2,script=no,downscript=no";
+    local d="-drive file=./store/hurd-vm-disk-image.img,format=qcow2,cache=writeback";
+    local e="-serial ${1:-/dev/tty13}";
+    test -n "$1" && shift;
+    local f="-monitor ${1:-/dev/tty14}";
+    test -n "$1" && shift;
+    ${DO:-echo} ${DO_SUDO:-sudo} qemu-system-x86_64 ${a} ${b} ${c} ${d} ${e} ${f} $@
+}
+#+end_src

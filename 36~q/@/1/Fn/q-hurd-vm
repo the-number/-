@@ -1,0 +1,13 @@
+q-hurd-vm () 
+{ 
+    local D="Start the Guix/GNU/Hurd machine";
+    local a="-m 1024 --enable-kvm";
+    local b="--device rtl8139,netdev=a,mac=DA:DB:DC:BB:64:04";
+    local c="--netdev tap,id=a,ifname=t2,script=no,downscript=no";
+    local d="-drive file=./store/hurd-vm-disk-image.img,format=qcow2,cache=writeback";
+    local e="-serial ${1:-/dev/tty13}";
+    test -n "$1" && shift;
+    local f="-monitor ${1:-/dev/tty14}";
+    test -n "$1" && shift;
+    ${DO:-echo} ${DO_SUDO:-sudo} qemu-system-x86_64 ${a} ${b} ${c} ${d} ${e} ${f} $@
+}

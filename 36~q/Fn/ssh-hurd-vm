@@ -1,0 +1,6 @@
+ssh-hurd-vm () 
+{ 
+    local D="Connect to the Hurd VM on 22004";
+    local a="ssh -p 22004 ${1:-root}@localhost";
+    ${a} 2> /dev/null || guix environment --ad-hoc openssh-sans-x -- ${a}
+}
