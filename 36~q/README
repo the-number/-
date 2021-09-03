@@ -30,7 +30,7 @@ q-hurd-vm ()
     test -n "$1" && shift;
     local f="-monitor ${1:-/dev/tty14}";
     test -n "$1" && shift;
-    local g="$( shift && until test -z "$1";do echo "$1";shift;done; )";
+    local g="$( until test -z "$1";do echo "$1";shift;done; )";
     ${DO} ${DO_SUDO:-sudo} qemu-system-i386 ${a} ${b} ${c} ${d} ${e} ${f} ${g}
 }
 #+end_src
