@@ -3,7 +3,8 @@ net-for-qemu ()
     ( D="Install a network hub/switch, port are named \"t$1, t$2, ...\"";
     a="$*";
     [ -z "$a" ] && a="0 1 2 3";
-    b="10.128.64.50/24";
+    b="10.128.192.225/28";
+    c="enp3s0";
     function 4_ () 
     { 
         lsmod | "grep" "$1" >> /dev/null || sudo modprobe "$1"
@@ -14,7 +15,7 @@ net-for-qemu ()
             sudo ip link set dev t$1 master b0;
             shift;
         done;
-        sudo ip link set dev i0 master b0
+        sudo ip link set dev $c master b0
     };
     function 2_ () 
     { 
@@ -37,5 +38,5 @@ net-for-qemu ()
             shift;
         done
     };
-    0_ $a && 1_ && 2_ "$b" && 3_ $a && echo yes || echo no )
+    0_ $a && 2_ "$b" && 3_ $a && echo yes || echo no )
 }
