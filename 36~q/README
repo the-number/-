@@ -3,7 +3,7 @@
 [[https://ci.guix.gnu.org/build/579628/details][Number 579628]], a hurd barebones that was build just 18 hours ago.  Let's start here.
 (That is for download, for now on [[https://ci.guix.gnu.org/download/74]])
 # C-c C-, (org-insert-structure-template)
-[[./i/jpg]]
+[[./i/1.jpg]]
 # the Pi, all straightened out, still here
 ** Download
 #+begin_src sh :tangle Fn/wget-579628
