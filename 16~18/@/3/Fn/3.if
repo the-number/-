@@ -1,14 +1,13 @@
 3.if () 
 { 
     local D="play with bluealsa";
-    ( FIFO=$( mktemp );
+    ( FIFO="$( mktemp -u a.XXXXXX )";
     device="$( sound-device )";
     tvb="$( set-tvb )";
     tva="$( set-tva )";
     channel="$( channel-url ${*:-Radio 3} )";
     function 1. () 
     { 
-        rm -f $FIFO;
         mkfifo $FIFO
     };
     function 2. () 
