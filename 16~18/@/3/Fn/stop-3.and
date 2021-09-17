@@ -4,5 +4,8 @@ stop-3.and ()
     while test -n "$( pidof aplay )"; do
         echo still here && kill $( pidof aplay );
     done;
+    while test -n "$( pidof mplayer )"; do
+        echo yes, also && kill $( pidof mplayer );
+    done;
     test -n "$( pidof aplay )" || echo not now
 }

@@ -1,0 +1,27 @@
+3.not () 
+{ 
+    local D="play with bluealsa";
+    ( FIFO=$( mktemp );
+    device="$( sudo bluetoothctl devices | sed - -e /"${*:-Jam Classic 2.0}"/'s,Device (.................).*$,1,'p -n )";
+    tvb="$( sed ~/.this -e 's/.*is(.*)that.*/1/p' -n )";
+    tva="$( sed ~/.this -e 's/.*this(.*)is.*/1/p' -n )";
+    function 1. () 
+    { 
+        rm -f $FIFO;
+        mkfifo $FIFO
+    };
+    function 2. () 
+    { 
+        local D="inlined"
+    };
+    function 3. () 
+    { 
+        aplay -D bluealsa:SRV=org.bluealsa,DEV=${device},PROFILE=a2dp $1 &
+    };
+    test -n "$DEBUG" && echo "device:=${device}= tvb:=${tvb}= tva:=${tva}= FIFO:=${FIFO}=";
+    1. || return 77;
+    coproc A { 
+        mplayer -cache $(( 128*1024 )) -cache-min 0.3 -vo null -ao pcm:file=${FIFO} -user ${tvb} -passwd ${tva} $( channel-url ${*:-Radio 3} )
+    } 2> 3.if.errors || return 78;
+    3. $FIFO || return 79 )
+}

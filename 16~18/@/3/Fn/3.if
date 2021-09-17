@@ -1,0 +1,26 @@
+3.if () 
+{ 
+    local D="play with bluealsa";
+    ( FIFO=$( mktemp );
+    device="$( sound-device )";
+    tvb="$( set-tvb )";
+    tva="$( set-tva )";
+    channel="$( channel-url ${*:-Radio 3} )";
+    function 1. () 
+    { 
+        rm -f $FIFO;
+        mkfifo $FIFO
+    };
+    function 2. () 
+    { 
+        mplayer -cache $(( 128*1024 )) -cache-min 0.3 -vo null -ao pcm:file=${FIFO} -user ${tvb} -passwd ${tva} ${channel} > /dev/null 2> 3.if.errors &
+    };
+    function 3. () 
+    { 
+        aplay -D bluealsa:SRV=org.bluealsa,DEV=${device},PROFILE=a2dp $1 &
+    };
+    test -n "$DEBUG" && echo "device:=${device}= tvb:=${tvb}= tva:=${tva}= FIFO:=${FIFO}= channel:=${channel}=";
+    1. || return 77;
+    2. || return 78;
+    3. $FIFO || return 79 )
+}
