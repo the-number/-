@@ -1,7 +1,7 @@
 3.if () 
 { 
     local D="play with bluealsa";
-    ( FIFO="$( mktemp -u a.XXXXXX )";
+    ( FIFO="$( mktemp -u /tmp/a.XXXXXX )";
     device="$( sound-device )";
     tvb="$( set-tvb )";
     tva="$( set-tva )";
