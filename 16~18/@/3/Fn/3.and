@@ -1,18 +1,38 @@
 3.and () 
 { 
-    local D="mplayer -vo null -ao pcm:%4%FIFO, aplay -D bluealsa:SRV=...:DEV=...:PROFILE=a2dp FIFO";
-    ( function 1. () 
+    local D="play with bluealsa";
+    ( FIFO=$( mktemp );
+    function not-sound-device () 
     { 
-        rm -f FIFO;
-        mkfifo FIFO
+        sudo bluetoothctl devices | sed - -e /"${*:-Jam Classic 2.0}"/'s,Device (.................).*$,1,'p -n
+    };
+    function not-set-tvb () 
+    { 
+        echo "$( sed ~/.this -e 's/.*is(.*)that.*/1/p' -n )"
+    };
+    function not-set-tva () 
+    { 
+        echo "$( sed ~/.this -e 's/.*this(.*)is.*/1/p' -n )"
+    };
+    function 1. () 
+    { 
+        rm -f $FIFO;
+        mkfifo $FIFO
     };
     function 2. () 
     { 
-        mplayer -vo null -ao pcm:file=%4%FIFO $@ &
+        coproc A { 
+            mplayer -cache $(( 128*1024 )) -cache-min 0.3 -vo null -ao pcm:file=$FIFO -user $( set-tvb ) -passwd $( set-tva ) $( channel-url ${*:-Radio 3} )
+        } 2> 3.and.errors
     };
     function 3. () 
     { 
-        aplay -D bluealsa:SRV=org.bluealsa:DEV=$( sound-device Jam Classic ):PROFILE=a2dp FIFO
+        aplay -D bluealsa:SRV=org.bluealsa,DEV=$( sound-device ),PROFILE=a2dp $1
     };
-    1. && 2. && 3. $@ )
+    a=$( set-tva );
+    b=$( set-tvb );
+    c=$( sound-device );
+    test -n "$DEBUG" && echo "a:=$a= b:=$b= c:=$c= FIFO:=$FIFO=";
+    test -n "$DEBUG" && echo =="$( sound-device )== ==$( set-tva )== ==$( set-tvb )== ==$FIFO"==;
+    1. && 2. $@ && 3. $FIFO & )
 }

@@ -1,0 +1,8 @@
+stop-3.and () 
+{ 
+    local D="stop the playing, back to work!";
+    while test -n "$( pidof aplay )"; do
+        echo still here && kill $( pidof aplay );
+    done;
+    test -n "$( pidof aplay )" || echo not now
+}

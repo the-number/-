@@ -1,10 +1,10 @@
 _ () 
 { 
-    local D="0 new Fn/, 1 new set, 2 recall, 3 describe, 4 definitions, 5 this repository, 9 store, _ reformat, m,n,v,c,n_,c_,c__, set_sprint_topic";
+    local D="0 new Fn/, 1 new set, 2 recall, 3 describe, 4 definitions, 5 this repository, 9 store, _ reformat, m,n,v,c,n_,n__,c_,c__, set_sprint_topic=${sprint_topic}=";
     function set_sprint_topic () 
     { 
         local DD="Set the topic of this, here";
-        export sprint_topic="Pi Zero W"
+        export sprint_topic="Pi Zero W, Sounds"
     };
     function a__ () 
     { 
