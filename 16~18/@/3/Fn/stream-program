@@ -1,0 +1,7 @@
+stream-program () 
+{ 
+    local D="Stream, given Channel Name";
+    rm -f FIFO;
+    mkfifo FIFO;
+    wget --http-user=$( set-tva ) --http-password=$( set-tvb ) "$( channel-url $* )" -O FIFO & cat FIFO | mplayer - -framedrop
+}
