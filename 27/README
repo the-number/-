@@ -13,6 +13,6 @@
 /srv/pub *(rw)
 /srv/home/this04 10.128.192.0/24(rw,all_squash,anonuid=1037,anongid=1037)
 /srv/home/ha1      *(rw,insecure,no_subtree_check,all_squash,anonuid=1037,anongid=1037)
-/srv/home/media3   10.128.192.0/24(rw,all_suash)
+# /srv/home/media3   10.128.192.0/24(rw,all_squash)
 #+END_SRC
 

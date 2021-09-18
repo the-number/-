@@ -1,0 +1,5 @@
+tangle-README () 
+{ 
+    local D="tangle source blocks, README";
+    emacs --batch README --exec '(org-babel-tangle)'
+}
