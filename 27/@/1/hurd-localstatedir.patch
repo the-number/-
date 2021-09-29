@@ -1,0 +1,12 @@
+diff --git a/gnu/packages/hurd.scm b/gnu/packages/hurd.scm
+index 59a7b55943..3ef3928f18 100644
+--- a/gnu/packages/hurd.scm
++++ b/gnu/packages/hurd.scm
+@@ -512,6 +512,7 @@ exec ${system}/rc \"$@\"
+                #t))))
+        #:configure-flags (list (string-append "LDFLAGS=-Wl,-rpath="
+                                               %output "/lib")
++                          "--localstatedir=/var"
+                           "--disable-ncursesw"
+                           "--without-libbz2"
+                           "--without-libz"
