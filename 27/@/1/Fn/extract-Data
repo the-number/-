@@ -1,0 +1,5 @@
+extract-Data () 
+{ 
+    local D="Extract the Data, here";
+    tar xf ${1:-Data-ha1.tar}
+}

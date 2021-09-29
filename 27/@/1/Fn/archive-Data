@@ -1,0 +1,5 @@
+archive-Data () 
+{ 
+    local D="Archive the Data, here";
+    tar --exclude-vcs -c -f ${1:-Data-ha1.tar} Data/ Fn s b .*_history .gitignore .ssh/*
+}

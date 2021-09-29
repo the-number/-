@@ -1,0 +1,7 @@
+useradd-1001 () 
+{ 
+    local D="useradd [<user>] [<userid>]";
+    local a=ssh-ha-1 root;
+    test "$( hostname )" = "S2" || a="";
+    ${a} useradd -m -u ${2:-1001} -U -d /home/${1:-gunter} -p ${3:-Passwo5d} -s "$( sed /etc/passwd -e '/root/s,^.*:\(/gnu/store.*\).*$,\1,'p -n )" ${1:-gunter}
+}

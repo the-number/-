@@ -1,0 +1,6 @@
+vnc-ha-1 () 
+{ 
+    local D="vncviewer localhost:5900";
+    ( a="vncviewer localhost:5900";
+    ${a} 2>> /dev/null || guix environment --ad-hoc tigervnc-client man-db info-reader -- ${a} & )
+}
