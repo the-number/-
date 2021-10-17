@@ -1,7 +1,7 @@
 # 20211017 (c) Gunter Liszewski -*- mode: org; -*-
 * A current kernel for this machine
   As it is running here and was build like this, or so
-  #+BEGIN_SRCC sh
+  #+BEGIN_SRC sh
   guix environment --ad-hoc cpio
   export DO=" ";. Fn/_;_ 2
   guix-system-build
@@ -11,5 +11,5 @@
   grub-for > grub-t76.cfg
   #+END_SRC
 ** The config file
-   [[https://github.com/glisze/xen-0-linux]]
+   [[https://github.com/glisze/xen-0-guix/tree/development/t/76][linux-for-ak3v]]
   
