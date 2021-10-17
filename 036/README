@@ -1,0 +1,15 @@
+# 20211017 (c) Gunter Liszewski -*- mode: org; -*-
+* A current kernel for this machine
+  As it is running here and was build like this, or so
+  #+BEGIN_SRCC sh
+  guix environment --ad-hoc cpio
+  export DO=" ";. Fn/_;_ 2
+  guix-system-build
+  cd t/76/grub
+  _ 2
+  there-d-is-now > Fn/d-is
+  grub-for > grub-t76.cfg
+  #+END_SRC
+** The config file
+   [[https://github.com/glisze/xen-0-linux]]
+  
