@@ -1,0 +1,5 @@
+guix-shell-here () 
+{ 
+    local D="guix shell gnuplog";
+    guix shell info-reader man-db gnuplot
+}
