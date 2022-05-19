@@ -1,0 +1,5 @@
+guix-shell-here () 
+{ 
+    D="guix shell povray-here";
+    guix shell -L ${1:-channel-0-here/} povray-here man-db info-reader
+}
